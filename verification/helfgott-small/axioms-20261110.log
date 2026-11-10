@@ -1,0 +1,8 @@
+'RSBounds.HelfgottSmall.psi_le_10004_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottSmall.sum_vonMangoldt_le_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottSmall.sum_vonMangoldt_mul_lt_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottSmall.psi_le_10004_of_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottSmall.sum_vonMangoldt_mul_lt_of_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+@psi_le_10004_small : ∀ {y : ℝ}, 2000000 ≤ y → y ≤ 4000000 → Chebyshev.psi y ≤ 1.0004 * y
+@sum_vonMangoldt_mul_lt_small : ∀ {y : ℝ},
+  1600000 < y → y ≤ 25000000 → ∑ n ∈ Finset.Icc 1 ⌊y⌋₊, ArithmeticFunction.vonMangoldt n * ↑n < 1.0008 * y ^ 2 / 2

@@ -137,3 +137,40 @@ with open(f"{OUT}/AllChunks.lean", "w") as f:
                 f"    exact e ▸ group_{g} (i - {lo}) (by omega)\n  else\n")
     f.write("  exact absurd hi (by omega)\n\nend RSBounds.HelfgottSmall\n")
 print("chunks", NCH, "groups", ngroups, "final state n", states[-1][0])
+
+# ---- chunk 0 in ten parts: its ~1100 anchor switches need more than 5.8 GB in one piece ----
+st = states[0]
+SUB = 2000; NSUB = 10
+subs = [st]
+for j in range(NSUB):
+    for _ in range(SUB):
+        st = step(st); assert st is not None
+    subs.append(st)
+def tup(t): return "(" + ", ".join(str(x) for x in t) + ")"
+states_src = open(f"{OUT}/States.lean").read()
+assert tup(subs[-1]) in states_src, "end of sub-chunks differs from stateOf 1"
+for j in range(NSUB):
+    with open(f"{OUT}/Chunk/C0000S{j}.lean", "w") as f:
+        f.write("import RSBounds.HelfgottSmall.Split\n\n"
+                f"/-! Part {j} of walk chunk 0 (positions {2 + SUB * j} to {1 + SUB * (j + 1)}). Chunk 0 "
+                "is split because its many anchor switches need more memory. -/\n\n"
+                f"theorem RSBounds.HelfgottSmall.chunk_0_part_{j} :\n"
+                f"    RSBounds.HelfgottSmall.chunkOK {SUB}\n      {tup(subs[j])}\n      {tup(subs[j + 1])} = true := by\n"
+                "  decide +kernel\n")
+with open(f"{OUT}/Chunk/C0000.lean", "w") as f:
+    for j in range(NSUB):
+        f.write(f"import RSBounds.HelfgottSmall.Chunk.C0000S{j}\n")
+    f.write("\n/-! Walk chunk 0, from its ten parts. -/\n\nnamespace RSBounds.HelfgottSmall\n\n")
+    total = " + (".join(["2000"] * NSUB) + ")" * (NSUB - 1)
+    expr = f"chunk_0_part_{NSUB - 1}"
+    for j in reversed(range(NSUB - 1)):
+        expr = f"chunkOK_split chunk_0_part_{j} ({expr})"
+    f.write("theorem chunk_0 : ChunkGood 0 := by\n"
+            f"  have h := {expr}\n"
+            f"  have hf : fuelOf 0 = {total} := by decide +kernel\n"
+            f"  have h0 : stEq (stateOf 0)\n      {tup(subs[0])} = true := by decide +kernel\n"
+            f"  have h1 : stEq (stateOf (0 + 1))\n      {tup(subs[-1])} = true := by decide +kernel\n"
+            "  unfold ChunkGood\n"
+            "  rw [hf, stEq_eq' h0, stEq_eq' h1]\n"
+            "  exact h\n\nend RSBounds.HelfgottSmall\n")
+print("chunk 0 split into", NSUB, "parts")

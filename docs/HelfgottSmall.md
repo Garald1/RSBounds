@@ -39,10 +39,23 @@ in range. Only upper bounds are needed, so nothing is proved prime:
 
 `Walk.lean` proves that a successful walk keeps its invariant (`walk_inv`). The walk is cut into
 1 250 chunks of 20 000 positions, one per module (`Chunk/C0000.lean` …), each checked by
-`decide +kernel`; a chunk takes about 15 s and 1.8 GB. Python (`scripts/gen_helfgott_small.py`)
-only produces candidate data: the chunk boundaries and anchors.
+`decide +kernel`; a chunk takes about 15 s and 1.8 GB. Chunk 0 (positions 2 to 20 001) has
+about 1 100 anchor switches and needs more memory, so it is checked in ten parts of 2 000
+positions (`Chunk/C0000S0.lean` …) joined by `chunkOK_split` (`Split.lean`). Python
+(`scripts/gen_helfgott_small.py`) only produces candidate data: the chunk boundaries and anchors;
+rerunning it reproduces every generated file.
 
-Axioms: `propext`, `Classical.choice`, `Quot.sound`.
+Axioms: `propext`, `Classical.choice`, `Quot.sound` (`verification/helfgott-small/axioms-20261110.log`,
+from a full build of these files on 2026-11-10 with Lean 4.35.0 on 2 cores).
+
+## The book's ranges
+
+`RSBounds/HelfgottPsiBoundsBook.lean` combines the walk with `HelfgottPsiBoundsFinal`:
+`psi_le_10004` and `sum_vonMangoldt_le_a14` for `y ≥ 2·10⁶`, and `sum_vonMangoldt_mul_lt_a17` for
+`y > 1.6·10⁶`, under `FiniteRH 1894438.5122`. The theorems of `HelfgottPsiBoundsFinal` keep their
+names and ranges. `comparator-helfgott-psi-book.json` checks these three and the three
+unconditional ones above. That file and the Comparator run need the full tree (PsiCert) and have
+not been built on the machine that built the walk.
 
 ## Build
 
