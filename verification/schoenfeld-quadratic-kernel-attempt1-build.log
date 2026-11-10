@@ -1,0 +1,319 @@
+import took 276s
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 124ms
+RSBounds/SchoenfeldQuadraticKernel.lean:215:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+RSBounds/SchoenfeldQuadraticKernel.lean:219:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+RSBounds/SchoenfeldQuadraticKernel.lean:231:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+RSBounds/SchoenfeldQuadraticKernel.lean:232:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+RSBounds/SchoenfeldQuadraticKernel.lean:389:24: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/SchoenfeldQuadraticKernel.lean:389:28: warning: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/SchoenfeldQuadraticKernel.lean:389:28: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+RSBounds/SchoenfeldQuadraticKernel.lean:493:2: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/SchoenfeldQuadraticKernel.lean:493:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/SchoenfeldQuadraticKernel.lean:601:2: error: No goals to be solved
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_NormNum_Core___elabRules_Mathlib_Tactic_normNum_1._boxed took 109ms
+RSBounds/SchoenfeldQuadraticKernel.lean:635:2: error: Type mismatch: After simplification, term
+  hm
+ has type
+  ‖(↑δ ^ 2)⁻¹ * forwardDiff δ 2 (antiderivative ρ 2) 1‖ ≤ ‖ρ‖⁻¹ * (1 + δ * 1)
+but is expected to have type
+  ‖(↑δ ^ 2)⁻¹ * forwardDiff δ 2 (antiderivative ρ 2) 1‖ ≤ ‖ρ‖⁻¹ * (1 + δ)
+RSBounds/SchoenfeldQuadraticKernel.lean:721:2: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/SchoenfeldQuadraticKernel.lean:721:6: warning: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/SchoenfeldQuadraticKernel.lean:721:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+RSBounds/SchoenfeldQuadraticKernel.lean:724:48: error: Ambiguous term
+  upperKernel
+Possible interpretations:
+  QuadraticZeroKernel.upperKernel δ ρ : ℂ
+  
+  PolynomialZeroKernel.upperKernel δ ρ : ℂ
+RSBounds/SchoenfeldQuadraticKernel.lean:725:23: error: Ambiguous term
+  upperKernel_eq_normalized_difference
+Possible interpretations:
+  QuadraticZeroKernel.upperKernel_eq_normalized_difference : ∀ (δ : ℝ) (ρ : ℂ),
+    QuadraticZeroKernel.upperKernel δ ρ = forwardDiff δ 2 (antiderivative ρ 2) 1 / ↑δ ^ 2
+  
+  PolynomialZeroKernel.upperKernel_eq_normalized_difference : ∀ (δ : ℝ) (ρ : ℂ),
+    PolynomialZeroKernel.upperKernel δ ρ = forwardDiff δ 4 (antiderivative ρ 4) 1 / ↑δ ^ 4
+RSBounds/SchoenfeldQuadraticKernel.lean:776:21: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/SchoenfeldQuadraticKernel.lean:776:21: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/SchoenfeldQuadraticKernel.lean:873:6: error: Ambiguous term
+  norm_upperKernel_le_low
+Possible interpretations:
+  QuadraticZeroKernel.norm_upperKernel_le_low hδ hr hr1 : ‖QuadraticZeroKernel.upperKernel δ ρ‖ ≤ (1 + δ) / ‖ρ‖
+  
+  PolynomialZeroKernel.norm_upperKernel_le_low hδ hr hr1 : ‖PolynomialZeroKernel.upperKernel δ ρ‖ ≤ (1 + 2 * δ) / ‖ρ‖
+RSBounds/SchoenfeldQuadraticKernel.lean:870:67: error: unsolved goals
+x δ : ℝ
+hx : 0 < x
+hδ : 0 < δ
+ρ : ℂ
+hr : 0 < ρ.re
+hr1 : ρ.re ≤ 1
+him : ρ.im ≠ 0
+⊢ x ^ ρ.re * ‖sorry‖ ≤ (1 + δ) * x ^ ρ.re / |ρ.im|
+tactic execution of Lean.Parser.Tactic.refine took 131s
+RSBounds/SchoenfeldQuadraticKernel.lean:887:21: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/SchoenfeldQuadraticKernel.lean:887:21: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/SchoenfeldQuadraticKernel.lean:896:6: error: Ambiguous term
+  norm_upperKernel_le_high
+Possible interpretations:
+  QuadraticZeroKernel.norm_upperKernel_le_high hδ
+    hr : ‖QuadraticZeroKernel.upperKernel δ ρ‖ ≤ R2 δ / (δ ^ 2 * ‖rising ρ 2‖)
+  
+  PolynomialZeroKernel.norm_upperKernel_le_high hδ
+    hr : ‖PolynomialZeroKernel.upperKernel δ ρ‖ ≤ R4 δ / (δ ^ 4 * ‖rising ρ 4‖)
+RSBounds/SchoenfeldQuadraticKernel.lean:893:48: error: unsolved goals
+x δ : ℝ
+hx : 0 < x
+hδ : 0 < δ
+ρ : ℂ
+hr : ρ.re ≤ 1
+him : ρ.im ≠ 0
+⊢ x ^ ρ.re * ‖sorry‖ ≤ R2 δ / δ ^ 2 * x ^ ρ.re / |ρ.im| ^ 3
+tactic execution of Lean.Parser.Tactic.refine took 126s
+RSBounds/SchoenfeldQuadraticKernel.lean:910:21: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/SchoenfeldQuadraticKernel.lean:910:21: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/SchoenfeldQuadraticKernel.lean:1084:26: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/SchoenfeldQuadraticKernel.lean:1084:55: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/SchoenfeldQuadraticKernel.lean:1084:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/SchoenfeldQuadraticKernel.lean:1084:55: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'TernaryGoldbach.RSBounds.QuadraticMellin.continuous_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticMellin.weight_eq_zero_of_one_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticMellin.hasMellin_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticMellin.mellinConvergent_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticMellin.mellin_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.W_eq_zero_of_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.W_eq_one_of_two_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.W_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.W_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.W_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.psiLower_le_psi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.psi_le_psiUpper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.psi_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.upper_weight_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.psi2Trunc_eq_Psi2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.secondDifference_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.secondDifference_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.secondDifference_quadraticPrimitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.secondDifference_psi2Trunc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.secondDifference_Psi2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.secondDifference_Psi2_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsi.psi_error_of_polynomial_errors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsiMellin.SsumG_quadratic_eq_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsiMellin.scaled_weight_eq_quadraticPrimitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticPsiMellin.pow_two_mul_SsumG_quadratic_eq_Psi2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticKernel.kernel_eq_numerator_div' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticKernel.numerator_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticKernel.numerator_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticKernel.differentiableAt_numerator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticKernel.norm_kernel_line_le_cube' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticKernel.decayTwo_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticKernel.explicit_formula_zetaF_at_heights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticZeroKernel.forwardDiff_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticZeroKernel.zero_term_twofold_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticZeroKernel.norm_second_difference_le_low' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticZeroKernel.norm_normalized_second_difference_le_low' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticZeroKernel.upperKernel_eq_normalized_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticZeroKernel.norm_upperKernel_le_low' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticZeroKernel.norm_numerator_le_R2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticZeroKernel.norm_upperKernel_le_high' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticKernelScaling.antiderivative_two_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticKernelScaling.forwardDiff_two_dilate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticKernelScaling.zeroCoefficient_dilate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticKernelScaling.zeroCoefficient_upper' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticKernelScaling.zeroCoefficient_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticKernelScaling.norm_zeroCoefficient_dilate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticLowerKernel.norm_lower_difference_le_low' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticLowerKernel.norm_lower_difference_le_high' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticLowerKernel.four_le_R2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticLowerKernel.norm_lower_difference_le_high_common' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticLowerKernel.norm_lower_difference_le_low_common' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticCoefficientBounds.abs_im_pow_le_norm_rising_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticCoefficientBounds.norm_zeroCoefficient_upper_le_low' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticCoefficientBounds.norm_zeroCoefficient_lower_le_low' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticCoefficientBounds.norm_zeroCoefficient_upper_le_high' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticCoefficientBounds.norm_zeroCoefficient_lower_le_high' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticZeta.prime_sum_eq_right_line' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticZeta.explicit_formula_zeta_quadratic_at_heights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticZeta.explicit_formula_zeta_quadratic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticZeta.explicit_formula_Psi2_at_heights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticZeta.explicit_formula_Psi2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticAveraged.normalized_main_term' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticAveraged.normalized_zero_pole' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticAveraged.normalized_Psi2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticAveraged.explicit_formula_upper_at_heights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticAveraged.explicit_formula_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuadraticAveraged.explicit_formula_lower_at_heights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 1.05ms
+	blocked (unaccounted) 405s
+	compilation (IR) 0.356ms
+	compilation (LCNF base) 6.71ms
+	compilation (LCNF impure) 0.37ms
+	compilation (LCNF mono) 1.32ms
+	congr simp thm 18ms
+	declTypeLinter 80.1ms
+	dsimp 2.41ms
+	elaboration 2.47s
+	fix level params 10.8ms
+	import 276s
+	initialization 120ms
+	instantiate metavars 16.1ms
+	interpretation 5.16s
+	let-to-have transformation 1.6ms
+	linting 251ms
+	module linting 0.677ms
+	norm_num 410ms
+	parsing 116ms
+	process pre-definitions 124ms
+	ring 396ms
+	share common exprs 116ms
+	simp 704ms
+	tactic execution 259s
+	tacticAnalysis 42.5ms
+	type checking 755ms
+	typeclass inference 3.72s

@@ -1,0 +1,5 @@
+'TernaryGoldbach.RSBounds.MertensModerateBudget.error_mul_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensModerateBudget.budget_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensModerateBudget.b23_budget_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

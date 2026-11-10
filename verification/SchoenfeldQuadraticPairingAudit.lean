@@ -1,0 +1,8 @@
+import RSBounds.SchoenfeldQuadraticPairing
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticPairing.criticalCoefficient_nonneg
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticPairing.highCoefficient_nonneg
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticPairing.rectangle_reciprocal_cube_sum_lt
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticPairing.critical_sum_eq
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticPairing.high_weightedSum_eq
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticPairing.norm_upper_sum_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticPairing.norm_lower_sum_le

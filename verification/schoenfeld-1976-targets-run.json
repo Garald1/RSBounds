@@ -1,0 +1,33 @@
+{
+  "kind": "specifications-compilation",
+  "started_utc": "2026-11-06T19:01:42.382202+00:00",
+  "lean_version": "Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "source_sha256": {
+    "RSBounds/Schoenfeld1976Targets.lean": "52e1af7d32cff2bde39070c61d2f2add145d4fbe146b9650ff6d12e4f2045468",
+    "RSBounds/MertensAbelianNormalization.lean": "69548eae7c8177123aa2da58bd48bc386e1feaa8e314a18b6e4a5bd3006e29da",
+    "RSBounds/MellinAbelianLimit.lean": "c32894fb13e0a9fffd8b0115c84cf6da016ce7e2defe0a5e87974c2c2693eaff",
+    "RSBounds/MertensAbelIdentity.lean": "743f7aff4f26e7344e3cbef14fe811c22802b0ee8a56fa3e6f7267bade38df8e",
+    "RSBounds/MertensPsiAbel.lean": "cc8893163358c92be6c8b0ad9786a3d060d36ba78ae96b1c95e01169865be018",
+    "RSBounds/Targets.lean": "3829a60a8b3be68d5a05acc49de6af1f583899f953588876d29afc4501297d89",
+    "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
+    "lake-manifest.json": "ea37fdd426cc976e3f295c9d982d0a2a396df32f0dd6f710a2b949555608e504",
+    "verification/run_mertens_normalization_check.py": "3d8de5aca191fb1a28a855523b669a70b7b8aa2ab5b44f442fb507d228f99829"
+  },
+  "stdin_sha256": "710d9bf230358fbf0c80c910e001ae2cf26b89bd6550819eea2366b4ad9b77be",
+  "stdin_recipe": "Exact source followed by the listed fully qualified axiom commands.",
+  "audited_declarations": [],
+  "command": [
+    "/workspace/scratch/99a161e7c02e/.tools/elan-home/toolchains/leanprover--lean4---v4.35.0/bin/lean",
+    "-j1",
+    "-Dprofiler=true",
+    "--stdin",
+    "-o",
+    ".lake/build/lib/lean/RSBounds/Schoenfeld1976Targets.olean",
+    "RSBounds/Schoenfeld1976Targets.lean"
+  ],
+  "log": "verification/schoenfeld-1976-targets-build.log",
+  "exit_code": 0,
+  "seconds": 2.9171304179981234,
+  "finished_utc": "2026-11-06T19:01:45.299489+00:00",
+  "object_sha256": "04ee2baecbccfa7869c3b1531458bd509d202dd3842635c71956f8023ba9977a"
+}

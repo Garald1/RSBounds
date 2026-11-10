@@ -1,0 +1,248 @@
+{
+  "updated_utc": "2026-11-06T21:45:30.086147+00:00",
+  "kind": "intermediate-progress-not-completion-receipt",
+  "active_session": 59905,
+  "active_runner": "verification/run_rs62_global_comparator.py",
+  "active_source": "RSBounds/RS62MertensFromFiniteRH.lean",
+  "active_source_sha256": "7cab9f56a2e264be53c30ed14e443f2e9c6dc5d7a8021da070c8c23233f2fc9f",
+  "active_source_frozen": false,
+  "active_attempt": 1,
+  "next_runners": [],
+  "global_theorems_status": "BOTH PASSED under soleFiniteRH1894439",
+  "passed": [
+    {
+      "module": "MertensDLimit",
+      "receipt": "verification/mertens-d-limit-run.json",
+      "exit_code": 0,
+      "source_sha256": "5ecf362a262c56637b1e5d50fe09afdcd201bd20059861c19a6581d3520764dd",
+      "axiom_audit": {
+        "declarations": 12,
+        "only_standard_axioms": true
+      }
+    },
+    {
+      "module": "MertensModerateBudget",
+      "receipt": "verification/mertens-moderate-budget-run.json",
+      "exit_code": 0,
+      "source_sha256": "12e4fd73b89e8a35de6a43ad7438bda17391ad9666e5423158193008d6e2f039",
+      "axiom_audit": {
+        "declarations": 3,
+        "only_standard_axioms": true
+      }
+    },
+    {
+      "module": "MertensPotentialBound",
+      "receipt": "verification/mertens-potential-bound-run.json",
+      "exit_code": 0,
+      "source_sha256": "6e48ff3157ad7959f6307a9d7fc50c2518125845e7e4e8f63e890a3f08150c90",
+      "axiom_audit": {
+        "declarations": 15,
+        "only_standard_axioms": true
+      }
+    },
+    {
+      "module": "MertensPotentialDecay",
+      "receipt": "verification/mertens-potential-decay-run.json",
+      "exit_code": 0,
+      "source_sha256": "c4cac720b55a75c5d24483971f3f0eaba7d16ee24fd3cb94b39f794e8faad0c8",
+      "axiom_audit": {
+        "declarations": 6,
+        "only_standard_axioms": true
+      }
+    },
+    {
+      "module": "MertensDecayScalars",
+      "receipt": "verification/mertens-decay-scalars-run.json",
+      "exit_code": 0,
+      "source_sha256": "acf3eb5ff93389fe93385d44e3095ab160924308bc25d0c7ba7d986ee0d9ff44",
+      "axiom_audit": {
+        "declarations": 7,
+        "only_standard_axioms": true
+      }
+    },
+    {
+      "module": "MertensProductCorrection",
+      "receipt": "verification/mertens-product-correction-run.json",
+      "exit_code": 0,
+      "source_sha256": "8cc94ccee57dfb2d95207509585eed05ab11a10be58013c23270993330c50080",
+      "axiom_audit": {
+        "declarations": 5,
+        "only_standard_axioms": true,
+        "per_declaration": [
+          {
+            "declaration": "TernaryGoldbach.RSBounds.MertensProductCorrection.sum_powerMain_eq",
+            "axioms": [
+              "Classical.choice",
+              "Quot.sound",
+              "propext"
+            ]
+          },
+          {
+            "declaration": "TernaryGoldbach.RSBounds.MertensProductCorrection.correction_le_sum_tail",
+            "axioms": [
+              "Classical.choice",
+              "Quot.sound",
+              "propext"
+            ]
+          },
+          {
+            "declaration": "TernaryGoldbach.RSBounds.MertensProductCorrection.low_tail_le",
+            "axioms": [
+              "Classical.choice",
+              "Quot.sound",
+              "propext"
+            ]
+          },
+          {
+            "declaration": "TernaryGoldbach.RSBounds.MertensProductCorrection.high_tail_le",
+            "axioms": [
+              "Classical.choice",
+              "Quot.sound",
+              "propext"
+            ]
+          },
+          {
+            "declaration": "TernaryGoldbach.RSBounds.MertensProductCorrection.primeProduct_correction_bounds",
+            "axioms": [
+              "Classical.choice",
+              "Quot.sound",
+              "propext"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "module": "MertensProductBridge",
+      "receipt": "verification/mertens-product-bridge-run.json",
+      "exit_code": 0,
+      "source_sha256": "eeb5bf305c99222533ce25175dc9db3b2956befb189d02f1247824ae14774c41",
+      "axiom_audit": {
+        "declarations": 3,
+        "only_standard_axioms": true,
+        "per_declaration": [
+          {
+            "declaration": "TernaryGoldbach.RSBounds.MertensProductBridge.primeProduct_pos",
+            "axioms": [
+              "Classical.choice",
+              "Quot.sound",
+              "propext"
+            ]
+          },
+          {
+            "declaration": "TernaryGoldbach.RSBounds.MertensProductBridge.log_primeProduct_le",
+            "axioms": [
+              "Classical.choice",
+              "Quot.sound",
+              "propext"
+            ]
+          },
+          {
+            "declaration": "TernaryGoldbach.RSBounds.MertensProductBridge.primeProduct_lt_of_errors",
+            "axioms": [
+              "Classical.choice",
+              "Quot.sound",
+              "propext"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "module": "PsiThetaElementary",
+      "receipt": "verification/psi-theta-elementary-run.json",
+      "exit_code": 0,
+      "source_sha256": "704af7aa172d2a5c0d7a1d908b6fd51fd0edbc64c3ce539bf8d469497ce67b82",
+      "axiom_audit": {
+        "declarations": 14,
+        "only_standard_axioms": true
+      }
+    },
+    {
+      "module": "RS62ProductBudget",
+      "receipt": "verification/rs62-product-budget-run.json",
+      "exit_code": 0,
+      "source_sha256": "496540a05625ae247f9687f8c9b74683c5bf2c5e2123fe9150d1dd5353837e70",
+      "axiom_audit": {
+        "declarations": 6,
+        "only_standard_axioms": true
+      }
+    },
+    {
+      "module": "ModeratePsi",
+      "receipt": "verification/moderate-psi-run.json",
+      "exit_code": 0,
+      "source_sha256": "832dc16238e12d935edf16b9290c788789678f766b2d1c23d3f948f9dd6214b6",
+      "axiom_audit": {
+        "declarations": 22,
+        "only_standard_axioms": true
+      }
+    },
+    {
+      "module": "WeakPsiTail",
+      "receipt": "verification/weak-psi-tail-run.json",
+      "exit_code": 0,
+      "source_sha256": "fee0ff2b9b9d2c14fdb64e9feee4c905eafd6f0932b17ed26e7de6fd25fa611f",
+      "axiom_audit": {
+        "declarations": 10,
+        "only_standard_axioms": true
+      }
+    },
+    {
+      "module": "MertensLargeBudget",
+      "receipt": "verification/mertens-large-budget-run.json",
+      "exit_code": 0,
+      "source_sha256": "6ac8957e3935b6d96d3728c412b5430d624f04ac6bbb3a32022691658d0efe0a",
+      "axiom_audit": {
+        "declarations": 6,
+        "only_standard_axioms": true
+      }
+    },
+    {
+      "module": "RS62MertensFromFiniteRH",
+      "receipt": "verification/rs62-mertens-from-finite-rh-run.json",
+      "exit_code": 0,
+      "source_sha256": "7cab9f56a2e264be53c30ed14e443f2e9c6dc5d7a8021da070c8c23233f2fc9f",
+      "axiom_audit": {
+        "declarations": 1,
+        "only_standard_axioms": true
+      }
+    }
+  ],
+  "comparator": {
+    "status": "workflow active; no native verdict yet",
+    "runner": "verification/run_rs62_global_comparator.py",
+    "command": "source ../lean-env.sh; python -B verification/run_rs62_global_comparator.py --execute --compiler-slot-allocated --inadvisably-no-sandbox",
+    "prerequisites": "both final source/audit receipts exit0 and matching source/object hashes",
+    "slot": "use residual slot after both final checks"
+  },
+  "publication": {
+    "status": "candidate only; no new upload yet",
+    "agent": "/root/ieantn_contribution",
+    "repository": "Garald1/PrimeNumberTheoremAnd",
+    "branch": "rs-bounds-progress-2026-11-06",
+    "prefix": "Projects/RSBounds/",
+    "base_commit": "eece7af5b5d20d1e3fb48f517e44e3830d8029ca",
+    "candidate": "../.tools/rs62-publication-candidate-sources.json"
+  },
+  "remaining_exact_schoenfeld": {
+    "status": "source-only consolidation being prepared by rs75_numerics; no compiler",
+    "new_modules": [
+      "SchoenfeldQuadraticKernel.lean",
+      "SchoenfeldQuadraticPsi.lean"
+    ],
+    "next_analytic_obligation": "actual m2 left remainder O(delta^-2/sqrt x), then paper v/delta balance"
+  },
+  "compiler_slots": {
+    "residual": "idle, reserved for nativeComparator after finaltotient passes",
+    "ieantn_contribution": "one cached4.34 core/fingerprint chain",
+    "others": "idle or source-only",
+    "finite_mellin_kernel": "final totient check authorized, max3total"
+  },
+  "parallel_final_totient": {
+    "agent": "/root/rs75_residual/finite_mellin_kernel",
+    "runner": "verification/run_rs62_totient_from_finite_rh_check.py",
+    "status": "PASSED7standard-three audits",
+    "session_id": 19768
+  }
+}

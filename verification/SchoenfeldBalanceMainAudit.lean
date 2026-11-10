@@ -1,0 +1,12 @@
+import RSBounds.SchoenfeldBalanceMain
+
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceMain.delta_pos
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceMain.exp_eq_of_k_eq_one
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceMain.delta_mul_split_height
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceMain.delta_sq
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceMain.main_terms_eq
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceMain.nearAllowance_eq
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceMain.farAllowance_eq
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceMain.G2
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceMain.R2_ge
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceMain.allowances_le

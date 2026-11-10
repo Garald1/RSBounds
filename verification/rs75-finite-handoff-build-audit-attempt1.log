@@ -1,0 +1,57 @@
+import took 390s
+RSBounds/RS75FiniteHandoff.lean:22:43: error: Tactic `decide` failed to reduce
+  @decide (21 / 100 < { k := 0, a := 17, b := 4 }.lower) ((21 / 100).instDecidableLt { k := 0, a := 17, b := 4 }.lower)
+to `true` or `false`.
+
+After unfolding the instances `instDecidableEqBool`, `Bool.decEq`, `Int.decLt`, `Int.decNonneg`, and `Rat.instDecidableLt`, reduction got stuck at
+  match 0 - ((21 / 100).num + 1) with
+  | Int.ofNat m => isTrue ⋯
+  | Int.negSucc i => isFalse ⋯
+RSBounds/RS75FiniteHandoff.lean:25:2: error: Type mismatch
+  h
+has type
+  21 / 100 < Real.log (21 / 17)
+but is expected to have type
+  0.21 < Real.log (21 / 17)
+RSBounds/RS75FiniteHandoff.lean:58:27: error(lean.unknownIdentifier): Unknown identifier `Goals.ZeroFreeRegion1975`
+RSBounds/RS75FiniteHandoff.lean:59:8: error: Tactic `introN` failed: There are no additional binders or `let` bindings in the goal to introduce
+
+high : ∀ (s : ℂ), 1894439 ≤ |s.im| → 1 - 1 / (9.645908801 * Real.log (|s.im| / 17)) ≤ s.re → riemannZeta s ≠ 0
+⊢ sorry
+'TernaryGoldbach.RSBounds.RS75FiniteHandoff.log_twentyone_seventeen_gt' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75FiniteHandoff.boundary_gt_half' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75FiniteHandoff.zero_free_low' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75FiniteHandoff.of_high' does not depend on any axioms
+cumulative profiling times:
+	attribute application 0.0275ms
+	blocked (unaccounted) 739ms
+	congr simp thm 0.992ms
+	declTypeLinter 2.28ms
+	elaboration 20.9ms
+	fix level params 0.491ms
+	import 390s
+	initialization 122ms
+	instantiate metavars 0.684ms
+	interpretation 1.09s
+	let-to-have transformation 0.0588ms
+	linting 8.24ms
+	module linting 0.00823ms
+	norm_num 234ms
+	parsing 6.02ms
+	process pre-definitions 6.04ms
+	ring 24.9ms
+	share common exprs 7.4ms
+	simp 3.48ms
+	tactic execution 39.8ms
+	tacticAnalysis 1.2ms
+	type checking 33.2ms
+	typeclass inference 166ms

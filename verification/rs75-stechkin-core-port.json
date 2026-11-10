@@ -1,0 +1,35 @@
+{
+  "kind": "literal-declaration-reuse-in-isolated-namespace",
+  "upstream": "https://github.com/calr3/ternary-goldbach/blob/ce82a5b2a4ed5039c4750c0d062f0b0f2b833be0/TernaryGoldbach/Explicit/ZeroFreeRegion.lean",
+  "upstream_sha256": "dc3b5c8627bfc8b0cea172eddbae757d2ceb727c1987d4311b05d206cad95497",
+  "target": "RSBounds/RS75StechkinCore.lean",
+  "target_sha256": "5fbabdea804d009ed4abdd4fdf8b7721610a569df03d2fc70e67324dbf2d9271",
+  "declarations_identical": true,
+  "declarations": [
+    {
+      "name": "re_term_vM",
+      "upstream_start_line": 125,
+      "upstream_end_line": 139,
+      "declaration_sha256": "9f817a9de9ebb956098c8d4dcf79f1ff5115b58cffa3d4931b1192399c42ae91"
+    },
+    {
+      "name": "hasSum_re_vM",
+      "upstream_start_line": 140,
+      "upstream_end_line": 146,
+      "declaration_sha256": "c1a21a098391223d2f77656ec208f8022bba065f2c110b0fc5f93ee702ceb770"
+    },
+    {
+      "name": "re_vM_eq",
+      "upstream_start_line": 192,
+      "upstream_end_line": 207,
+      "declaration_sha256": "6946b015958a33d3962677c70f24c8a8065396a876a4587dbf9f61b0e08dc62d"
+    },
+    {
+      "name": "stechkin_xi_nonneg",
+      "upstream_start_line": 211,
+      "upstream_end_line": 242,
+      "declaration_sha256": "f0f96fb434f1e1c8ddfcb22cd52dcac8434f82debe0343e011a38a2dcfa410ff"
+    }
+  ],
+  "license_sha256": "e31e11add030557807322e0c14b71452a679f262f9e29e3528b26c81648ba094"
+}

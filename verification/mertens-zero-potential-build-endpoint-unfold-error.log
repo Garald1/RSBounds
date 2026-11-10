@@ -1,0 +1,85 @@
+import took 815s
+typeclass inference of DecidablePred took 103ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 158ms
+RSBounds/MertensZeroPotential.lean:192:72: error: unsolved goals
+case e'_5
+x : ℝ
+hx : 1 ≤ x
+T : ℕ → ℝ
+B : ℝ → ℝ
+hT : GoodHeights zetaF B T
+h : Tendsto ((fun s => ∑ b ∈ s, coefficient x b) ∘ fun k => zeroFinset (T k)) atTop (𝓝 (∑' (b : Zero), coefficient x b))
+⊢ 𝓝 (potential x) = 𝓝 (∑' (b : Zero), coefficient x b)
+'TernaryGoldbach.RSBounds.MertensZeroPotential.mem_zeroFinset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensZeroPotential.zero_re_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensZeroPotential.sum_zeroFinset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensZeroPotential.tendsto_zeroFinset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensZeroPotential.zetaGoodHeight_of_heights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensZeroPotential.moment_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensZeroPotential.momentAllowance_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensZeroPotential.tsum_moment_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensZeroPotential.sum_moment_le_allowance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensZeroPotential.tsum_moment_le_allowance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensZeroPotential.summable_moment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensZeroPotential.norm_coefficient_le_power_moment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensZeroPotential.norm_coefficient_le_moment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensZeroPotential.summable_coefficient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensZeroPotential.coefficient_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensZeroPotential.potential_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensZeroPotential.sum_tendsto_potential' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.383ms
+	blocked (unaccounted) 3.62s
+	congr simp thm 4.17ms
+	declTypeLinter 25.8ms
+	dsimp 3.65ms
+	elaboration 589ms
+	fix level params 1.38ms
+	import 815s
+	initialization 279ms
+	instantiate metavars 3.15ms
+	interpretation 2.97s
+	let-to-have transformation 0.267ms
+	linting 49.7ms
+	module linting 0.457ms
+	norm_num 74.2ms
+	parsing 47ms
+	process pre-definitions 29.2ms
+	ring 92.1ms
+	share common exprs 18.3ms
+	simp 219ms
+	tactic execution 834ms
+	tacticAnalysis 8.39ms
+	type checking 131ms
+	typeclass inference 1.4s

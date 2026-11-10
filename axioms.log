@@ -1,0 +1,17 @@
+'TernaryGoldbach.RSBounds.Moebius003.finiteRH_of_plattGRH' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Moebius003.ramareMoebius_of_plattGRH' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Moebius003.ramareMoebius_of_plattGRH : TernaryGoldbach.PlattGRH → TernaryGoldbach.RamareMoebius
+def TernaryGoldbach.RamareMoebius : Prop :=
+∀ (x : ℝ), 11815 ≤ x → |∑ n ∈ Finset.Icc 1 ⌊x⌋₊, ↑(ArithmeticFunction.moebius n) / ↑n| ≤ 3e-2 / Real.log x
+'TernaryGoldbach.RSBounds.MoebiusInputs.mertensSqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MoebiusInputs.smallMoebiusSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Moebius003.ramareMoebius_of_finiteRH' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Moebius003.ramareMoebius_of_finiteRH : Goals.FiniteRH 1894438.5122 → Moebius003.RamareMoebius
+def TernaryGoldbach.RSBounds.Moebius003.RamareMoebius : Prop :=
+∀ (x : ℝ), 11815 ≤ x → |∑ n ∈ Finset.Icc 1 ⌊x⌋₊, ↑(ArithmeticFunction.moebius n) / ↑n| ≤ 3e-2 / Real.log x
+def TernaryGoldbach.RSBounds.Goals.FiniteRH : ℝ → Prop :=
+fun A => ∀ (ρ : ℂ), riemannZeta ρ = 0 → 0 < ρ.re → ρ.re < 1 → |ρ.im| ≤ A → ρ.re = 1 / 2

@@ -1,0 +1,94 @@
+⚠ [9048/9052] Replayed TernaryGoldbach.Prelim.RamareHarm
+warning: TernaryGoldbach/Prelim/RamareHarm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/RamareHarm.lean:135:41: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9050/9052] Replayed TernaryGoldbach.Prelim.RamareWalk
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:178:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:178:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:179:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:179:44: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:183:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:183:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:184:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:184:44: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9051/9052] Built RSBounds.SmallTotientProduct (31s)
+warning: RSBounds/SmallTotientProduct.lean:423:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/SmallTotientProduct.lean:423:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/SmallTotientProduct.lean:450:31: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/SmallTotientProduct.lean:471:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/SmallTotientProduct.lean:471:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/SmallTotientProduct.lean:472:62: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/SmallTotientProduct.lean:493:8: Unused tactic linter: `simp only at hw` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✖ [9052/9052] Building RSBounds.Totient (25s)
+trace: .> LEAN_PATH=/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/Cli/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/batteries/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/Qq/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/aesop/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/plausible/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/recovery/.lake/build/lib/lean /workspace/scratch/99a161e7c02e/.tools/elan-home/toolchains/leanprover--lean4---v4.35.0/bin/lean /workspace/scratch/99a161e7c02e/recovery/RSBounds/Totient.lean -o /workspace/scratch/99a161e7c02e/recovery/.lake/build/lib/lean/RSBounds/Totient.olean -i /workspace/scratch/99a161e7c02e/recovery/.lake/build/lib/lean/RSBounds/Totient.ilean -c /workspace/scratch/99a161e7c02e/recovery/.lake/build/ir/RSBounds/Totient.c --setup /workspace/scratch/99a161e7c02e/recovery/.lake/build/ir/RSBounds/Totient.setup.json --json
+error: RSBounds/Totient.lean:132:14: Unknown identifier `bigF_gt`
+error: RSBounds/Totient.lean:126:41: unsolved goals
+q : ℕ
+hq : 1 ≤ q
+r : ℝ
+hr : 3 ≤ r
+hqr : ↑q ≤ r
+P : Finset ℕ := q.primeFactors
+hP : P = q.primeFactors
+k : ℕ := #P
+hk : k = #P
+G : ℝ := Real.exp Real.eulerMascheroniConstant
+hproduct :
+  4 ≤ k →
+    primeProduct (Nat.nth Nat.Prime (k - 1)) <
+      G * Real.log (primeTheta (Nat.nth Nat.Prime (k - 1))) +
+        2.50637 / Real.log (primeTheta (Nat.nth Nat.Prime (k - 1)))
+hGdef : G = Real.exp Real.eulerMascheroniConstant
+hex :
+  ∏ p ∈ P, ↑p / (↑p - 1) ≤ ∏ i ∈ range #P, ↑(Nat.nth Nat.Prime i) / (↑(Nat.nth Nat.Prime i) - 1) ∧
+    ∏ i ∈ range #P, Nat.nth Nat.Prime i ≤ ∏ p ∈ P, p
+⊢ ∏ p ∈ q.primeFactors, ↑p / (↑p - 1) < G * Real.log (Real.log r) + 2.50637 / Real.log (Real.log r)
+Some required targets logged failures:
+- RSBounds.Totient
+error: build failed

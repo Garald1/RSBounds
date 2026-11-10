@@ -1,0 +1,84 @@
+import took 270s
+RSBounds/MertensAbelIdentity.lean:38:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ⌊↑?n⌋₊
+in the target expression
+  ∑ k ∈ Finset.Icc 1 n, Λ k / ↑k = ((fun x => ∑ d ∈ Finset.Ioc 0 ⌊x⌋₊, Λ d / ↑d) ∘ Nat.cast) n
+
+case e'_7
+r : ℝ
+hr : 0 < r
+h : ((fun x => ∑ d ∈ Finset.Ioc 0 ⌊x⌋₊, Λ d / ↑d) ∘ Nat.cast) =O[atTop] ((fun x => x ^ r) ∘ Nat.cast)
+n : ℕ
+⊢ ∑ k ∈ Finset.Icc 1 n, Λ k / ↑k = ((fun x => ∑ d ∈ Finset.Ioc 0 ⌊x⌋₊, Λ d / ↑d) ∘ Nat.cast) n
+interpretation of Mathlib.Meta.FunProp.funPropTac._boxed took 110ms
+RSBounds/MertensAbelIdentity.lean:118:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ↑t ^ ↑?y
+in the target expression
+  (fun x => (∑ k ∈ Finset.Icc 1 ⌊x⌋₊, ↑(Λ k / ↑k)) * ↑x ^ ↑(-s)) t = (fun x => ↑((Real.log x + E₁Λ x) * x ^ (-s))) t
+
+s : ℝ
+hs : 1 < s
+h :
+  -deriv riemannZeta ↑s / riemannZeta ↑s =
+    (↑s - 1) * ∫ (t : ℝ) in Ioi 1, (∑ k ∈ Finset.Icc 1 ⌊t⌋₊, ↑(Λ k / ↑k)) * ↑t ^ (-(↑s - 1 + 1))
+t : ℝ
+ht : t ∈ Ioi 1
+ht0 : 0 ≤ t
+⊢ (fun x => (∑ k ∈ Finset.Icc 1 ⌊x⌋₊, ↑(Λ k / ↑k)) * ↑x ^ ↑(-s)) t = (fun x => ↑((Real.log x + E₁Λ x) * x ^ (-s))) t
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 304ms
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.sum_Icc_mangoldt_div' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.weighted_sum_isBigO_rpow' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.LSeries_mangoldt_div_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.integrableOn_error_mul_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.integrableOn_log_mul_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.integral_log_mul_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.logDeriv_eq_integral' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.error_abel_identity' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.179ms
+	blocked (unaccounted) 4.78s
+	compilation (IR) 0.079ms
+	compilation (LCNF base) 1.35ms
+	compilation (LCNF impure) 0.533ms
+	compilation (LCNF mono) 0.819ms
+	congr simp thm 6.57ms
+	declTypeLinter 24.7ms
+	dsimp 2.73ms
+	elaboration 373ms
+	fix level params 0.835ms
+	import 270s
+	initialization 276ms
+	instantiate metavars 2.26ms
+	interpretation 1.99s
+	let-to-have transformation 0.186ms
+	linting 48.1ms
+	module linting 1.45ms
+	norm_num 108ms
+	parsing 27.6ms
+	process pre-definitions 23.9ms
+	ring 64ms
+	share common exprs 78.6ms
+	simp 271ms
+	tactic execution 766ms
+	tacticAnalysis 6.6ms
+	type checking 141ms
+	typeclass inference 685ms

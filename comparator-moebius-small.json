@@ -1,0 +1,8 @@
+{
+  "challenge_module": "MoebiusSmallChallenge",
+  "solution_module": "MoebiusSmallSolution",
+  "theorem_names": [
+    "TernaryGoldbach.RSBounds.MoebiusInputs.smallMoebiusSum"
+  ],
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"]
+}

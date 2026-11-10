@@ -1,0 +1,163 @@
+Sun Nov  8 22:10:26 UTC 2026
+Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)
+Lake version 5.0.0-src+eb6cafb (Lean version 4.35.0)
+Mathlib rev:    "rev": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+nproc: 2
+== lake build (clean RSBounds/.lake/build; Mathlib oleans from the cache) ==
+⚠ [3267/3290] Built RSBounds.LambdaInputs (2.8s)
+warning: RSBounds/LambdaInputs.lean: imports `Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/LambdaInputs.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3268/3290] Built RSBounds.MoebiusInputs (1.8s)
+warning: RSBounds/MoebiusInputs.lean: imports `Mathlib.NumberTheory.ArithmeticFunction.Moebius` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/MoebiusInputs.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3270/3293] Built RSBounds.Moebius003.Defs (4.5s)
+warning: RSBounds/Moebius003/Defs.lean: imports `Mathlib.NumberTheory.ArithmeticFunction.Moebius` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Moebius003/Defs.lean: imports `Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Moebius003/Defs.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Moebius003/Defs.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3273/3297] Built RSBounds.Moebius003.LogCert (5.6s)
+warning: RSBounds/Moebius003/LogCert.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Moebius003/LogCert.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Moebius003/LogCert.lean: imports `Mathlib.Analysis.SpecificLimits.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [3277/3297] Built RSBounds.Moebius003.Abel (2.7s)
+⚠ [3280/3299] Built RSBounds.Moebius003.SmallM (3.2s)
+warning: RSBounds/Moebius003/SmallM.lean: imports `Mathlib.Tactic.Simproc.Factors` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [3285/3301] Built RSBounds.Moebius003.MofN (3.7s)
+✔ [3298/3391] Built RSBounds.Moebius003.Schoenfeld (4.1s)
+⚠ [3362/3391] Built RSBounds.Targets (2.9s)
+warning: RSBounds/Targets.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Targets.lean: imports `Mathlib.NumberTheory.Harmonic.EulerMascheroni` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Targets.lean: imports `Mathlib.Data.Nat.Totient` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Targets.lean: imports `Mathlib.NumberTheory.LSeries.RiemannZeta` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [3364/3391] Built RSBounds.Schoenfeld1976Targets (2.7s)
+✔ [3366/3391] Built RSBounds.Schoenfeld1976TargetsExtra (2.9s)
+✔ [3371/3391] Built RSBounds.Moebius003.ElMarraki (7.7s)
+✔ [3372/3391] Built RSBounds.Moebius003Statement (2.2s)
+⚠ [3373/3391] Built RSBounds.Moebius003.Kappa (2.9s)
+warning: RSBounds/Moebius003/Kappa.lean: imports `Mathlib.NumberTheory.LSeries.Dirichlet` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Moebius003/Kappa.lean: imports `Mathlib.NumberTheory.LSeries.HurwitzZetaValues` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Moebius003/Kappa.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [3374/3391] Built RSBounds.Moebius003.Inputs (2.2s)
+⚠ [3375/3391] Built RSBounds.Moebius003.Rho (3.2s)
+warning: RSBounds/Moebius003/Rho.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [3376/3391] Built RSBounds.Moebius003.CellsDefs (3.9s)
+⚠ [3377/3391] Built RSBounds.Moebius003.Weights (8.8s)
+warning: RSBounds/Moebius003/Weights.lean:158:46: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: RSBounds/Moebius003/Weights.lean:159:45: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/Weights.lean:164:47: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: RSBounds/Moebius003/Weights.lean:165:36: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/Weights.lean:175:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/Weights.lean:175:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/Weights.lean:175:85: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3378/3391] Built RSBounds.Moebius003.Squarefree (22s)
+warning: RSBounds/Moebius003/Squarefree.lean:85:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/Moebius003/Squarefree.lean:161:39: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3379/3391] Built RSBounds.Moebius003.Misc (10s)
+⚠ [3380/3391] Built RSBounds.Moebius003.KSum (20s)
+warning: RSBounds/Moebius003/KSum.lean:107:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/Moebius003/KSum.lean:107:46: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/KSum.lean:190:55: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/KSum.lean:208:55: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/KSum.lean:354:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/KSum.lean:373:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+✔ [3381/3391] Built RSBounds.Moebius003.Step (12s)
+⚠ [3382/3391] Built RSBounds.Moebius003.SquarefreeData (88s)
+warning: RSBounds/Moebius003/SquarefreeData.lean:94:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/SquarefreeData.lean:97:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/Moebius003/SquarefreeData.lean:135:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/SquarefreeData.lean:141:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/SquarefreeData.lean:152:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/Moebius003/SquarefreeData.lean:153:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/Moebius003/SquarefreeData.lean:150:16: Unused tactic linter: `push_cast at this` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [3383/3391] Built RSBounds.Moebius003.Range2 (47s)
+✔ [3384/3391] Built RSBounds.Moebius003.TailAux (13s)
+⚠ [3385/3391] Built RSBounds.Moebius003.JSum (25s)
+warning: RSBounds/Moebius003/JSum.lean:326:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3386/3391] Built RSBounds.Moebius003.Checker (10s)
+warning: RSBounds/Moebius003/Checker.lean:227:10: Unused tactic linter: `push_cast at hν'` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [3387/3391] Built RSBounds.Moebius003.CellData (4.3s)
+✔ [3388/3391] Built RSBounds.Moebius003.Cells (46s)
+⚠ [3389/3391] Built RSBounds.Moebius003.Tail (34s)
+warning: RSBounds/Moebius003/Tail.lean:75:28: Variable name `hε0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hε0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3390/3391] Built RSBounds.Moebius003.Main (2.4s)
+Build completed successfully (3391 jobs).
+exit: 0
+wall time: 269 s
+Sun Nov  8 22:14:55 UTC 2026

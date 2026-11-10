@@ -1,0 +1,34 @@
+{
+  "kind": "fresh-local-compilation-and-transitive-axiom-audit",
+  "started_utc": "2026-11-06T21:58:21.227041+00:00",
+  "source_sha256": {
+    "RSBounds/SchoenfeldQuadraticKernel.lean": "ec8574e328461af027d0ed31c0eb4b10e10984f3fc9e8c6ec8c6a53393cc66bd",
+    "RSBounds/PolynomialPsi.lean": "2b148b5b05748a8f40a44e0d28e2377e85d4eb92aa5e2217879ca151407b136e",
+    "RSBounds/QuadraticContourLimit.lean": "b984412c4b6a6100c5b379a6e458bf5f52e78d365f72472eaceb582afd838f7b",
+    "RSBounds/PolynomialLowerKernel.lean": "6c0ae133b163564b9f8bc87802bab6b2e4ca1b571f7d01b9fcea2b9d4da8737c",
+    "RSBounds/QuadraticSubOne.lean": "639761df8f39d39844792a63955ee012360078211113a2ca01451824e7d68608",
+    "RSBounds/PolynomialZetaFormula.lean": "52c6ccb12385d82dcdde851907428ebb16f13fb4fadbe64bbb708e236a902ccc",
+    "RSBounds/PolynomialPrimeSum.lean": "a6b1a93a70decb1efa319a98d942aec007f50a99649aaaf72ae8119381b8e530",
+    "RSBounds/QuadraticMellin.lean": "c3b156d87c43438b8ee79fdf4f8b9fcaec5527a1b833a47db405dc75404ee81c",
+    "RSBounds/QuadraticPsi.lean": "8cb7b56e57df116a4fce775213c94cc3c64443becf998c2a6a95ff919b56c08c",
+    "RSBounds/QuadraticPsiMellin.lean": "3aaa011e27192c903db9e15b4eb9a5ff2f15553840da062192f210574b2100e4",
+    "RSBounds/QuadraticKernel.lean": "3c2ceaa28eb95f953a7570a10317870d1125be32dfab521c20cdc1f86fccc0cd",
+    "RSBounds/QuadraticZeroKernel.lean": "c0749056b6bee598ce014f0205cfc5c621f14979d2888c61ce29308585e08573",
+    "RSBounds/QuadraticKernelScaling.lean": "4a431f2835bc4ddf78ca98b9278b90b3953b3f4194891780ebcb6586739e4cb4",
+    "RSBounds/QuadraticLowerKernel.lean": "19718cbbcc071c39dc467c080c70cc0b0ef5235fa0c17393bcfd441699846bbb",
+    "RSBounds/QuadraticCoefficientBounds.lean": "75fa394e373440535675de89f634cf69d69ffecae330134114931b9e637972ee",
+    "RSBounds/QuadraticZetaFormula.lean": "7038342ef87d6b53bfbab35b11d6191f91d9f1a207fa766f66555227a19709ac",
+    "RSBounds/QuadraticAveragedFormula.lean": "6c5f9e807fda958bc6190f67593aa5b0e693a1b9510237249940d3836c21aa20",
+    "verification/SchoenfeldQuadraticKernelAudit.lean": "72ed1eadb3f3807def00eb30d21648b33ac7c9b41810c31ad39400bd7d5f7937",
+    "verification/run_schoenfeld_quadratic_kernel_check.py": "8ba12c363b0a5e3f771cdbda9870003703fdde8a164781510ab5bb3bfd555bc0",
+    "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
+    "lake-manifest.json": "ea37fdd426cc976e3f295c9d982d0a2a396df32f0dd6f710a2b949555608e504"
+  },
+  "runs": [],
+  "LEAN_PATH": "/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/Cli/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/batteries/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/Qq/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/aesop/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/plausible/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/recovery/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/.tools/elan-home/toolchains/leanprover--lean4---v4.35.0/lib/lean",
+  "stdin_sources": [
+    "RSBounds/SchoenfeldQuadraticKernel.lean",
+    "verification/SchoenfeldQuadraticKernelAudit.lean"
+  ],
+  "stdin_sha256": "0120a3c726288a320bfa5ef85e2b3382d8b253a7ef267bff3248693f58c9960a"
+}

@@ -1,0 +1,55 @@
+=== 2026-11-08T09:45:41-03:00 lake env lean logs-claude/SchoenfeldAudit.lean (merged tree, height 1894438.5122)
+Schoenfeld1976PsiThetaLog.proved : Goals.Schoenfeld1976.PsiThetaLog
+'TernaryGoldbach.RSBounds.Schoenfeld1976PsiThetaLog.proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+Schoenfeld1976Theorem7.proved_psiLog : Goals.Schoenfeld1976.PsiCert → Goals.Schoenfeld1976.PsiLog
+Schoenfeld1976Theorem7.proved_psiLogLower : Goals.Schoenfeld1976.PsiCert → Goals.Schoenfeld1976.PsiLogLower
+Schoenfeld1976Theorem7.proved_thetaLogUpper : Goals.Schoenfeld1976.PsiCert → Goals.Schoenfeld1976.ThetaLogUpper
+Schoenfeld1976Theorem7.proved_thetaLog : Goals.Schoenfeld1976.PsiCert → Goals.Schoenfeld1976.ThetaLog
+'TernaryGoldbach.RSBounds.Schoenfeld1976Theorem7.proved_psiLog' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976Theorem7.proved_psiLogLower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976Theorem7.proved_thetaLogUpper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976Theorem7.proved_thetaLog' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Schoenfeld1976Theorem11Proved.proved_psi : Goals.Schoenfeld1976.PsiCert → Goals.Schoenfeld1976.PsiTheorem11
+Schoenfeld1976Theorem11Proved.proved_theta : Goals.Schoenfeld1976.PsiCert → Goals.Schoenfeld1976.ThetaTheorem11
+Schoenfeld1976Theorem11Proved.proved_psiUpper : Goals.Schoenfeld1976.PsiCert → Goals.Schoenfeld1976.PsiUpperTheorem11
+'TernaryGoldbach.RSBounds.Schoenfeld1976Theorem11Proved.proved_psi' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976Theorem11Proved.proved_theta' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976Theorem11Proved.proved_psiUpper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+def TernaryGoldbach.RSBounds.Goals.Schoenfeld1976.PsiCert : Prop :=
+∀ (x : ℝ), 1500 ≤ x → x ≤ 10 ^ 10 → |Chebyshev.psi x - x| ≤ 4 / 5 * √x
+def TernaryGoldbach.RSBounds.Goals.Schoenfeld1976.PsiThetaLog : Prop :=
+Goals.FiniteRH 1894438.5122 →
+  ∀ (x : ℝ),
+    Real.exp 22 ≤ x →
+      |Chebyshev.psi x - x| < 77629e-7 * x / Real.log x ∧ |Chebyshev.theta x - x| < 77629e-7 * x / Real.log x
+def TernaryGoldbach.RSBounds.Goals.Schoenfeld1976.ThetaLog : Prop :=
+Goals.FiniteRH 1894438.5122 → ∀ (x : ℝ), 758711 ≤ x → |Chebyshev.theta x - x| < 239922e-7 * x / Real.log x
+def TernaryGoldbach.RSBounds.Goals.Schoenfeld1976.PsiLog : Prop :=
+Goals.FiniteRH 1894438.5122 → ∀ (x : ℝ), 161971 ≤ x → |Chebyshev.psi x - x| < 220646e-7 * x / Real.log x
+def TernaryGoldbach.RSBounds.Goals.Schoenfeld1976.PsiLogLower : Prop :=
+Goals.FiniteRH 1894438.5122 → ∀ (x : ℝ), 89909 ≤ x → -(220646e-7 * x / Real.log x) < Chebyshev.psi x - x
+def TernaryGoldbach.RSBounds.Goals.Schoenfeld1976.ThetaLogUpper : Prop :=
+Goals.FiniteRH 1894438.5122 → ∀ (x : ℝ), 1 < x → Chebyshev.theta x - x < 201384e-7 * x / Real.log x
+def TernaryGoldbach.RSBounds.Goals.Schoenfeld1976.PsiTheorem11 : Prop :=
+Goals.FiniteRH 1894438.5122 → ∀ (x : ℝ), 17 ≤ x → |Chebyshev.psi x - x| < x * Goals.Schoenfeld1976.epsilon0 x
+def TernaryGoldbach.RSBounds.Goals.Schoenfeld1976.ThetaTheorem11 : Prop :=
+Goals.FiniteRH 1894438.5122 → ∀ (x : ℝ), 101 ≤ x → |Chebyshev.theta x - x| < x * Goals.Schoenfeld1976.epsilon0 x
+def TernaryGoldbach.RSBounds.Goals.Schoenfeld1976.PsiUpperTheorem11 : Prop :=
+Goals.FiniteRH 1894438.5122 →
+  ∀ (x : ℝ),
+    1 ≤ x → Chebyshev.theta x - x ≤ Chebyshev.psi x - x ∧ Chebyshev.psi x - x < x * Goals.Schoenfeld1976.epsilon0 x
+=== EXIT 0

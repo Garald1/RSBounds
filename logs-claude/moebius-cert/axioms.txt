@@ -1,0 +1,2 @@
+'TernaryGoldbach.RSBounds.MoebiusInputs.mertensSqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MoebiusInputs.smallMoebiusSum' depends on axioms: [propext, Classical.choice, Quot.sound]

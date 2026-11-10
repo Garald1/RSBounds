@@ -1,0 +1,34 @@
+{
+  "kind": "fresh-cubic-tail-build-with-in-process-transitive-axiom-audit",
+  "started_utc": "2026-11-06T17:43:16.857573+00:00",
+  "source_sha256": {
+    "RSBounds/RosserCubicTail.lean": "b4ae563dac1caa2fcb516759f6d5a535a4e72d00d5b36677e43da823ef7691fc",
+    "RSBounds/RosserWeightedBounds.lean": "e7ec52a3cae8029cf0773710eb999fcf2da2b4dfd9d95f2eaa5c5c4849b5c8ce",
+    "RSBounds/WeightedZetaZeros.lean": "f94896dcf35dcf12c4cae32e92a99ecafa08f53a4012f4ea03250de5a6066ccc",
+    "RSBounds/RosserTailIntegrals.lean": "24b5a311c84e4f9bc160e942489a31add2f33d3487d8653d7bd9d5ed3650fef0",
+    "verification/RosserCubicTailAudit.lean": "347caecae0f4b6f2723f056e54061cbe34a1905de310f165b98f864cc0e07239",
+    "verification/run_rosser_cubic_tail_check.py": "6d3950c9aa7134d986aa59bc71542e50023ef360f2219417216794b977508016"
+  },
+  "stdin_recipe": "Exact source plus eight fully qualified #print axioms commands.",
+  "stdin_sha256": "3a51031ce679010393f1202476d7601ff7922656aeb512786a557c4a77736c6f",
+  "runs": [
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j1",
+        "-Dprofiler=true",
+        "--stdin",
+        "-o",
+        ".lake/build/lib/lean/RSBounds/RosserCubicTail.olean",
+        "RSBounds/RosserCubicTail.lean"
+      ],
+      "log": "verification/rosser-cubic-tail-build.log",
+      "exit_code": 1,
+      "seconds": 9.402889436001715
+    }
+  ],
+  "build_exit_code": 1,
+  "exit_code": 1
+}

@@ -1,0 +1,67 @@
+import took 96.8s
+RSBounds/MertensPotentialDecay.lean:51:5: error(lean.unknownIdentifier): Unknown identifier `xiF_eq_zero_of_zeta_zero`
+RSBounds/MertensPotentialDecay.lean:54:2: error: linarith failed to find a contradiction
+x T : ℝ
+hx : 1 ≤ x
+ρ : MertensZeroPotential.Zero
+hA : 1894439 ≤ |(↑ρ).im|
+hT : |(↑ρ).im| ≤ T
+him : 0 < |(↑ρ).im|
+hγ : 0 < Real.log (|(↑ρ).im| / 17)
+hlog : Real.log (|(↑ρ).im| / 17) ≤ Real.log (T / 17)
+hi : 1 / (10 * Real.log (T / 17)) ≤ 1 / (10 * Real.log (|(↑ρ).im| / 17))
+hz : (↑ρ).re ≤ 1 - 1 / (10 * Real.log (|(↑ρ).im| / 17))
+a✝ : -1 / (10 * Real.log (T / 17)) < (↑ρ).re - 1
+⊢ False
+failed
+RSBounds/MertensPotentialDecay.lean:79:22: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+'TernaryGoldbach.RSBounds.MertensPotentialDecay.norm_coefficient_le_at_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialDecay.zero_power_le_cutoff' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialDecay.norm_coefficient_le_cutoff' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialDecay.norm_potential_le_cutoff' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialDecay.norm_signedLimit_le_cutoff' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialDecay.abs_J_le_cutoff' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.08ms
+	blocked (unaccounted) 1.96s
+	congr simp thm 1.77ms
+	declTypeLinter 3.43ms
+	elaboration 224ms
+	fix level params 0.843ms
+	import 96.8s
+	initialization 54.4ms
+	instantiate metavars 2.04ms
+	interpretation 1.43s
+	let-to-have transformation 0.137ms
+	linting 26.2ms
+	module linting 0.0135ms
+	norm_num 515ms
+	parsing 9.7ms
+	process pre-definitions 17.4ms
+	ring 66.5ms
+	share common exprs 12.8ms
+	simp 12.5ms
+	tactic execution 267ms
+	tacticAnalysis 2.55ms
+	type checking 67ms
+	typeclass inference 683ms

@@ -1,0 +1,8 @@
+import RSBounds.Schoenfeld1976Large
+
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Large.cube_exp_mono
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Large.cube_exp_numeric
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Large.eps0_mul_log_le
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Large.eps0_le_div_log
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Large.psiThetaLog_large
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Large.thetaLog_large

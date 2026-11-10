@@ -1,0 +1,3 @@
+import RS62GlobalSolution
+#print axioms TernaryGoldbach.RSBounds.RS62MertensFromFiniteRH.mertens_lower_of_finiteRH
+#print axioms TernaryGoldbach.RSBounds.RS62TotientFromFiniteRH.totient_bound_of_finiteRH

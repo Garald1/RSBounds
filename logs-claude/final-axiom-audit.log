@@ -1,0 +1,38 @@
+'PsiFinite.psi_abs_sub_le_four_fifths_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PsiFinite.psi_abs_sub_le_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+Schoenfeld1976Final.psiCert : Goals.Schoenfeld1976.PsiCert
+Schoenfeld1976Final.psiLog : Goals.Schoenfeld1976.PsiLog
+Schoenfeld1976Final.thetaTheorem11 : Goals.Schoenfeld1976.ThetaTheorem11
+'TernaryGoldbach.RSBounds.Schoenfeld1976Final.psiCert' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976Final.psiLog' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976Final.psiLogLower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976Final.thetaLogUpper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976Final.thetaLog' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976Final.psiThetaLog' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976Final.psiTheorem11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976Final.thetaTheorem11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976Final.psiUpperTheorem11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+HelfgottPsiBoundsFinal.sum_vonMangoldt_le_a14 : Goals.FiniteRH 1894438.5122 →
+  ∀ {y : ℝ}, 25e6 ≤ y → ∑ n ∈ Finset.Icc 1 ⌊y⌋₊, ArithmeticFunction.vonMangoldt n ≤ 1.0004 * y
+HelfgottPsiBoundsFinal.sum_vonMangoldt_mul_lt_a17 : Goals.FiniteRH 1894438.5122 →
+  ∀ {y : ℝ}, 25e6 ≤ y → ∑ n ∈ Finset.Icc 1 ⌊y⌋₊, ArithmeticFunction.vonMangoldt n * ↑n < 1.0008 * y ^ 2 / 2
+'TernaryGoldbach.RSBounds.HelfgottPsiBoundsFinal.sum_vonMangoldt_le_a14' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.HelfgottPsiBoundsFinal.sum_vonMangoldt_mul_lt_a17' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+def TernaryGoldbach.RSBounds.Goals.FiniteRH : ℝ → Prop :=
+fun A => ∀ (ρ : ℂ), riemannZeta ρ = 0 → 0 < ρ.re → ρ.re < 1 → |ρ.im| ≤ A → ρ.re = 1 / 2
+def TernaryGoldbach.RSBounds.Goals.Schoenfeld1976.PsiCert : Prop :=
+∀ (x : ℝ), 1500 ≤ x → x ≤ 10 ^ 10 → |Chebyshev.psi x - x| ≤ 4 / 5 * √x
+def TernaryGoldbach.RSBounds.Goals.Schoenfeld1976.PsiLog : Prop :=
+Goals.FiniteRH 1894438.5122 → ∀ (x : ℝ), 161971 ≤ x → |Chebyshev.psi x - x| < 220646e-7 * x / Real.log x
+def TernaryGoldbach.RSBounds.Goals.Schoenfeld1976.ThetaTheorem11 : Prop :=
+Goals.FiniteRH 1894438.5122 → ∀ (x : ℝ), 101 ≤ x → |Chebyshev.theta x - x| < x * Goals.Schoenfeld1976.epsilon0 x
+
+real	0m34.992s
+user	0m4.927s
+sys	0m12.214s

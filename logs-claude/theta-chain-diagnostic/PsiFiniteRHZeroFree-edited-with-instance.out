@@ -1,0 +1,6 @@
+RSBounds/PsiFiniteRHZeroFree.lean:25:0: warning: automatically included section variable(s) unused in theorem `TernaryGoldbach.RSBounds.rpow_re_le_zf_rs`:
+  [Fact RHUpTo]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fact RHUpTo] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`

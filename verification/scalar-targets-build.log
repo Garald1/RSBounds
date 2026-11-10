@@ -1,0 +1,30 @@
+✖ [3136/3249] Building RSBounds.TotientAnalyticReduction (4.5s)
+warning: RSBounds/TotientAnalyticReduction.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/TotientAnalyticReduction.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+trace: .> LEAN_PATH=/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/Cli/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/batteries/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/Qq/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/aesop/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/plausible/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/recovery/.lake/build/lib/lean /workspace/scratch/99a161e7c02e/.tools/elan-home/toolchains/leanprover--lean4---v4.35.0/bin/lean /workspace/scratch/99a161e7c02e/recovery/RSBounds/TotientAnalyticReduction.lean -o /workspace/scratch/99a161e7c02e/recovery/.lake/build/lib/lean/RSBounds/TotientAnalyticReduction.olean -i /workspace/scratch/99a161e7c02e/recovery/.lake/build/lib/lean/RSBounds/TotientAnalyticReduction.ilean -c /workspace/scratch/99a161e7c02e/recovery/.lake/build/ir/RSBounds/TotientAnalyticReduction.c --setup /workspace/scratch/99a161e7c02e/recovery/.lake/build/ir/RSBounds/TotientAnalyticReduction.setup.json --json
+error: RSBounds/TotientAnalyticReduction.lean:35:58: No goals to be solved
+error: RSBounds/TotientAnalyticReduction.lean:73:54: linarith failed to find a contradiction
+G x θ P : ℝ
+hG : 1 ≤ G
+hG' : G ≤ 1.7811
+hx : 0 < x
+hxlog : 6 ≤ log x
+hθ : x * (1 - 1 / (2 * log x)) ≤ θ
+hP : P < G * (log x + 1 / (2 * log x))
+ht0 : 0 < log x
+hd0 : 0 < 2 * log x - 1
+hv : 0 < 1 - 1 / (2 * log x)
+hlo : log x + log (1 - 1 / (2 * log x)) ≤ log θ
+hlow : -1 / (2 * log x - 1) ≤ log (1 - 1 / (2 * log x))
+heq : 1 - (1 - 1 / (2 * log x))⁻¹ = -1 / (2 * log x - 1)
+a✝ : log θ < log x - 1 / (2 * log x - 1)
+⊢ False
+failed
+⚠ [3828/3828] Built RSBounds.Targets (2.2s)
+warning: RSBounds/Targets.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Targets.lean: imports `Mathlib.NumberTheory.Harmonic.EulerMascheroni` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Targets.lean: imports `Mathlib.Data.Nat.Totient` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Targets.lean: imports `Mathlib.NumberTheory.LSeries.RiemannZeta` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Some required targets logged failures:
+- RSBounds.TotientAnalyticReduction
+error: build failed

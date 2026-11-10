@@ -1,0 +1,17 @@
+
+/-!
+# The von Mangoldt computations (L): proofs
+
+`weightSumBound` and `ghBounds`, the two statements of `RSBounds.LambdaInputs`.
+
+The invariant `Cert.Inv` holds for `Cert.init` and is carried along the chain of states
+`st0, st1, …` by the kernel checks `seg1, seg2, …` (via `Cert.inv_checkSeg`).  The last state has
+`n = 2^20`; the states at the checkpoints of `ghTable` give the enclosures of `G` and `H`.
+-/
+
+namespace TernaryGoldbach.RSBounds.LambdaInputs
+
+namespace Cert
+
+theorem inv0 : Inv st0 := inv_init
+

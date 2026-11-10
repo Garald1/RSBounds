@@ -1,0 +1,15 @@
+{
+  "kind": "fresh-square-tail-build-with-in-process-transitive-axiom-audit",
+  "started_utc": "2026-11-06T18:20:19.745304+00:00",
+  "source_sha256": {
+    "RSBounds/RosserSquareTail.lean": "2e464311aaebb537cd18775190d6261fa68d397667ad32b74d3c648a01e1731c",
+    "RSBounds/RosserWeightedBounds.lean": "e7ec52a3cae8029cf0773710eb999fcf2da2b4dfd9d95f2eaa5c5c4849b5c8ce",
+    "RSBounds/WeightedZetaZeros.lean": "f94896dcf35dcf12c4cae32e92a99ecafa08f53a4012f4ea03250de5a6066ccc",
+    "RSBounds/RosserTailIntegrals.lean": "24b5a311c84e4f9bc160e942489a31add2f33d3487d8653d7bd9d5ed3650fef0",
+    "verification/RosserSquareTailAudit.lean": "870b6b8c6a021a7daeebe0d31c52eeeb6cadd3ea8df81c40f5e7e0606c7ba283",
+    "verification/run_rosser_square_tail_check.py": "fc483d2162a7d3f0ea6a0cdee1937700e9e34316a795df29812a7ea3bf5809d0"
+  },
+  "stdin_recipe": "Exact source plus seven fully qualified #print axioms commands.",
+  "stdin_sha256": "3dafb967da5a3a4253c889d9dce9e4ec9cfd669285895cc7056db93de1d5adbf",
+  "runs": []
+}

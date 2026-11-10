@@ -1,0 +1,9 @@
+'TernaryGoldbach.RSBounds.MertensFiniteParts.absolutelyContinuousOnInterval_of_primitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteParts.integral_mul_eq_boundary_add_of_primitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteParts.integral_mul_eq_boundary_add_of_contDiffOn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

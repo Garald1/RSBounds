@@ -1,0 +1,69 @@
+⚠ [9047/9049] Replayed RSBounds.PolynomialZeroKernel
+warning: RSBounds/PolynomialZeroKernel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9048/9049] Built RSBounds.PolynomialZeroCancellation (9.3s)
+warning: RSBounds/PolynomialZeroCancellation.lean:36:29: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/PolynomialZeroCancellation.lean:36:29: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: RSBounds/PolynomialZeroCancellation.lean:46:4: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: RSBounds/PolynomialZeroCancellation.lean:81:105: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/PolynomialZeroCancellation.lean:81:105: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/PolynomialZeroCancellation.lean:125:101: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/PolynomialZeroCancellation.lean:127:101: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/PolynomialZeroCancellation.lean:125:97: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/PolynomialZeroCancellation.lean:125:101: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/PolynomialZeroCancellation.lean:127:97: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/PolynomialZeroCancellation.lean:127:101: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/PolynomialZeroCancellation.lean:238:64: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [forwardDiff, antiderivative, rising, Nat.cast_one, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: RSBounds/PolynomialZeroCancellation.lean:313:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/PolynomialZeroCancellation.lean:313:21: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✖ [9049/9049] Building RSBounds.PolynomialLowerKernel (5.3s)
+trace: .> LEAN_PATH=/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/Cli/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/batteries/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/Qq/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/aesop/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/plausible/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/recovery/.lake/build/lib/lean /workspace/scratch/99a161e7c02e/.tools/elan-home/toolchains/leanprover--lean4---v4.35.0/bin/lean /workspace/scratch/99a161e7c02e/recovery/RSBounds/PolynomialLowerKernel.lean -o /workspace/scratch/99a161e7c02e/recovery/.lake/build/lib/lean/RSBounds/PolynomialLowerKernel.olean -i /workspace/scratch/99a161e7c02e/recovery/.lake/build/lib/lean/RSBounds/PolynomialLowerKernel.ilean -c /workspace/scratch/99a161e7c02e/recovery/.lake/build/ir/RSBounds/PolynomialLowerKernel.c --setup /workspace/scratch/99a161e7c02e/recovery/.lake/build/ir/RSBounds/PolynomialLowerKernel.setup.json --json
+warning: RSBounds/PolynomialLowerKernel.lean:59:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/PolynomialLowerKernel.lean:59:21: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+error: RSBounds/PolynomialLowerKernel.lean:84:2: Type mismatch: After simplification, term
+  h2
+ has type
+  2 ^ 4 ≤ ((1 + δ) ^ 5 + 1) ^ 4
+but is expected to have type
+  16 ≤ ((1 + δ) ^ 5 + 1) ^ 4
+Some required targets logged failures:
+- RSBounds.PolynomialLowerKernel
+error: build failed

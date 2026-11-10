@@ -1,0 +1,27 @@
+'TernaryGoldbach.RSBounds.MertensLogKernel.hasDerivAt_inv_log_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLogKernel.inv_log_sq_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLogKernel.integrable_log_cube' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLogKernel.integral_log_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLogKernel.logKernel_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLogKernel.integrable_logKernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLogKernel.integral_logKernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLogKernel.integrable_mul_logKernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLogKernel.abs_integral_mul_logKernel_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLogKernel.logMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLogKernel.signed_expression_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

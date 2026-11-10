@@ -1,0 +1,88 @@
+import took 23s
+RSBounds/PrimeLogTail.lean:30:8: error: `simp` made no progress
+RSBounds/PrimeLogTail.lean:27:16: error: (kernel) declaration has metavariables '_private.RSBounds.PrimeLogTail.0.TernaryGoldbach.RSBounds.PrimeLogTail.hasDerivAt_inv_sq'
+RSBounds/PrimeLogTail.lean:49:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ∑ n ∈ Icc 0 ⌊?x⌋₊, primeLog n
+in the target expression
+  (fun t => 2 / t ^ 3 * ∑ k ∈ Icc 0 ⌊t⌋₊, primeLog k) t = (fun t => 2 * Chebyshev.theta t / t ^ 3) t
+
+a b : ℝ
+ha : 0 < a
+hab : a ≤ b
+hi : IntegrableOn (fun t => 2 / t ^ 3) (Set.Icc a b) volume
+hs : IntegrableOn (fun t => 2 / t ^ 3 * ∑ k ∈ Icc 0 ⌊t⌋₊, primeLog k) (Set.Icc a b) volume
+t : ℝ
+ht : t ∈ Set.Icc a b
+⊢ (fun t => 2 / t ^ 3 * ∑ k ∈ Icc 0 ⌊t⌋₊, primeLog k) t = (fun t => 2 * Chebyshev.theta t / t ^ 3) t
+RSBounds/PrimeLogTail.lean:81:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  deriv (fun u => 1 / u ^ 2) t
+in the target expression
+  (fun x => deriv (fun u => 1 / u ^ 2) x * Chebyshev.theta x) t = (fun x => -(2 * Chebyshev.theta x / x ^ 3)) t
+
+a b : ℝ
+ha : 0 < a
+hab : a ≤ b
+hd : ∀ t ∈ Set.Icc a b, deriv (fun u => 1 / u ^ 2) t = -2 / t ^ 3
+hi : IntegrableOn (deriv fun u => 1 / u ^ 2) (Set.Icc a b) volume
+habel :
+  ∑ k ∈ Ioc ⌊a⌋₊ ⌊b⌋₊, 1 / ↑k ^ 2 * primeLog k =
+    1 / b ^ 2 * Chebyshev.theta b - 1 / a ^ 2 * Chebyshev.theta a -
+      ∫ (t : ℝ) in Set.Ioc a b, deriv (fun u => 1 / u ^ 2) t * Chebyshev.theta t
+hsum : ∑ p ∈ Ioc ⌊a⌋₊ ⌊b⌋₊ with Nat.Prime p, log ↑p / ↑p ^ 2 = ∑ p ∈ Ioc ⌊a⌋₊ ⌊b⌋₊, 1 / ↑p ^ 2 * primeLog p
+t : ℝ
+ht : t ∈ Set.Icc a b
+⊢ (fun x => deriv (fun u => 1 / u ^ 2) x * Chebyshev.theta x) t = (fun x => -(2 * Chebyshev.theta x / x ^ 3)) t
+RSBounds/PrimeLogTail.lean:97:61: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/PrimeLogTail.lean:97:61: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/PrimeLogTail.lean:122:63: error: No goals to be solved
+RSBounds/PrimeLogTail.lean:128:39: error: No goals to be solved
+RSBounds/PrimeLogTail.lean:157:8: error: No goals to be solved
+RSBounds/PrimeLogTail.lean:168:70: error: No goals to be solved
+'TernaryGoldbach.RSBounds.PrimeLogTail.sum_prime_log_div_sq_eq' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound,
+ TernaryGoldbach.RSBounds.PrimeLogTail.hasDerivAt_inv_sq]
+'TernaryGoldbach.RSBounds.PrimeLogTail.sum_prime_log_div_sq_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound,
+ TernaryGoldbach.RSBounds.PrimeLogTail.hasDerivAt_inv_sq]
+'TernaryGoldbach.RSBounds.PrimeLogTail.sum_prime_log_div_mul_pred_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound,
+ TernaryGoldbach.RSBounds.PrimeLogTail.hasDerivAt_inv_sq]
+cumulative profiling times:
+	aesop 57.3ms
+	attribute application 0.101ms
+	blocked (unaccounted) 2.15s
+	compilation (IR) 0.061ms
+	compilation (LCNF base) 0.609ms
+	compilation (LCNF impure) 0.312ms
+	compilation (LCNF mono) 0.359ms
+	congr simp thm 4.37ms
+	declTypeLinter 7.93ms
+	elaboration 112ms
+	fix level params 1.49ms
+	import 23s
+	initialization 131ms
+	instantiate metavars 2.64ms
+	interpretation 1.31s
+	let-to-have transformation 0.859ms
+	linting 25.6ms
+	module linting 0.189ms
+	norm_num 54.5ms
+	parsing 12ms
+	process pre-definitions 24.9ms
+	ring 71.8ms
+	share common exprs 57.5ms
+	simp 93.9ms
+	tactic execution 404ms
+	tacticAnalysis 4.78ms
+	type checking 198ms
+	typeclass inference 722ms

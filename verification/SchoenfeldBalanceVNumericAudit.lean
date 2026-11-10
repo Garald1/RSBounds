@@ -1,0 +1,14 @@
+import RSBounds.SchoenfeldBalanceVNumeric
+
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceVNumeric.log_div_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceVNumeric.log_sq_div_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceVNumeric.quarter_lt_d
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceVNumeric.d_nonneg
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceVNumeric.exp_one_bounds
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceVNumeric.one_sub_vj
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceVNumeric.one_sub_v0_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceVNumeric.log_c1_bounds
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceVNumeric.one_sub_v1_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceVNumeric.X_one_sub_v1_sq_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceVNumeric.k_v1_numeric
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceVNumeric.exists_split_parameter

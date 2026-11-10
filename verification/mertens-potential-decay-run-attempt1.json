@@ -1,0 +1,31 @@
+{
+  "kind": "fresh-mertens-potential-decay-build-with-in-process-transitive-axiom-audit",
+  "started_utc": "2026-11-06T20:56:43.754171+00:00",
+  "source_sha256": {
+    "RSBounds/MertensPotentialDecay.lean": "abcd30307fb6d8a0b36096b55ef2b9d19b136db120f0b2037b8cc9a0c6c55024",
+    "RSBounds/MertensPotentialBound.lean": "6e48ff3157ad7959f6307a9d7fc50c2518125845e7e4e8f63e890a3f08150c90",
+    "RSBounds/RS75ZeroPowerDecay.lean": "70c56234aedad791bed3663d1fdbce70e85998daf8a3f6bc19a5546d8c1eed4b",
+    "verification/MertensPotentialDecayAudit.lean": "5de972f6fae2a9d56c2fcd05b000579baa159b2f834afedbf329cfcdf4e5717a",
+    "verification/run_mertens_potential_decay_check.py": "4047e077f4a95f34e0d5aac2b634b061b9400a623a93bd792bc24bb76b60090b"
+  },
+  "stdin_recipe": "Exact source plus 6 fully qualified #print axioms commands.",
+  "stdin_sha256": "2f1501b60ad0fa958ae49c7ad2b09ad624fe23cc65799e8a64eb1cde037b2161",
+  "runs": [
+    {
+      "command": [
+        "lean",
+        "-j1",
+        "-Dprofiler=true",
+        "--stdin",
+        "-o",
+        ".lake/build/lib/lean/RSBounds/MertensPotentialDecay.olean",
+        "RSBounds/MertensPotentialDecay.lean"
+      ],
+      "log": "verification/mertens-potential-decay-build.log",
+      "exit_code": 1,
+      "seconds": 100.41967606200342
+    }
+  ],
+  "build_exit_code": 1,
+  "exit_code": 1
+}

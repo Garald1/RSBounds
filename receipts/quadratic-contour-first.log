@@ -1,0 +1,56 @@
+RSBounds/QuadraticContourLimit.lean:45:42: error: `fun_prop` was unable to prove `AEStronglyMeasurable (fun t => (1 + Real.log (max 1 |t|)) * ‖g t‖) volume`
+
+Issues:
+  No theorems found for `Real.log` in order to prove `AEStronglyMeasurable (fun i => Real.log (max 1 |i|)) volume`
+  Failed to prove necessary assumption `∀ (x : ℝ), x ≠ 0` when applying theorem `Continuous.log`.
+  No theorems found for `Real.log` in order to prove `AEStronglyMeasurable (fun x => Real.log (max 1 |x|)) volume`
+RSBounds/QuadraticContourLimit.lean:64:43: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  (1 + |t|) ^ ?y / (1 + |t|) ^ ?z
+in the target expression
+  3 * (1 + |t|) ^ (1 / 2) * (K / (1 + |t|) ^ ↑2) = 3 * K * (1 + |t|) ^ (-(3 / 2))
+
+g : ℝ → ℂ
+K : ℝ
+hK : 0 ≤ K
+hc : Continuous g
+hg : ∀ (t : ℝ), ‖g t‖ ≤ K / (1 + |t|) ^ 2
+hi : Integrable (fun t => (1 + |t|) ^ (-(3 / 2))) volume
+t : ℝ
+ha : 0 ≤ |t|
+hp : 0 < 1 + |t|
+hm : 0 < max 1 |t|
+hl0 : 0 ≤ Real.log (max 1 |t|)
+hlog : Real.log (max 1 |t|) ≤ 2 * (1 + |t|) ^ (1 / 2)
+hpow : 1 ≤ (1 + |t|) ^ (1 / 2)
+⊢ 3 * (1 + |t|) ^ (1 / 2) * (K / (1 + |t|) ^ ↑2) = 3 * K * (1 + |t|) ^ (-(3 / 2))
+RSBounds/QuadraticContourLimit.lean:151:4: error: Type mismatch
+  Tendsto.comp (tendsto_const_div_atTop_nhds_zero_nat 1) (tendsto_add_atTop_nat 1)
+has type
+  Tendsto ((fun n => 1 / ↑n) ∘ fun a => a + 1) atTop (𝓝 0)
+but is expected to have type
+  Tendsto (fun k => 1 / (↑k + 1)) atTop (𝓝 0)
+RSBounds/QuadraticContourLimit.lean:151:5: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  DivisionSemiring ℕ
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+RSBounds/QuadraticContourLimit.lean:198:13: error: unsolved goals
+P : ℕ → ℝ := fun k => 10.24 + 10 * Real.log (1.25 * (↑k + 24))
+hkTop : Tendsto (fun k => ↑k + 1) atTop atTop
+hInv : Tendsto (fun k => 1 / (↑k + 1)) atTop (𝓝 0)
+hArg : Tendsto (fun k => 1.25 * (↑k + 24)) atTop atTop
+hLog : Tendsto ((fun x => Real.log x / id x) ∘ fun k => 1.25 * (↑k + 24)) atTop (𝓝 0)
+hRatio : Tendsto (fun k => 1.25 * (↑k + 24) / (↑k + 1)) atTop (𝓝 1.25)
+hLogDiv : Tendsto (fun k => Real.log (1.25 * (↑k + 24)) / (↑k + 1)) atTop (𝓝 0)
+hP : Tendsto (fun k => P k / (↑k + 1)) atTop (𝓝 0)
+hMajor : Tendsto (fun k => 11.4 * (P k / (↑k + 1)) ^ 2 + 7.7 * (P k / (↑k + 1)) * (1 / (↑k + 1))) atTop (𝓝 0)
+k : ℕ
+h : HkD BPz2 (k + 1) ≤ 11.4 * P k ^ 2 + 7.7 * P k
+hPk : 10.24 + 10 * Real.log (1.25 * (↑(k + 1) + 23)) = P k
+⊢ P k * (1 + ↑k * 2 + ↑k ^ 2)⁻¹ * (77 / 10) + P k ^ 2 * (1 + ↑k * 2 + ↑k ^ 2)⁻¹ * (57 / 5) =
+    P k * (1 + ↑k)⁻¹ ^ 2 * (77 / 10) + P k ^ 2 * (1 + ↑k)⁻¹ ^ 2 * (57 / 5)

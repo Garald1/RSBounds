@@ -1,0 +1,11 @@
+import RSBounds.PolynomialRemainderGeneral
+
+#print axioms TernaryGoldbach.RSBounds.PolynomialRemainderGeneral.integrableOn_gPositive
+#print axioms TernaryGoldbach.RSBounds.PolynomialRemainderGeneral.integral_gPositive
+#print axioms TernaryGoldbach.RSBounds.PolynomialRemainderGeneral.integrable_gMajorant
+#print axioms TernaryGoldbach.RSBounds.PolynomialRemainderGeneral.integral_gMajorant
+#print axioms TernaryGoldbach.RSBounds.PolynomialRemainderGeneral.norm_averagedIntegrand_le
+#print axioms TernaryGoldbach.RSBounds.PolynomialRemainderGeneral.norm_leftRemainder_le
+#print axioms TernaryGoldbach.RSBounds.PolynomialRemainderGeneral.norm_leftRemainder_le_simple
+#print axioms TernaryGoldbach.RSBounds.PolynomialRemainderGeneral.norm_upper_leftRemainder_le
+#print axioms TernaryGoldbach.RSBounds.PolynomialRemainderGeneral.norm_lower_leftRemainder_le

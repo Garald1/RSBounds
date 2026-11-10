@@ -1,0 +1,9 @@
+'TernaryGoldbach.RSBounds.MertensProductBridge.primeProduct_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensProductBridge.log_primeProduct_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensProductBridge.primeProduct_lt_of_errors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,945 @@
+⚠ [9046/9086] Built RSZeroFreeChallenge (69s)
+warning: comparator/RSZeroFreeChallenge.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: comparator/RSZeroFreeChallenge.lean:16:8: declaration uses `sorry`
+warning: comparator/RSZeroFreeChallenge.lean:20:8: declaration uses `sorry`
+⚠ [9049/9086] Replayed TernaryGoldbach.Explicit.MellinRotate
+warning: TernaryGoldbach/Explicit/MellinRotate.lean: imports `Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/MellinRotate.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/MellinRotate.lean: imports `Mathlib.Analysis.Calculus.ParametricIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/MellinRotate.lean: imports `Mathlib.MeasureTheory.Integral.IntegralEqImproper` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/MellinRotate.lean: imports `Mathlib.MeasureTheory.Integral.Gamma` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/MellinRotate.lean: imports `Mathlib.Analysis.Complex.RealDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/MellinRotate.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/MellinRotate.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/MellinRotate.lean:109:43: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TernaryGoldbach/Explicit/MellinRotate.lean:109:47: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TernaryGoldbach/Explicit/MellinRotate.lean:109:47: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: TernaryGoldbach/Explicit/MellinRotate.lean:506:21: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TernaryGoldbach/Explicit/MellinRotate.lean:506:25: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TernaryGoldbach/Explicit/MellinRotate.lean:506:25: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [9050/9086] Replayed TernaryGoldbach.Explicit.GMellin
+warning: TernaryGoldbach/Explicit/GMellin.lean: imports `Mathlib.Analysis.MellinInversion` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9051/9086] Replayed TernaryGoldbach.Explicit.Landau
+warning: TernaryGoldbach/Explicit/Landau.lean: imports `Mathlib.Analysis.Complex.JensenFormula` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/Landau.lean: imports `Mathlib.Analysis.Complex.BorelCaratheodory` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/Landau.lean: imports `Mathlib.Analysis.Complex.HasPrimitives` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/Landau.lean: imports `Mathlib.Analysis.Complex.Liouville` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/Landau.lean: imports `Mathlib.Analysis.Complex.AbsMax` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/Landau.lean: imports `Mathlib.Analysis.Calculus.LogDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9052/9086] Replayed TernaryGoldbach.Explicit.RectResidue
+warning: TernaryGoldbach/Explicit/RectResidue.lean: imports `Mathlib.Analysis.Complex.CauchyIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/RectResidue.lean: imports `Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/RectResidue.lean: imports `Mathlib.Analysis.Calculus.DSlope` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9053/9086] Replayed TernaryGoldbach.Statement
+warning: TernaryGoldbach/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9054/9086] Replayed TernaryGoldbach.CircleMethod
+warning: TernaryGoldbach/CircleMethod.lean:355:13: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [F, abs_e]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9055/9086] Replayed TernaryGoldbach.MinorArcs.Montgomery
+warning: TernaryGoldbach/MinorArcs/Montgomery.lean:66:38: Variable name `hg` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hg
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/MinorArcs/Montgomery.lean:125:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/MinorArcs/Montgomery.lean:125:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/MinorArcs/Montgomery.lean:126:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/MinorArcs/Montgomery.lean:126:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9057/9086] Replayed TernaryGoldbach.Explicit.LGrowth
+warning: TernaryGoldbach/Explicit/LGrowth.lean: imports `Mathlib.NumberTheory.LSeries.SumCoeff` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/LGrowth.lean: imports `Mathlib.NumberTheory.LSeries.DirichletContinuation` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/LGrowth.lean: imports `Mathlib.Analysis.SpecialFunctions.ImproperIntegrals` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/LGrowth.lean: imports `Mathlib.MeasureTheory.Function.Floor` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/LGrowth.lean:152:73: Variable name `s` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _s
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9058/9086] Replayed TernaryGoldbach.Explicit.LGrowthLeft
+warning: TernaryGoldbach/Explicit/LGrowthLeft.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/LGrowthLeft.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.Deligne` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/LGrowthLeft.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/LGrowthLeft.lean:56:26: This simp argument is unused:
+  add_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Complex.mul_re]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: TernaryGoldbach/Explicit/LGrowthLeft.lean:169:73: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: TernaryGoldbach/Explicit/LGrowthLeft.lean:274:57: Unused tactic linter: `push_cast` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9059/9086] Replayed TernaryGoldbach.Explicit.ZeroCount
+warning: TernaryGoldbach/Explicit/ZeroCount.lean: imports `Mathlib.Analysis.Complex.JensenFormula` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/ZeroCount.lean: imports `Mathlib.NumberTheory.ZetaValues` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/ZeroCount.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9065/9086] Replayed TernaryGoldbach.Explicit.GammaBounds
+warning: TernaryGoldbach/Explicit/GammaBounds.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9066/9086] Replayed TernaryGoldbach.Explicit.LGrowthPoly
+info: TernaryGoldbach/Explicit/LGrowthPoly.lean:69:73: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: TernaryGoldbach/Explicit/LGrowthPoly.lean:56:40: Variable name `h1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/LGrowthPoly.lean:223:57: Unused tactic linter: `push_cast` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9069/9086] Replayed TernaryGoldbach.Prelim.PlancherelReal
+warning: TernaryGoldbach/Prelim/PlancherelReal.lean: imports `Mathlib.Analysis.Fourier.LpSpace` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PlancherelReal.lean: imports `Mathlib.Analysis.Distribution.TemperedDistribution` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PlancherelReal.lean: imports `Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9071/9086] Replayed TernaryGoldbach.Explicit.LineZeros
+warning: TernaryGoldbach/Explicit/LineZeros.lean:84:59: Variable name `hZ0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hZ0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9072/9086] Replayed TernaryGoldbach.Explicit.ZeroSumBound
+warning: TernaryGoldbach/Explicit/ZeroSumBound.lean:98:47: Variable name `hab` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hab
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/ZeroSumBound.lean:153:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Explicit/ZeroSumBound.lean:170:53: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/ZeroSumBound.lean:291:24: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9075/9086] Replayed TernaryGoldbach.Explicit.Digamma
+warning: TernaryGoldbach/Explicit/Digamma.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.Digamma` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/Digamma.lean: imports `Mathlib.Analysis.SpecialFunctions.ImproperIntegrals` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/Digamma.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/Digamma.lean: imports `Mathlib.MeasureTheory.Integral.Prod` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9078/9086] Replayed TernaryGoldbach.Explicit.LogNumerics
+warning: TernaryGoldbach/Explicit/LogNumerics.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9079/9086] Replayed TernaryGoldbach.Explicit.XiPartial
+warning: TernaryGoldbach/Explicit/XiPartial.lean:103:17: Variable name `w` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _w
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/XiPartial.lean:108:18: Variable name `s` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _s
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/XiPartial.lean:109:18: Variable name `s` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _s
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/XiPartial.lean:681:35: This simp argument is unused:
+  map_div₀
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [map_add, map_mul, map_sub, map_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9081/9086] Replayed TernaryGoldbach.Explicit.ZeroFreeRegion
+warning: TernaryGoldbach/Explicit/ZeroFreeRegion.lean:130:34: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9082/9086] Replayed RSBounds.RS75Polynomial
+warning: RSBounds/RS75Polynomial.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/RS75Polynomial.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9083/9086] Replayed RSBounds.RS75DirichletPositivity
+warning: RSBounds/RS75DirichletPositivity.lean:53:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/RS75DirichletPositivity.lean:72:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9084/9169] Replayed RSBounds.IEANTNGamma.GaussSeries
+warning: RSBounds/IEANTNGamma/GaussSeries.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.Digamma` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/IEANTNGamma/GaussSeries.lean: imports `Mathlib.Analysis.PSeries` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9086/9169] Replayed RSBounds.IEANTNGamma.RealAsymptotic
+warning: RSBounds/IEANTNGamma/RealAsymptotic.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/IEANTNGamma/RealAsymptotic.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/IEANTNGamma/RealAsymptotic.lean: imports `Mathlib.Analysis.Convex.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/IEANTNGamma/RealAsymptotic.lean: imports `Mathlib.Analysis.Calculus.Deriv.MeanValue` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9087/9169] Replayed RSBounds.IEANTNGamma.ComplexToReal
+warning: RSBounds/IEANTNGamma/ComplexToReal.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.Digamma` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9089/9169] Replayed RSBounds.IEANTNGamma.Periodic
+warning: RSBounds/IEANTNGamma/Periodic.lean: imports `Mathlib.Analysis.Normed.Group.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/IEANTNGamma/Periodic.lean: imports `Mathlib.Analysis.SpecificLimits.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9091/9169] Replayed RSBounds.IEANTNGamma.Analytic
+warning: RSBounds/IEANTNGamma/Analytic.lean: imports `Mathlib.Analysis.Complex.LocallyUniformLimit` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/IEANTNGamma/Analytic.lean: imports `Mathlib.Analysis.Analytic.IsolatedZeros` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/IEANTNGamma/Analytic.lean: imports `Mathlib.Analysis.Complex.Convex` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9094/9169] Replayed RSBounds.BacklundLowCountGeneric
+warning: RSBounds/BacklundLowCountGeneric.lean: imports `Mathlib.Order.Interval.Finset.Fin` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundLowCountGeneric.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9095/9169] Replayed TernaryGoldbach.Prelim.RamareHarm
+warning: TernaryGoldbach/Prelim/RamareHarm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/RamareHarm.lean:135:41: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9097/9169] Replayed TernaryGoldbach.Prelim.RamareWalk
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:178:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:178:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:179:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:179:44: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:183:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:183:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:184:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:184:44: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9098/9169] Replayed RSBounds.SmallTotientProduct
+warning: RSBounds/SmallTotientProduct.lean:423:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/SmallTotientProduct.lean:423:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/SmallTotientProduct.lean:450:31: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/SmallTotientProduct.lean:471:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/SmallTotientProduct.lean:471:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/SmallTotientProduct.lean:472:62: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/SmallTotientProduct.lean:493:8: Unused tactic linter: `simp only at hw` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9099/9169] Replayed RSBounds.WeightedZeroSums
+warning: RSBounds/WeightedZeroSums.lean: imports `Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/WeightedZeroSums.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/WeightedZeroSums.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/WeightedZeroSums.lean:272:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/WeightedZeroSums.lean:272:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/WeightedZeroSums.lean:284:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/WeightedZeroSums.lean:284:8: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/WeightedZeroSums.lean:284:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [9100/9169] Replayed RSBounds.BacklundLowScalarBase
+warning: RSBounds/BacklundLowScalarBase.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9102/9169] Replayed RSBounds.BacklundLowMainTerm
+warning: RSBounds/BacklundLowMainTerm.lean: imports `Mathlib.Analysis.Calculus.Deriv.MeanValue` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9103/9169] Replayed ZetaLean.HardyZ
+warning: vendor/rh100/ZetaLean/HardyZ.lean:122:46: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/rh100/ZetaLean/HardyZ.lean:122:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9109/9169] Replayed ZetaLean.IntervalCExp
+warning: vendor/rh100/ZetaLean/IntervalCExp.lean:411:60: Variable name `hnL` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hnL
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9149/9169] Replayed RSBounds.BacklundCountRectangle
+warning: RSBounds/BacklundCountRectangle.lean:34:39: Variable name `hT` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hT
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: RSBounds/BacklundCountRectangle.lean:87:51: Variable name `hT` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hT
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9150/9169] Replayed RSBounds.BacklundCountHalving
+warning: RSBounds/BacklundCountHalving.lean:114:26: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_im, mul_re, ofReal_re, ofReal_im, natCast_re, natCast_im, I_re, I_im, mul_zero, sub_zero,
+    add_zero, zero_add] at hr
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9152/9169] Replayed RSBounds.BacklundCountPole
+warning: RSBounds/BacklundCountPole.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.InverseDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundCountPole.lean:38:15: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/BacklundCountPole.lean:38:19: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/BacklundCountPole.lean:38:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/BacklundCountPole.lean:57:25: This simp argument is unused:
+  add_im
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [poleKernel, add_re, he]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9153/9169] Replayed RSBounds.BacklundGammaPhaseBase
+warning: RSBounds/BacklundGammaPhaseBase.lean: imports `Mathlib.Analysis.Complex.CauchyIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundGammaPhaseBase.lean:106:23: This simp argument is unused:
+  sub_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Complex.div_ofNat_re, Complex.one_re, Complex.div_ofNat_im, Complex.one_im, zero_div,
+    Complex.add_re, Complex.ofReal_re, Complex.mul_I_re, Complex.ofReal_im, Complex.add_im, Complex.mul_I_im, zero_add,
+    neg_zero, add_zero] at him
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9154/9169] Replayed RSBounds.BacklundCountIdentity
+warning: RSBounds/BacklundCountIdentity.lean:66:2: Unused tactic linter: `push_cast` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9160/9169] Replayed Zeta23.Statement
+warning: vendor/rh100/Zeta23/Statement.lean:152:30: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [9161/9169] Replayed Zeta23.Statement.Seam
+warning: vendor/rh100/Zeta23/Statement/Seam.lean:63:13: `ENat.toNat_coe` has been deprecated: Use `ENat.toNat_natCast` instead
+
+Hint: Replace the deprecated name:
+  ENat.toNat_c̵o̵e̵n̲a̲t̲C̲a̲s̲t̲
+⚠ [9162/9169] Replayed Zeta23.ZetaReflect
+warning: vendor/rh100/Zeta23/ZetaReflect.lean:95:17: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [9167/9169] Replayed Zeta23.FromPNTPlus.StrongPNTPrefix
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:66:71: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:126:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:126:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:212:9: `Set.setOf_subset_setOf` has been deprecated: Use `Set.ofPred_subset_ofPred` instead
+
+Hint: Replace the deprecated name:
+  s̵e̵t̵O̵f̵_̵s̵u̵b̵s̵e̵t̵_̵s̵e̵t̵O̵f̵o̲f̲P̲r̲e̲d̲_̲s̲u̲b̲s̲e̲t̲_̲o̲f̲P̲r̲e̲d̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:286:14: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:294:14: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:353:10: `Set.notMem_setOf_iff` has been deprecated: Use `Set.notMem_ofPred_iff` instead
+
+Hint: Replace the deprecated name:
+  n̵o̵t̵M̵e̵m̵_̵s̵e̵t̵O̵f̵_̵i̵f̵f̵n̲o̲t̲M̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲i̲f̲f̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:378:48: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:400:10: `Set.notMem_setOf_iff` has been deprecated: Use `Set.notMem_ofPred_iff` instead
+
+Hint: Replace the deprecated name:
+  n̵o̵t̵M̵e̵m̵_̵s̵e̵t̵O̵f̵_̵i̵f̵f̵n̲o̲t̲M̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲i̲f̲f̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:442:48: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [9171/9246] Replayed Zeta23.FromPNTPlus.Fourier
+warning: vendor/rh100/Zeta23/FromPNTPlus/Fourier.lean:33:94: This simp argument is unused:
+  Circle.norm_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9177/9246] Replayed Zeta23.FromPNTPlus.ZetaBounds
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:864:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:957:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1097:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1104:32: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1110:56: `Set.preimage_setOf_eq` has been deprecated: Use `Set.preimage_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  p̵r̵e̵i̵m̵a̵g̵e̵_̵s̵e̵t̵O̵f̵_̵e̵q̵p̲r̲e̲i̲m̲a̲g̲e̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1120:56: `Set.preimage_setOf_eq` has been deprecated: Use `Set.preimage_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  p̵r̵e̵i̵m̵a̵g̵e̵_̵s̵e̵t̵O̵f̵_̵e̵q̵p̲r̲e̲i̲m̲a̲g̲e̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1124:17: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1140:54: `Set.preimage_setOf_eq` has been deprecated: Use `Set.preimage_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  p̵r̵e̵i̵m̵a̵g̵e̵_̵s̵e̵t̵O̵f̵_̵e̵q̵p̲r̲e̲i̲m̲a̲g̲e̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1162:22: `Set.setOf_subset_setOf` has been deprecated: Use `Set.ofPred_subset_ofPred` instead
+
+Hint: Replace the deprecated name:
+  s̵e̵t̵O̵f̵_̵s̵u̵b̵s̵e̵t̵_̵s̵e̵t̵O̵f̵o̲f̲P̲r̲e̲d̲_̲s̲u̲b̲s̲e̲t̲_̲o̲f̲P̲r̲e̲d̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1174:15: `Set.setOf_subset_setOf` has been deprecated: Use `Set.ofPred_subset_ofPred` instead
+
+Hint: Replace the deprecated name:
+  s̵e̵t̵O̵f̵_̵s̵u̵b̵s̵e̵t̵_̵s̵e̵t̵O̵f̵o̲f̲P̲r̲e̲d̲_̲s̲u̲b̲s̲e̲t̲_̲o̲f̲P̲r̲e̲d̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1174:59: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1190:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1840:19: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1842:45: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1845:28: `Set.setOf_subset_setOf` has been deprecated: Use `Set.ofPred_subset_ofPred` instead
+
+Hint: Replace the deprecated name:
+  s̵e̵t̵O̵f̵_̵s̵u̵b̵s̵e̵t̵_̵s̵e̵t̵O̵f̵o̲f̲P̲r̲e̲d̲_̲s̲u̲b̲s̲e̲t̲_̲o̲f̲P̲r̲e̲d̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1849:28: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1905:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1911:20: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:2096:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:2889:17: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:2901:41: `ENNReal.addLECancellable_iff_ne` has been deprecated: Use `ENNReal.addLECancellable_iff_ne_top` instead
+
+Hint: Replace the deprecated name:
+  ENNReal.addLECancellable_iff_ne_̲t̲o̲p̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:2945:17: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:2956:41: `ENNReal.addLECancellable_iff_ne` has been deprecated: Use `ENNReal.addLECancellable_iff_ne_top` instead
+
+Hint: Replace the deprecated name:
+  ENNReal.addLECancellable_iff_ne_̲t̲o̲p̲
+⚠ [9179/9246] Replayed Zeta23.RvM.Halving
+warning: vendor/rh100/Zeta23/RvM/Halving.lean:56:55: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/RvM/Halving.lean:66:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/RvM/Halving.lean:74:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [9185/9246] Replayed Zeta23.RvM.ReZeroCount
+warning: vendor/rh100/Zeta23/RvM/ReZeroCount.lean:276:15: `ENat.toNat_coe` has been deprecated: Use `ENat.toNat_natCast` instead
+
+Hint: Replace the deprecated name:
+  ENat.toNat_c̵o̵e̵n̲a̲t̲C̲a̲s̲t̲
+⚠ [9186/9246] Replayed Zeta23.RvM.Backlund
+warning: vendor/rh100/Zeta23/RvM/Backlund.lean:127:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9190/9246] Replayed Zeta23.RvM.NcountWindow
+warning: vendor/rh100/Zeta23/RvM/NcountWindow.lean:27:22: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+ℹ [9198/9246] Replayed Zeta23.GammaFacts.Mu
+info: vendor/rh100/Zeta23/GammaFacts/Mu.lean:141:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+ℹ [9199/9246] Replayed Zeta23.GammaFacts.StirlingVert
+info: vendor/rh100/Zeta23/GammaFacts/StirlingVert.lean:457:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+⚠ [9214/9246] Replayed RSBounds.RosserCountDefinition
+warning: RSBounds/RosserCountDefinition.lean:35:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/RosserCountDefinition.lean:45:13: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [9217/9246] Replayed RSBounds.ZetaZeroTableHead
+warning: RSBounds/ZetaZeroTableHead.lean: imports `Mathlib.Data.Rat.BigOperators` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9219/9246] Replayed RSBounds.RS75RealAxisGamma
+warning: RSBounds/RS75RealAxisGamma.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/RS75RealAxisGamma.lean:63:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/RS75RealAxisGamma.lean:63:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75RealAxisGamma.lean:63:8: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75RealAxisGamma.lean:97:68: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/RS75RealAxisGamma.lean:97:68: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9221/9246] Replayed RSBounds.RS75RealAxisLogDerivative
+warning: RSBounds/RS75RealAxisLogDerivative.lean: imports `Mathlib.NumberTheory.Harmonic.ZetaAsymp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/RS75RealAxisLogDerivative.lean:47:34: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [h] at hs
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [9222/9246] Replayed RSBounds.BacklundTrapezoid
+warning: RSBounds/BacklundTrapezoid.lean: imports `Mathlib.MeasureTheory.Integral.IntervalIntegral.TrapezoidalRule` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundTrapezoid.lean: imports `Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundTrapezoid.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundTrapezoid.lean:38:13: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/BacklundTrapezoid.lean:38:13: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9223/9246] Replayed RSBounds.InfiniteTrapezoid
+warning: RSBounds/InfiniteTrapezoid.lean: imports `Mathlib.MeasureTheory.Integral.IntegralEqImproper` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9224/9246] Replayed RSBounds.RS75MomentCalculus
+warning: RSBounds/RS75MomentCalculus.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/RS75MomentCalculus.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/RS75MomentCalculus.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/RS75MomentCalculus.lean:44:2: Unused tactic linter: `all_goals
+  try { funext u; rfl
+  }` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75MomentCalculus.lean:44:28: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/RS75MomentCalculus.lean:179:6: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75MomentCalculus.lean:179:10: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75MomentCalculus.lean:187:6: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75MomentCalculus.lean:196:6: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75MomentCalculus.lean:179:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/RS75MomentCalculus.lean:187:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/RS75MomentCalculus.lean:196:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9225/9246] Replayed RSBounds.RS75GoldenSeries
+warning: RSBounds/RS75GoldenSeries.lean: imports `Mathlib.NumberTheory.LSeries.Dirichlet` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/RS75GoldenSeries.lean: imports `Mathlib.NumberTheory.LSeries.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/RS75GoldenSeries.lean: imports `Mathlib.Analysis.Complex.RealDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/RS75GoldenSeries.lean: imports `Mathlib.Analysis.Calculus.LogDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/RS75GoldenSeries.lean: imports `Mathlib.Analysis.Calculus.Deriv.MeanValue` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/RS75GoldenSeries.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/RS75GoldenSeries.lean:93:5: Variable name `hc` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hc
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9226/9246] Replayed RSBounds.QuarticBudgetNumericsBase
+warning: RSBounds/QuarticBudgetNumericsBase.lean:72:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/QuarticBudgetNumericsBase.lean:73:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/QuarticBudgetNumericsBase.lean:72:38: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/QuarticBudgetNumericsBase.lean:73:38: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9227/9246] Replayed RSBounds.BacklundCenter
+warning: RSBounds/BacklundCenter.lean: imports `Mathlib.NumberTheory.EulerProduct.DirichletLSeries` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundCenter.lean: imports `Mathlib.Topology.Algebra.InfiniteSum.Field` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundCenter.lean: imports `Mathlib.Topology.Algebra.Order.Field` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundCenter.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9228/9246] Replayed RSBounds.BacklundCenterNumericsBase
+warning: RSBounds/BacklundCenterNumericsBase.lean: imports `Mathlib.Analysis.SumIntegralComparisons` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundCenterNumericsBase.lean: imports `Mathlib.Analysis.SpecialFunctions.ImproperIntegrals` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundCenterNumericsBase.lean:32:47: This simp argument is unused:
+  Nat.add_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [rpowSum, Finset.sum_range_succ', ih, add_comm, add_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: RSBounds/BacklundCenterNumericsBase.lean:91:40: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9230/9246] Replayed RSBounds.RS75GoldenNumerics
+warning: RSBounds/RS75GoldenNumerics.lean:1142:90: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/RS75GoldenNumerics.lean:1142:90: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75GoldenNumerics.lean:1155:88: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/RS75GoldenNumerics.lean:1155:88: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75GoldenNumerics.lean:1168:90: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/RS75GoldenNumerics.lean:1168:90: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75GoldenNumerics.lean:1181:90: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/RS75GoldenNumerics.lean:1181:90: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75GoldenNumerics.lean:1194:88: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/RS75GoldenNumerics.lean:1194:88: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75GoldenNumerics.lean:1207:88: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/RS75GoldenNumerics.lean:1207:88: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9232/9246] Replayed RSBounds.RS75Parameters
+warning: RSBounds/RS75Parameters.lean: imports `Mathlib.Analysis.Real.Sqrt` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/RS75Parameters.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/RS75Parameters.lean:66:2: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75Parameters.lean:66:6: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75Parameters.lean:66:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/RS75Parameters.lean:115:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75Parameters.lean:115:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9234/9246] Replayed RSBounds.BacklundDigammaSeriesAdapter
+warning: RSBounds/BacklundDigammaSeriesAdapter.lean: imports `Mathlib.NumberTheory.Harmonic.EulerMascheroni` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9235/9246] Replayed RSBounds.BacklundDigammaStirling
+warning: RSBounds/BacklundDigammaStirling.lean: imports `Mathlib.NumberTheory.Harmonic.EulerMascheroni` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundDigammaStirling.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundDigammaStirling.lean: imports `Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundDigammaStirling.lean: imports `Mathlib.Analysis.SumIntegralComparisons` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundDigammaStirling.lean: imports `Mathlib.Analysis.PSeries` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: RSBounds/BacklundDigammaStirling.lean:454:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+⚠ [9237/9246] Replayed RSBounds.RS75Frequency
+warning: RSBounds/RS75Frequency.lean:91:42: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75Frequency.lean:91:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9239/9246] Replayed RSBounds.RS75ZeroFreeNumerics
+warning: RSBounds/RS75ZeroFreeNumerics.lean:144:133: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:144:129: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:144:133: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:165:133: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:165:129: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:165:133: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:186:133: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:186:129: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:186:133: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:207:133: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:207:129: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:207:133: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:221:133: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:221:129: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:221:133: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:235:133: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:235:129: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:235:133: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:249:133: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:249:129: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:249:133: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:263:133: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:263:129: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:263:133: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:277:133: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:277:129: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeNumerics.lean:277:133: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9240/9246] Replayed RSBounds.RS75ZeroFreeScalars
+warning: RSBounds/RS75ZeroFreeScalars.lean:38:60: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/RS75ZeroFreeScalars.lean:38:60: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeScalars.lean:100:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/RS75ZeroFreeScalars.lean:100:2: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeScalars.lean:112:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/RS75ZeroFreeScalars.lean:112:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9241/9246] Replayed RSBounds.RS75ZeroFreeOptimization
+warning: RSBounds/RS75ZeroFreeOptimization.lean:25:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/RS75ZeroFreeOptimization.lean:25:2: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeOptimization.lean:25:6: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeOptimization.lean:30:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/RS75ZeroFreeOptimization.lean:30:2: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeOptimization.lean:30:6: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeOptimization.lean:74:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: RSBounds/RS75ZeroFreeOptimization.lean:68:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/RS75ZeroFreeOptimization.lean:68:23: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeOptimization.lean:74:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFreeOptimization.lean:74:8: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9242/9246] Replayed RSBounds.Targets
+warning: RSBounds/Targets.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Targets.lean: imports `Mathlib.NumberTheory.Harmonic.EulerMascheroni` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Targets.lean: imports `Mathlib.Data.Nat.Totient` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Targets.lean: imports `Mathlib.NumberTheory.LSeries.RiemannZeta` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9243/9246] Replayed RSBounds.RS75FiniteHandoff
+warning: RSBounds/RS75FiniteHandoff.lean: imports `Mathlib.NumberTheory.LSeries.Nonvanishing` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9244/9246] Replayed RSBounds.RS75ZeroFree1975
+warning: RSBounds/RS75ZeroFree1975.lean:175:6: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/RS75ZeroFree1975.lean:175:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9245/9246] Built RSZeroFreeSolution (25s)
+Build completed successfully (9246 jobs).

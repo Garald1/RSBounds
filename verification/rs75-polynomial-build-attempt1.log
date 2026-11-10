@@ -1,0 +1,21 @@
+✖ [3137/3137] Building RSBounds.RS75Polynomial (2.6s)
+warning: RSBounds/RS75Polynomial.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/RS75Polynomial.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+trace: .> LEAN_PATH=/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/Cli/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/batteries/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/Qq/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/aesop/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/plausible/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/recovery/.lake/build/lib/lean /workspace/scratch/99a161e7c02e/.tools/elan-home/toolchains/leanprover--lean4---v4.35.0/bin/lean /workspace/scratch/99a161e7c02e/recovery/RSBounds/RS75Polynomial.lean -o /workspace/scratch/99a161e7c02e/recovery/.lake/build/lib/lean/RSBounds/RS75Polynomial.olean -i /workspace/scratch/99a161e7c02e/recovery/.lake/build/lib/lean/RSBounds/RS75Polynomial.ilean -c /workspace/scratch/99a161e7c02e/recovery/.lake/build/ir/RSBounds/RS75Polynomial.c --setup /workspace/scratch/99a161e7c02e/recovery/.lake/build/ir/RSBounds/RS75Polynomial.setup.json --json
+info: RSBounds/RS75Polynomial.lean:49:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+error: RSBounds/RS75Polynomial.lean:45:61: unsolved goals
+θ : ℝ
+⊢ -116425961624359 / 78125000000000 + Real.cos θ * (18761500017 / 3906250000) + Real.cos θ ^ 2 * (36488087 / 1562500) +
+        Real.cos θ ^ 3 * (11892 / 625) +
+      Real.cos (θ * 2) ^ 2 * 2 =
+    39824038375641 / 78125000000000 + Real.cos θ * (18761500017 / 3906250000) + Real.cos θ ^ 2 * (23988087 / 1562500) +
+        Real.cos θ ^ 3 * (11892 / 625) +
+      Real.cos θ ^ 4 * 8
+Some required targets logged failures:
+- RSBounds.RS75Polynomial
+error: build failed

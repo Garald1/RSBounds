@@ -1,0 +1,9 @@
+import RSBounds.SchoenfeldWeightedZeros
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldWeightedZeros.weightedSum_le_increasing
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldWeightedZeros.weightedSum_le_increasing_main
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldWeightedZeros.weightedSum_le_decreasing_q
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldWeightedZeros.d_pos
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldWeightedZeros.log_height_split
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldWeightedZeros.Phi_mul_log_eq_heightIntegrand
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldWeightedZeros.near_sum_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldWeightedZeros.far_sum_le

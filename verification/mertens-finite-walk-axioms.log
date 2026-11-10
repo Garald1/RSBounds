@@ -1,0 +1,13 @@
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.Sp_eq_primeWeightedSum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.check_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.Inv_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.walk_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.Inv_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.mertens_lower_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.mertens_lower_of_Inv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

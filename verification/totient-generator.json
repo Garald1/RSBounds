@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-11-06T08:08:51.309972+00:00",
+  "command": [
+    "python",
+    "scripts/gen_small_totient_product.py"
+  ],
+  "reproduces_checked_source_byte_for_byte": true,
+  "sha256": {
+    "RSBounds/SmallTotientProduct.lean": "441e7b4741a27148478caba16cfbafa0d1632ecb01e3d1ebe5f1c72b18769460",
+    "scripts/gen_small_totient_product.py": "affd1ff67a6be287126698e1cc4c1cafbbdd072e9de917a0480a7cb9a40f4a45",
+    "scripts/SmallMertensProd.tmpl": "c9c5a73035c7a5f6cee3d6510421f665119241a27ccf3c02a844836fcdd095b6"
+  }
+}

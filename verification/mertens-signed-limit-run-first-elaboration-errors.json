@@ -1,0 +1,32 @@
+{
+  "kind": "fresh-mertens-signed-limit-build-with-in-process-transitive-axiom-audit",
+  "started_utc": "2026-11-06T20:12:23.046269+00:00",
+  "source_sha256": {
+    "RSBounds/MertensSignedLimit.lean": "304aa73841a527a2a126722e23413b402cccac69318b707a8bddca376c289b01",
+    "RSBounds/MertensZeroPotential.lean": "5bdf231ca3d884aaa0e4d9bc486f3e7010200f60d077748832cb06e98274fa98",
+    "RSBounds/MertensEndpointLeft.lean": "b5213c334c91e93ab32b2705a5b6cdcdd4881e4cff9e7fed5d1a823b65a757a7",
+    "RSBounds/PolynomialPsiFromZeroSums.lean": "75852c697246a5e4bfbf0d25d1eb2b813d86cbce54b55f58ec16c7d592f1ac36",
+    "verification/MertensSignedLimitAudit.lean": "029072b010ab1da117eacea71ea186f9f1b965a8d1e96937886264ed4f7efcea",
+    "verification/run_mertens_signed_limit_check.py": "d3bcbe711edba5c959afdddd6d8596ba7343e4b1d11725ca0b909760447939ae"
+  },
+  "stdin_recipe": "Exact source plus 5 fully qualified #print axioms commands.",
+  "stdin_sha256": "a806f411a47e128ceb9169a1aebcc2f8afd56bcf27087d6fb4a93495833f173f",
+  "runs": [
+    {
+      "command": [
+        "lean",
+        "-j1",
+        "-Dprofiler=true",
+        "--stdin",
+        "-o",
+        ".lake/build/lib/lean/RSBounds/MertensSignedLimit.olean",
+        "RSBounds/MertensSignedLimit.lean"
+      ],
+      "log": "verification/mertens-signed-limit-build.log",
+      "exit_code": 1,
+      "seconds": 258.38079858400306
+    }
+  ],
+  "build_exit_code": 1,
+  "exit_code": 1
+}

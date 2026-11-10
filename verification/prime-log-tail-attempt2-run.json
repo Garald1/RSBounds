@@ -1,0 +1,29 @@
+{
+  "kind": "fresh-prime-log-tail-source-with-in-process-transitive-axiom-audit",
+  "started_utc": "2026-11-06T20:48:03.527163+00:00",
+  "source_sha256": {
+    "RSBounds/PrimeLogTail.lean": "dcbdf9bc2e6aa5e2195546b5957e0dca52ae3be1bac0026b359aec9d7d7c54f8",
+    "verification/PrimeLogTailAudit.lean": "be7064f0aaf636e7f19575c485fbea87ae801378532223a66b4208d6594a3ecc",
+    "verification/run_mertens_product_correction_check.py": "21d9b7584fa9e0a5ab7899f90a2719eeb40c7cc0c303ece5bb3840986a1d8bb9"
+  },
+  "stdin_recipe": "Exact source plus 3 fully qualified #print axioms commands.",
+  "stdin_sha256": "ae2dab69fb896263de3af2c8eaeed43e7b25b93fe33309034f4f2aa0624ab303",
+  "runs": [
+    {
+      "command": [
+        "lean",
+        "-j1",
+        "-Dprofiler=true",
+        "--stdin",
+        "-o",
+        ".lake/build/lib/lean/RSBounds/PrimeLogTail.olean",
+        "RSBounds/PrimeLogTail.lean"
+      ],
+      "log": "verification/prime-log-tail-build.log",
+      "exit_code": 1,
+      "seconds": 8.507868862994656
+    }
+  ],
+  "exit_code": 1,
+  "build_exit_code": 1
+}

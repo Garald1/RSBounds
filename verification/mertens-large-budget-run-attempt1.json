@@ -1,0 +1,31 @@
+{
+  "kind": "fresh-mertens-large-budget-build-with-in-process-transitive-axiom-audit",
+  "started_utc": "2026-11-06T21:09:16.751857+00:00",
+  "source_sha256": {
+    "RSBounds/MertensLargeBudget.lean": "a771d5f251713f153d9c9927a786a47b7048b5eca8e0432acf36e17c24850e61",
+    "RSBounds/MertensPotentialDecay.lean": "c4cac720b55a75c5d24483971f3f0eaba7d16ee24fd3cb94b39f794e8faad0c8",
+    "RSBounds/MertensDecayScalars.lean": "acf3eb5ff93389fe93385d44e3095ab160924308bc25d0c7ba7d986ee0d9ff44",
+    "verification/MertensLargeBudgetAudit.lean": "706858da341f2da719d6dd262ffca264c2183b369fc57537da7295049c9d6c2c",
+    "verification/run_mertens_large_budget_check.py": "d867a0222346be77c482b9b015170dd0254e5aba01d9177eeb2754303ca1b35f"
+  },
+  "stdin_recipe": "Exact source plus 6 fully qualified #print axioms commands.",
+  "stdin_sha256": "7fd869424f1d364da7a86ca7331d549ca1dbfe237587b5ea04083b2e13823428",
+  "runs": [
+    {
+      "command": [
+        "lean",
+        "-j1",
+        "-Dprofiler=true",
+        "--stdin",
+        "-o",
+        ".lake/build/lib/lean/RSBounds/MertensLargeBudget.olean",
+        "RSBounds/MertensLargeBudget.lean"
+      ],
+      "log": "verification/mertens-large-budget-build.log",
+      "exit_code": 1,
+      "seconds": 526.0981469590042
+    }
+  ],
+  "build_exit_code": 1,
+  "exit_code": 1
+}

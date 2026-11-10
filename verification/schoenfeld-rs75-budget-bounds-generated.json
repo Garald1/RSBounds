@@ -1,0 +1,8 @@
+{
+  "status": "generated; Lean kernel verification required",
+  "nodes": 41,
+  "log_nodes": 3,
+  "highWeight_lower_diagnostic": 3.209123775613642e-06,
+  "highWeight_upper_diagnostic": 3.209123775614278e-06,
+  "highWeight_claimed_bound": "321/100000000"
+}

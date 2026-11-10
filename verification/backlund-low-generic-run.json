@@ -1,0 +1,19 @@
+{
+  "kind": "fresh-local-compilation",
+  "checked_at_utc": "2026-11-06T12:36:06.128383+00:00",
+  "lean_version": "Lean 4.35.0",
+  "modules": [
+    "BacklundLowMainTerm",
+    "BacklundLowCountGeneric"
+  ],
+  "source_sha256": {
+    "RSBounds/BacklundLowMainTerm.lean": "762e69cdae547cd42e6158fa22795d92d0148a506ba49da0918c21e7d694332c",
+    "RSBounds/BacklundLowCountGeneric.lean": "e81aab7ed1c0ba616095019fe5999894121d61d5b03b6b9dfdbea9aae2a5f410"
+  },
+  "build_exit_codes": {
+    "BacklundLowMainTerm": 0,
+    "BacklundLowCountGeneric": 0
+  },
+  "axiom_audit": "Passed in verification/backlund-low-count-run.json; the audited closures use only propext, Classical.choice, Quot.sound.",
+  "result": "Elementary main-term bounds and the generic finite ordered-count lemma are compiled. This receipt does not assert the final actual-zeta finite-height theorem has compiled."
+}

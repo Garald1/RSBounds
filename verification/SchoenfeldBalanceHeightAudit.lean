@@ -1,0 +1,7 @@
+import RSBounds.SchoenfeldBalanceHeight
+
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceHeight.X_ge_of_log_ge
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceHeight.vj0_mul
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceHeight.g_mono
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceHeight.g_at_13_4192
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceHeight.split_height_ge

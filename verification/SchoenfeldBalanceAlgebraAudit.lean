@@ -1,0 +1,10 @@
+import RSBounds.SchoenfeldBalanceAlgebra
+
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceAlgebra.X_div_v_eq
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceAlgebra.exp_neg_X_div_v
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceAlgebra.log_split_height
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceAlgebra.nearPrimitive_eq
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceAlgebra.farPrimitive_eq
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceAlgebra.Phi_eq
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceAlgebra.window
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceAlgebra.X_sq

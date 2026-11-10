@@ -1,0 +1,106 @@
+import took 4.5s
+RSBounds/RosserCubicTail.lean:40:4: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/RosserCubicTail.lean:40:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/RosserCubicTail.lean:59:4: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/RosserCubicTail.lean:59:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/RosserCubicTail.lean:115:48: error: Function expected at
+  positiveZeroCount
+but this term has type
+  ?m.1
+
+Note: Expected a function because this term is being applied to the argument
+  a
+
+Hint: The identifier `positiveZeroCount` is unknown, and Lean's `autoImplicit` option causes an unknown identifier to be treated as an implicitly bound variable with an unknown type. However, the unknown type cannot be a function, and a function is what Lean expects here. This is often the result of a typo or a missing `import` or `open` statement.
+RSBounds/RosserCubicTail.lean:129:13: error: Function expected at
+  positiveZeroCount
+but this term has type
+  x✝
+
+Note: Expected a function because this term is being applied to the argument
+  a
+RSBounds/RosserCubicTail.lean:129:45: error: unsolved goals
+x✝ : Sort u_1
+positiveZeroCount : x✝
+a b : ℝ
+ha : 7 ≤ a
+hab : a ≤ b
+ha0 : 0 < a
+hi : IntervalIntegrable (fun t => -3 / t ^ 4) volume a b
+he :
+  (weightedSum a b fun t => 1 / t ^ 3) ≤
+    (∫ (t : ℝ) in a..b,
+        (Real.log (t / (2 * Real.pi)) / (2 * Real.pi) + (0.137 + 0.443 / Real.log t) / t) * (1 / t ^ 3)) +
+      (rosserF a + rosserR 1.588 a - Rosser1941.positiveZeroCount a) * (1 / a ^ 3)
+⊢ (∫ (t : ℝ) in a..b, (Real.log (t / (2 * Real.pi)) / (2 * Real.pi) + (0.137 + 0.443 / Real.log t) / t) / t ^ 3) +
+      (rosserF a + rosserR 1.588 a - sorry) / a ^ 3 =
+    (∫ (t : ℝ) in a..b, (Real.log (t / (2 * Real.pi)) / (2 * Real.pi) + (0.137 + 0.443 / Real.log t) / t) / t ^ 3) +
+      (rosserF a + rosserR 1.588 a - Rosser1941.positiveZeroCount a) / a ^ 3
+RSBounds/RosserCubicTail.lean:136:19: error(lean.unknownIdentifier): Unknown identifier `positiveZeroCount`
+RSBounds/RosserCubicTail.lean:139:43: error: No goals to be solved
+RSBounds/RosserCubicTail.lean:139:7: error: unsolved goals
+a b : ℝ
+ha : 7 ≤ a
+hab : a ≤ b
+ha0 : 0 ≤ a
+⊢ 0 ≤ a ^ 3
+'TernaryGoldbach.RSBounds.RosserCubicTail.hasDerivAt_reciprocal_cube' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserCubicTail.hasDerivAt_neg_cubicPrimitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserCubicTail.integral_upperDensity_div_cube' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserCubicTail.integral_density_div_cube_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserCubicTail.cubic_sum_le_head' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserCubicTail.cubic_sum_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserCubicTail.cubicAllowance_A_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserCubicTail.cubic_sum_A_lt' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.153ms
+	blocked (unaccounted) 2.73s
+	congr simp thm 1.86ms
+	declTypeLinter 6.98ms
+	dsimp 3.01ms
+	elaboration 97.5ms
+	fix level params 7.18ms
+	import 4.5s
+	initialization 35ms
+	instantiate metavars 2.1ms
+	interpretation 1.08s
+	let-to-have transformation 0.467ms
+	linting 31ms
+	module linting 0.00947ms
+	norm_num 315ms
+	parsing 17.5ms
+	process pre-definitions 57.5ms
+	ring 98.4ms
+	share common exprs 44.2ms
+	simp 31.9ms
+	tactic execution 435ms
+	tacticAnalysis 8.1ms
+	type checking 291ms
+	typeclass inference 738ms

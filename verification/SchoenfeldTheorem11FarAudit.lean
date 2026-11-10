@@ -1,0 +1,8 @@
+import RSBounds.SchoenfeldTheorem11Far
+
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Far.u_bounds
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Far.rosserR_A_bounds
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Far.c0_ge
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Far.far_le_piece
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Far.exp_nat_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Far.far_le

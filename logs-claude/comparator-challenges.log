@@ -1,0 +1,11 @@
+=== 2026-11-07T18:14:14-03:00 lake env lean comparator/RS62GlobalChallenge.lean
+comparator/RS62GlobalChallenge.lean:29:8: warning: declaration uses `sorry`
+comparator/RS62GlobalChallenge.lean:36:8: warning: declaration uses `sorry`
+=== EXIT 0
+=== 2026-11-07T18:15:29-03:00 lake env lean comparator/RSPsiChallenge.lean
+comparator/RSPsiChallenge.lean:15:8: warning: declaration uses `sorry`
+=== EXIT 0
+=== 2026-11-07T18:39:22-03:00 lake env lean comparator/RS62GlobalSolution.lean
+=== EXIT 0
+=== 2026-11-07T18:39:43-03:00 lake env lean comparator/RSPsiSolution.lean
+=== EXIT 0

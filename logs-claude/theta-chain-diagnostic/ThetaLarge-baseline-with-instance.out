@@ -1,0 +1,75 @@
+RSBounds/ThetaLarge.lean:27:2: error: linarith failed to find a contradiction
+inst✝ : Fact RHUpTo
+h : Real.log (BPz2 1894439 / (71 / 200)) ≤ 24627892 / 5
+hl : 1.2039 ≤ Real.log (10 / 3)
+a✝ : 5e6 * Real.log (10 / 3) < Real.log (BPz2 1894439 / 0.355)
+⊢ False
+failed
+RSBounds/ThetaLarge.lean:66:4: error: linarith failed to find a contradiction
+inst✝ : Fact RHUpTo
+a δ x : ℝ
+hx : rexp 1e6 ≤ x
+hδa : δ ^ 2 / 2 + |a| ≤ 1e-6
+hx0 : 0 < x
+L : ℝ := Real.log x
+hLdef : L = Real.log x
+hL : 1e6 ≤ L
+hL0 : 0 < L
+hL4 : 1e24 ≤ L ^ 4
+he : rexp (δ ^ 2 / 2 + |a|) ≤ 1.00001
+hpref : 2 * rexp (δ ^ 2 / 2 + |a|) / 1894439 ≤ 2e-6
+hf : ↑⌊(L ^ 4 / 5 - 1894439) / 4.4⌋₊ ≤ (L ^ 4 / 5 - 1894439) / 4.4
+a✝ : L ^ 4 < ↑⌊(L ^ 4 / 5 - 1894439) / 4.4⌋₊ + 1
+⊢ False
+failed
+RSBounds/ThetaLarge.lean:180:57: error: (deterministic) timeout at `«Mathlib.Tactic.Linarith.SimplexAlgorithm.runSimplexAlgorithm»`, maximum number of heartbeats (200000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+RSBounds/ThetaLarge.lean:182:6: error: (deterministic) timeout at `«tactic execution»`, maximum number of heartbeats (200000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+RSBounds/ThetaLarge.lean:172:72: error: (deterministic) timeout at `«tactic execution»`, maximum number of heartbeats (200000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+RSBounds/ThetaLarge.lean:92:0: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+RSBounds/ThetaLarge.lean:294:0: warning: automatically included section variable(s) unused in theorem `TernaryGoldbach.RSBounds.psiR_eq_chebyshev`:
+  [Fact RHUpTo]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fact RHUpTo] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+RSBounds/ThetaLarge.lean:343:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  Real.log x
+in the target expression
+  |Chebyshev.theta x - x| ≤ 0.1 * x / L
+
+inst✝ : Fact RHUpTo
+hRH : RHUpToHeight 1894439
+x : ℝ
+hxLarge : rexp 1e6 ≤ x
+hx : rexp 35000 ≤ x
+hx0 : 0 < x
+hx1 : 1 ≤ x
+L : ℝ := Real.log x
+hLdef : L = Real.log x
+hL : 35000 ≤ L
+hL0 : 0 < L
+hp : |Chebyshev.psi x - x| ≤ 0.2 * x / L ^ 3
+hsb : 1e20 * L ^ 7 ≤ √x
+hsx : 0 ≤ √x
+hss : √x * √x = x
+h40 : 40 * L ^ 2 ≤ √x
+hdiff : |Chebyshev.psi x - Chebyshev.theta x| ≤ 5e-2 * x / L
+hp' : |Chebyshev.psi x - x| ≤ 5e-2 * x / L
+htri : |Chebyshev.theta x - x| ≤ |Chebyshev.psi x - Chebyshev.theta x| + |Chebyshev.psi x - x|
+⊢ |Chebyshev.theta x - x| ≤ 0.1 * x / L

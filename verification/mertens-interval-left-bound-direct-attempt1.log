@@ -1,0 +1,60 @@
+import took 759s
+elaboration took 116ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Convert___elabRules_Mathlib_Tactic_convert_1._boxed took 294ms
+RSBounds/MertensIntervalLeftBound.lean:46:11: error: `simp` made no progress
+RSBounds/MertensIntervalLeftBound.lean:103:27: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensIntervalLeftBound.lean:103:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'TernaryGoldbach.RSBounds.MertensIntervalLeftBound.integral_Ioi_add_rpow_of_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensIntervalLeftBound.integral_one_add_abs_neg_three_halves' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensIntervalLeftBound.integrable_one_add_abs_neg_three_halves' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensIntervalLeftBound.norm_numerator_left_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensIntervalLeftBound.norm_kernel_left_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensIntervalLeftBound.norm_logDeriv_zeta_left_le_sqrt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensIntervalLeftBound.norm_left_integrand_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensIntervalLeftBound.norm_leftRemainder_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.123ms
+	blocked (unaccounted) 4.95s
+	congr simp thm 3.99ms
+	declTypeLinter 11ms
+	elaboration 690ms
+	fix level params 1.98ms
+	import 759s
+	initialization 231ms
+	instantiate metavars 3.23ms
+	interpretation 3.75s
+	let-to-have transformation 0.212ms
+	linting 53.5ms
+	module linting 0.0226ms
+	norm_num 602ms
+	parsing 17.9ms
+	process pre-definitions 47.4ms
+	ring 105ms
+	share common exprs 39.3ms
+	simp 127ms
+	tactic execution 863ms
+	tacticAnalysis 7.29ms
+	type checking 209ms
+	typeclass inference 1.65s

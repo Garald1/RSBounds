@@ -1,0 +1,3 @@
+import RSPsi1976ConditionalSolution
+#print axioms TernaryGoldbach.RSBounds.PsiTable1976.psi_error_lt
+#print axioms TernaryGoldbach.RSBounds.PsiTable1976.of_certified

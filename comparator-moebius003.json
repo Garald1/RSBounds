@@ -1,0 +1,8 @@
+{
+  "challenge_module": "Moebius003Challenge",
+  "solution_module": "RSBounds.Moebius003.Main",
+  "theorem_names": [
+    "TernaryGoldbach.RSBounds.Moebius003.target"
+  ],
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"]
+}

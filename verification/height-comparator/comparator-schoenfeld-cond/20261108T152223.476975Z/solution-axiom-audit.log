@@ -1,0 +1,24 @@
+'TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.psiThetaLog' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.psiLog' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.psiLogLower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.thetaLogUpper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.thetaLog' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.psiTheorem11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.thetaTheorem11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.psiUpperTheorem11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,135 @@
+import took 243s
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 100ms
+RSBounds/MertensProductCorrection.lean:198:49: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+RSBounds/MertensProductCorrection.lean:198:45: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensProductCorrection.lean:198:49: warning: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensProductCorrection.lean:222:40: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+RSBounds/MertensProductCorrection.lean:229:52: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+RSBounds/MertensProductCorrection.lean:222:36: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensProductCorrection.lean:222:40: warning: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensProductCorrection.lean:229:48: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensProductCorrection.lean:229:52: warning: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+tactic execution of Mathlib.Tactic.nlinarith took 142ms
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+RSBounds/MertensProductCorrection.lean:303:49: error: unsolved goals
+n : ℕ
+hn : 4 ≤ n
+hn0 : 0 < ↑n
+hLn : 0 < log ↑n
+hy0 : 0 < √↑n
+hy1 : 1 < √↑n
+hyn : √↑n ≤ ↑n
+hset : {p ∈ primesTo n | ¬↑p ≤ √↑n} = filter Nat.Prime (Ioc ⌊√↑n⌋₊ ⌊↑n⌋₊)
+p : ℕ
+hp : p ∈ {p ∈ primesTo n | ¬↑p ≤ √↑n}
+hpp : p ∈ primesTo n ∧ ¬↑p ≤ √↑n
+hprime : Nat.Prime p
+hpn : p ≤ n
+hp1 : 1 < ↑p
+hlog : log ↑n ≤ 2 * log ↑p
+hd : 0 < ↑p * (↑p - 1)
+⊢ (-(↑p * 2) + ↑p ^ 2 * 2)⁻¹ = (-↑p + ↑p ^ 2)⁻¹ * (1 / 2)
+RSBounds/MertensProductCorrection.lean:305:60: error: linarith failed to find a contradiction
+n : ℕ
+hn : 4 ≤ n
+hn0 : 0 < ↑n
+hLn : 0 < log ↑n
+hy0 : 0 < √↑n
+hy1 : 1 < √↑n
+hyn : √↑n ≤ ↑n
+hset : {p ∈ primesTo n | ¬↑p ≤ √↑n} = filter Nat.Prime (Ioc ⌊√↑n⌋₊ ⌊↑n⌋₊)
+p : ℕ
+hp : p ∈ {p ∈ primesTo n | ¬↑p ≤ √↑n}
+hpp : p ∈ primesTo n ∧ ¬↑p ≤ √↑n
+hprime : Nat.Prime p
+hpn : p ≤ n
+hp1 : 1 < ↑p
+hlog : log ↑n ≤ 2 * log ↑p
+hd : 0 < ↑p * (↑p - 1)
+a✝ : ?m.458 * log ↑n < ?m.459
+⊢ False
+failed
+RSBounds/MertensProductCorrection.lean:334:41: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+RSBounds/MertensProductCorrection.lean:331:44: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/MertensProductCorrection.lean:331:44: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensProductCorrection.lean:334:37: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensProductCorrection.lean:334:41: warning: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'TernaryGoldbach.RSBounds.MertensProductCorrection.sum_powerMain_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensProductCorrection.correction_le_sum_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensProductCorrection.low_tail_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensProductCorrection.high_tail_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensProductCorrection.primeProduct_correction_bounds' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.139ms
+	blocked (unaccounted) 4.92s
+	compilation (IR) 0.0505ms
+	compilation (LCNF base) 1.76ms
+	compilation (LCNF impure) 0.153ms
+	compilation (LCNF mono) 0.215ms
+	congr simp thm 8.46ms
+	declTypeLinter 6.19ms
+	dsimp 22.6ms
+	elaboration 110ms
+	fix level params 1.98ms
+	import 243s
+	initialization 129ms
+	instantiate metavars 6.36ms
+	interpretation 3.09s
+	let-to-have transformation 0.177ms
+	linting 50.6ms
+	module linting 0.0199ms
+	norm_num 134ms
+	parsing 19.9ms
+	process pre-definitions 37.4ms
+	ring 110ms
+	share common exprs 27.9ms
+	simp 113ms
+	tactic execution 1.1s
+	tacticAnalysis 5.17ms
+	type checking 249ms
+	typeclass inference 1.83s

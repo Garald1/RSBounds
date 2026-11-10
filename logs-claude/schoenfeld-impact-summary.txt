@@ -1,0 +1,53 @@
+Schoenfeld modules after the height change (no Schoenfeld file edited).
+QuadraticZeroKernel fails independently of the height change (its import closure is unchanged).
+
+Schoenfeld1976Large              not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 3)
+Schoenfeld1976Rows2              not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 52)
+Schoenfeld1976Rows23             not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 2)
+Schoenfeld1976Rows4              not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 70)
+Schoenfeld1976Targets            builds   (mentions 1894439: 6)
+SchoenfeldBalanceAlgebra         not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 0)
+SchoenfeldBalanceHeight          not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 14)
+SchoenfeldBalanceMain            not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 0)
+SchoenfeldBalanceTail            not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 3)
+SchoenfeldBalanceV               not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 0)
+SchoenfeldBalanceVNumeric        not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 0)
+SchoenfeldCoefficientPairing     not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 12)
+SchoenfeldLaplacePhysical        builds   (mentions 1894439: 0)
+SchoenfeldLaplaceTails           builds   (mentions 1894439: 0)
+SchoenfeldQuadraticEnvelope      not built; blocked by QuadraticZeroKernel, SchoenfeldZeroSymmetry   (mentions 1894439: 8)
+SchoenfeldQuadraticFar           not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 28)
+SchoenfeldQuadraticKernel        builds   (mentions 1894439: 0)
+SchoenfeldQuadraticLeft          not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 2)
+SchoenfeldQuadraticPairing       not built; blocked by QuadraticZeroKernel, SchoenfeldZeroSymmetry   (mentions 1894439: 4)
+SchoenfeldQuadraticPsi           not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 20)
+SchoenfeldQuarticFar             not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 22)
+SchoenfeldReciprocalSquare       builds (built earlier, in the RS62 closure; see build-1.log)   (mentions 1894439: 0)
+SchoenfeldSquareCutoffs          builds (built earlier, in the RS62 closure; see build-1.log)   (mentions 1894439: 0)
+SchoenfeldTheorem11Analytic      not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 6)
+SchoenfeldTheorem11B23           not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 4)
+SchoenfeldTheorem11Far           not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 62)
+SchoenfeldTheorem11Ge23          not built; blocked by SchoenfeldZeroSymmetry   (mentions 1894439: 12)
+SchoenfeldWeightedZeros          builds   (mentions 1894439: 0)
+SchoenfeldWeightedZerosM         builds   (mentions 1894439: 0)
+SchoenfeldZeroSymmetry           FAILS itself  [height change]   (mentions 1894439: 2)
+SchoenfeldZeroWeights            builds   (mentions 1894439: 0)
+
+SchoenfeldZeroSymmetry fails at lines 74, 89, 92: it passes `1894439 ≤ γ` /
+`1894439 ≤ |ρ.im|` to `RS75ZeroPowerDecay.log_height_pos` and
+`RS75ZeroFree1975.xi_zero_re_lt`, which now take `1894438.5122 ≤ …`. Every
+blocked module above sits downstream of it, so further height mismatches will
+only appear after it is adapted (statically: Schoenfeld1976Rows23 and
+SchoenfeldTheorem11B23 call `RosserSchoenfeld1975.psi_error_b23` with
+`FiniteRH 1894439`; `hRH.mono (by norm_num)` via `Goals.FiniteRH.mono`
+converts such a premise).
+
+QuadraticZeroKernel (not a Schoenfeld file, outside the RS closure) fails at
+lines 58 and 92: a `simpa` left with `1 + δ * 1` where `1 + δ` is expected, and
+a `ring` after the goal is closed. It has no finite-RH hypothesis and imports
+nothing that changed, so this is independent of the height change. Its
+receipts are not passes: schoenfeld-quadratic-kernel-attempt1-run.json exited 1
+with an empty log, schoenfeld-quadratic-kernel-run.json recorded no runs and
+never finished, and schoenfeld-quadratic-consolidation-source-status.json says
+"Kernel retry running after local first-pass fixes". Reported for the
+Schoenfeld chat.

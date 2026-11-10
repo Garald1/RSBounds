@@ -1,0 +1,547 @@
+{
+  "kind": "checked-normalization-square-and-laplace-progress",
+  "created_utc": "2026-11-06T19:18:40.140002+00:00",
+  "parent_sha": "7cd0fdd408890a719a7b7a0e8dfc8af16c0e3e3c",
+  "base_tree_sha": "b8d3646ae5eb1692c75a0a83ded0640f9b661497",
+  "receipts": [
+    "mertens-abel-identity",
+    "mertens-psi-abel",
+    "mellin-abelian-limit",
+    "mertens-limit-normalization",
+    "mertens-centered-normalization",
+    "mertens-d-finite",
+    "rosser-square-tail",
+    "mertens-tail-scalars",
+    "schoenfeld-reciprocal-square",
+    "mertens-interval-left-bound",
+    "rs62-finite-handoff",
+    "schoenfeld-laplace-tails",
+    "schoenfeld-laplace-physical",
+    "schoenfeld-zero-weights"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "1151e071591d57c6fe394ac26bfb896e3f09822a07f6463c2cbb6d38f22f9942",
+      "git_sha": "75c971797691f765135877c5401d0ed3ce35d059",
+      "bytes": 20429
+    },
+    {
+      "path": "RSBounds/MellinAbelianLimit.lean",
+      "sha256": "c32894fb13e0a9fffd8b0115c84cf6da016ce7e2defe0a5e87974c2c2693eaff",
+      "git_sha": "3b6dafacc4c319e4680a1e1a0e9d8066d6b59b4a",
+      "bytes": 2785
+    },
+    {
+      "path": "RSBounds/MertensAbelIdentity.lean",
+      "sha256": "743f7aff4f26e7344e3cbef14fe811c22802b0ee8a56fa3e6f7267bade38df8e",
+      "git_sha": "d547661102b6fd0f07a1102153ddf28d11c62e9f",
+      "bytes": 6476
+    },
+    {
+      "path": "RSBounds/MertensAbelianNormalization.lean",
+      "sha256": "69548eae7c8177123aa2da58bd48bc386e1feaa8e314a18b6e4a5bd3006e29da",
+      "git_sha": "8ca8130808c9076549c9ef78e09e87d9ec23cdd6",
+      "bytes": 7027
+    },
+    {
+      "path": "RSBounds/MertensCenteredNormalization.lean",
+      "sha256": "c0c0d274d4f86d0ac5ca1347b9e1ccd90bcf78c0ce89f6c87ed0cc8d22bf87d7",
+      "git_sha": "81eb50e3c0156909a3cc55693454dd82ab4c1870",
+      "bytes": 1512
+    },
+    {
+      "path": "RSBounds/MertensDFinite.lean",
+      "sha256": "f58876dc7981544962ab12f0c347d9d1c24644fda6ac5edccb01f8c85e0e843e",
+      "git_sha": "7059fa620b1addeae4c1a57d007475c8883b3035",
+      "bytes": 1608
+    },
+    {
+      "path": "RSBounds/MertensIntervalLeftBound.lean",
+      "sha256": "f665f45fd373b2dc49232de804ec6274eb8f93767b852409cf1f8f0ff75255e2",
+      "git_sha": "e709312e47ce72eb0473ebef3ebe7721ef812e45",
+      "bytes": 7776
+    },
+    {
+      "path": "RSBounds/MertensLimitNormalization.lean",
+      "sha256": "b7a165d5d6479ec944553b74ae7c423c91d68970ba7f45aa68bd33a24fe7a2df",
+      "git_sha": "f42ae3f4d0a17e2a95727ac9622fbdef5ccadc48",
+      "bytes": 1262
+    },
+    {
+      "path": "RSBounds/MertensPsiAbel.lean",
+      "sha256": "cc8893163358c92be6c8b0ad9786a3d060d36ba78ae96b1c95e01169865be018",
+      "git_sha": "4a99c2a6cd781d4ec5c1ddeb18f7dc60fa46f26d",
+      "bytes": 6718
+    },
+    {
+      "path": "RSBounds/MertensTailScalars.lean",
+      "sha256": "99340fdf85cfd09bd20931aabab9297094483bf676f9e9c42233aaa1fe3d3fbd",
+      "git_sha": "f931fe3a746e25504ac5ef82317d22cdac0f0c30",
+      "bytes": 3471
+    },
+    {
+      "path": "RSBounds/RS62FiniteHandoff.lean",
+      "sha256": "371cdd896153f58cb2cbf3a8256bee19b76b72f36d8f3bf9d5a4947bc09bf2d5",
+      "git_sha": "853b0d175349b7783ba209c772a4dc1f7bf2d3f6",
+      "bytes": 2569
+    },
+    {
+      "path": "RSBounds/RosserSquareTail.lean",
+      "sha256": "2e464311aaebb537cd18775190d6261fa68d397667ad32b74d3c648a01e1731c",
+      "git_sha": "c9b4827b0fd7ee9c4ab807cdc4d885f87973baed",
+      "bytes": 6792
+    },
+    {
+      "path": "RSBounds/SchoenfeldLaplacePhysical.lean",
+      "sha256": "df4a389d998baaafa5d149e649724bf757474107f3e0b6a89a20e498000e2c51",
+      "git_sha": "fe7e47fdfbce5fde7ef82bf99595b8be859768cf",
+      "bytes": 4043
+    },
+    {
+      "path": "RSBounds/SchoenfeldLaplaceTails.lean",
+      "sha256": "3012da5493e4ad782e5c8ed4cf760fa914a1c68777fcff0f5d7ce8444ac80923",
+      "git_sha": "327c1c4530158968eb64a74d4a07aca1460bfc08",
+      "bytes": 7080
+    },
+    {
+      "path": "RSBounds/SchoenfeldReciprocalSquare.lean",
+      "sha256": "ce2315d8b4fb1a12f52ff2a15ad1bf9c479283dba2f4265d5a86d7cc36d8ec69",
+      "git_sha": "2d3fbc5fa18b2cfd68a8f3bed7a9797a500e21f4",
+      "bytes": 9931
+    },
+    {
+      "path": "RSBounds/SchoenfeldSquareCutoffs.lean",
+      "sha256": "52bf68a1021b9bcf28aa3588c91a5ea56895ef3f2ae2ea129e4e1e9a6e034b8e",
+      "git_sha": "65a2fad39ca678f6f8ea70109ce6d0d1e2badc96",
+      "bytes": 3085
+    },
+    {
+      "path": "RSBounds/SchoenfeldZeroWeights.lean",
+      "sha256": "0ba9ce8d44fdde42c7d24e024246ee401c10ac21b07997c5472452a49461e1fb",
+      "git_sha": "d97345aa47f475434a90c72fa23d5cefae3fe43b",
+      "bytes": 5122
+    },
+    {
+      "path": "docs/MertensNormalization.md",
+      "sha256": "a3fee49a617a684e661e1e84b842d317bbb4be9fc55ea0701957854084956890",
+      "git_sha": "f4a8e8f403a99783c21e3d1706fd5af6156e01b5",
+      "bytes": 3267
+    },
+    {
+      "path": "docs/RS62FiniteHandoff.md",
+      "sha256": "1f8f00b105d077aeacbfbd4261b9c8b0ed059164f771592c86b13facac78e6de",
+      "git_sha": "2c62474bf05fd31aebc24f8a069d5b0e7b060e72",
+      "bytes": 2838
+    },
+    {
+      "path": "docs/RosserSquareTail.md",
+      "sha256": "ce619c49b479be92413571e98f9de4d1cdd6c59c1cdcfece3acff0ff2f31219e",
+      "git_sha": "4a3f41143535772f7986975bdf4591b5969b23d4",
+      "bytes": 1715
+    },
+    {
+      "path": "verification/MellinAbelianLimitAudit.lean",
+      "sha256": "17cff8f2f3ef2fc4c55952274e4b78be0431891e150e95e2076c5fb8a4aa166a",
+      "git_sha": "f16e11338feb1efea8bc42c950914c8af62b864e",
+      "bytes": 442
+    },
+    {
+      "path": "verification/MertensAbelIdentityAudit.lean",
+      "sha256": "4097e78553130ab28db45a3f866649c7b7deee71a8ad024f52c6478033637e55",
+      "git_sha": "2c1262f6164d3626471854842d8f471b04770070",
+      "bytes": 699
+    },
+    {
+      "path": "verification/MertensDFiniteAudit.lean",
+      "sha256": "523523026be057409aa3bf8110b67469f5bf9841410fd5803940969cfc7bd300",
+      "git_sha": "2996e4cc85975bee8e20e5ed79a21fc71dde5435",
+      "bytes": 249
+    },
+    {
+      "path": "verification/MertensIntervalLeftBoundAudit.lean",
+      "sha256": "6ecfc9c7468ec046b323dee299c3b268c3e747adb7b0c30a0936a16ea1e66227",
+      "git_sha": "e1a56ab8687743ed8fb967551a73f4326ccee2e6",
+      "bytes": 780
+    },
+    {
+      "path": "verification/MertensLimitNormalizationAudit.lean",
+      "sha256": "e3977d6519abb2823a84cbccbe7ba875139f47a3a6c6ee9bcf3347637a8f19bc",
+      "git_sha": "694f5e3b8ac385e409076a93738854fd0dd76219",
+      "bytes": 127
+    },
+    {
+      "path": "verification/MertensPsiAbelAudit.lean",
+      "sha256": "3a52ff72192cdd9cb58dce96d281571df2bacabe4bc400a6a0fa24f244e34938",
+      "git_sha": "7336b9bb14c716f580208d363d59dd8c78e6fcef",
+      "bytes": 761
+    },
+    {
+      "path": "verification/MertensTailScalarsAudit.lean",
+      "sha256": "a2a707dcd58e12f7866fc913094812c3002b09b87e9f57869723805804f66ea7",
+      "git_sha": "a2587b1d38a8ed331239da48a23d9c183664bbd5",
+      "bytes": 404
+    },
+    {
+      "path": "verification/RS62FiniteHandoffAudit.lean",
+      "sha256": "66d35de6dd9b98f5efb54349bc7c82102c018e4f148f2631bebc2b942f4b229f",
+      "git_sha": "4afc0ccd118bae128d8142e68c5fd11b2592cb44",
+      "bytes": 277
+    },
+    {
+      "path": "verification/RosserSquareTailAudit.lean",
+      "sha256": "870b6b8c6a021a7daeebe0d31c52eeeb6cadd3ea8df81c40f5e7e0606c7ba283",
+      "git_sha": "a8dac59d30d18ecc2b62fbb4258450d556f9d803",
+      "bytes": 606
+    },
+    {
+      "path": "verification/SchoenfeldLaplacePhysicalAudit.lean",
+      "sha256": "b624570fcf49ad9a04672d34caf74481e9f025322f032a9fbf8863fffe1af320",
+      "git_sha": "1f94395cd71beb2c28d9e2f02d8b3205a04df21f",
+      "bytes": 378
+    },
+    {
+      "path": "verification/SchoenfeldLaplaceTailsAudit.lean",
+      "sha256": "12c83b709bf3c9bee2535499cdc7b51900075aae0ccf0dd97564a0082e7e9648",
+      "git_sha": "10472965546e14af92aac860c2589441d362a005",
+      "bytes": 536
+    },
+    {
+      "path": "verification/SchoenfeldReciprocalSquareAudit.lean",
+      "sha256": "b38b73f15096d8cb818d619487cbaad98a0b837794b563227e528e4835c08a17",
+      "git_sha": "fcfa392721c040d10f5db9e910dc7b7a578094e8",
+      "bytes": 1021
+    },
+    {
+      "path": "verification/SchoenfeldZeroWeightsAudit.lean",
+      "sha256": "848c99af87953a85ca0d6eebc729e6675cee9e2211645eaf252b4e0b67de5811",
+      "git_sha": "5aa9412dce1b445bd5b20621ca980da2798b4feb",
+      "bytes": 572
+    },
+    {
+      "path": "verification/mellin-abelian-limit-axioms.log",
+      "sha256": "b59f41b6b4278a0445d5398a27c5d8767ffb027d2ab6abfe0e751ee100bdb24f",
+      "git_sha": "3872875360f4c6bc052540a4f4e9554e09b0f516",
+      "bytes": 647
+    },
+    {
+      "path": "verification/mellin-abelian-limit-build.log",
+      "sha256": "99bc40a38e6db7ecbec4a4e058267bc8630769533d234d06806a7b08e7c76bc6",
+      "git_sha": "8f42150fdcc9bdb12531387ddb63e3f5a3bd5140",
+      "bytes": 1717
+    },
+    {
+      "path": "verification/mellin-abelian-limit-run.json",
+      "sha256": "75bd3551be8e622f690bb86fa72b5aab2e1d48e82a144e4e91f7a5f17fb6d4af",
+      "git_sha": "4e16e3820750ce456af64062367ac8ca483104d0",
+      "bytes": 1245
+    },
+    {
+      "path": "verification/mertens-abel-identity-axioms.log",
+      "sha256": "babe334498cda80f95b9de3851a99234f65a6d2e7ff4025854343802caf89829",
+      "git_sha": "4041354cfc353c010e282ca160e985d3841ce71d",
+      "bytes": 1054
+    },
+    {
+      "path": "verification/mertens-abel-identity-build.log",
+      "sha256": "feeb280bbfd70725421355df763c7a000a96e19c461891110040504258d715aa",
+      "git_sha": "27b91381b67932a2adee26376e1b8f062d1efb75",
+      "bytes": 1911
+    },
+    {
+      "path": "verification/mertens-abel-identity-run.json",
+      "sha256": "b4d2580fa7bd0fb154c89fc1a3bdb32f5aad4a25028f23079c294b0cef2fd2f3",
+      "git_sha": "974faa1f6a0ecacacf33037d44fbe9023be70679",
+      "bytes": 1570
+    },
+    {
+      "path": "verification/mertens-abelian-normalization-build.log",
+      "sha256": "88735f79c0e7ab939fec632bbfa102cf8c0afff107b911f3a819bbbf62aed7b5",
+      "git_sha": "0958f7a03743ad1ef5e9cc6572a5163ce4296693",
+      "bytes": 1398
+    },
+    {
+      "path": "verification/mertens-centered-normalization-axioms.log",
+      "sha256": "3bbb1e55615a8f45f05f20c253da1093fc9f536fb74d9c523ac59ee9f6ebc0c1",
+      "git_sha": "7837c8381336c365f33af0d39c88c603d1c8066d",
+      "bytes": 277
+    },
+    {
+      "path": "verification/mertens-centered-normalization-build.log",
+      "sha256": "116b387bcd693b663c1868eeb5af3f808a331bda03a91c7cb70d6957e86af2e9",
+      "git_sha": "49e97a5ef93c5e800feee8c0a68d9ea20b5f1b7c",
+      "bytes": 895
+    },
+    {
+      "path": "verification/mertens-centered-normalization-run.json",
+      "sha256": "c6344563b19101795b5f4c59134b6f8955db4328e07eee0a6ec789a3c5ce701b",
+      "git_sha": "6f93f1e1baa201b4c049952c3d72344c3566414d",
+      "bytes": 2233
+    },
+    {
+      "path": "verification/mertens-d-finite-axioms.log",
+      "sha256": "a8517aa5cf775390e352ffb0ba794a50b7f8034ffb62ea8c8c7b09c005811f39",
+      "git_sha": "041fcf916bfabb31ff0a8c756c3594f655daf451",
+      "bytes": 360
+    },
+    {
+      "path": "verification/mertens-d-finite-build.log",
+      "sha256": "263ee2833d94d7cc34e392b228253aef22e6ca2ea2fe568055556a63ae0c9904",
+      "git_sha": "467f37953b967e7792e0aa930c12da7b95c03595",
+      "bytes": 961
+    },
+    {
+      "path": "verification/mertens-d-finite-run.json",
+      "sha256": "d9dd03e26449b19dc1c329dac1752ea609e0266a04b5d40a1153208867c380ad",
+      "git_sha": "36ba321aad915b5871608d79d0721c47ba7cdaef",
+      "bytes": 1790
+    },
+    {
+      "path": "verification/mertens-interval-left-bound-build-audit.log",
+      "sha256": "67284c0734ab208224e3acd95b95e6cbfbacf3a5be265f0816d9d5c524a099a6",
+      "git_sha": "f7390073ddc8c150ca42e3ea193bfe7f678062bc",
+      "bytes": 3236
+    },
+    {
+      "path": "verification/mertens-interval-left-bound-run.json",
+      "sha256": "fadbec37c5958be65092275e7f88f0cfa995e08207d5713ad3c22b4f6df5f41a",
+      "git_sha": "a4856aac936d81839d022eedc8642783d25b1012",
+      "bytes": 2036
+    },
+    {
+      "path": "verification/mertens-limit-normalization-axioms.log",
+      "sha256": "4f4016479b5d2adbd9968759258910810f01caf5293fa0157911fe3c6aaa7c8c",
+      "git_sha": "9666276404be57d54c9c12ddc5e8db4c0768f805",
+      "bytes": 133
+    },
+    {
+      "path": "verification/mertens-limit-normalization-build.log",
+      "sha256": "1a7c0432288a3b79a705b1448c7692372153bc75ad03116f2347bb6b9d62991d",
+      "git_sha": "0d1599889d15512d2589e7b7fbc97577d9801faa",
+      "bytes": 754
+    },
+    {
+      "path": "verification/mertens-limit-normalization-run.json",
+      "sha256": "4bd4749e5185e58a64d2e488583b920fd9b910056f93564bab8279bb82f3eef0",
+      "git_sha": "d96c67865266bb384d0cc9e818c3b810726cb676",
+      "bytes": 1248
+    },
+    {
+      "path": "verification/mertens-psi-abel-axioms.log",
+      "sha256": "dd92ff6fd9778390193a4885cee52da7ecf1870e6facdc46b804b973d9fb7a85",
+      "git_sha": "f87cdc30ad4b066b2da99168ef2e30a24f6ebfc0",
+      "bytes": 1205
+    },
+    {
+      "path": "verification/mertens-psi-abel-build.log",
+      "sha256": "19f4ff283f5aae1c0e6f491f672925c101756dadd7e8b7b5ac1bbee006033959",
+      "git_sha": "eede2b7603e9f40c0ce26826955b5d9ffba4b45a",
+      "bytes": 1873
+    },
+    {
+      "path": "verification/mertens-psi-abel-run.json",
+      "sha256": "49d864afedb32b6bababa6e0e893b19bf045d48125d3067137da9d9e0902a894",
+      "git_sha": "93c02e27dff9a473a3f260947d58d7d2308b9f48",
+      "bytes": 1536
+    },
+    {
+      "path": "verification/mertens-tail-scalars-axioms.log",
+      "sha256": "4ee94465687907b88686a5e08351468fe1c37d7c86fc8b1bd2008260e7b5e437",
+      "git_sha": "37db639757392740061315c36bcfd56b0e180c47",
+      "bytes": 609
+    },
+    {
+      "path": "verification/mertens-tail-scalars-build.log",
+      "sha256": "8f425d6bec1b803289b61f82965694d8f6ecc822452da1e6612467db4e00afd1",
+      "git_sha": "46bdb363c129015555d6bdbbd2e8bb6e3e88ce22",
+      "bytes": 1211
+    },
+    {
+      "path": "verification/mertens-tail-scalars-run.json",
+      "sha256": "83418b7533e469b0f1578948668e9820f1c584b4edb5a828e45e8c43431864dd",
+      "git_sha": "7cea1ab7ff83bb5509017da2c7b852b56256da26",
+      "bytes": 1320
+    },
+    {
+      "path": "verification/rosser-square-tail-axioms.log",
+      "sha256": "ea9dbdaabe125e6a79d728e68d1bfa4edd5f84d06dd0b0b2c896345d4cb235f7",
+      "git_sha": "36b5669b9c7b755bebb28032fc5b1b8d84ac183c",
+      "bytes": 913
+    },
+    {
+      "path": "verification/rosser-square-tail-build.log",
+      "sha256": "0b15b1eb2238d92ad864fe412d8eabb0af2c38f7784d08c8ad2869c48cbd7901",
+      "git_sha": "0378ae4aea46b87afc18396b91f3785a13cebe17",
+      "bytes": 2939
+    },
+    {
+      "path": "verification/rosser-square-tail-run.json",
+      "sha256": "88075e7f1f046db2b34a18e7e785c3277aa5f7f1e493c27cb3da703f415d76fe",
+      "git_sha": "aab072e74c010b726e4176fd1db62aa5ff13ce2f",
+      "bytes": 1626
+    },
+    {
+      "path": "verification/rs62-finite-handoff-axioms.log",
+      "sha256": "c1e427ff258f4499e0d890ba9918ae30e2faeda2c71525a22fb3a6b8c080e7b1",
+      "git_sha": "45805113da72d89ee60e81ad8c26675f3dff92f4",
+      "bytes": 389
+    },
+    {
+      "path": "verification/rs62-finite-handoff-build.log",
+      "sha256": "4cb412850ea808e4691b405f8aa23e4b35f40aa0e7ad1da618f8f05931e22317",
+      "git_sha": "6b81fcaf1a7ddb7e0c9164b8de90bd60fe85cd3e",
+      "bytes": 984
+    },
+    {
+      "path": "verification/rs62-finite-handoff-run.json",
+      "sha256": "b4bee33cfd4b6010757a53ace00b99f26c6b68544827440a894246d1d40a8606",
+      "git_sha": "c47d23d7800671f0fdfdbf40f14aa0f5e52c598d",
+      "bytes": 1552
+    },
+    {
+      "path": "verification/run_fresh_module_check.py",
+      "sha256": "fad671602d7fc5babc872e0102e8d9767ccba34700fe74c0228a37df38bc414d",
+      "git_sha": "b685392b86e7d86c5e005028d4aa91884f0cc26c",
+      "bytes": 3204
+    },
+    {
+      "path": "verification/run_mertens_abel_identity_check.py",
+      "sha256": "5ba2cff0a250ebf38dfd8ffc824b3f8dc88d6f11ea03538093b884d9d15d571f",
+      "git_sha": "7cd5faac990fc04921d6272bf020e0a34739b225",
+      "bytes": 2981
+    },
+    {
+      "path": "verification/run_mertens_interval_left_bound_check.py",
+      "sha256": "8197703785c5b87418e4c52da2db9d14f4f690c786f305f2232d0bedad7f987a",
+      "git_sha": "a4d36c1210ab8349b3c9e535b75c1a37ad6be868",
+      "bytes": 3590
+    },
+    {
+      "path": "verification/run_mertens_normalization_check.py",
+      "sha256": "3d8de5aca191fb1a28a855523b669a70b7b8aa2ab5b44f442fb507d228f99829",
+      "git_sha": "07c87552d9378f1195a38a0df7a3e9c9c52c7955",
+      "bytes": 3670
+    },
+    {
+      "path": "verification/run_mertens_psi_abel_check.py",
+      "sha256": "06d0f71737fe982ac54964666dd76715df1c600f988d139088dd31e105939d56",
+      "git_sha": "6bfd0506a404ccc6e43c7b8553f91b38df837165",
+      "bytes": 2951
+    },
+    {
+      "path": "verification/run_mertens_tail_scalars_check.py",
+      "sha256": "e49f9adfa80324bb665722f3764582ed06468589f52659e46b8d5d8e8efc2be4",
+      "git_sha": "736bf154a88fd09e04242314e6f88d0d41ca1db5",
+      "bytes": 2877
+    },
+    {
+      "path": "verification/run_rosser_square_tail_check.py",
+      "sha256": "6844a0c41568e8f268a14e0f556ce3a6cff1e73dd485a4a5235e4de4e68df0dc",
+      "git_sha": "6d9ad43b26211aa42336425b63d2568fd24f84e8",
+      "bytes": 2970
+    },
+    {
+      "path": "verification/run_rs62_finite_handoff_check.py",
+      "sha256": "aab7091c573ca9b980907e709b27e0d20e32e366123bcad59382d43ba1d761fb",
+      "git_sha": "ce1853808d02278c6d4d102aba82e93f85a20b97",
+      "bytes": 2953
+    },
+    {
+      "path": "verification/run_schoenfeld_laplace_physical_check.py",
+      "sha256": "990fa42b1b8e121cab67ac64ea10ac214b6bae6f7cd4427a8bd4b82d57ebe4c2",
+      "git_sha": "ff22f5c59da5424dda31a9d4b26bc8c08ac246a7",
+      "bytes": 2986
+    },
+    {
+      "path": "verification/run_schoenfeld_laplace_tails_check.py",
+      "sha256": "72ae641d97a87e8349de29eb3c1cf33467d58cff5cd533aaed26d21b25c5506d",
+      "git_sha": "68cc8f5077fae688d6fa2b983431195d6a040096",
+      "bytes": 2901
+    },
+    {
+      "path": "verification/run_schoenfeld_reciprocal_square_check.py",
+      "sha256": "e5c7085217f3d6b569b05b6132b36eba30efa660767d09ed22be8cd396a96848",
+      "git_sha": "6fecc693ef4a954ea71a9909309da56f008d0c81",
+      "bytes": 3459
+    },
+    {
+      "path": "verification/run_schoenfeld_zero_weights_check.py",
+      "sha256": "a737e9f7f98a0efcad38040c0e6907da1bc2bfea1a060fdf480c4411f9c6ceee",
+      "git_sha": "0301c4b952bdacdba578632ca2f99b1024697597",
+      "bytes": 2981
+    },
+    {
+      "path": "verification/schoenfeld-laplace-physical-build.log",
+      "sha256": "47538cd54b0dc869855dfc1ce8f3d37f448f3abbf866344f4ab18db36aff4d1f",
+      "git_sha": "335d24df1860eac357d6e0f925b6e225e9bf25a4",
+      "bytes": 2096
+    },
+    {
+      "path": "verification/schoenfeld-laplace-physical-run.json",
+      "sha256": "ee09cfee211d137846d33be9baeff8aa4d953f2503c6de685fd73136c37f8f61",
+      "git_sha": "435a640f0972e6190aea93c9f03d43c66b0bdf54",
+      "bytes": 2652
+    },
+    {
+      "path": "verification/schoenfeld-laplace-tails-build.log",
+      "sha256": "f27ed1d9a177c84af0745b1c0c3628266b18960979dd25c07fbdbd5bd84efa71",
+      "git_sha": "c666b1960e51f735deba3b358cecf933261ed50d",
+      "bytes": 6436
+    },
+    {
+      "path": "verification/schoenfeld-laplace-tails-run.json",
+      "sha256": "aa123bb99020b7203a7d708956fdc470531f9ae5c71da6c4da47c590884a4143",
+      "git_sha": "3c8c12e180182e002608ab33c56a814f3bcb2770",
+      "bytes": 2517
+    },
+    {
+      "path": "verification/schoenfeld-reciprocal-square-axioms.log",
+      "sha256": "bca1d9afb3767f8eee78285dafe67cf8948b08e5e45d5a8e46d921eb73b303bb",
+      "git_sha": "60924637df9935ed743266db6e0e30d88c175e97",
+      "bytes": 1470
+    },
+    {
+      "path": "verification/schoenfeld-reciprocal-square-build-1.log",
+      "sha256": "6bbfe83b7517b6fb6e4c1072756b1e547b36f6dec986500169772ab2ca2fe54f",
+      "git_sha": "cf5510d6f2c7e3bc82232b11eb54f0ef5b49b4c8",
+      "bytes": 2372
+    },
+    {
+      "path": "verification/schoenfeld-reciprocal-square-build-2.log",
+      "sha256": "be4d1f5fd514e3a7acbcdc30b405b15b07ccd00a9f6dfc050eaad5d759e85c94",
+      "git_sha": "8ddb459a79a1edf90206eaef79435790c84a1a01",
+      "bytes": 1328
+    },
+    {
+      "path": "verification/schoenfeld-reciprocal-square-run.json",
+      "sha256": "48c00bd3d5954c174e1bbaf10f21cf32cf7c97e8855c97de018f9d0eb6f6b24d",
+      "git_sha": "b335eb22e80aeb3efa90bb4ae873ff7176138552",
+      "bytes": 2565
+    },
+    {
+      "path": "verification/schoenfeld-zero-weights-build.log",
+      "sha256": "4fb4d35d3f07dc5f9b4f533472e539166397ed849fef9005aad0623289b2ae0d",
+      "git_sha": "f523ec92335d20d7534cb8ca04b805153104f2d6",
+      "bytes": 3586
+    },
+    {
+      "path": "verification/schoenfeld-zero-weights-run.json",
+      "sha256": "20b78f33ad1cdbc90c72a711cbf8f929bc17275bf3282488b93aa4d079642383",
+      "git_sha": "d3cfe327c8240691a4eefaf58e75ab02aa11628d",
+      "bytes": 2735
+    }
+  ],
+  "chunks": [
+    "logs/publish-normalization-chunk-00.json",
+    "logs/publish-normalization-chunk-01.json",
+    "logs/publish-normalization-chunk-02.json",
+    "logs/publish-normalization-chunk-03.json",
+    "logs/publish-normalization-chunk-04.json",
+    "logs/publish-normalization-chunk-05.json"
+  ],
+  "published_commit": "eece7af5b5d20d1e3fb48f517e44e3830d8029ca",
+  "published_tree": "933a47d3f050a1f1116fc7c35a72a3a10cfac9cf",
+  "public_tree_blobs_verified": 85,
+  "branch_ref_verified": true,
+  "finished_utc": "2026-11-06T19:23:25.865904+00:00"
+}

@@ -1,0 +1,82 @@
+import took 4.62s
+RSBounds/RosserCubicTail.lean:40:4: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/RosserCubicTail.lean:40:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/RosserCubicTail.lean:59:4: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/RosserCubicTail.lean:59:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/RosserCubicTail.lean:131:18: error: Application type mismatch: The argument
+  add_le_add_right (integral_density_div_cube_le ha hab) ?m.411
+has type
+  ?m.411 + ∫ (t : ℝ) in a..b, density t / t ^ 3 ≤ ?m.411 + cubicPrimitive (coefficient a) a
+but is expected to have type
+  (∫ (t : ℝ) in a..b, density t / t ^ 3) + (G a - positiveZeroCount a) / a ^ 3 ≤
+    cubicPrimitive (coefficient a) a + (G a - positiveZeroCount a) / a ^ 3
+in the application
+  LE.le.trans he' (add_le_add_right (integral_density_div_cube_le ha hab) ?m.411)
+RSBounds/RosserCubicTail.lean:142:41: error: Application type mismatch: The argument
+  add_le_add_left hc ?m.137
+has type
+  (G a - positiveZeroCount a) / a ^ 3 + ?m.137 ≤ 2 * rosserR 1.588 a / a ^ 3 + ?m.137
+but is expected to have type
+  cubicPrimitive (coefficient a) a + (G a - positiveZeroCount a) / a ^ 3 ≤ cubicAllowance a
+in the application
+  LE.le.trans (cubic_sum_le_head ha hab) (add_le_add_left hc ?m.137)
+'TernaryGoldbach.RSBounds.RosserCubicTail.hasDerivAt_reciprocal_cube' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserCubicTail.hasDerivAt_neg_cubicPrimitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserCubicTail.integral_upperDensity_div_cube' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserCubicTail.integral_density_div_cube_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserCubicTail.cubic_sum_le_head' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserCubicTail.cubic_sum_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserCubicTail.cubicAllowance_A_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserCubicTail.cubic_sum_A_lt' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.201ms
+	blocked (unaccounted) 2.77s
+	congr simp thm 2.6ms
+	declTypeLinter 6.88ms
+	dsimp 3.48ms
+	elaboration 99.4ms
+	fix level params 2.73ms
+	import 4.62s
+	initialization 44.3ms
+	instantiate metavars 3.37ms
+	interpretation 1.18s
+	let-to-have transformation 0.207ms
+	linting 29.2ms
+	module linting 0.00904ms
+	norm_num 334ms
+	parsing 13.8ms
+	process pre-definitions 44.3ms
+	ring 109ms
+	share common exprs 46.1ms
+	simp 30.4ms
+	tactic execution 441ms
+	tacticAnalysis 4.87ms
+	type checking 274ms
+	typeclass inference 773ms

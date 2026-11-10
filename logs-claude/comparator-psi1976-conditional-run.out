@@ -1,0 +1,16 @@
+START toolchain-version
+END toolchain-version 0
+START RSPsi1976ConditionalChallenge-build
+END RSPsi1976ConditionalChallenge-build 0
+START RSPsi1976ConditionalSolution-build
+END RSPsi1976ConditionalSolution-build 0
+START solution-axiom-audit
+END solution-axiom-audit 0
+START RSPsi1976ConditionalChallenge-export
+END RSPsi1976ConditionalChallenge-export 0
+START RSPsi1976ConditionalSolution-export
+END RSPsi1976ConditionalSolution-export 0
+START comparator
+END comparator 0
+comparator-psi1976-conditional.json: comparison and native kernel replay passed: /home/claude/src/RSBounds-project/verification/psi1976-comparator/comparator-psi1976-conditional/20261108T133504.533753Z/run.json
+RUNNER EXIT 0

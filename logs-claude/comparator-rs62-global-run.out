@@ -1,0 +1,15 @@
+START toolchain-version
+END toolchain-version 0
+START RS62GlobalChallenge-build
+END RS62GlobalChallenge-build 0
+START RS62GlobalSolution-build
+END RS62GlobalSolution-build 0
+START solution-axiom-audit
+END solution-axiom-audit 0
+START RS62GlobalChallenge-export
+END RS62GlobalChallenge-export 0
+START RS62GlobalSolution-export
+END RS62GlobalSolution-export 0
+START comparator
+END comparator 0
+comparator-rs62-global.json: comparison and native kernel replay passed: /home/claude/src/RSBounds-project/verification/height-comparator/comparator-rs62-global/20261108T052317.316581Z/run.json

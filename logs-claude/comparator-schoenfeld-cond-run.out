@@ -1,0 +1,15 @@
+START toolchain-version
+END toolchain-version 0
+START Schoenfeld1976CondChallenge-build
+END Schoenfeld1976CondChallenge-build 0
+START Schoenfeld1976CondSolution-build
+END Schoenfeld1976CondSolution-build 0
+START solution-axiom-audit
+END solution-axiom-audit 0
+START Schoenfeld1976CondChallenge-export
+END Schoenfeld1976CondChallenge-export 0
+START Schoenfeld1976CondSolution-export
+END Schoenfeld1976CondSolution-export 0
+START comparator
+END comparator 0
+comparator-schoenfeld-cond.json: comparison and native kernel replay passed: /home/claude/work/proj/RSBounds-project/verification/height-comparator/comparator-schoenfeld-cond/20261108T152223.476975Z/run.json

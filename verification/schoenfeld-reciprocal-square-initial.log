@@ -1,0 +1,57 @@
+import took 565s
+simp took 111ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 201ms
+tactic execution of Mathlib.Tactic.nlinarith took 221ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 161ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 141ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 146ms
+tactic execution of Mathlib.Tactic.nlinarith took 222ms
+RSBounds/SchoenfeldReciprocalSquare.lean:110:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  log ↑2
+in the target expression
+  (logDeriv xiF 1).re =
+    1 / 1 + 1 / 2 * (-2 * log 2 - ↑Real.eulerMascheroniConstant).re - Real.log π / 2 + Real.eulerMascheroniConstant
+
+he :
+  (logDeriv xiF 1).re =
+    1 / 1 + 1 / 2 * (-2 * log 2 - ↑Real.eulerMascheroniConstant).re - Real.log π / 2 + Real.eulerMascheroniConstant
+⊢ 2 * (logDeriv xiF 1).re = 2 + Real.eulerMascheroniConstant - Real.log π - 2 * Real.log 2
+RSBounds/SchoenfeldReciprocalSquare.lean:128:4: error: linarith failed to find a contradiction
+T : ℝ
+ρ : ℂ
+hρ : ρ ∈ sqZeros T
+hn : ‖ρ - 1 / 2‖ < 6 * T / 2
+a✝ : 6 * T < ‖ρ - 1 / 2‖
+⊢ False
+failed
+tactic execution of Lean.Parser.Tactic.rewriteSeq took 122ms
+RSBounds/SchoenfeldReciprocalSquare.lean:148:6: error: Type mismatch
+  single_le_sum (fun z x => norm_nonneg (?m.208 z)) hρ
+has type
+  ‖?m.208 ρ‖ ≤ ∑ x ∈ S, ‖?m.208 x‖
+but is expected to have type
+  ‖ρ - 1 / 2‖ ≤ ∑ z ∈ S, ‖z - 1 / 2‖
+cumulative profiling times:
+	attribute application 0.192ms
+	congr simp thm 7.11ms
+	declTypeLinter 61.1ms
+	dsimp 25ms
+	elaboration 366ms
+	fix level params 5.79ms
+	import 565s
+	initialization 298ms
+	instantiate metavars 8.31ms
+	interpretation 3.91s
+	let-to-have transformation 0.232ms
+	linting 96.4ms
+	module linting 0.577ms
+	norm_num 672ms
+	parsing 26.4ms
+	process pre-definitions 59.5ms
+	ring 243ms
+	share common exprs 65.2ms
+	simp 279ms
+	tactic execution 1.82s
+	tacticAnalysis 13.7ms
+	type checking 379ms
+	typeclass inference 2.52s

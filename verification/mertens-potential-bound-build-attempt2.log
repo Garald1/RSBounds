@@ -1,0 +1,98 @@
+import took 154s
+RSBounds/MertensPotentialBound.lean:60:13: error: Invalid simp theorem: Expected a proposition, but found
+  ℂ → ℕ
+RSBounds/MertensPotentialBound.lean:49:50: error: unsolved goals
+A T : ℝ
+hT : 0 < T
+hg : zetaGoodHeight T
+ρ : ℂ
+hρ : ρ ∈ zerosRectD zetaF T
+⊢ (if A < |ρ.im| then ↑(MertensZeroPotential.multiplicity ρ) / |ρ.im| ^ 2 else 0) =
+    if A < |ρ.im| then ↑(analyticOrderAt riemannZeta ρ).toNat / |ρ.im| ^ 2 else 0
+RSBounds/MertensPotentialBound.lean:89:20: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+RSBounds/MertensPotentialBound.lean:98:28: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+'TernaryGoldbach.RSBounds.MertensPotentialBound.tailMoment_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.tailMoment_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.summable_tailMoment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.sum_tailMoment_zeroFinset' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.sum_tailMoment_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.tsum_tailMoment_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.norm_coefficient_le_head_add_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.norm_potential_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.squareAllowance_A_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.norm_potential_A_lt' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.norm_signedLimit_A_lt' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.norm_signedLimit_A_lt_uniform' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.abs_J_A_lt_uniform' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.mertens_lower_of_moderate_psi' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.mertens_lower_of_b23_psi' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.144ms
+	blocked (unaccounted) 2.34s
+	congr simp thm 2.75ms
+	declTypeLinter 6.1ms
+	elaboration 357ms
+	fix level params 1.8ms
+	import 154s
+	initialization 35ms
+	instantiate metavars 2.07ms
+	interpretation 1.52s
+	let-to-have transformation 0.261ms
+	linting 31.1ms
+	module linting 0.0139ms
+	norm_num 706ms
+	parsing 18.9ms
+	process pre-definitions 25ms
+	ring 69.9ms
+	share common exprs 18.9ms
+	simp 21.1ms
+	tactic execution 308ms
+	tacticAnalysis 4.87ms
+	type checking 108ms
+	typeclass inference 737ms

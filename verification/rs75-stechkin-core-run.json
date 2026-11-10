@@ -1,0 +1,18 @@
+{
+  "kind": "fresh-local-compilation-and-transitive-axiom-audit",
+  "started_utc": "2026-11-06T16:39:21.192882+00:00",
+  "source_sha256": {
+    "RSBounds/RS75StechkinCore.lean": "5fbabdea804d009ed4abdd4fdf8b7721610a569df03d2fc70e67324dbf2d9271",
+    "verification/rs75-stechkin-core-port.json": "8a17c33aa5101acbc8837dac7ec60edb52b530312e948118dcb7f86f609ccef5",
+    ".lake/packages/TernaryGoldbach/TernaryGoldbach/Explicit/ZeroFreeRegion.lean": "dc3b5c8627bfc8b0cea172eddbae757d2ceb727c1987d4311b05d206cad95497",
+    "verification/RS75StechkinCoreAudit.lean": "2fc6ac2f1b4507629549327eaace4c60ddf32b092a17018fcf7783c0a62d1a71",
+    "verification/run_rs75_stechkin_core_check.py": "f8ffd81ca5f748339a8f11f556e4163528fd74dbab4d5b6bb058d0612a71a8fd"
+  },
+  "runs": [],
+  "status": "superseded-and-interrupted",
+  "exit_code": 130,
+  "finished_utc": "2026-11-06T16:43:02.974190+00:00",
+  "reason": "The unchanged full upstream ZeroFreeRegion check completed while this fallback was compiling. Root instructed interruption of the now-redundant experiment.",
+  "audit_run": false,
+  "publish": false
+}

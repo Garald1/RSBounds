@@ -1,0 +1,112 @@
+import took 13.7s
+RSBounds/RS75GoldenRatio.lean:22:6: error: Application type mismatch: The argument
+  upperPoint_zero_upper
+has type
+  upper (233 / 144) 0 < 223829 / 100000
+but is expected to have type
+  upper (233 / 144) 0 < 2.23829
+in the application
+  LE.le.trans_lt (moment_le_upper ?m.46 ?m.47 0 ?m.50) upperPoint_zero_upper
+RSBounds/RS75GoldenRatio.lean:24:4: error: Type mismatch
+  LT.lt.trans_le upperPoint_one_lower (center_le_moment ?m.78 ?m.79 1 ?m.82)
+has type
+  255131 / 100000 < moment (233 / 144) 1
+but is expected to have type
+  2.55131 < moment (233 / 144) 1
+RSBounds/RS75GoldenRatio.lean:30:30: error: Ambiguous term
+  slope
+Possible interpretations:
+  _root_.slope (55 / 34) : ?m.1 → ?m.1 → ?m.2
+  
+  RS75GoldenSeries.slope (55 / 34) : ℝ
+RSBounds/RS75GoldenRatio.lean:33:4: error: Type mismatch
+  LT.lt.trans_le lowerPoint_zero_lower (center_le_moment ?m.50 ?m.51 0 ?m.54)
+has type
+  22393 / 10000 < moment (55 / 34) 0
+but is expected to have type
+  2.2393 < moment (55 / 34) 0
+RSBounds/RS75GoldenRatio.lean:37:6: error: Application type mismatch: The argument
+  lowerPoint_zero_upper
+has type
+  upper (55 / 34) 0 < 11197 / 5000
+but is expected to have type
+  upper (55 / 34) 0 < 2.2394
+in the application
+  LE.le.trans_lt (moment_le_upper ?m.72 ?m.73 0 ?m.76) lowerPoint_zero_upper
+RSBounds/RS75GoldenRatio.lean:39:4: error: Type mismatch
+  LT.lt.trans_le lowerPoint_one_lower (center_le_moment ?m.104 ?m.105 1 ?m.108)
+has type
+  25547 / 10000 < moment (55 / 34) 1
+but is expected to have type
+  2.5547 < moment (55 / 34) 1
+RSBounds/RS75GoldenRatio.lean:43:6: error: Application type mismatch: The argument
+  lowerPoint_two_upper
+has type
+  upper (55 / 34) 2 < 10597 / 1250
+but is expected to have type
+  upper (55 / 34) 2 < 8.4776
+in the application
+  LE.le.trans_lt (moment_le_upper ?m.126 ?m.127 2 ?m.130) lowerPoint_two_upper
+RSBounds/RS75GoldenRatio.lean:69:8: warning: declaration uses `sorry`
+RSBounds/RS75GoldenRatio.lean:95:16: error: Application type mismatch: The argument
+  le_rfl
+has type
+  ?m.190 ≤ ?m.190
+but is expected to have type
+  goldenRatio ∈ Ici goldenRatio
+in the application
+  Convex.image_sub_le_mul_sub_of_deriv_le (convex_Ici goldenRatio) hcont hdiff hbound goldenRatio le_rfl
+'TernaryGoldbach.RSBounds.RS75GoldenRatio.upperPoint_logDerivative_lt' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenRatio.lowerPoint_slope_lt' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenRatio.goldenRatio_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenRatio.goldenRatio_gt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenRatio.golden_logDerivative_lt' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenRatio.golden_slope_lt' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenRatio.golden_deriv_logDerivative_lt' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenRatio.logDerivative_lt_tangent' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenRatio.shifted_real_axis_bound' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.0763ms
+	blocked (unaccounted) 1.69s
+	congr simp thm 1.39ms
+	declTypeLinter 5.52ms
+	elaboration 58.8ms
+	fix level params 0.838ms
+	import 13.7s
+	initialization 26.6ms
+	instantiate metavars 0.484ms
+	interpretation 1.11s
+	let-to-have transformation 0.0961ms
+	linting 12.1ms
+	module linting 0.0097ms
+	norm_num 356ms
+	parsing 8.15ms
+	process pre-definitions 15.2ms
+	ring 45.4ms
+	share common exprs 11.4ms
+	simp 7.06ms
+	tactic execution 148ms
+	tacticAnalysis 2.52ms
+	type checking 101ms
+	typeclass inference 565ms

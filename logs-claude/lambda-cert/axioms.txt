@@ -1,0 +1,2 @@
+'TernaryGoldbach.RSBounds.LambdaInputs.weightSumBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.LambdaInputs.ghBounds' depends on axioms: [propext, Classical.choice, Quot.sound]

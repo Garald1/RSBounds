@@ -1,0 +1,9 @@
+{
+  "challenge_module": "LambdaChallenge",
+  "solution_module": "RSBounds.LambdaInputsProof",
+  "theorem_names": [
+    "TernaryGoldbach.RSBounds.LambdaInputs.weightSumBound",
+    "TernaryGoldbach.RSBounds.LambdaInputs.ghBounds"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

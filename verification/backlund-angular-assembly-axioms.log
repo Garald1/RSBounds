@@ -1,0 +1,23 @@
+'TernaryGoldbach.RSBounds.BacklundAngularAssembly.sector_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.BacklundAngularAssembly.sector_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.BacklundAngularAssembly.sector_three' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.BacklundAngularAssembly.sector_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.BacklundAngularAssembly.sector_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.BacklundAngularAssembly.intervalIntegrable_scalar_arc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.BacklundAngularAssembly.scalar_arc_integral_raw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.BacklundAngularAssembly.scalar_arc_integral_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.BacklundAngularAssembly.scalar_arc_integral_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

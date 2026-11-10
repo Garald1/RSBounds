@@ -1,0 +1,15 @@
+import RSBounds.SchoenfeldTheorem11B23
+
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11B23.sqrt_mul_exp_anti
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11B23.exp_le_inv_one_sub
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11B23.exp_852_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11B23.eps0_eq
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11B23.X_bounds
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11B23.eps0_ge
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11B23.eps0_ge_small
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11B23.sqrt_term_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11B23.psi_lt
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11B23.theta_err_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11B23.exp23_ge
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11B23.theta_lt
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11B23.psi_upper

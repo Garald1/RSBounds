@@ -1,0 +1,4 @@
+import RSBounds.SchoenfeldQuadraticEnvelope
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticEnvelope.norm_le_envelope_of_pairing
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticEnvelope.norm_upper_sum_le_envelope
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticEnvelope.norm_lower_sum_le_envelope

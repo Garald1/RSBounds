@@ -1,0 +1,76 @@
+⚠ [3825/3903] Replayed TernaryGoldbach.Prelim.PNTMertens
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.Algebra.Order.Field.GeomSum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.Analysis.SumIntegralComparisons` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.NumberTheory.Harmonic.EulerMascheroni` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.NumberTheory.LSeries.PrimesInAP` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.NumberTheory.LSeries.RiemannZeta` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.NumberTheory.Harmonic.GammaDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.Analysis.Asymptotics.Lemmas` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.Analysis.SpecialFunctions.Complex.Analytic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrability.Log` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.NumberTheory.EulerProduct.DirichletLSeries` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.NumberTheory.EulerProduct.ExpLog` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.Analysis.SpecialFunctions.Complex.LogBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Summable` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.Algebra.Group.Submonoid.BigOperators` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.NumberTheory.AbelSummation` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.MeasureTheory.Function.Floor` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3995/4001] Replayed RSBounds.BacklundCenter
+warning: RSBounds/BacklundCenter.lean: imports `Mathlib.NumberTheory.EulerProduct.DirichletLSeries` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundCenter.lean: imports `Mathlib.Topology.Algebra.InfiniteSum.Field` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundCenter.lean: imports `Mathlib.Topology.Algebra.Order.Field` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundCenter.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3996/4001] Replayed RSBounds.BacklundCenterNumericsBase
+warning: RSBounds/BacklundCenterNumericsBase.lean: imports `Mathlib.Analysis.SumIntegralComparisons` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundCenterNumericsBase.lean: imports `Mathlib.Analysis.SpecialFunctions.ImproperIntegrals` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundCenterNumericsBase.lean:32:47: This simp argument is unused:
+  Nat.add_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [rpowSum, Finset.sum_range_succ', ih, add_comm, add_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: RSBounds/BacklundCenterNumericsBase.lean:91:40: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3998/4001] Replayed RSBounds.BacklundRightArc
+warning: RSBounds/BacklundRightArc.lean: imports `Mathlib.Analysis.Convex.SpecificFunctions.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundRightArc.lean: imports `Mathlib.Analysis.Convex.SpecificFunctions.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundRightArc.lean: imports `Mathlib.MeasureTheory.Integral.IntervalIntegral.TrapezoidalRule` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundRightArc.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundRightArc.lean:213:21: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/BacklundRightArc.lean:213:35: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/BacklundRightArc.lean:213:68: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/BacklundRightArc.lean:213:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/BacklundRightArc.lean:213:35: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: RSBounds/BacklundRightArc.lean:213:68: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [4000/4001] Replayed RSBounds.BacklundRightArcNumericsBase
+warning: RSBounds/BacklundRightArcNumericsBase.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundRightArcNumericsBase.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/BacklundRightArcNumericsBase.lean:32:50: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/BacklundRightArcNumericsBase.lean:32:54: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RSBounds/BacklundRightArcNumericsBase.lean:32:54: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+✔ [4001/4001] Built RSBounds.BacklundRightArcNumerics (5.5s)
+Build completed successfully (4001 jobs).

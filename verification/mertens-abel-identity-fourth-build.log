@@ -1,0 +1,64 @@
+import took 114s
+RSBounds/MertensAbelIdentity.lean:33:36: error: unsolved goals
+case e'_8
+r : ℝ
+hr : 0 < r
+h : ((fun x => ∑ d ∈ Finset.Ioc 0 ⌊x⌋₊, Λ d / ↑d) ∘ Nat.cast) =O[atTop] ((fun x => x ^ r) ∘ Nat.cast)
+⊢ (fun n => ↑n ^ r) = (fun x => x ^ r) ∘ Nat.cast
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 312ms
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.sum_Icc_mangoldt_div' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.weighted_sum_isBigO_rpow' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.LSeries_mangoldt_div_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.integrableOn_error_mul_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.integrableOn_log_mul_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.integral_log_mul_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.logDeriv_eq_integral' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.error_abel_identity' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.149ms
+	blocked (unaccounted) 5.16s
+	compilation (IR) 0.503ms
+	compilation (LCNF base) 1.97ms
+	compilation (LCNF impure) 0.866ms
+	compilation (LCNF mono) 1.34ms
+	congr simp thm 10.5ms
+	declTypeLinter 8.98ms
+	dsimp 5.89ms
+	elaboration 469ms
+	fix level params 1.16ms
+	import 114s
+	initialization 142ms
+	instantiate metavars 2.91ms
+	interpretation 2.24s
+	let-to-have transformation 0.167ms
+	linting 61.4ms
+	module linting 0.0264ms
+	norm_num 137ms
+	parsing 36.8ms
+	process pre-definitions 26.4ms
+	ring 73.8ms
+	share common exprs 26ms
+	simp 344ms
+	tactic execution 748ms
+	tacticAnalysis 8.17ms
+	type checking 160ms
+	typeclass inference 860ms

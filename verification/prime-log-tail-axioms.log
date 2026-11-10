@@ -1,0 +1,9 @@
+'TernaryGoldbach.RSBounds.PrimeLogTail.sum_prime_log_div_sq_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PrimeLogTail.sum_prime_log_div_sq_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PrimeLogTail.sum_prime_log_div_mul_pred_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

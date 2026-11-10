@@ -1,0 +1,74 @@
+import took 232s
+RSBounds/MertensFiniteScalars.lean:39:2: error: Type mismatch
+  h
+has type
+  549 / 500 < log 3
+but is expected to have type
+  1098 / 1000 < log 3
+RSBounds/MertensFiniteScalars.lean:59:2: error: Type mismatch
+  h
+has type
+  389 / 200 < log 7
+but is expected to have type
+  1945 / 1000 < log 7
+RSBounds/MertensFiniteScalars.lean:79:2: error: Type mismatch
+  h
+has type
+  641 / 250 < log 13
+but is expected to have type
+  2564 / 1000 < log 13
+RSBounds/MertensFiniteScalars.lean:99:2: error: Type mismatch
+  h
+has type
+  368 / 125 < log 19
+but is expected to have type
+  2944 / 1000 < log 19
+RSBounds/MertensFiniteScalars.lean:109:2: error: Type mismatch
+  h
+has type
+  627 / 200 < log 23
+but is expected to have type
+  3135 / 1000 < log 23
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_NormNum_Core___elabRules_Mathlib_Tactic_normNum_1._boxed took 405ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 324ms
+type checking took 477ms
+interpretation of Mathlib.Tactic.GCongr._aux_Mathlib_Tactic_GCongr_Core___elabRules_Mathlib_Tactic_GCongr_gcongr_1._boxed took 113ms
+'TernaryGoldbach.RSBounds.MertensFiniteScalars.mertensE_lt_neg_thirteen_tenths' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteScalars.primeWeightedSum_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteScalars.lower_main_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteScalars.mertens_lower_of_block' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.267ms
+	blocked (unaccounted) 46.9s
+	congr simp thm 17.6ms
+	declTypeLinter 47.5ms
+	dsimp 3.39ms
+	elaboration 299ms
+	fix level params 2.41ms
+	import 232s
+	initialization 74.6ms
+	instantiate metavars 2.2ms
+	interpretation 3.8s
+	let-to-have transformation 1.33ms
+	linting 82.6ms
+	module linting 0.73ms
+	norm_num 960ms
+	parsing 36.2ms
+	process pre-definitions 47.1ms
+	ring 129ms
+	share common exprs 37.6ms
+	simp 13.1ms
+	tactic execution 487ms
+	tacticAnalysis 16.8ms
+	type checking 752ms
+	typeclass inference 1.45s

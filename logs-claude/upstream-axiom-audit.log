@@ -1,0 +1,7 @@
+'TernaryGoldbach.RSBounds.Moebius003.finiteRH_of_plattGRH' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Moebius003.ramareMoebius_of_plattGRH' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Moebius003.ramareMoebius_of_plattGRH : TernaryGoldbach.PlattGRH → TernaryGoldbach.RamareMoebius
+def TernaryGoldbach.RamareMoebius : Prop :=
+∀ (x : ℝ), 11815 ≤ x → |∑ n ∈ Finset.Icc 1 ⌊x⌋₊, ↑(ArithmeticFunction.moebius n) / ↑n| ≤ 3e-2 / Real.log x

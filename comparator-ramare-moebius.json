@@ -1,0 +1,8 @@
+{
+  "challenge_module": "RamareMoebiusChallenge",
+  "solution_module": "RSBounds.Moebius003.Complete",
+  "theorem_names": [
+    "TernaryGoldbach.RSBounds.Moebius003.ramareMoebius_of_finiteRH"
+  ],
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"]
+}

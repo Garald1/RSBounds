@@ -1,0 +1,6 @@
+import RSBounds.SchoenfeldWeightedZerosM
+
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldWeightedZerosM.PhiDerivative_nonpos
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldWeightedZerosM.integrable_PhiDerivative_m
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldWeightedZerosM.integral_height_far_le_m
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldWeightedZerosM.far_sum_le_m

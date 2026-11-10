@@ -1,0 +1,86 @@
+import took 19.6s
+RSBounds/MertensDecayScalars.lean:26:57: error: Application type mismatch: The argument
+  h
+has type
+  99607456628386011547569079487997838108792692399 / 30517578125000000000000000000000000000000 ≤ Real.exp 15
+but is expected to have type
+  2.718 ^ 15 ≤ Real.exp 15
+in the application
+  LE.le.trans ?m.82 h
+RSBounds/MertensDecayScalars.lean:36:51: error: Application type mismatch: The argument
+  h
+has type
+  19683 / 1000 ≤ Real.exp 3
+but is expected to have type
+  2.7 ^ 3 ≤ Real.exp 3
+in the application
+  LE.le.trans ?m.106 h
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 576ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 753ms
+RSBounds/MertensDecayScalars.lean:143:6: error: linarith failed to find a contradiction
+X : ℝ
+hX : 15 ≤ X
+hX0 : 0 ≤ X
+he : 0 < Real.exp (-X)
+hlo : Real.exp (-5 * X ^ 2) ≤ Real.exp (-X)
+hleft : 6000 * Real.exp (-15 * X ^ 2) ≤ 1e-2 * Real.exp (-X)
+hlog : Real.log (2 * Real.pi) ≤ 6
+hex : 600 ≤ Real.exp (10 * X ^ 2 - X)
+hh : 600 / Real.exp (10 * X ^ 2) ≤ Real.exp (-X)
+heq : 10 * X ^ 2 - X + -10 * X ^ 2 = -X
+hl : Real.log (2 * Real.pi) / Real.exp (10 * X ^ 2) ≤ 6 * (Real.exp (10 * X ^ 2))⁻¹
+a✝ : 1e-2 * Real.exp (-X) < 6 / Real.exp (10 * X ^ 2)
+⊢ False
+failed
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 115ms
+'TernaryGoldbach.RSBounds.MertensDecayScalars.exp_fifteen_lower' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDecayScalars.log_seventeen_bounds' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDecayScalars.cutoff_height' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDecayScalars.twice_squareExpr_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDecayScalars.scalarEnvelope_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDecayScalars.fifth_power_exp_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDecayScalars.scalarEnvelope_lt' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.089ms
+	blocked (unaccounted) 6.96s
+	congr simp thm 3.88ms
+	declTypeLinter 14.7ms
+	elaboration 152ms
+	fix level params 3.29ms
+	import 19.6s
+	initialization 123ms
+	instantiate metavars 9.33ms
+	interpretation 3.29s
+	let-to-have transformation 1.05ms
+	linting 67.5ms
+	module linting 0.214ms
+	norm_num 1.41s
+	parsing 17.9ms
+	process pre-definitions 64.9ms
+	ring 238ms
+	share common exprs 92.2ms
+	simp 26.5ms
+	tactic execution 714ms
+	tacticAnalysis 3.83ms
+	type checking 232ms
+	typeclass inference 1.36s

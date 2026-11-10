@@ -1,0 +1,24 @@
+=== 2026-11-07T18:40:54-03:00 lake build   (default target)
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+Build completed successfully (9331 jobs).
+=== EXIT 0
+=== 2026-11-07T18:41:04-03:00 lake build RSBounds.Targets RSBounds.RS75FiniteHandoff RSBounds.RS75ZeroFreeNumerics RSBounds.RS75ZeroFreeScalars RSBounds.RS75ZeroFree1975 RSBounds.QuarticFirst29BudgetNumerics RSBounds.QuarticFirst29BudgetBridges RSBounds.QuarticLowZeroBounds RSBounds.RosserSchoenfeld1975 RSBounds.Theta RSBounds.RosserCubicTail RSBounds.RS75ZeroPowerDecay RSBounds.RS75DecayingHighZeros RSBounds.RS75AdaptiveHighBudget RSBounds.MertensTailScalars RSBounds.MertensPotentialBound RSBounds.MertensPotentialDecay RSBounds.MertensLargeBudget RSBounds.ModeratePsi RSBounds.WeakPsiTail RSBounds.RS62MertensFromFiniteRH RSBounds.RS62TotientFromFiniteRH RSZeroFreeChallenge RSZeroFreeSolution
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (9380 jobs).
+=== EXIT 0
+=== 2026-11-07T18:41:11-03:00 lake build RSBounds.PsiFiniteRH RSBounds.PsiFiniteRHZeroFree RSBounds.ThetaLarge   (expected to fail: pre-existing, see notes)
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+✖ [9108/9110] Building RSBounds.PsiFiniteRH (22s)
+error: RSBounds/PsiFiniteRH.lean:65:36: failed to synthesize instance of type class
+error: RSBounds/PsiFiniteRH.lean:65:15: Tactic `rcases` failed: `x✝ : ?m.466` is not an inductive datatype
+error: RSBounds/PsiFiniteRH.lean:73:13: failed to synthesize instance of type class
+error: RSBounds/PsiFiniteRH.lean:75:6: No goals to be solved
+error: RSBounds/PsiFiniteRH.lean:84:12: failed to synthesize instance of type class
+error: RSBounds/PsiFiniteRH.lean:94:38: failed to synthesize instance of type class
+error: RSBounds/PsiFiniteRH.lean:125:47: failed to synthesize instance of type class
+=== EXIT 1

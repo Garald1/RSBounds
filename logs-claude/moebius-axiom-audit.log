@@ -1,0 +1,14 @@
+'TernaryGoldbach.RSBounds.LambdaInputs.weightSumBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.LambdaInputs.ghBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Moebius003.target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Moebius003.target_L' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Moebius003.ramareMoebius' depends on axioms: [propext, Classical.choice, Quot.sound]
+Moebius003.ramareMoebius : MoebiusInputs.MertensSqrt →
+  MoebiusInputs.SmallMoebiusSum → Goals.FiniteRH 1894438.5122 → Moebius003.RamareMoebius
+def TernaryGoldbach.RSBounds.Moebius003.RamareMoebius : Prop :=
+∀ (x : ℝ), 11815 ≤ x → |∑ n ∈ Finset.Icc 1 ⌊x⌋₊, ↑(ArithmeticFunction.moebius n) / ↑n| ≤ 3e-2 / Real.log x
+def TernaryGoldbach.RSBounds.MoebiusInputs.MertensSqrt : Prop :=
+∀ (n : ℕ), 33 ≤ n → n ≤ 10 ^ 9 → 10 ^ 6 * (∑ k ∈ Finset.Icc 1 n, ArithmeticFunction.moebius k) ^ 2 ≤ 326041 * ↑n
+def TernaryGoldbach.RSBounds.MoebiusInputs.SmallMoebiusSum : Prop :=
+∀ (n : ℕ),
+  11815 ≤ n → n ≤ 6 * 10 ^ 5 → |∑ k ∈ Finset.Icc 1 n, ↑(ArithmeticFunction.moebius k) / ↑k| * Real.log (↑n + 1) ≤ 3e-2

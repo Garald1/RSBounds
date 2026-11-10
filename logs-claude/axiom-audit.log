@@ -1,0 +1,84 @@
+=== 2026-11-08T02:34:09-03:00 lake env lean logs-claude/HeightAudit.lean
+@Goals.FiniteRH.mono : ∀ {A B : ℝ}, A ≤ B → Goals.FiniteRH B → Goals.FiniteRH A
+'TernaryGoldbach.RSBounds.Goals.FiniteRH.mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+def TernaryGoldbach.RSBounds.Goals.ZeroFreeRegion1975 : Prop :=
+Goals.FiniteRH 1894438.5122 →
+  ∀ (s : ℂ), 21 ≤ |s.im| → 1 - 1 / (9.645908801 * Real.log (|s.im| / 17)) ≤ s.re → riemannZeta s ≠ 0
+def TernaryGoldbach.RSBounds.Goals.PsiTable1975 : Prop :=
+Goals.FiniteRH 1894438.5122 → ∀ (x : ℝ), Real.exp 23 ≤ x → |Chebyshev.psi x - x| < 20211e-8 * x
+@RS75ZeroFree1975.zero_free_high : ∀ {s : ℂ},
+  1894438.5122 ≤ |s.im| → 1 - 1 / (9.645908801 * Real.log (|s.im| / 17)) ≤ s.re → riemannZeta s ≠ 0
+RS75ZeroFree1975.zero_free : Goals.FiniteRH 1894438.5122 →
+  ∀ {s : ℂ}, 21 ≤ |s.im| → 1 - 1 / (9.645908801 * Real.log (|s.im| / 17)) ≤ s.re → riemannZeta s ≠ 0
+@RS75ZeroFree1975.xi_zero_re_lt : ∀ {ρ : ℂ},
+  TernaryGoldbach.Explicit.xiF ρ = 0 → 1894438.5122 ≤ |ρ.im| → ρ.re < 1 - 1 / (9.645908801 * Real.log (|ρ.im| / 17))
+RS75FiniteHandoff.zero_free_low : Goals.FiniteRH 1894438.5122 →
+  ∀ {s : ℂ},
+    21 ≤ |s.im| → |s.im| ≤ 1894438.5122 → 1 - 1 / (9.645908801 * Real.log (|s.im| / 17)) ≤ s.re → riemannZeta s ≠ 0
+'TernaryGoldbach.RSBounds.RS75ZeroFree1975.zero_free_high' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.RS75ZeroFree1975.zero_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.RS75ZeroFree1975.proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.RS75ZeroFree1975.xi_zero_re_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.RS75ZeroFreeScalars.chosen_residual_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75ZeroFreeScalars.heightRatio_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RosserSchoenfeld1975.psi_error_b23 : Goals.FiniteRH 1894438.5122 →
+  ∀ (x : ℝ), Real.exp 23 ≤ x → |Chebyshev.psi x - x| < 20211e-8 * x
+'TernaryGoldbach.RSBounds.RosserSchoenfeld1975.psi_error_b23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.PsiTable1975.psi_error_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.PsiTable1975.proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.QuarticFirst29BudgetNumerics.scalarBudget_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuarticLowZeroBounds.positive_low_sum_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RS62MertensFromFiniteRH.mertens_lower_of_finiteRH : Goals.FiniteRH 1894438.5122 → Goals.MertensLower
+RS62TotientFromFiniteRH.totient_bound_of_finiteRH : Goals.FiniteRH 1894438.5122 → Goals.TotientBound
+'TernaryGoldbach.RSBounds.RS62MertensFromFiniteRH.mertens_lower_of_finiteRH' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS62TotientFromFiniteRH.totient_bound_of_finiteRH' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsi.psi_error_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.WeakPsiTail.psi_error_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.WeakPsiTail.low_re_eq_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.mertens_lower_of_moderate_psi' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.mertens_lower_of_b23_psi' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.squareAllowance_A_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLargeBudget.mertens_lower_of_weak_psi' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialDecay.abs_J_le_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75AdaptiveHighBudget.norm_high_sum_upper_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75AdaptiveHighBudget.norm_high_sum_lower_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75DecayingHighZeros.norm_high_sum_upper_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75ZeroPowerDecay.zero_power_weight_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+@RosserCubicTail.cubic_sum_A_lt : ∀ {T : ℝ},
+  1894438.5122 ≤ T → (WeightedZetaZeros.weightedSum 1894438.5122 T fun t => 1 / t ^ 3) < 3e-13
+'TernaryGoldbach.RSBounds.RosserCubicTail.cubic_sum_A_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+@zero_free_rs_height : ∀ {ρ : ℂ},
+  TernaryGoldbach.Explicit.xiF ρ = 0 → 1894438.5122 ≤ |ρ.im| → ρ.re ≤ 1 - 1 / (20 * Real.log |ρ.im|)
+'TernaryGoldbach.RSBounds.zero_free_rs_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.riemannZeta_zero_free_rs_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+=== EXIT 0

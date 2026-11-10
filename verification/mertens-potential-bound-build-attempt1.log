@@ -1,0 +1,119 @@
+import took 154s
+interpretation of Filter._aux_Mathlib_Order_Filter_Defs___delab_app_Filter_term∀ᶠ_In_,__1._boxed took 101ms
+RSBounds/MertensPotentialBound.lean:47:63: error: Function expected at
+  zetaGoodHeight
+but this term has type
+  ?m.1
+
+Note: Expected a function because this term is being applied to the argument
+  T
+
+Hint: The identifier `zetaGoodHeight` is unknown, and Lean's `autoImplicit` option causes an unknown identifier to be treated as an implicitly bound variable with an unknown type. However, the unknown type cannot be a function, and a function is what Lean expects here. This is often the result of a typo or a missing `import` or `open` statement.
+RSBounds/MertensPotentialBound.lean:49:50: error: unsolved goals
+x✝ : Sort u_1
+zetaGoodHeight : x✝
+A T : ℝ
+hT : 0 < T
+hg : sorry
+⊢ (∑ ρ ∈ zerosRectD zetaF T, if A < |ρ.im| then ↑(MertensZeroPotential.multiplicity ρ) / |ρ.im| ^ 2 else 0) =
+    2 * weightedSum A T fun t => 1 / t ^ 2
+RSBounds/MertensPotentialBound.lean:63:57: error: unsolved goals
+A : ℝ
+hA : 7 ≤ A
+S : Finset MertensZeroPotential.Zero
+T : ℕ → ℝ
+hT : GoodHeights zetaF BPz2 T
+hev : ∀ᶠ (k : ℕ) in atTop, S ⊆ zeroFinset (T k)
+hTop : Tendsto T atTop atTop
+k : ℕ
+hS : S ⊆ zeroFinset (T k)
+hAT : A ≤ T k
+hp : 0 < T k
+⊢ ∑ ρ ∈ S, tailMoment A ρ ≤ 2 * squareAllowance A
+RSBounds/MertensPotentialBound.lean:89:20: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+RSBounds/MertensPotentialBound.lean:98:28: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+'TernaryGoldbach.RSBounds.MertensPotentialBound.tailMoment_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.tailMoment_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.summable_tailMoment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.sum_tailMoment_zeroFinset' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.sum_tailMoment_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.tsum_tailMoment_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.norm_coefficient_le_head_add_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.norm_potential_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.squareAllowance_A_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.norm_potential_A_lt' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.norm_signedLimit_A_lt' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.norm_signedLimit_A_lt_uniform' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.abs_J_A_lt_uniform' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.mertens_lower_of_moderate_psi' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialBound.mertens_lower_of_b23_psi' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.172ms
+	blocked (unaccounted) 2.56s
+	congr simp thm 2.39ms
+	declTypeLinter 11.9ms
+	elaboration 384ms
+	fix level params 1.53ms
+	import 154s
+	initialization 93.6ms
+	instantiate metavars 1.84ms
+	interpretation 1.93s
+	let-to-have transformation 0.264ms
+	linting 38.5ms
+	module linting 0.235ms
+	norm_num 639ms
+	parsing 16.4ms
+	process pre-definitions 20.5ms
+	ring 70.9ms
+	share common exprs 19.2ms
+	simp 22.5ms
+	tactic execution 380ms
+	tacticAnalysis 4.85ms
+	type checking 143ms
+	typeclass inference 847ms

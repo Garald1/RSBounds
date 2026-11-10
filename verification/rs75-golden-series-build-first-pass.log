@@ -1,0 +1,156 @@
+import took 567s
+RSBounds/RS75GoldenSeries.lean:78:2: error: Type mismatch: After simplification, term
+  h
+ has type
+  HasSum (fun x => Real.log ↑x ^ j * f x * ↑x ^ (-s)) (∑' (b : ℕ), ↑(Real.log ↑b ^ j * f b * ↑b ^ (-s))).re
+but is expected to have type
+  HasSum (fun n => Real.log ↑n ^ j * f n * ↑n ^ (-s)) (LSeries (coeff f j) ↑s).re
+RSBounds/RS75GoldenSeries.lean:93:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ∑' (b : ℕ), term (coeff f j) (↑s) b
+in the target expression
+  LSeries (coeff f j) ↑s = ↑(series f j s)
+
+s : ℝ
+hs : 1 < s
+f : ℕ → ℝ
+j : ℕ
+hc : (abscissaOfAbsConv fun n => ↑(f n)) ≤ 1
+⊢ LSeries (coeff f j) ↑s = ↑(series f j s)
+RSBounds/RS75GoldenSeries.lean:116:29: error: linarith failed to find a contradiction
+f : ℕ → ℝ
+j : ℕ
+hf : ∀ (n : ℕ), 0 ≤ f n
+hc : (abscissaOfAbsConv fun n => ↑(f n)) ≤ 1
+x : ℝ
+hx : x ∈ Ioi 1
+y : ℝ
+hy : y ∈ Ioi 1
+hxy : x ≤ y
+a✝ : -x = 0
+⊢ False
+failed
+RSBounds/RS75GoldenSeries.lean:116:68: error: linarith failed to find a contradiction
+f : ℕ → ℝ
+j : ℕ
+hf : ∀ (n : ℕ), 0 ≤ f n
+hc : (abscissaOfAbsConv fun n => ↑(f n)) ≤ 1
+x : ℝ
+hx : x ∈ Ioi 1
+y : ℝ
+hy : y ∈ Ioi 1
+hxy : x ≤ y
+a✝ : -y = 0
+⊢ False
+failed
+RSBounds/RS75GoldenSeries.lean:115:2: error: unsolved goals
+case pos
+f : ℕ → ℝ
+j : ℕ
+hf : ∀ (n : ℕ), 0 ≤ f n
+hc : (abscissaOfAbsConv fun n => ↑(f n)) ≤ 1
+x : ℝ
+hx : x ∈ Ioi 1
+y : ℝ
+hy : y ∈ Ioi 1
+hxy : x ≤ y
+⊢ 0 ^ j * f 0 * 0 ^ (-y) ≤ 0 ^ j * f 0 * 0 ^ (-x)
+RSBounds/RS75GoldenSeries.lean:123:2: error: Type mismatch: After simplification, term
+  have this := Eq.mpr (id (congrFun' (congrArg LE.le abscissaOfAbsConv_one) 1)) (le_refl 1);
+  this
+ has type
+  @LE.le EReal instPartialOrderEReal.toLE (abscissaOfAbsConv 1) 1
+but is expected to have type
+  @LE.le EReal instPartialOrderEReal.toLE (abscissaOfAbsConv fun x => 1) 1
+RSBounds/RS75GoldenSeries.lean:146:2: error: Type mismatch: After simplification, term
+  complexSeries_eq hs (fun x => 1) 0 one_abscissa
+ has type
+  @Eq ℂ (LSeries (fun n => 1) ↑s) ↑(moment s 0)
+but is expected to have type
+  @Eq ℂ (LSeries 1 ↑s) ↑(moment s 0)
+RSBounds/RS75GoldenSeries.lean:159:65: error: unsolved goals
+s : ℝ
+hs : 1 < s
+ha : abscissaOfAbsConv 1 < ↑(↑s).re
+h : HasDerivAt (LSeries 1) (-LSeries (logMul 1) ↑s) ↑s
+⊢ logMul 1 = logMul fun n => 1
+RSBounds/RS75GoldenSeries.lean:182:4: error: No goals to be solved
+RSBounds/RS75GoldenSeries.lean:183:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  (- -moment s (1 + 1) * moment s 0 - -moment s 1 * -moment s (0 + 1)) / moment s 0 ^ 2
+in the target expression
+  HasDerivAt ((-fun t => moment t 1) / fun t => moment t 0)
+    ((- -moment s (1 + 1) * moment s 0 - (-fun t => moment t 1) s * -moment s (0 + 1)) / moment s 0 ^ 2) s
+
+s : ℝ
+hs : 1 < s
+h :
+  HasDerivAt ((-fun t => moment t 1) / fun t => moment t 0)
+    ((- -moment s (1 + 1) * moment s 0 - (-fun t => moment t 1) s * -moment s (0 + 1)) / moment s 0 ^ 2) s
+hv :
+  (- -moment s (1 + 1) * moment s 0 - -moment s 1 * -moment s (0 + 1)) / moment s 0 ^ 2 =
+    moment s 2 / moment s 0 - (moment s 1 / moment s 0) ^ 2
+⊢ HasDerivAt logDerivative (moment s 2 / moment s 0 - (moment s 1 / moment s 0) ^ 2) s
+'TernaryGoldbach.RSBounds.RS75GoldenSeries.complexSeries_eq' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenSeries.hasDerivAt_series' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenSeries.summable_moment' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenSeries.hasDerivAt_moment' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenSeries.zeta_hasDerivAt' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenSeries.logDerivative_eq_moments' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenSeries.hasDerivAt_logDerivative' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenSeries.slope_eq_moments' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenSeries.monotoneOn_logDerivative' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75GoldenSeries.antitoneOn_slope' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.299ms
+	blocked (unaccounted) 2.01s
+	congr simp thm 6.34ms
+	declTypeLinter 19.6ms
+	dsimp 5.93ms
+	elaboration 603ms
+	fix level params 0.93ms
+	import 567s
+	initialization 132ms
+	instantiate metavars 1.29ms
+	interpretation 2.65s
+	let-to-have transformation 0.469ms
+	linting 49.1ms
+	module linting 1.13ms
+	norm_num 24.4ms
+	parsing 42.5ms
+	process pre-definitions 31.8ms
+	ring 43.8ms
+	share common exprs 15.9ms
+	simp 261ms
+	tactic execution 449ms
+	tacticAnalysis 7.76ms
+	type checking 126ms
+	typeclass inference 860ms

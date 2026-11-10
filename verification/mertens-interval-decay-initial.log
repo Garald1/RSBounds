@@ -1,0 +1,25 @@
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+RSBounds/MertensIntervalDecay.lean:109:53: error: unsolved goals
+a b : ℝ
+ha : 0 < a
+hb : 0 < b
+σ : ℝ
+hσ : σ = -1 / 2 ∨ σ = 3 / 2
+t : ℝ
+hn : 0 ≤ numeratorBound a b
+s : ℂ := ↑σ + ↑t * I
+hre : s.re = σ
+him : s.im = t
+hs1 : s ≠ 1
+hnorm : (1 + |t|) / 4 ≤ ‖s‖
+hnorm1 : (1 + |t|) / 4 ≤ ‖s - 1‖
+hl : -1 / 2 ≤ s.re
+hu : s.re ≤ 3 / 2
+ht : 0 < (1 + |t|) / 4
+⊢ numeratorBound a b * (1 / 16 + |t| * (1 / 8) + |t| ^ 2 * (1 / 16))⁻¹ =
+    numeratorBound a b * (1 + |t| * 2 + |t| ^ 2)⁻¹ * 16

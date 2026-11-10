@@ -1,0 +1,15 @@
+'TernaryGoldbach.RSBounds.MertensProductCorrection.sum_powerMain_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensProductCorrection.correction_le_sum_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensProductCorrection.low_tail_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensProductCorrection.high_tail_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensProductCorrection.primeProduct_correction_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

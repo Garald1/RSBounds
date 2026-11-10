@@ -1,0 +1,8 @@
+import RSBounds.SchoenfeldTheorem11Ge23
+
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Ge23.exp_85_ge
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Ge23.core_far
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Ge23.theta_far
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Ge23.psi_lt
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Ge23.theta_lt
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Ge23.psi_upper

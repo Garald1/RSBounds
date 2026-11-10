@@ -1,0 +1,29 @@
+{
+  "kind": "fresh-mertens-decay-scalars-build-with-in-process-transitive-axiom-audit",
+  "started_utc": "2026-11-06T21:04:47.670373+00:00",
+  "source_sha256": {
+    "RSBounds/MertensDecayScalars.lean": "c8efa408fc40d2a95cc8b66d99ca66d241d9f5dd8a5576641a35425eb3083b5c",
+    "verification/MertensDecayScalarsAudit.lean": "ce649fdc35b704eadd93fbc2bd49e367b30abbe5ac45de7701c5aceeb9c669de",
+    "verification/run_mertens_decay_scalars_check.py": "f51e2f60e4f6935178fcfb3bcf33c612850d43852616c0098aab924ddb799a8e"
+  },
+  "stdin_recipe": "Exact source plus 7 fully qualified #print axioms commands.",
+  "stdin_sha256": "f4c6614898ae2bbbf917a8c7748a093d03f41a8dd38ea1712cdba0e7fe473a78",
+  "runs": [
+    {
+      "command": [
+        "lean",
+        "-j1",
+        "-Dprofiler=true",
+        "--stdin",
+        "-o",
+        ".lake/build/lib/lean/RSBounds/MertensDecayScalars.olean",
+        "RSBounds/MertensDecayScalars.lean"
+      ],
+      "log": "verification/mertens-decay-scalars-build.log",
+      "exit_code": 1,
+      "seconds": 27.61957559500297
+    }
+  ],
+  "build_exit_code": 1,
+  "exit_code": 1
+}

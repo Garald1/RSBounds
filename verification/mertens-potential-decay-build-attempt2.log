@@ -1,0 +1,76 @@
+import took 210s
+RSBounds/MertensPotentialDecay.lean:18:30: error: unknown namespace `BacklundCountMultiplicity`
+RSBounds/MertensPotentialDecay.lean:25:61: error(lean.unknownIdentifier): Unknown identifier `squareAllowance`
+RSBounds/MertensPotentialDecay.lean:29:9: error: type expected, got
+  (Zero : Type ?u.10 → Type ?u.10)
+RSBounds/MertensPotentialDecay.lean:38:57: error: type expected, got
+  (Zero : Type ?u.8 → Type ?u.8)
+RSBounds/MertensPotentialDecay.lean:58:40: error: type expected, got
+  (Zero : Type ?u.13 → Type ?u.13)
+RSBounds/MertensPotentialDecay.lean:85:5: error: Function expected at
+  potential
+but this term has type
+  ?m.1
+
+Note: Expected a function because this term is being applied to the argument
+  u
+
+Hint: The identifier `potential` is unknown, and Lean's `autoImplicit` option causes an unknown identifier to be treated as an implicitly bound variable with an unknown type. However, the unknown type cannot be a function, and a function is what Lean expects here. This is often the result of a typo or a missing `import` or `open` statement.
+RSBounds/MertensPotentialDecay.lean:87:30: error: type expected, got
+  (Zero : Type ?u.30 → Type ?u.30)
+RSBounds/MertensPotentialDecay.lean:88:4: error(lean.unknownIdentifier): Unknown identifier `summable_moment.of_norm_bounded`
+RSBounds/MertensPotentialDecay.lean:85:42: error: unsolved goals
+x✝ : Sort u_1
+potential : x✝
+x u T : ℝ
+hx : 1 ≤ x
+hxu : x ≤ u
+hT : 1894439 ≤ T
+hRH : Goals.FiniteRH 1894439
+hx0 : 0 < x
+⊢ ‖sorry‖ ≤ cutoffEnvelope x T
+RSBounds/MertensPotentialDecay.lean:123:13: error(lean.unknownIdentifier): Unknown identifier `norm_potential_le_cutoff`
+RSBounds/MertensPotentialDecay.lean:120:62: error: unsolved goals
+x u T : ℝ
+hx : 1 ≤ x
+hxu : x ≤ u
+hT : 1894439 ≤ T
+hRH : Goals.FiniteRH 1894439
+hx0 : 0 < x
+hs :
+  ‖MertensSignedLimit.signedLimit u‖ ≤ ‖MertensZeroPotential.potential u‖ + 6000 * u ^ (-3 / 2) + Real.log (2 * π) / u
+⊢ ‖MertensSignedLimit.signedLimit u‖ ≤ cutoffEnvelope x T + 6000 * x ^ (-3 / 2) + Real.log (2 * π) / x
+RSBounds/MertensPotentialDecay.lean:139:14: error(lean.unknownIdentifier): Unknown constant `TernaryGoldbach.RSBounds.MertensPotentialDecay.norm_coefficient_le_at_lower`
+RSBounds/MertensPotentialDecay.lean:140:14: error(lean.unknownIdentifier): Unknown constant `TernaryGoldbach.RSBounds.MertensPotentialDecay.zero_power_le_cutoff`
+RSBounds/MertensPotentialDecay.lean:141:14: error(lean.unknownIdentifier): Unknown constant `TernaryGoldbach.RSBounds.MertensPotentialDecay.norm_coefficient_le_cutoff`
+RSBounds/MertensPotentialDecay.lean:142:14: error(lean.unknownIdentifier): Unknown constant `TernaryGoldbach.RSBounds.MertensPotentialDecay.norm_potential_le_cutoff`
+'TernaryGoldbach.RSBounds.MertensPotentialDecay.norm_signedLimit_le_cutoff' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialDecay.abs_J_le_cutoff' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.0574ms
+	blocked (unaccounted) 138ms
+	declTypeLinter 12.9ms
+	elaboration 214ms
+	fix level params 0.183ms
+	import 210s
+	initialization 39.8ms
+	instantiate metavars 0.149ms
+	interpretation 1.75s
+	let-to-have transformation 0.0738ms
+	linting 21.5ms
+	module linting 0.0198ms
+	norm_num 5.81ms
+	parsing 21.2ms
+	process pre-definitions 5.31ms
+	ring 18.7ms
+	share common exprs 1.27ms
+	tactic execution 40.2ms
+	tacticAnalysis 4.14ms
+	type checking 14.2ms
+	typeclass inference 177ms

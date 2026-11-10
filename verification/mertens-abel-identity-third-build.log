@@ -1,0 +1,60 @@
+import took 119s
+RSBounds/MertensAbelIdentity.lean:42:2: error: `simp` made no progress
+interpretation of Mathlib.Meta.FunProp.funPropTac._boxed took 102ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 292ms
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.sum_Icc_mangoldt_div' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.weighted_sum_isBigO_rpow' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.LSeries_mangoldt_div_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.integrableOn_error_mul_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.integrableOn_log_mul_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.integral_log_mul_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.logDeriv_eq_integral' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.error_abel_identity' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.126ms
+	blocked (unaccounted) 4.46s
+	compilation (IR) 0.134ms
+	compilation (LCNF base) 1.57ms
+	compilation (LCNF impure) 0.954ms
+	compilation (LCNF mono) 1.65ms
+	congr simp thm 7.76ms
+	declTypeLinter 11.9ms
+	dsimp 7.06ms
+	elaboration 204ms
+	fix level params 0.842ms
+	import 119s
+	initialization 185ms
+	instantiate metavars 2.87ms
+	interpretation 2.24s
+	let-to-have transformation 0.242ms
+	linting 48ms
+	module linting 0.394ms
+	norm_num 113ms
+	parsing 21ms
+	process pre-definitions 28.8ms
+	ring 68.2ms
+	share common exprs 31.6ms
+	simp 306ms
+	tactic execution 460ms
+	tacticAnalysis 4.8ms
+	type checking 162ms
+	typeclass inference 781ms

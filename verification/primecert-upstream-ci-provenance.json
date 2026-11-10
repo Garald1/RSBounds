@@ -1,0 +1,15 @@
+{
+  "retrieved_by": "tools.mcp__codex_apps__github_fetch_workflow_job_logs",
+  "arguments": {
+    "repo_full_name": "b-mehta/PrimeCert",
+    "job_id": 127819389276
+  },
+  "commit": "d84a15cacfdc45ae1e96e56dd58158f871787870",
+  "run_id": 42196032084,
+  "canonical_run_url": "https://github.com/b-mehta/PrimeCert/actions/runs/42196032084",
+  "canonical_job_url": "https://github.com/b-mehta/PrimeCert/actions/runs/42196032084/job/127819389276",
+  "status": "Remote upstream CI evidence; not a local replay",
+  "ieantn_pinned_sha": "466b41b28ecc224398cf53a99c5fe9618131398b",
+  "ieantn_stub": "IEANTN/Nodes/ButheNumerics/v1/formalization.yaml",
+  "ieantn_challenge": "IEANTN/Nodes/ButheNumerics/v1/Challenge.lean"
+}

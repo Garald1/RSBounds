@@ -1,0 +1,30 @@
+From-scratch build of the project modules (Mathlib and its dependencies taken prebuilt from the Mathlib cache).
+Machine: 2 cores (lake runs 2 jobs), cgroup memory limit ~5.9 GB; Lean v4.35.0, Mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679.
+Start 2026-11-08T22:22:28Z, end 2026-11-08T23:26:08Z.
+
+
+real	63m40.300s
+user	109m8.325s
+sys	16m36.274s
+
+Per-module times (sum of per-module lean process times = core time):
+MoebiusCert                      1 modules    0.000 core-h
+MoebiusCert.Agg                 42 modules    0.026 core-h
+MoebiusCert.Bridge               1 modules    0.001 core-h
+MoebiusCert.Defs                 1 modules    0.000 core-h
+MoebiusCert.DefsSmall            1 modules    0.000 core-h
+MoebiusCert.Final                1 modules    0.001 core-h
+MoebiusCert.Large              954 modules    1.959 core-h
+MoebiusCert.Ms                  20 modules    0.072 core-h
+MoebiusCert.MsSeg                1 modules    0.001 core-h
+MoebiusCert.NT                   1 modules    0.001 core-h
+MoebiusCert.Pack                 1 modules    0.001 core-h
+MoebiusCert.PrimeData            1 modules    0.001 core-h
+MoebiusCert.Primes               1 modules    0.009 core-h
+MoebiusCert.Raw                  1 modules    0.000 core-h
+MoebiusCert.Segments             1 modules    0.002 core-h
+MoebiusCert.Sieve                1 modules    0.002 core-h
+MoebiusCert.Small               10 modules    0.020 core-h
+MoebiusCert.SmallSeg             1 modules    0.001 core-h
+RSBounds                         2 modules    0.001 core-h
+TOTAL                         1042 modules    2.099 core-h

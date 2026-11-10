@@ -1,0 +1,15 @@
+'TernaryGoldbach.RSBounds.MertensSignedLimit.finite_integral_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensSignedLimit.tendsto_signed_integral_complex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensSignedLimit.tendsto_signed_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensSignedLimit.signedLimit_im_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensSignedLimit.norm_signedLimit_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,33 @@
+{
+  "kind": "fresh-compilation-with-in-process-transitive-axiom-audit",
+  "started_utc": "2026-11-06T16:55:11.160503+00:00",
+  "source_sha256": {
+    "RSBounds/RS75GoldenSeries.lean": "85d80f6f81971ac20847548c969f4a033a8c9a00cdb978dbe5306d2d87f8eab6",
+    "verification/RS75GoldenSeriesAudit.lean": "020d44ace5fd0a58375e44e6c368981ad824091defe69390648bb3bab34ee8eb",
+    "verification/run_rs75_golden_series_check.py": "98dcbc1de13f1c4ce440a5ad82f51f4d79bbde409e8553760c2fd1949cd9e289"
+  },
+  "stdin_recipe": "Exact proof source, newline, then the ten public audit commands.",
+  "stdin_sha256": "b26300a6479529206fb7ac190eee4aa4e5707d0e70cc0bbb0ce5b6b275eba02d",
+  "runs": [
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j1",
+        "-Dprofiler=true",
+        "--stdin",
+        "-o",
+        ".lake/build/lib/lean/RSBounds/RS75GoldenSeries.olean",
+        "RSBounds/RS75GoldenSeries.lean"
+      ],
+      "log": "rs75-golden-series-build.log",
+      "exit_code": 1,
+      "seconds": 579.984268319,
+      "user_cpu_seconds": 7.062142,
+      "system_cpu_seconds": 151.287909
+    }
+  ],
+  "exit_code": 1,
+  "finished_utc": "2026-11-06T17:04:51.145578+00:00"
+}

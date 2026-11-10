@@ -1,0 +1,259 @@
+import took 143s
+RSBounds/MertensProductCorrection.lean:126:33: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  b ≥ 0
+  a ≥ 0
+  a - b ≥ 1
+where
+ a := ↑(Nat.log ⟨p, i⟩.fst n)
+ b := ↑⟨p, i⟩.snd
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 117ms
+RSBounds/MertensProductCorrection.lean:198:49: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+RSBounds/MertensProductCorrection.lean:198:45: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensProductCorrection.lean:198:49: warning: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensProductCorrection.lean:222:40: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+RSBounds/MertensProductCorrection.lean:229:52: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+RSBounds/MertensProductCorrection.lean:222:36: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensProductCorrection.lean:222:40: warning: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensProductCorrection.lean:229:48: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensProductCorrection.lean:229:52: warning: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensProductCorrection.lean:233:10: error: Application type mismatch: The argument
+  primesTo n
+has type
+  Finset ℕ
+but is expected to have type
+  Finset ℝ
+in the application
+  {p ∈ primesTo n | p ≤ √↑n}
+RSBounds/MertensProductCorrection.lean:233:73: error: Application type mismatch: The argument
+  p
+has type
+  ℝ
+but is expected to have type
+  ℕ
+in the application
+  powerTail n p
+RSBounds/MertensProductCorrection.lean:240:13: error: Application type mismatch: The argument
+  primesTo n
+has type
+  Finset ℕ
+but is expected to have type
+  Finset ℝ
+in the application
+  {p ∈ primesTo n | p ≤ √↑n}
+RSBounds/MertensProductCorrection.lean:251:14: error: Application type mismatch: The argument
+  primesTo n
+has type
+  Finset ℕ
+but is expected to have type
+  Finset ℝ
+in the application
+  {p ∈ primesTo n | p ≤ √↑n}
+RSBounds/MertensProductCorrection.lean:255:14: error: Application type mismatch: The argument
+  primesTo n
+has type
+  Finset ℕ
+but is expected to have type
+  Finset ℝ
+in the application
+  {p ∈ primesTo n | p ≤ √↑n}
+tactic execution of Mathlib.Tactic.nlinarith took 164ms
+RSBounds/MertensProductCorrection.lean:269:10: error: Application type mismatch: The argument
+  primesTo n
+has type
+  Finset ℕ
+but is expected to have type
+  Finset ℝ
+in the application
+  {p ∈ primesTo n | ¬p ≤ √↑n}
+RSBounds/MertensProductCorrection.lean:269:74: error: Application type mismatch: The argument
+  p
+has type
+  ℝ
+but is expected to have type
+  ℕ
+in the application
+  powerTail n p
+RSBounds/MertensProductCorrection.lean:277:71: error: linarith failed to find a contradiction
+n : ℕ
+hn : 4 ≤ n
+hn0 : 0 < ↑n
+hLn : 0 < log ↑n
+hy0 : 0 < √↑n
+hy1 : 1 < √↑n
+a✝ : ↑n < 1
+⊢ False
+failed
+RSBounds/MertensProductCorrection.lean:278:14: error: Application type mismatch: The argument
+  primesTo n
+has type
+  Finset ℕ
+but is expected to have type
+  Finset ℝ
+in the application
+  {p ∈ primesTo n | ¬p ≤ √↑n}
+RSBounds/MertensProductCorrection.lean:279:6: error: Type mismatch
+  filter Nat.Prime (Ioc ⌊√↑n⌋₊ ⌊↑n⌋₊)
+has type
+  Finset ℕ
+but is expected to have type
+  Finset ℝ
+RSBounds/MertensProductCorrection.lean:288:22: error: Application type mismatch: The argument
+  primesTo n
+has type
+  Finset ℕ
+but is expected to have type
+  Finset ℝ
+in the application
+  {p ∈ primesTo n | ¬p ≤ √↑n}
+RSBounds/MertensProductCorrection.lean:289:18: error: Application type mismatch: The argument
+  p
+has type
+  ℝ
+but is expected to have type
+  ℕ
+in the application
+  powerTail n p
+RSBounds/MertensProductCorrection.lean:307:14: error: Application type mismatch: The argument
+  primesTo n
+has type
+  Finset ℕ
+but is expected to have type
+  Finset ℝ
+in the application
+  {p ∈ primesTo n | ¬p ≤ √↑n}
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+RSBounds/MertensProductCorrection.lean:315:13: error: unsolved goals
+n : ℕ
+hn : 4 ≤ n
+hn0 : 0 < ↑n
+hLn : 0 < log ↑n
+hy0 : 0 < √↑n
+hy1 : 1 < √↑n
+hyn : √↑n ≤ ↑n
+hset : sorry
+hpoint : ∀ p ∈ {p ∈ sorry | ¬p ≤ √↑n}, powerTail n sorry ≤ 1 / log ↑n * (log p / (p * (p - 1)))
+⊢ (log ↑n)⁻¹ * log 4 * (-1 + √↑n)⁻¹ * 2 = log 4 * (-log ↑n + log ↑n * √↑n)⁻¹ * 2
+RSBounds/MertensProductCorrection.lean:333:41: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+RSBounds/MertensProductCorrection.lean:330:44: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/MertensProductCorrection.lean:330:44: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensProductCorrection.lean:333:37: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensProductCorrection.lean:333:41: warning: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensProductCorrection.lean:344:13: error: Application type mismatch: The argument
+  primesTo n
+has type
+  Finset ℕ
+but is expected to have type
+  Finset ℝ
+in the application
+  {p ∈ primesTo n | p ≤ √↑n}
+RSBounds/MertensProductCorrection.lean:344:76: error: Application type mismatch: The argument
+  p
+has type
+  ℝ
+but is expected to have type
+  ℕ
+in the application
+  powerTail n p
+RSBounds/MertensProductCorrection.lean:345:12: error: Application type mismatch: The argument
+  primesTo n
+has type
+  Finset ℕ
+but is expected to have type
+  Finset ℝ
+in the application
+  {p ∈ primesTo n | ¬p ≤ √↑n}
+RSBounds/MertensProductCorrection.lean:345:76: error: Application type mismatch: The argument
+  p
+has type
+  ℝ
+but is expected to have type
+  ℕ
+in the application
+  powerTail n p
+RSBounds/MertensProductCorrection.lean:345:81: error: unsolved goals
+n : ℕ
+hn : 100000 ≤ n
+⊢ ∑ p ∈ primesTo n, powerTail n p = ∑ x ∈ sorry, powerTail n sorry
+'TernaryGoldbach.RSBounds.MertensProductCorrection.sum_powerMain_eq' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensProductCorrection.correction_le_sum_tail' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensProductCorrection.low_tail_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensProductCorrection.high_tail_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensProductCorrection.primeProduct_correction_bounds' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.126ms
+	blocked (unaccounted) 4.02s
+	compilation (IR) 0.837ms
+	compilation (LCNF base) 1.72ms
+	compilation (LCNF impure) 0.153ms
+	compilation (LCNF mono) 0.197ms
+	congr simp thm 6.45ms
+	declTypeLinter 6.55ms
+	dsimp 11.3ms
+	elaboration 235ms
+	fix level params 2.25ms
+	import 143s
+	initialization 33.1ms
+	instantiate metavars 4.61ms
+	interpretation 2.22s
+	let-to-have transformation 0.261ms
+	linting 46.1ms
+	module linting 0.0154ms
+	norm_num 114ms
+	parsing 32.9ms
+	process pre-definitions 30.3ms
+	ring 84.2ms
+	share common exprs 28.7ms
+	simp 78.8ms
+	tactic execution 934ms
+	tacticAnalysis 4.75ms
+	type checking 216ms
+	typeclass inference 1.64s

@@ -1,0 +1,19 @@
+{
+  "kind": "approved-rs62-global-publication",
+  "repository": "Garald1/PrimeNumberTheoremAnd",
+  "branch": "rs-bounds-progress-2026-11-06",
+  "prefix": "Projects/RSBounds/",
+  "parent_commit": "eece7af5b5d20d1e3fb48f517e44e3830d8029ca",
+  "commit": "f653ba0ebc606473a98ae8183c650715ffacb7e3",
+  "tree": "7ff3d9e127a453df826b6fc5c6e321f959e9de42",
+  "reviewed_manifest_sha256": "c92bc10379e44dab98f1fe41a981015f2647e7170a8a4d92cd16d7bda206b4fc",
+  "files": 165,
+  "bytes": 706368,
+  "all_git_blob_hashes_verified": true,
+  "other_blob_changes": 0,
+  "live_branch_head_verified": true,
+  "native_comparator_verdict": "pending",
+  "approval": "User explicitly approved the exact 165-file bundle and destination in this conversation.",
+  "url": "https://github.com/Garald1/PrimeNumberTheoremAnd/commit/f653ba0ebc606473a98ae8183c650715ffacb7e3"
+}
+

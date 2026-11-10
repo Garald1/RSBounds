@@ -1,0 +1,52 @@
+RSBounds/QuadraticContourLimit.lean:70:14: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ?x ^ ↑?n
+in the target expression
+  3 * (1 + |t|) ^ (1 / 2) * (K / (1 + |t|) ^ 2) = 3 * K * ((1 + |t|) ^ (1 / 2) / (1 + |t|) ^ 2)
+
+g : ℝ → ℂ
+K : ℝ
+hK : 0 ≤ K
+hc : Continuous g
+hg : ∀ (t : ℝ), ‖g t‖ ≤ K / (1 + |t|) ^ 2
+hi : Integrable (fun t => (1 + |t|) ^ (-(3 / 2))) volume
+hlogcont : Continuous fun t => Real.log (max 1 |t|)
+t : ℝ
+ha : 0 ≤ |t|
+hp : 0 < 1 + |t|
+hm : 0 < max 1 |t|
+hl0 : 0 ≤ Real.log (max 1 |t|)
+hlog : Real.log (max 1 |t|) ≤ 2 * (1 + |t|) ^ (1 / 2)
+hpow : 1 ≤ (1 + |t|) ^ (1 / 2)
+⊢ 3 * (1 + |t|) ^ (1 / 2) * (K / (1 + |t|) ^ 2) = 3 * K * ((1 + |t|) ^ (1 / 2) / (1 + |t|) ^ 2)
+RSBounds/QuadraticContourLimit.lean:165:14: error: don't know how to synthesize implicit argument `a`
+  @Tendsto.add ℝ PseudoMetricSpace.toUniformSpace.toTopologicalSpace Real.instAdd
+    (IsTopologicalRing.toIsSemitopologicalRing ℝ).toContinuousAdd ℕ (fun x => ?m.284) (fun x => 28.75 * (1 / (↑x + 1)))
+    atTop ?m.284 (28.75 * 0) tendsto_const_nhds (Tendsto.const_mul 28.75 hInv)
+context:
+P : ℕ → ℝ := ⋯
+hkTop : Tendsto (fun k => ↑k + 1) atTop atTop
+hInv : Tendsto (fun k => 1 / (↑k + 1)) atTop (𝓝 0)
+hArg : Tendsto (fun k => 1.25 * (↑k + 24)) atTop atTop
+hLog : Tendsto ((fun x => Real.log x / id x) ∘ fun k => 1.25 * (↑k + 24)) atTop (𝓝 0)
+⊢ ℝ
+RSBounds/QuadraticContourLimit.lean:165:14: error: don't know how to synthesize implicit argument `f`
+  @Tendsto.add ℝ PseudoMetricSpace.toUniformSpace.toTopologicalSpace Real.instAdd
+    (IsTopologicalRing.toIsSemitopologicalRing ℝ).toContinuousAdd ℕ (fun x => ?m.284) (fun x => 28.75 * (1 / (↑x + 1)))
+    atTop ?m.284 (28.75 * 0) tendsto_const_nhds (Tendsto.const_mul 28.75 hInv)
+context:
+P : ℕ → ℝ := ⋯
+hkTop : Tendsto (fun k => ↑k + 1) atTop atTop
+hInv : Tendsto (fun k => 1 / (↑k + 1)) atTop (𝓝 0)
+hArg : Tendsto (fun k => 1.25 * (↑k + 24)) atTop atTop
+hLog : Tendsto ((fun x => Real.log x / id x) ∘ fun k => 1.25 * (↑k + 24)) atTop (𝓝 0)
+⊢ ℕ → ℝ
+RSBounds/QuadraticContourLimit.lean:165:33: error: don't know how to synthesize placeholder
+context:
+P : ℕ → ℝ := ⋯
+hkTop : Tendsto (fun k => ↑k + 1) atTop atTop
+hInv : Tendsto (fun k => 1 / (↑k + 1)) atTop (𝓝 0)
+hArg : Tendsto (fun k => 1.25 * (↑k + 24)) atTop atTop
+hLog : Tendsto ((fun x => Real.log x / id x) ∘ fun k => 1.25 * (↑k + 24)) atTop (𝓝 0)
+⊢ ℝ
+RSBounds/QuadraticContourLimit.lean:165:9: error: failed to infer `have` declaration type
+RSBounds/QuadraticContourLimit.lean:208:6: error: No goals to be solved

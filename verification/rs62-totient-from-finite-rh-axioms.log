@@ -1,0 +1,19 @@
+'TernaryGoldbach.RSBounds.RS62TotientFromFiniteRH.log_ge_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.RS62TotientFromFiniteRH.primeTheta_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS62TotientFromFiniteRH.theta_lower_of_errors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS62TotientFromFiniteRH.theta_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS62TotientFromFiniteRH.primeProduct_log_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS62TotientFromFiniteRH.prime_product_rs62' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS62TotientFromFiniteRH.totient_bound_of_finiteRH' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

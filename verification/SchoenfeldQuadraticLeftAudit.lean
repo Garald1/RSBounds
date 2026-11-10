@@ -1,0 +1,9 @@
+import RSBounds.SchoenfeldQuadraticLeft
+
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticLeft.norm_left_integrand_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticLeft.norm_primitive_left_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticLeft.norm_primitive_left_le_uniform
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticLeft.norm_averaged_left_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticLeft.normalized_bound_eq
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticLeft.leftAllowance_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticLeft.psi_error_le_envelope

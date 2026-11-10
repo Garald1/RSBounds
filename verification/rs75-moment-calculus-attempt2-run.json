@@ -1,0 +1,55 @@
+{
+  "kind": "fresh-compilation-with-in-process-transitive-axiom-audit",
+  "started_utc": "2026-11-06T17:05:36.175146+00:00",
+  "source_sha256": {
+    "RSBounds/InfiniteTrapezoid.lean": "cfecce7ce0d1ae443fc3282bf906f3bf2769a32ab84168d591fa8fe56b288c07",
+    "RSBounds/RS75MomentCalculus.lean": "979b7eef157bf45bfbd71c0fae63d57cbdc9dcd9bcdac260fa20905a125d0b30",
+    "RSBounds/BacklundTrapezoid.lean": "1293c3bb601bd07df72843b3afe312f14ded8140864bfc95f7d74264c680ee8c",
+    "verification/RS75MomentCalculusAudit.lean": "ee9774953cdd7aba0cddaff346ddefad26abcd3c5b9d257eb80acb2005cae091",
+    "verification/run_rs75_moment_calculus_check.py": "dcc195361e10c002a3d17e31e8e0dd98fe428baac6fb34b1d08363da51d34c65"
+  },
+  "stdin_recipe": "Exact MomentCalculus source followed by13public audit commands, including the imported finite/infinite telescope.",
+  "stdin_sha256": "547797c640a2cd2feee4844c514b3e35d04768167e99f290905dd4c6a043fdd9",
+  "checked_dependency": {
+    "source": "RSBounds/InfiniteTrapezoid.lean",
+    "source_sha256": "cfecce7ce0d1ae443fc3282bf906f3bf2769a32ab84168d591fa8fe56b288c07",
+    "object_sha256": "57ceb1298867c7d75baa2a6f7f7f574a59042f0441a91307399d86f27c905d64",
+    "recorded_fresh_build": {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j1",
+        "-o",
+        ".lake/build/lib/lean/RSBounds/InfiniteTrapezoid.olean",
+        "RSBounds/InfiniteTrapezoid.lean"
+      ],
+      "log": "infinite-trapezoid-build.log",
+      "exit_code": 0,
+      "elapsed_seconds": 212.27781486099775
+    },
+    "prior_receipt": "verification/rs75-moment-calculus-attempt1-run.json"
+  },
+  "runs": [
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j1",
+        "-Dprofiler=true",
+        "--stdin",
+        "-o",
+        ".lake/build/lib/lean/RSBounds/RS75MomentCalculus.olean",
+        "RSBounds/RS75MomentCalculus.lean"
+      ],
+      "log": "rs75-moment-calculus-build.log",
+      "exit_code": 1,
+      "seconds": 187.4057497229951,
+      "user_cpu_seconds": 9.478228,
+      "system_cpu_seconds": 61.329368
+    }
+  ],
+  "exit_code": 1,
+  "finished_utc": "2026-11-06T17:08:43.586256+00:00"
+}

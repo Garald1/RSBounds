@@ -1,0 +1,56 @@
+{
+  "kind": "lake-build-and-axiom-audit",
+  "recorded_utc": "2026-11-07T07:51:50.339163+00:00",
+  "toolchain": "leanprover/lean4:v4.35.0",
+  "build": "lake build (Lake traces; no bare lean -o)",
+  "audit_command": "lake env lean verification/<Module>Audit.lean (no -o)",
+  "lake_build_log": "logs-claude/schoenfeld-build-20261107T045635Z.log (outside the project)",
+  "note": "Supersedes the unfinished/unchecked status in schoenfeld-quadratic-consolidation-source-status.json for these three modules. Not a Comparator receipt.",
+  "modules": {
+    "SchoenfeldQuadraticKernel": {
+      "source": "RSBounds/SchoenfeldQuadraticKernel.lean",
+      "source_sha256": "ec8574e328461af027d0ed31c0eb4b10e10984f3fc9e8c6ec8c6a53393cc66bd",
+      "object_sha256": "1bf911839e85af9f647926e058a7ec47500be8f6ffe2c1424c584f232293a86a",
+      "audit": "verification/SchoenfeldQuadraticKernelAudit.lean",
+      "audit_sha256": "72ed1eadb3f3807def00eb30d21648b33ac7c9b41810c31ad39400bd7d5f7937",
+      "audited_declarations": 67,
+      "axioms_union": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "only_standard_axioms": true,
+      "audit_log_sha256": "8f1192f31cd762483c87b9f051fc91c654c7bc02d171a27810517ac4f022a2b9"
+    },
+    "SchoenfeldQuadraticPsi": {
+      "source": "RSBounds/SchoenfeldQuadraticPsi.lean",
+      "source_sha256": "d6faaffb27ee7d9399721aead87efa8e874fc1cbb79de98c9bd138ab68fe04d8",
+      "object_sha256": "e52f1747c7ecfb3e94bbd8f9d182f56a6577e562f0253fe5764e917317577902",
+      "audit": "verification/SchoenfeldQuadraticPsiAudit.lean",
+      "audit_sha256": "003bd3c16c516ccb769ecb70fcf4da34a9d23bb2c1b4ebc2b9093372fd03df30",
+      "audited_declarations": 18,
+      "axioms_union": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "only_standard_axioms": true,
+      "audit_log_sha256": "f08122117407857d49d3ae1c3119dcbdadaa9b6b0e88f3727e903a1e77d37585"
+    },
+    "SchoenfeldQuadraticLeft": {
+      "source": "RSBounds/SchoenfeldQuadraticLeft.lean",
+      "source_sha256": "cba2644bdf768476ec405cb3c3fdd587e3ba042091d516859a3af50347344c9c",
+      "object_sha256": "1aa1909a6197d79d5d1d5849193d554dbc22b35ebd6c47ad93f3d22e27b20ac2",
+      "audit": "verification/SchoenfeldQuadraticLeftAudit.lean",
+      "audit_sha256": "7c6599dc70ed4c28c01766c8eba64627462a5c218253faecee5e684521cd89e6",
+      "audited_declarations": 7,
+      "axioms_union": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "only_standard_axioms": true,
+      "audit_log_sha256": "bbf890cdfd9b32e8073e092434f025476ad374693ecf883bb31ed71f4099ef4d"
+    }
+  }
+}

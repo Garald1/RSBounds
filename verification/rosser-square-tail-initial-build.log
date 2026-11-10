@@ -1,0 +1,75 @@
+import took 373s
+elaboration took 138ms
+typeclass inference of AddCommGroup took 168ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Convert___elabRules_Mathlib_Tactic_convert_1._boxed took 226ms
+interpretation of Mathlib.Tactic.FieldSimp._aux_Mathlib_Tactic_FieldSimp___elabRules_Mathlib_Tactic_FieldSimp_fieldSimp_1._boxed took 216ms
+type checking took 217ms
+RSBounds/RosserSquareTail.lean:40:4: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/RosserSquareTail.lean:40:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Convert___elabRules_Mathlib_Tactic_convert_1._boxed took 133ms
+interpretation of Mathlib.Tactic.FieldSimp._aux_Mathlib_Tactic_FieldSimp___elabRules_Mathlib_Tactic_FieldSimp_fieldSimp_1._boxed took 180ms
+type checking took 152ms
+RSBounds/RosserSquareTail.lean:59:4: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/RosserSquareTail.lean:59:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 136ms
+RSBounds/RosserSquareTail.lean:125:65: error: failed to prove positivity/nonnegativity/nonzeroness
+interpretation of Mathlib.Meta.FunProp.funPropTac._boxed took 240ms
+tactic execution of Lean.Parser.Tactic.refine took 149ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Convert___elabRules_Mathlib_Tactic_convert_1._boxed took 147ms
+typeclass inference of Add took 130ms
+'TernaryGoldbach.RSBounds.RosserSquareTail.hasDerivAt_reciprocal_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserSquareTail.hasDerivAt_neg_squarePrimitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserSquareTail.squarePrimitive_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserSquareTail.integral_upperDensity_div_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserSquareTail.integral_density_div_square_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserSquareTail.square_sum_le_head' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RosserSquareTail.square_sum_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.168ms
+	blocked (unaccounted) 6.74s
+	congr simp thm 3.59ms
+	declTypeLinter 42.4ms
+	dsimp 18.8ms
+	elaboration 818ms
+	fix level params 2.9ms
+	import 373s
+	initialization 44.2ms
+	instantiate metavars 3.28ms
+	interpretation 4.78s
+	let-to-have transformation 0.29ms
+	linting 60.1ms
+	module linting 1.07ms
+	norm_num 126ms
+	parsing 62.5ms
+	process pre-definitions 91ms
+	ring 204ms
+	share common exprs 68.9ms
+	simp 91.7ms
+	tactic execution 1.86s
+	tacticAnalysis 10.2ms
+	type checking 519ms
+	typeclass inference 1.92s

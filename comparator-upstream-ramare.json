@@ -1,0 +1,8 @@
+{
+  "challenge_module": "UpstreamRamareChallenge",
+  "solution_module": "RSBounds.Moebius003.Upstream",
+  "theorem_names": [
+    "TernaryGoldbach.RSBounds.Moebius003.ramareMoebius_of_plattGRH"
+  ],
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"]
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "build",
+    "RSBounds.RS75Polynomial"
+  ],
+  "started_utc": "2026-11-06T09:14:28.485693+00:00",
+  "source_sha256": {
+    "RSBounds/RS75Polynomial.lean": "bfffb05842e96be0f45d15863f4d45b8dba6eae6d785bd2bd1d5646420f60712"
+  },
+  "finished_utc": "2026-11-06T09:14:33.323411+00:00",
+  "exit_code": 1
+}

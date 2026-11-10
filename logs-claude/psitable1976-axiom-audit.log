@@ -1,0 +1,28 @@
+PsiTable1976.of_certified : Head1000.Certified → Goals.PsiTable1976
+'TernaryGoldbach.RSBounds.PsiTable1976.of_certified' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.PsiTable1976.psi_error_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.PsiTable1976.of_zeros0to1000' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.PsiTable1976.psi_error_of_zeros0to1000' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuarticHead1000ZeroSumBound.norm_sum_le_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuarticHead1000Budget.positive_low_sum_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuarticHead1000Budget.relativeBudget1000_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.QuarticHead1000BudgetNumerics.scalarBudget1000_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.Head1000.table' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Head1000.positiveZeroCount_thousand' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.Head1000.weighted_head_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Head1000.sum_up_le' depends on axioms: [propext]
+'TernaryGoldbach.RSBounds.Head1000.ord_range' depends on axioms: [propext]
+'TernaryGoldbach.RSBounds.Head1000.ord_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.Head1000.length_ordinates' does not depend on any axioms

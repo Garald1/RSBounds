@@ -1,0 +1,62 @@
+import took 4.38s
+RSBounds/MertensSignedInterval.lean:58:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  contourIntegrand zetaF (kernel a b) 1 (↑(-1 / 2) + ↑y * I)
+in the target expression
+  contourIntegrand riemannZeta (kernel a b) 1 (↑(-1 / 2) + ↑y * I) =
+    ((fun t => contourIntegrand zetaF (kernel a b) 1 (↑(-1 / 2) + ↑t * I)) - fun t =>
+        contourIntegrand (fun s => s - 1) (kernel a b) 1 (↑(-1 / 2) + ↑t * I))
+      y
+
+a b : ℝ
+ha : 0 < a
+hb : 0 < b
+hM : DecayTwo (kernel a b) (16 * numeratorBound a b)
+hL1 : ∀ (y : ℝ), ↑(-1 / 2) + ↑y * I ≠ 1
+hLz : ∀ (y : ℝ), riemannZeta (↑(-1 / 2) + ↑y * I) ≠ 0
+h :
+  Integrable
+    ((fun t => contourIntegrand zetaF (kernel a b) 1 (↑(-1 / 2) + ↑t * I)) - fun t =>
+      contourIntegrand (fun s => s - 1) (kernel a b) 1 (↑(-1 / 2) + ↑t * I))
+    volume
+y : ℝ
+⊢ contourIntegrand riemannZeta (kernel a b) 1 (↑(-1 / 2) + ↑y * I) =
+    ((fun t => contourIntegrand zetaF (kernel a b) 1 (↑(-1 / 2) + ↑t * I)) - fun t =>
+        contourIntegrand (fun s => s - 1) (kernel a b) 1 (↑(-1 / 2) + ↑t * I))
+      y
+'TernaryGoldbach.RSBounds.MertensSignedInterval.integrable_leftRemainder' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensSignedInterval.kernel_formula_at_heights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensSignedInterval.explicit_formula_at_heights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensSignedInterval.explicit_formula' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.116ms
+	blocked (unaccounted) 1.2s
+	congr simp thm 2.71ms
+	declTypeLinter 3.64ms
+	elaboration 70.2ms
+	fix level params 0.539ms
+	import 4.38s
+	initialization 32ms
+	instantiate metavars 1.73ms
+	interpretation 556ms
+	let-to-have transformation 0.215ms
+	linting 25.5ms
+	module linting 0.0102ms
+	norm_num 72.3ms
+	parsing 10.5ms
+	process pre-definitions 15.7ms
+	ring 36.9ms
+	share common exprs 11.7ms
+	simp 115ms
+	tactic execution 392ms
+	tacticAnalysis 3.3ms
+	type checking 55.4ms
+	typeclass inference 333ms

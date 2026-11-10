@@ -1,0 +1,11 @@
+import RSBounds.SchoenfeldQuadraticFar
+
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticFar.weightedSum_self
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticFar.farEnvelope
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticFar.norm_le_farEnvelope_of_pairing
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticFar.norm_upper_sum_le_farEnvelope
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticFar.norm_lower_sum_le_farEnvelope
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticFar.eventually_upper_farEnvelope
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticFar.eventually_lower_farEnvelope
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticFar.psi_error_le_farEnvelope_of_left_bounds
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuadraticFar.psi_error_le_farEnvelope

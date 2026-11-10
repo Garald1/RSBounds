@@ -1,0 +1,10 @@
+{
+  "challenge_module": "TernaryGoldbachChallenge",
+  "solution_module": "RSBounds.Moebius003.UpstreamMain",
+  "theorem_names": [
+    "TernaryGoldbach.RSBounds.Moebius003.ramareMoebius_of_plattGRH",
+    "TernaryGoldbach.RSBounds.Moebius003.ternary_goldbach_of_two_hypotheses",
+    "TernaryGoldbach.RSBounds.Moebius003.ternary_goldbach_large_of_plattGRH"
+  ],
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"]
+}

@@ -1,0 +1,18 @@
+'TernaryGoldbach.RSBounds.MertensPotentialDecay.norm_coefficient_le_at_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialDecay.zero_power_le_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialDecay.norm_coefficient_le_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialDecay.norm_potential_le_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialDecay.norm_signedLimit_le_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPotentialDecay.abs_J_le_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

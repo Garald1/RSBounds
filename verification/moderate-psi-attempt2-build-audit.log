@@ -1,0 +1,174 @@
+import took 246s
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 124ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 228ms
+type checking took 107ms
+RSBounds/ModeratePsi.lean:218:20: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/ModeratePsi.lean:218:24: warning: Unused tactic linter: `norm_num` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/ModeratePsi.lean:218:24: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+RSBounds/ModeratePsi.lean:225:20: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/ModeratePsi.lean:225:24: warning: Unused tactic linter: `norm_num` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/ModeratePsi.lean:225:24: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+RSBounds/ModeratePsi.lean:400:21: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/ModeratePsi.lean:400:21: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/ModeratePsi.lean:419:13: error: don't know how to synthesize implicit argument `c`
+  @div_le_div_of_nonneg_right ℝ Field.toSemifield.toDivisionSemiring.toGroupWithZero Real.partialOrder
+    MulPosReflectLE.toMulPosReflectLT (R4 delta / delta ^ 4 * √x) (C * √x) (|?m.184| ^ 5) hh
+    (pow_nonneg (abs_nonneg ?m.184) 5)
+context:
+lower : Bool
+x : ℝ
+hx : 0 < x
+ρ : ℂ
+hre : ρ.re = 1 / 2
+him : ρ.im ≠ 0
+hk : ‖coefficient lower x ρ‖ ≤ R4 delta / delta ^ 4 * √x / |ρ.im| ^ 5
+hh : R4 delta / delta ^ 4 * √x ≤ C * √x
+⊢ ℝ
+RSBounds/ModeratePsi.lean:419:44: error: don't know how to synthesize implicit argument `a`
+  @pow_nonneg ℝ Real.instMonoidWithZero Real.instPreorder |?m.184| Real.instZeroLEOneClass
+    Real.instIsOrderedRing.toPosMulMono (abs_nonneg ?m.184) 5
+context:
+lower : Bool
+x : ℝ
+hx : 0 < x
+ρ : ℂ
+hre : ρ.re = 1 / 2
+him : ρ.im ≠ 0
+hk : ‖coefficient lower x ρ‖ ≤ R4 delta / delta ^ 4 * √x / |ρ.im| ^ 5
+hh : R4 delta / delta ^ 4 * √x ≤ C * √x
+⊢ ℝ
+RSBounds/ModeratePsi.lean:419:67: error: don't know how to synthesize placeholder for argument `a`
+context:
+lower : Bool
+x : ℝ
+hx : 0 < x
+ρ : ℂ
+hre : ρ.re = 1 / 2
+him : ρ.im ≠ 0
+hk : ‖coefficient lower x ρ‖ ≤ R4 delta / delta ^ 4 * √x / |ρ.im| ^ 5
+hh : R4 delta / delta ^ 4 * √x ≤ C * √x
+⊢ ℝ
+RSBounds/ModeratePsi.lean:419:7: error: failed to infer `have` declaration type
+RSBounds/ModeratePsi.lean:404:62: error: unsolved goals
+lower : Bool
+x : ℝ
+hx : 0 < x
+ρ : ℂ
+hre : ρ.re = 1 / 2
+him : ρ.im ≠ 0
+hk : ‖coefficient lower x ρ‖ ≤ R4 delta / delta ^ 4 * √x / |ρ.im| ^ 5
+hh : R4 delta / delta ^ 4 * √x ≤ C * √x
+⊢ R4 delta / delta ^ 4 * √x / |ρ.im| ^ 5 ≤ √x * C / |ρ.im| ^ 5
+RSBounds/ModeratePsi.lean:467:21: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/ModeratePsi.lean:467:21: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/ModeratePsi.lean:568:6: error: Type mismatch: After simplification, term
+  h
+ has type
+  ‖leftRemainder x (delta * x)‖ ≤ 25000 / (π * x ^ 2⁻¹)
+but is expected to have type
+  ‖leftRemainder x (delta * x)‖ ≤ 25000 / (π * √x)
+RSBounds/ModeratePsi.lean:573:6: error: Type mismatch: After simplification, term
+  h
+ has type
+  ‖leftRemainder (x - 4 * (delta * x)) (delta * x)‖ ≤ 25000 / (π * x ^ 2⁻¹)
+but is expected to have type
+  ‖leftRemainder (x - 4 * (delta * x)) (delta * x)‖ ≤ 25000 / (π * √x)
+'TernaryGoldbach.RSBounds.PolynomialRemainderFlexibleStep.norm_averagedIntegrand_le_majorant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PolynomialRemainderFlexibleStep.norm_leftRemainder_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsiScalars.log_hundred_two_pi_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsiScalars.log_twothousand_two_pi_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsiScalars.low_integral_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsiScalars.head_correction_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsiScalars.middle_fifth_allowance_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsiScalars.log_two_pi_le_three' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsi.kernel_constant_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsi.coefficient_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsi.norm_coefficient_conj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsi.norm_coefficient_le_low' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsi.norm_coefficient_le_high_line' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsi.low_zero_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsi.positive_low_sum_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsi.high_fifth_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsi.norm_high_sum_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsi.norm_low_sum_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsi.norm_sum_le' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsi.norm_left_remainder_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsi.remainder_and_log_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.ModeratePsi.psi_error_le' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+cumulative profiling times:
+	attribute application 0.445ms
+	blocked (unaccounted) 87.8s
+	compilation (IR) 0.444ms
+	compilation (LCNF base) 4.17ms
+	compilation (LCNF impure) 1.71ms
+	compilation (LCNF mono) 3.99ms
+	congr simp thm 21.8ms
+	declTypeLinter 51.7ms
+	dsimp 3.26ms
+	elaboration 823ms
+	fix level params 9.63ms
+	import 246s
+	initialization 80.5ms
+	instantiate metavars 8.29ms
+	interpretation 6.22s
+	let-to-have transformation 0.721ms
+	linting 178ms
+	module linting 2.25ms
+	norm_num 2.45s
+	parsing 70.1ms
+	process pre-definitions 174ms
+	ring 376ms
+	share common exprs 161ms
+	simp 688ms
+	tactic execution 2.34s
+	tacticAnalysis 22.6ms
+	type checking 773ms
+	typeclass inference 3.64s

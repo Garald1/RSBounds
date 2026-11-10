@@ -1,0 +1,130 @@
+import took 308s
+elaboration took 599ms
+RSBounds/MertensFiniteWalk.lean:71:4: error: mod_cast has type
+  20 * hi ^ 2 < 20 * hi * slo + 26 * 10 ^ 30 * hi + 10 * (10 ^ 30) ^ 2
+but is expected to have type
+  ↑(20 * hi ^ 2) < ↑(20 * hi * slo) + 26 * d * ↑hi + 10 * d ^ 2
+RSBounds/MertensFiniteWalk.lean:81:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  (↑hi / d - 1.3 - ↑slo / d) * (2 * ↑hi) * d
+in the target expression
+  d * ((↑hi / d - 1.3 - ↑slo / d) * (2 * ↑hi)) < d * d
+
+L S : ℝ
+hi slo : ℕ
+hL : 0 < L
+hhi : 10 ^ 30 * L ≤ ↑hi
+hslo : ↑slo ≤ 10 ^ 30 * S
+hc : check hi slo
+d : ℝ := 10 ^ 30
+hd : 0 < d
+hhip : 0 < ↑hi
+hc' : 20 * ↑hi ^ 2 < 20 * ↑hi * ↑slo + 26 * d * ↑hi + 10 * d ^ 2
+hr : L ≤ ↑hi / d
+hsr : ↑slo / d ≤ S
+heq : (↑hi / d - 1.3 - ↑slo / d) * (2 * ↑hi) * d = 2 * ↑hi ^ 2 - 2.6 * d * ↑hi - 2 * ↑hi * ↑slo
+⊢ d * ((↑hi / d - 1.3 - ↑slo / d) * (2 * ↑hi)) < d * d
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 199ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 134ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 186ms
+RSBounds/MertensFiniteWalk.lean:112:65: error: unsolved goals
+n : ℕ
+hn : 1 ≤ n
+s : WS
+hc : n < 2 ∨ check (s.Lhi + incrHi n) s.Slo
+l1 : ↑s.Llo ≤ 10 ^ 30 * log ↑n
+l2 : 10 ^ 30 * log ↑n ≤ ↑s.Lhi
+s1 : ↑s.Slo ≤ 10 ^ 30 * Sp n
+hok : ∀ (N : ℕ), 2 ≤ N → N < n → Ok N
+hn0 : 0 < ↑n
+i1 : ↑(incrLo n) ≤ 10 ^ 30 * log (1 + (↑n)⁻¹)
+i2 : 10 ^ 30 * log (1 + (↑n)⁻¹) ≤ ↑(incrHi n)
+hlog : log ↑(n + 1) = log ↑n + log (1 + (↑n)⁻¹)
+lo : ℕ := s.Llo + incrLo n
+hi : ℕ := s.Lhi + incrHi n
+hlo : ↑lo ≤ 10 ^ 30 * log ↑(n + 1)
+hhi : 10 ^ 30 * log ↑(n + 1) ≤ ↑hi
+⊢ ((∑ k ∈ Icc 0 n, if Nat.Prime k then log ↑k / ↑k else 0) + if Nat.Prime (n + 1) then log (↑n + 1) / (↑n + 1) else 0) =
+    (∑ k ∈ Icc 0 n, if Nat.Prime k then log ↑k / ↑k else 0) + if Nat.Prime (n + 1) then log (↑n + 1) / (↑n + 1) else 0
+RSBounds/MertensFiniteWalk.lean:119:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+RSBounds/MertensFiniteWalk.lean:119:27: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+RSBounds/MertensFiniteWalk.lean:128:17: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+RSBounds/MertensFiniteWalk.lean:128:34: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+RSBounds/MertensFiniteWalk.lean:164:2: error: unsolved goals
+case refine_3
+⊢ 0 ≤ ∑ p ∈ Icc 0 1, if Nat.Prime p then log ↑p / ↑p else 0
+RSBounds/MertensFiniteWalk.lean:186:58: error: linarith failed to find a contradiction
+N : ℕ
+s : WS
+h : Inv N s
+x : ℝ
+hx : 1 < x
+hxN : x < ↑N
+hx2 : ¬x ≤ 2
+hx0 : 0 ≤ x
+a✝ : x < ↑2
+⊢ False
+failed
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.Sp_eq_primeWeightedSum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.check_sound' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.Inv_step' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.walk_spec' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.Inv_one' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.mertens_lower_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.mertens_lower_of_Inv' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 7.23ms
+	blocked (unaccounted) 4.56s
+	compilation (IR) 0.492ms
+	compilation (LCNF base) 8.27ms
+	compilation (LCNF impure) 3.42ms
+	compilation (LCNF mono) 11.7ms
+	congr simp thm 9.79ms
+	declTypeLinter 31.6ms
+	dsimp 29.7ms
+	elaboration 908ms
+	fix level params 1.29ms
+	import 308s
+	initialization 108ms
+	instantiate metavars 5.32ms
+	interpretation 3.47s
+	let-to-have transformation 0.904ms
+	linting 53ms
+	module linting 0.831ms
+	norm_num 301ms
+	parsing 33ms
+	process pre-definitions 43ms
+	ring 145ms
+	share common exprs 36.6ms
+	simp 138ms
+	tactic execution 782ms
+	tacticAnalysis 10.1ms
+	type checking 253ms
+	typeclass inference 1.34s

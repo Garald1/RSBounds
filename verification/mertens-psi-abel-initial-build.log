@@ -1,0 +1,69 @@
+import took 282s
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 130ms
+interpretation of Mathlib.Meta.FunProp.funPropTac._boxed took 113ms
+RSBounds/MertensPsiAbel.lean:118:2: error: Type mismatch: After simplification, term
+  IntegrableOn.sub (integrableOn_error_mul_rpow hs) (integrableOn_psi_ratio_mul_rpow hs)
+ has type
+  @IntegrableOn ℝ ℝ measureSpace.toMeasurableSpace PseudoMetricSpace.toUniformSpace.toTopologicalSpace
+    SeminormedAddGroup.toESeminormedAddMonoid.toContinuousENorm
+    ((fun x => (∑ d ∈ Finset.Ioc 0 ⌊x⌋₊, Λ d / ↑d) * x ^ (-s) - Real.log x * x ^ (-s)) - fun x =>
+      Chebyshev.psi x / x * x ^ (-s))
+    (Ioi 1) volume
+but is expected to have type
+  @IntegrableOn ℝ ℝ measureSpace.toMeasurableSpace PseudoMetricSpace.toUniformSpace.toTopologicalSpace
+    SeminormedAddGroup.toESeminormedAddMonoid.toContinuousENorm
+    (fun x => (∑ d ∈ Finset.Ioc 0 ⌊x⌋₊, Λ d / ↑d) * x ^ (-s) - Real.log x * x ^ (-s) - Chebyshev.psi x / x * x ^ (-s))
+    (Ioi 1) volume
+RSBounds/MertensPsiAbel.lean:132:23: error: Application type mismatch: The argument
+  integrableOn_error_mul_rpow hs
+has type
+  IntegrableOn (fun x => E₁Λ x * x ^ (-s)) (Ioi 1) volume
+but is expected to have type
+  Integrable (fun x => (∑ d ∈ Finset.Ioc 0 ⌊x⌋₊, Λ d / ↑d) * x ^ (-s) - Real.log x * x ^ (-s)) (volume.restrict (Ioi 1))
+in the application
+  integral_sub (integrableOn_error_mul_rpow hs)
+'TernaryGoldbach.RSBounds.MertensPsiAbel.sum_Icc_mangoldt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPsiAbel.sum_mangoldt_isBigO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPsiAbel.psi_ratio_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPsiAbel.measurable_D' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPsiAbel.D_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPsiAbel.integrableOn_psi_ratio_mul_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPsiAbel.logDeriv_eq_psi_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPsiAbel.psi_abel_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPsiAbel.integrableOn_D_mul_rpow' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensPsiAbel.D_abel_identity' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.251ms
+	blocked (unaccounted) 6.4s
+	congr simp thm 5.49ms
+	declTypeLinter 16.9ms
+	dsimp 3.68ms
+	elaboration 532ms
+	fix level params 1.21ms
+	import 282s
+	initialization 151ms
+	instantiate metavars 3.42ms
+	interpretation 3.47s
+	let-to-have transformation 0.277ms
+	linting 65.1ms
+	module linting 1.06ms
+	norm_num 99.7ms
+	parsing 47.6ms
+	process pre-definitions 25.6ms
+	ring 83.4ms
+	share common exprs 24ms
+	simp 164ms
+	tactic execution 867ms
+	tacticAnalysis 9.89ms
+	type checking 252ms
+	typeclass inference 863ms

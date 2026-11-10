@@ -1,0 +1,13 @@
+import RSBounds.Schoenfeld1976Rows4
+
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Rows4.R4_le
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Rows4.far_le_W4
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Rows4.sqrt_ge_of_exp900
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Rows4.small_terms_le4
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Rows4.row4
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Rows4.sqrt_ge_of_exp100
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Rows4.small_terms_low
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Rows4.row4low
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Rows4.finish
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Rows4.psiThetaLog_ge947
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Rows4.psiThetaLog_100_313

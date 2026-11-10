@@ -1,0 +1,12 @@
+'TernaryGoldbach.RSBounds.MertensFiniteScalars.mertensE_lt_neg_thirteen_tenths' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteScalars.primeWeightedSum_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteScalars.lower_main_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteScalars.mertens_lower_of_block' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

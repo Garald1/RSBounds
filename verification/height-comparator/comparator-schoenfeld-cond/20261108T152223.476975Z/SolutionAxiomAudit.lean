@@ -1,0 +1,9 @@
+import Schoenfeld1976CondSolution
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.psiThetaLog
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.psiLog
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.psiLogLower
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.thetaLogUpper
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.thetaLog
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.psiTheorem11
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.thetaTheorem11
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.psiUpperTheorem11

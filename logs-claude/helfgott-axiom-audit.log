@@ -1,0 +1,8 @@
+'TernaryGoldbach.RSBounds.HelfgottPsiBounds.sum_vonMangoldt_le_a14' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.HelfgottPsiBounds.sum_vonMangoldt_mul_lt_a17' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.HelfgottPsiBounds.psi_le_10004' depends on axioms: [propext, Classical.choice, Quot.sound]
+exit=0

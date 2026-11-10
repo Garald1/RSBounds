@@ -1,0 +1,83 @@
+✖ [2809/2809] Building RSBounds.WeightedZeroSums (3.1s)
+warning: RSBounds/WeightedZeroSums.lean: imports `Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/WeightedZeroSums.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/WeightedZeroSums.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+trace: .> LEAN_PATH=/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/Cli/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/batteries/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/Qq/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/aesop/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/plausible/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/ternary-goldbach/.lake/build/lib/lean:/workspace/scratch/99a161e7c02e/recovery/.lake/build/lib/lean /workspace/scratch/99a161e7c02e/.tools/elan-home/toolchains/leanprover--lean4---v4.35.0/bin/lean /workspace/scratch/99a161e7c02e/recovery/RSBounds/WeightedZeroSums.lean -o /workspace/scratch/99a161e7c02e/recovery/.lake/build/lib/lean/RSBounds/WeightedZeroSums.olean -i /workspace/scratch/99a161e7c02e/recovery/.lake/build/lib/lean/RSBounds/WeightedZeroSums.ilean -c /workspace/scratch/99a161e7c02e/recovery/.lake/build/ir/RSBounds/WeightedZeroSums.c --setup /workspace/scratch/99a161e7c02e/recovery/.lake/build/ir/RSBounds/WeightedZeroSums.setup.json --json
+info: RSBounds/WeightedZeroSums.lean:271:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+error: RSBounds/WeightedZeroSums.lean:263:75: unsolved goals
+case e'_8
+t : ℝ
+ht : 0 < t
+hp : 2 * Real.pi ≠ 0
+hq : t / (2 * Real.pi) ≠ 0
+hdiv : HasDerivAt (fun x => id x / (2 * Real.pi)) (1 / (2 * Real.pi)) t
+hh :
+  HasDerivAt
+    (fun x =>
+      (((fun x => id x / (2 * Real.pi)) * fun y => Real.log (id y / (2 * Real.pi))) - fun x => id x / (2 * Real.pi)) x +
+        7 / 8)
+    (1 / (2 * Real.pi) * Real.log (id t / (2 * Real.pi)) +
+        id t / (2 * Real.pi) * (1 / (2 * Real.pi) / (id t / (2 * Real.pi))) -
+      1 / (2 * Real.pi))
+    t
+⊢ rosserF = fun x =>
+    7 / 8 +
+      (((fun x => x * Real.pi⁻¹ * (1 / 2)) * fun y => Real.log (Real.pi⁻¹ * y * (1 / 2))) - fun x =>
+          Real.pi⁻¹ * x * (1 / 2))
+        x
+
+case e'_9
+t : ℝ
+ht : 0 < t
+hp : 2 * Real.pi ≠ 0
+hq : t / (2 * Real.pi) ≠ 0
+hdiv : HasDerivAt (fun x => id x / (2 * Real.pi)) (1 / (2 * Real.pi)) t
+hh :
+  HasDerivAt
+    (fun x =>
+      (((fun x => id x / (2 * Real.pi)) * fun y => Real.log (id y / (2 * Real.pi))) - fun x => id x / (2 * Real.pi)) x +
+        7 / 8)
+    (1 / (2 * Real.pi) * Real.log (id t / (2 * Real.pi)) +
+        id t / (2 * Real.pi) * (1 / (2 * Real.pi) / (id t / (2 * Real.pi))) -
+      1 / (2 * Real.pi))
+    t
+⊢ Real.log (t / (2 * Real.pi)) / (2 * Real.pi) =
+    1 / (2 * Real.pi) * Real.log (id t / (2 * Real.pi)) +
+        id t / (2 * Real.pi) * (1 / (2 * Real.pi) / (id t / (2 * Real.pi))) -
+      1 / (2 * Real.pi)
+info: RSBounds/WeightedZeroSums.lean:282:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+error: RSBounds/WeightedZeroSums.lean:275:67: unsolved goals
+case e'_8
+C t : ℝ
+ht : 1 < t
+ht0 : 0 < t
+hl0 : 0 < Real.log t
+hlog : HasDerivAt Real.log t⁻¹ t
+hh :
+  HasDerivAt (fun x => ((fun y => 0.137 * Real.log y) + fun y => 0.443 * Real.log (Real.log y)) x + C)
+    (0.137 * t⁻¹ + 0.443 * (t⁻¹ / Real.log t)) t
+⊢ rosserR C = fun x => ((fun y => Real.log y * (137 / 1000)) + fun y => Real.log (Real.log y) * (443 / 1000)) x + C
+
+case e'_9
+C t : ℝ
+ht : 1 < t
+ht0 : 0 < t
+hl0 : 0 < Real.log t
+hlog : HasDerivAt Real.log t⁻¹ t
+hh :
+  HasDerivAt (fun x => ((fun y => 0.137 * Real.log y) + fun y => 0.443 * Real.log (Real.log y)) x + C)
+    (0.137 * t⁻¹ + 0.443 * (t⁻¹ / Real.log t)) t
+⊢ (0.137 + 0.443 / Real.log t) / t = 0.137 * t⁻¹ + 0.443 * (t⁻¹ / Real.log t)
+Some required targets logged failures:
+- RSBounds.WeightedZeroSums
+error: build failed

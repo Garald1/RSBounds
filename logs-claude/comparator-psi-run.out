@@ -1,0 +1,15 @@
+START toolchain-version
+END toolchain-version 0
+START RSPsiChallenge-build
+END RSPsiChallenge-build 0
+START RSPsiSolution-build
+END RSPsiSolution-build 0
+START solution-axiom-audit
+END solution-axiom-audit 0
+START RSPsiChallenge-export
+END RSPsiChallenge-export 0
+START RSPsiSolution-export
+END RSPsiSolution-export 0
+START comparator
+END comparator 0
+comparator-psi.json: comparison and native kernel replay passed: /home/claude/src/RSBounds-project/verification/height-comparator/comparator-psi/20261108T044746.782069Z/run.json

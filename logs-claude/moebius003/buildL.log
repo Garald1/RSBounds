@@ -1,0 +1,171 @@
+⚠ [2089/2101] Replayed RSBounds.LambdaInputs
+warning: RSBounds/LambdaInputs.lean: imports `Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/LambdaInputs.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [2238/2269] Built RSBounds.LambdaCert.Defs (2.3s)
+⚠ [2305/2311] Built RSBounds.LambdaCert.Tables (150s)
+warning: RSBounds/LambdaCert/Tables.lean: imports `Mathlib.Data.Nat.Prime.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/LambdaCert/Tables.lean: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2307/2332] Built RSBounds.LambdaCert.LogSeries (151s)
+warning: RSBounds/LambdaCert/LogSeries.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/LambdaCert/LogSeries.lean: imports `Mathlib.Analysis.SpecificLimits.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2355/2394] Built RSBounds.LambdaCert.Masks (3.0s)
+warning: RSBounds/LambdaCert/Masks.lean: imports `Mathlib.Algebra.IsPrimePow` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/LambdaCert/Masks.lean: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/LambdaCert/Masks.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [3250/3269] Built RSBounds.LambdaCert.States (1.2s)
+✔ [3251/3269] Built RSBounds.LambdaCert.Segs.Seg14 (27s)
+✔ [3252/3269] Built RSBounds.LambdaCert.Segs.Seg15 (9.8s)
+⚠ [3253/3269] Built RSBounds.LambdaCert.Sound (46s)
+warning: RSBounds/LambdaCert/Sound.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [3254/3269] Built RSBounds.LambdaCert.Segs.Seg06 (27s)
+✔ [3255/3269] Built RSBounds.LambdaCert.Segs.Seg00 (2.0s)
+✔ [3256/3269] Built RSBounds.LambdaCert.Segs.Seg03 (23s)
+✔ [3257/3269] Built RSBounds.LambdaCert.Segs.Seg04 (24s)
+✔ [3258/3269] Built RSBounds.LambdaCert.Segs.Seg05 (24s)
+✔ [3259/3269] Built RSBounds.LambdaCert.Segs.Seg02 (22s)
+✔ [3260/3269] Built RSBounds.LambdaCert.Segs.Seg12 (25s)
+✔ [3261/3269] Built RSBounds.LambdaCert.Segs.Seg08 (22s)
+✔ [3262/3269] Built RSBounds.LambdaCert.Segs.Seg13 (25s)
+✔ [3263/3269] Built RSBounds.LambdaCert.Segs.Seg10 (25s)
+✔ [3264/3269] Built RSBounds.LambdaCert.Segs.Seg07 (23s)
+✔ [3265/3269] Built RSBounds.LambdaCert.Segs.Seg01 (15s)
+✔ [3266/3315] Built RSBounds.LambdaCert.Segs.Seg09 (23s)
+⚠ [3843/3872] Replayed RSBounds.MoebiusInputs
+warning: RSBounds/MoebiusInputs.lean: imports `Mathlib.NumberTheory.ArithmeticFunction.Moebius` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/MoebiusInputs.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3844/3872] Replayed RSBounds.Moebius003.Defs
+warning: RSBounds/Moebius003/Defs.lean: imports `Mathlib.NumberTheory.ArithmeticFunction.Moebius` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Moebius003/Defs.lean: imports `Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Moebius003/Defs.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Moebius003/Defs.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3847/3872] Replayed RSBounds.Moebius003.LogCert
+warning: RSBounds/Moebius003/LogCert.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Moebius003/LogCert.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Moebius003/LogCert.lean: imports `Mathlib.Analysis.SpecificLimits.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3849/3872] Replayed RSBounds.Moebius003.SmallM
+warning: RSBounds/Moebius003/SmallM.lean: imports `Mathlib.Tactic.Simproc.Factors` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3861/3932] Replayed RSBounds.Targets
+warning: RSBounds/Targets.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Targets.lean: imports `Mathlib.NumberTheory.Harmonic.EulerMascheroni` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Targets.lean: imports `Mathlib.Data.Nat.Totient` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Targets.lean: imports `Mathlib.NumberTheory.LSeries.RiemannZeta` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3912/3932] Replayed RSBounds.Moebius003.Kappa
+warning: RSBounds/Moebius003/Kappa.lean: imports `Mathlib.NumberTheory.LSeries.Dirichlet` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Moebius003/Kappa.lean: imports `Mathlib.NumberTheory.LSeries.HurwitzZetaValues` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/Moebius003/Kappa.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3913/3932] Replayed RSBounds.Moebius003.Squarefree
+warning: RSBounds/Moebius003/Squarefree.lean:85:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/Moebius003/Squarefree.lean:161:39: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3915/3932] Replayed RSBounds.Moebius003.Rho
+warning: RSBounds/Moebius003/Rho.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3916/3932] Replayed RSBounds.Moebius003.Weights
+warning: RSBounds/Moebius003/Weights.lean:158:46: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: RSBounds/Moebius003/Weights.lean:159:45: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/Weights.lean:164:47: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: RSBounds/Moebius003/Weights.lean:165:36: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/Weights.lean:175:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/Weights.lean:175:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/Weights.lean:175:85: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3918/3932] Replayed RSBounds.Moebius003.KSum
+warning: RSBounds/Moebius003/KSum.lean:107:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/Moebius003/KSum.lean:107:46: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/KSum.lean:190:55: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/KSum.lean:208:55: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/KSum.lean:354:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/KSum.lean:373:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3919/3932] Replayed RSBounds.Moebius003.SquarefreeData
+warning: RSBounds/Moebius003/SquarefreeData.lean:94:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/SquarefreeData.lean:97:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/Moebius003/SquarefreeData.lean:135:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/SquarefreeData.lean:141:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RSBounds/Moebius003/SquarefreeData.lean:152:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/Moebius003/SquarefreeData.lean:153:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RSBounds/Moebius003/SquarefreeData.lean:150:16: Unused tactic linter: `push_cast at this` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3920/3932] Replayed RSBounds.Moebius003.JSum
+warning: RSBounds/Moebius003/JSum.lean:326:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3923/3932] Replayed RSBounds.Moebius003.Checker
+warning: RSBounds/Moebius003/Checker.lean:227:10: Unused tactic linter: `push_cast at hν'` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3926/3932] Replayed RSBounds.Moebius003.Tail
+warning: RSBounds/Moebius003/Tail.lean:75:28: Variable name `hε0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hε0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3929/3932] Built RSBounds.LambdaCert.Segs.Seg11 (25s)
+✔ [3930/3932] Built RSBounds.LambdaInputsProof (3.7s)
+✔ [3931/3932] Built RSBounds.Moebius003.TargetL (21s)
+Build completed successfully (3932 jobs).
+wall 593 s

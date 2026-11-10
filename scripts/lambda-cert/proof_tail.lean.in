@@ -1,0 +1,41 @@
+
+theorem row_of_inv {s : State} (hs : Inv s) (r : GHRow) (hN : s.n = r.N)
+    (h : r.gLo * 10 ^ 18 ≤ s.glo ∧ s.ghi ≤ r.gHi * 10 ^ 18 ∧ r.hLo * 10 ^ 18 ≤ s.hlo ∧
+      s.hhi ≤ r.hHi * 10 ^ 18) :
+    (r.gLo : ℝ) / 10 ^ 6 ≤ G r.N ∧ G r.N ≤ (r.gHi : ℝ) / 10 ^ 6 ∧
+      (r.hLo : ℝ) / 10 ^ 6 ≤ H r.N ∧ H r.N ≤ (r.hHi : ℝ) / 10 ^ 6 := by
+  rw [← hN]
+  have hS : ((S : ℕ) : ℝ) = 10 ^ 24 := by norm_num [S]
+  obtain ⟨h1, h2, h3, h4⟩ := h
+  have c1 : ((r.gLo * 10 ^ 18 : ℕ) : ℝ) ≤ s.glo := by exact_mod_cast h1
+  have c2 : (s.ghi : ℝ) ≤ ((r.gHi * 10 ^ 18 : ℕ) : ℝ) := by exact_mod_cast h2
+  have c3 : ((r.hLo * 10 ^ 18 : ℕ) : ℝ) ≤ s.hlo := by exact_mod_cast h3
+  have c4 : (s.hhi : ℝ) ≤ ((r.hHi * 10 ^ 18 : ℕ) : ℝ) := by exact_mod_cast h4
+  have i1 := hs.glo
+  have i2 := hs.ghi
+  have i3 := hs.hlo
+  have i4 := hs.hhi
+  rw [hS] at i1 i2 i3 i4
+  push_cast at c1 c2 c3 c4
+  refine ⟨?_, ?_, ?_, ?_⟩
+  · rw [div_le_iff₀ (by norm_num)]; linarith
+  · rw [le_div_iff₀ (by norm_num)]; linarith
+  · rw [div_le_iff₀ (by norm_num)]; linarith
+  · rw [le_div_iff₀ (by norm_num)]; linarith
+
+end Cert
+
+open Cert
+
+/-- `A(n) ≤ 2(n − 1)` for `1 ≤ n ≤ 2²⁰`. -/
+theorem weightSumBound : WeightSumBound := by
+  intro n hn1 hn
+  have hlast : st@LAST@.n = 2 ^ 20 := rfl
+  exact inv@LAST@.hist n hn1 (by rw [hlast]; exact hn)
+
+/-- The enclosures of `ghTable`. -/
+theorem ghBounds : GHBounds := by
+  intro r hr
+  simp only [ghTable, List.mem_cons, List.not_mem_nil, or_false] at hr
+  rcases hr with @RFLS@
+

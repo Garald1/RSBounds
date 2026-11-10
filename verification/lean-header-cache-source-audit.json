@@ -1,0 +1,14 @@
+{
+  "kind": "read-only-header-cache-implementation-audit",
+  "adopted": false,
+  "lean_version": "4.35.0",
+  "lean_commit": "eb6cafb7290e8bd5f2937522d8d804f58f02bafc",
+  "sources": {
+    "Lean/Elab/Frontend.lean": "423d17e49722e901e5f82bd4b86e7cf2dd80c352fc55b3d72ac1301a79ead634",
+    "Lean/Language/Lean.lean": "90abb52c6f84836fce3606d2f4e03c9f717992b842c98e0283cddeb8a1611d86",
+    "Lean/CompactedRegion.lean": "56ef2a63c2394faefe590b58a5e3bd239589ddb6657a8523e5b0385800043f94",
+    "Lean/Setup.lean": "eff05a30636e084ecf7c52e4019a1f5497d48b5b023b73f0e979abde91d419a5",
+    "Lean/Shell.lean": "bbfcf01a93bcb9ca3f4d1264d3ad9890f3a6384dbbc949f5bf3cc286c0ec2225"
+  },
+  "scope": "The Lean-layer header invalidation and snapshot loading path was inspected. No snapshot was generated or used in proof verification."
+}

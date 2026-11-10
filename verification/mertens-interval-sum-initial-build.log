@@ -1,0 +1,50 @@
+import took 1.78s
+RSBounds/MertensIntervalSum.lean:62:6: error(lean.unknownIdentifier): Unknown identifier `tsum_sub`
+RSBounds/MertensIntervalSum.lean:60:46: error: unsolved goals
+a b : ℝ
+ha : 1 ≤ a
+hab : a ≤ b
+⊢ ∑' (n : ℕ), (Λ n * ramp b ↑n - Λ n * ramp a ↑n) = ∫ (t : ℝ) in a..b, Chebyshev.psi t / t ^ 2
+'TernaryGoldbach.RSBounds.MertensIntervalSum.ramp_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensIntervalSum.ramp_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensIntervalSum.mangoldt_mul_ramp_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensIntervalSum.summable_mangoldt_mul_ramp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensIntervalSum.tsum_mangoldt_mul_ramp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensIntervalSum.tsum_mangoldt_mul_intervalWeight' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensIntervalSum.tsum_mangoldt_mul_intervalWeight_sub_log' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.057ms
+	blocked (unaccounted) 238ms
+	congr simp thm 2.92ms
+	declTypeLinter 2.56ms
+	elaboration 24.7ms
+	fix level params 0.23ms
+	import 1.78s
+	initialization 39.1ms
+	instantiate metavars 0.365ms
+	interpretation 233ms
+	let-to-have transformation 0.0859ms
+	linting 9.33ms
+	module linting 0.00982ms
+	norm_num 0.841ms
+	parsing 3.6ms
+	process pre-definitions 2.86ms
+	ring 11.5ms
+	share common exprs 2.37ms
+	simp 21ms
+	tactic execution 57.5ms
+	tacticAnalysis 2.05ms
+	type checking 18.9ms
+	typeclass inference 82.4ms

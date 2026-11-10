@@ -1,0 +1,5 @@
+import RSBounds.HelfgottPsiBounds
+
+#print axioms TernaryGoldbach.RSBounds.HelfgottPsiBounds.sum_vonMangoldt_le_a14
+#print axioms TernaryGoldbach.RSBounds.HelfgottPsiBounds.sum_vonMangoldt_mul_lt_a17
+#print axioms TernaryGoldbach.RSBounds.HelfgottPsiBounds.psi_le_10004

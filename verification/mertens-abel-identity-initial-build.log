@@ -1,0 +1,110 @@
+import took 270s
+RSBounds/MertensAbelIdentity.lean:35:5: error(lean.unknownIdentifier): Unknown constant `Real.isLittleO_log_rpow_atTop`
+RSBounds/MertensAbelIdentity.lean:33:36: error: unsolved goals
+r : ℝ
+hr : 0 < r
+⊢ (fun n => ∑ k ∈ Finset.Icc 1 n, Λ k / ↑k) =O[atTop] fun n => ↑n ^ r
+tactic execution of Lean.Parser.Tactic.refine took 61.3s
+RSBounds/MertensAbelIdentity.lean:57:36: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ?m.69 ^ ?m.70 * ?m.69 ^ ?m.71
+in the target expression
+  ↑n ^ 1 * (↑n ^ 1) ^ (↑s - 1) = (↑n ^ 1) ^ ↑s
+
+case neg.e_a
+s : ℝ
+n : ℕ
+hn : ¬n = 0
+⊢ ↑n ^ 1 * (↑n ^ 1) ^ (↑s - 1) = (↑n ^ 1) ^ ↑s
+RSBounds/MertensAbelIdentity.lean:57:63: error: mod_cast has type
+  ¬n = 0
+but is expected to have type
+  ¬?m.69 = 0
+RSBounds/MertensAbelIdentity.lean:70:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ‖?a * ?b‖
+in the target expression
+  ‖(E₁Λ * fun x => id x ^ (-s)) x‖ ≤ C * x ^ (-s)
+
+s : ℝ
+hs : 1 < s
+C : ℝ
+hC : C > 0
+hbound : ∀ x ≥ 1, |E₁Λ x| ≤ C
+hg : IntegrableOn (fun x => C * x ^ (-s)) (Ioi 1) volume
+hm : Measurable E₁Λ
+x : ℝ
+hx : x ∈ Ioi 1
+hx0 : 0 < x
+⊢ ‖(E₁Λ * fun x => id x ^ (-s)) x‖ ≤ C * x ^ (-s)
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 159ms
+tactic execution of Lean.Parser.Tactic.refine took 102ms
+typeclass inference of MeasurableSub₂ took 420ms
+interpretation of Mathlib.Meta.FunProp.funPropTac._boxed took 305ms
+RSBounds/MertensAbelIdentity.lean:103:4: error(lean.unknownIdentifier): Unknown identifier `LSeries_vonMangoldt_eq_deriv_riemannZeta_div`
+RSBounds/MertensAbelIdentity.lean:95:71: error: unsolved goals
+s : ℝ
+hs : 1 < s
+h :
+  LSeries (fun n => ↑(Λ n)) ↑s =
+    (↑s - 1) * ∫ (t : ℝ) in Ioi 1, (∑ k ∈ Finset.Icc 1 ⌊t⌋₊, ↑(Λ k / ↑k)) * ↑t ^ (-(↑s - 1 + 1))
+⊢ -(logDeriv riemannZeta ↑s).re = (s - 1) * ∫ (x : ℝ) in Ioi 1, (Real.log x + E₁Λ x) * x ^ (-s)
+type checking took 104ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 753ms
+type checking took 165ms
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.sum_Icc_mangoldt_div' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.weighted_sum_isBigO_rpow' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.LSeries_mangoldt_div_shift' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.integrableOn_error_mul_rpow' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.integrableOn_log_mul_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.integral_log_mul_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.logDeriv_eq_integral' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensAbelIdentity.error_abel_identity' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.192ms
+	blocked (unaccounted) 136s
+	compilation (IR) 0.117ms
+	compilation (LCNF base) 1.47ms
+	compilation (LCNF impure) 0.632ms
+	compilation (LCNF mono) 5.75ms
+	congr simp thm 6.53ms
+	declTypeLinter 98.9ms
+	dsimp 7.25ms
+	elaboration 727ms
+	fix level params 0.89ms
+	import 270s
+	initialization 223ms
+	instantiate metavars 2.97ms
+	interpretation 3.95s
+	let-to-have transformation 0.218ms
+	linting 106ms
+	module linting 1.05ms
+	norm_num 367ms
+	parsing 73.5ms
+	process pre-definitions 53.9ms
+	ring 169ms
+	share common exprs 27.9ms
+	simp 310ms
+	tactic execution 62.2s
+	tacticAnalysis 7.39ms
+	type checking 431ms
+	typeclass inference 2.05s

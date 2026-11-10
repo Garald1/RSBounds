@@ -1,0 +1,16 @@
+START toolchain-version
+END toolchain-version 0
+START RSPsi1976ConditionalChallenge-build
+END RSPsi1976ConditionalChallenge-build 0
+START RSPsi1976ConditionalSolution-build
+END RSPsi1976ConditionalSolution-build 0
+START solution-axiom-audit
+END solution-axiom-audit 0
+START RSPsi1976ConditionalChallenge-export
+END RSPsi1976ConditionalChallenge-export 0
+START RSPsi1976ConditionalSolution-export
+END RSPsi1976ConditionalSolution-export 0
+START comparator
+END comparator 1
+Comparator not completed: Stage did not complete successfully: comparator (1)
+RUNNER EXIT 1

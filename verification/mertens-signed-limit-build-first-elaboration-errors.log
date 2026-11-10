@@ -1,0 +1,59 @@
+import took 255s
+elaboration took 105ms
+RSBounds/MertensSignedLimit.lean:54:9: error(lean.unknownIdentifier): Unknown identifier `tendsto_const_div_atTop_nhds_zero`
+RSBounds/MertensSignedLimit.lean:84:2: error: Type mismatch: After simplification, term
+  tendsto_nhds_unique h tendsto_const_nhds
+ has type
+  @Eq ℝ (signedLimit a).im Real.zero✝
+but is expected to have type
+  @Eq ℝ (signedLimit a).im 0
+RSBounds/MertensSignedLimit.lean:103:6: error: Type mismatch
+  add_le_add_right (add_le_add_left (norm_F_le ha0) ?m.198) ?m.199
+has type
+  ?m.199 + (‖F a‖ + ?m.198) ≤ ?m.199 + (6000 * a ^ (-3 / 2) + ?m.198)
+but is expected to have type
+  ‖potential a‖ + ‖F a‖ + Real.log (2 * π) / a ≤ ‖potential a‖ + 6000 * a ^ (-3 / 2) + Real.log (2 * π) / a
+'TernaryGoldbach.RSBounds.MertensSignedLimit.finite_integral_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensSignedLimit.tendsto_signed_integral_complex' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensSignedLimit.tendsto_signed_integral' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensSignedLimit.signedLimit_im_eq_zero' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensSignedLimit.norm_signedLimit_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.0699ms
+	blocked (unaccounted) 1.14s
+	congr simp thm 1.54ms
+	declTypeLinter 11.1ms
+	dsimp 3.05ms
+	elaboration 262ms
+	fix level params 0.469ms
+	import 255s
+	initialization 78.4ms
+	instantiate metavars 0.892ms
+	interpretation 2.24s
+	let-to-have transformation 0.108ms
+	linting 28.8ms
+	module linting 0.449ms
+	norm_num 9.52ms
+	parsing 28.1ms
+	process pre-definitions 8.96ms
+	ring 63.4ms
+	share common exprs 7.46ms
+	simp 16.5ms
+	tactic execution 294ms
+	tacticAnalysis 3.22ms
+	type checking 52.7ms
+	typeclass inference 448ms

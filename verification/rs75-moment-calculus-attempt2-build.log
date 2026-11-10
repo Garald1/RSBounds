@@ -1,0 +1,105 @@
+import took 173s
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Convert___elabRules_Mathlib_Tactic_convert_1._boxed took 102ms
+RSBounds/RS75MomentCalculus.lean:44:2: warning: Unused tactic linter: `all_goals
+  try { funext u; rfl
+  }` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/RS75MomentCalculus.lean:44:28: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 137ms
+type checking took 136ms
+RSBounds/RS75MomentCalculus.lean:106:2: error: don't know how to synthesize placeholder
+context:
+s : ℝ
+j : ℕ
+t : ℝ
+ht : 64 ≤ t
+ht0 : 0 < t
+⊢ ContinuousWithinAt (momentSecond s j) (Ici 64) t
+interpretation of Mathlib.Meta.FunProp.funPropTac._boxed took 559ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Convert___elabRules_Mathlib_Tactic_convert_1._boxed took 114ms
+RSBounds/RS75MomentCalculus.lean:169:6: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/RS75MomentCalculus.lean:169:10: warning: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/RS75MomentCalculus.lean:177:6: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/RS75MomentCalculus.lean:186:6: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/RS75MomentCalculus.lean:169:10: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+RSBounds/RS75MomentCalculus.lean:177:6: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/RS75MomentCalculus.lean:186:6: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'TernaryGoldbach.RSBounds.InfiniteTrapezoid.finite_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.InfiniteTrapezoid.infinite_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.hasDerivAt_momentFn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.hasDerivAt_momentDeriv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.momentSecond_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.continuousOn_momentSecond' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.tendsto_momentFn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.tendsto_momentDeriv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.tendsto_tailPrimitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.hasDerivAt_neg_tailPrimitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.integrableOn_momentFn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.integral_momentFn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.moment_bounds' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.25ms
+	blocked (unaccounted) 9.29s
+	congr simp thm 7.97ms
+	declTypeLinter 18.2ms
+	dsimp 14.4ms
+	elaboration 522ms
+	fix level params 3.94ms
+	import 173s
+	initialization 129ms
+	instantiate metavars 10.2ms
+	interpretation 4.12s
+	let-to-have transformation 0.367ms
+	linting 90.3ms
+	module linting 0.0192ms
+	norm_num 491ms
+	parsing 38.4ms
+	process pre-definitions 92.6ms
+	ring 259ms
+	share common exprs 86.7ms
+	simp 185ms
+	tactic execution 757ms
+	tacticAnalysis 9.27ms
+	type checking 439ms
+	typeclass inference 1.59s

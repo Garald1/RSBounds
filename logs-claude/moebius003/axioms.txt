@@ -1,0 +1,6 @@
+$ cat Axioms.lean
+import RSBounds.Moebius003.Main
+#print axioms TernaryGoldbach.RSBounds.Moebius003.target
+
+$ lake env lean Axioms.lean
+'TernaryGoldbach.RSBounds.Moebius003.target' depends on axioms: [propext, Classical.choice, Quot.sound]

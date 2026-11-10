@@ -1,0 +1,9 @@
+{
+  "challenge_module": "MoebiusCertChallenge",
+  "solution_module": "MoebiusCert.Final",
+  "theorem_names": [
+    "TernaryGoldbach.RSBounds.MoebiusInputs.mertensSqrt",
+    "TernaryGoldbach.RSBounds.MoebiusInputs.smallMoebiusSum"
+  ],
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"]
+}

@@ -1,0 +1,19 @@
+'TernaryGoldbach.RSBounds.MertensDecayScalars.exp_fifteen_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDecayScalars.log_seventeen_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDecayScalars.cutoff_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDecayScalars.twice_squareExpr_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDecayScalars.scalarEnvelope_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDecayScalars.fifth_power_exp_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDecayScalars.scalarEnvelope_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

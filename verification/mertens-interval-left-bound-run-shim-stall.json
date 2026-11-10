@@ -1,0 +1,31 @@
+{
+  "kind": "fresh-source-compilation-and-in-process-transitive-axiom-audit",
+  "started_utc": "2026-11-06T18:19:48.165289+00:00",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-j1",
+    "-Dprofiler=true",
+    "--stdin",
+    "-o",
+    ".lake/build/lib/lean/RSBounds/MertensIntervalLeftBound.olean",
+    "RSBounds/MertensIntervalLeftBound.lean"
+  ],
+  "source_sha256": {
+    "RSBounds/MertensIntervalLeftBound.lean": "6e59e0628d02af7ecfaba4626bcb7ddd2b9b8838182a488d60b39ce0cca98587",
+    "verification/MertensIntervalLeftBoundAudit.lean": "6ecfc9c7468ec046b323dee299c3b268c3e747adb7b0c30a0936a16ea1e66227",
+    "verification/run_mertens_interval_left_bound_check.py": "fa2d53324a4c5d690ab8062807e26f23e1d77b1f8ed96d07b1453e5b7c979a3e"
+  },
+  "key_dependency_sha256": {
+    "RSBounds/MertensSignedInterval.lean": "7782ac59b035f6db7b43fcbae0806c1ff647e74d36e5a91384c76c67a2d2b9df",
+    "RSBounds/MertensIntervalDecay.lean": "bde513c3e1d3ff44fbbedc81bf403f9bbba2f987370fdfd63a1be6977388dc6d",
+    "RSBounds/PolynomialExplicitFormula.lean": "9b4980ca52f9c22ef4dc8964cfbdfd1d1321c8031b8adf852b0948d0df821191",
+    "RSBounds/PolynomialLeftRemainder.lean": "f953776e4a91f6b2fd9f54c7e246423e1803dade49dedc8c1ec6bbac820e64f2",
+    "../ternary-goldbach/TernaryGoldbach/Explicit/XiPartial.lean": "d5c7c512e06b21a1d07d150cd8174138df2cd80bb0de6aaa05a9508a0ebe6207",
+    "../ternary-goldbach/TernaryGoldbach/Explicit/ZetaExplicit.lean": "f9d9c2495e3a72b699cfc38cd848c2a0c7ae1163aeda800038ef557124022ed2"
+  },
+  "stdin_sha256": "5b533dffe1df910804751bacee95b11bbbfcec2f767866fdfa39f5085a404cca",
+  "stdin_description": "Exact source followed by every #print axioms command from the audit file.",
+  "log": "verification/mertens-interval-left-bound-build-audit.log"
+}

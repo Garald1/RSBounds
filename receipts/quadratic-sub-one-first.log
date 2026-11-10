@@ -1,0 +1,17 @@
+RSBounds/QuadraticSubOne.lean:57:62: error: Invalid argument name `R` for function `Nat.cast_nonneg`
+
+Hint: Perhaps you meant one of the following parameter names:
+  • `α`: R̵α̲
+  • `n`: R̵n̲
+RSBounds/QuadraticSubOne.lean:85:6: error: linarith failed to find a contradiction
+M : ℂ → ℂ
+K : ℝ
+hM : DecayTwo M K
+x : ℝ
+hx : 0 < x
+hcont : Continuous fun t => contourIntegrand (fun s => s - 1) M x (↑(-1 / 2) + ↑t * I)
+t : ℝ
+h : 3 / 2 ≤ ‖-(1 / 2) + ↑t * I - 1‖
+a✝ : ‖↑(-1 / 2) + ↑t * I - 1‖ < 1
+⊢ False
+failed

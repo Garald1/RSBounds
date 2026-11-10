@@ -1,0 +1,31 @@
+{
+  "kind": "fresh-mertens-product-correction-source-with-in-process-transitive-axiom-audit",
+  "started_utc": "2026-11-06T20:49:23.750214+00:00",
+  "source_sha256": {
+    "RSBounds/MertensProductCorrection.lean": "e84796bf5af853e722e9c077e5c2af3c29b083f19bb8652c32af54bb0ba7f4a7",
+    "verification/MertensProductCorrectionAudit.lean": "cc35b6818902dba0a7eced6ff0490ccd182b733d049d862e86c23962ca360984",
+    "verification/run_mertens_product_correction_check.py": "21d9b7584fa9e0a5ab7899f90a2719eeb40c7cc0c303ece5bb3840986a1d8bb9",
+    "RSBounds/PrimeLogTail.lean": "05a75c2df96480ae03d6a5fc37d821d85e643cbcd06bc0af71f1b84c543c390c",
+    "RSBounds/Totient.lean": "6fcf07d64e32245fccfda894e07d189d70e39abe261d5837bb725da38508d6f2"
+  },
+  "stdin_recipe": "Exact source plus 5 fully qualified #print axioms commands.",
+  "stdin_sha256": "c7c478ce0af45b04dd69c888150401e472b577a1adde93b60b3912ff5f8a1efb",
+  "runs": [
+    {
+      "command": [
+        "lean",
+        "-j1",
+        "-Dprofiler=true",
+        "--stdin",
+        "-o",
+        ".lake/build/lib/lean/RSBounds/MertensProductCorrection.olean",
+        "RSBounds/MertensProductCorrection.lean"
+      ],
+      "log": "verification/mertens-product-correction-build.log",
+      "exit_code": 1,
+      "seconds": 149.35477133899985
+    }
+  ],
+  "exit_code": 1,
+  "build_exit_code": 1
+}

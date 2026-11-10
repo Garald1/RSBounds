@@ -1,0 +1,9 @@
+import RSBounds.SchoenfeldTheorem11Analytic
+
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Analytic.split_facts
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Analytic.c0_bounds
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Analytic.close_arith
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Analytic.core
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Analytic.psi_lt
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Analytic.theta_lt
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldTheorem11Analytic.psi_upper

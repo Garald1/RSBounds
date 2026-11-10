@@ -1,0 +1,19 @@
+{
+  "challenge_module": "Schoenfeld1976CondChallenge",
+  "solution_module": "Schoenfeld1976CondSolution",
+  "theorem_names": [
+    "TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.psiThetaLog",
+    "TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.psiLog",
+    "TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.psiLogLower",
+    "TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.thetaLogUpper",
+    "TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.thetaLog",
+    "TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.psiTheorem11",
+    "TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.thetaTheorem11",
+    "TernaryGoldbach.RSBounds.Schoenfeld1976ComparatorCond.psiUpperTheorem11"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

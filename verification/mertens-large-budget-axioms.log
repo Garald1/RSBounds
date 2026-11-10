@@ -1,0 +1,12 @@
+'TernaryGoldbach.RSBounds.MertensLargeBudget.cutoffRoot_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLargeBudget.cutoffRoot_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLargeBudget.actual_envelope_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLargeBudget.norm_signedLimit_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLargeBudget.abs_J_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLargeBudget.mertens_lower_of_weak_psi' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

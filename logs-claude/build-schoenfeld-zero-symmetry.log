@@ -1,0 +1,7 @@
+=== 2026-11-08T01:53:12-03:00 lake build RSBounds.SchoenfeldZeroSymmetry
+Hint: Replace the deprecated name:
+Hint: Replace the deprecated name:
+Hint: Use `simp` instead of `simpa`:
+info: RSBounds/RS75ZeroPowerDecay.lean:95:8: Try this:
+Build completed successfully (9310 jobs).
+=== EXIT 0

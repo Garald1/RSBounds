@@ -1,0 +1,86 @@
+RSBounds/MertensIntervalKernel.lean:72:2: error: Type mismatch: After simplification, term
+  HasDerivAt.deriv hd
+ has type
+  @Eq ℂ (deriv ((fun x => ↑b ^ (x - 1)) - fun x => ↑a ^ (x - 1)) 1) (↑(Real.log b) - ↑(Real.log a))
+but is expected to have type
+  @Eq ℂ (deriv (numerator a b) 1) (↑(Real.log b) - ↑(Real.log a))
+RSBounds/MertensIntervalKernel.lean:106:4: error: unsolved goals
+case pos
+s : ℂ
+hs : 1 < s.re
+hm : HasMellin ((Ioc 0 1).indicator fun t => ↑t ^ (-1)) s (1 / (s + -1))
+hz : HasMellin ((Ioc 0 1).indicator fun t => ↑t ^ 0) s (1 / (s + 0))
+hd :
+  HasMellin (fun t => (Ioc 0 1).indicator (fun t => ↑t ^ (-1)) t - (Ioc 0 1).indicator (fun t => ↑t ^ 0) t) s
+    (1 / (s + -1) - 1 / (s + 0))
+u : ℝ
+hu : 0 < u
+hu1 : u ≤ 1
+hmem : u ∈ Ioc 0 1
+hnonneg : 0 ≤ 1 / u - 1
+⊢ (↑u)⁻¹ - 1 = ↑(max (u⁻¹ - 1) 0)
+RSBounds/MertensIntervalKernel.lean:111:4: error: unsolved goals
+case neg
+s : ℂ
+hs : 1 < s.re
+hm : HasMellin ((Ioc 0 1).indicator fun t => ↑t ^ (-1)) s (1 / (s + -1))
+hz : HasMellin ((Ioc 0 1).indicator fun t => ↑t ^ 0) s (1 / (s + 0))
+hd :
+  HasMellin (fun t => (Ioc 0 1).indicator (fun t => ↑t ^ (-1)) t - (Ioc 0 1).indicator (fun t => ↑t ^ 0) t) s
+    (1 / (s + -1) - 1 / (s + 0))
+u : ℝ
+hu : 0 < u
+hu1 : ¬u ≤ 1
+hnmem : u ∉ Ioc 0 1
+hnonpos : 1 / u - 1 ≤ 0
+⊢ 0 = ↑(max (u⁻¹ - 1) 0)
+RSBounds/MertensIntervalKernel.lean:116:21: error: unsolved goals
+s : ℂ
+hm : HasMellin ((Ioc 0 1).indicator fun t => ↑t ^ (-1)) s (1 / (s + -1))
+hz : HasMellin ((Ioc 0 1).indicator fun t => ↑t ^ 0) s (1 / (s + 0))
+hd :
+  HasMellin (fun t => (Ioc 0 1).indicator (fun t => ↑t ^ (-1)) t - (Ioc 0 1).indicator (fun t => ↑t ^ 0) t) s
+    (1 / (s + -1) - 1 / (s + 0))
+hb : HasMellin baseWeight s (1 / (s + -1) - 1 / (s + 0))
+h : s = 0
+hs : 1 < 0
+⊢ False
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+RSBounds/MertensIntervalKernel.lean:98:50: error: unsolved goals
+s : ℂ
+hs : 1 < s.re
+hm : HasMellin ((Ioc 0 1).indicator fun t => ↑t ^ (-1)) s (1 / (s + -1))
+hz : HasMellin ((Ioc 0 1).indicator fun t => ↑t ^ 0) s (1 / (s + 0))
+hd :
+  HasMellin (fun t => (Ioc 0 1).indicator (fun t => ↑t ^ (-1)) t - (Ioc 0 1).indicator (fun t => ↑t ^ 0) t) s
+    (1 / (s + -1) - 1 / (s + 0))
+hb : HasMellin baseWeight s (1 / (s + -1) - 1 / (s + 0))
+h0 : s ≠ 0
+h1 : s - 1 ≠ 0
+⊢ 1 = -(s * (-1 + s)⁻¹) + s * s⁻¹ + s ^ 2 * (-1 + s)⁻¹ - s ^ 2 * s⁻¹
+RSBounds/MertensIntervalKernel.lean:110:30: warning: This simp argument is unused:
+  max_eq_left hnonneg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hmem, baseWeight, Complex.cpow_neg_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+RSBounds/MertensIntervalKernel.lean:115:31: warning: This simp argument is unused:
+  max_eq_right hnonpos
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hnmem, baseWeight]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+RSBounds/MertensIntervalKernel.lean:164:2: error: Type mismatch: After simplification, term
+  hd
+ has type
+  HasMellin (fun t => ↑(max (t⁻¹ - b⁻¹) 0) - ↑(max (t⁻¹ - a⁻¹) 0)) s
+    (↑b ^ (s - 1) / (s * (s - 1)) - ↑a ^ (s - 1) / (s * (s - 1)))
+but is expected to have type
+  HasMellin (weight a b) s (↑b ^ (s - 1) / (s * (s - 1)) - ↑a ^ (s - 1) / (s * (s - 1)))

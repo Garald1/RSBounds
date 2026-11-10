@@ -1,0 +1,8 @@
+=== 2026-11-08T03:25:35-03:00 lake build   (default target)
+warning: RSBounds/QuarticFirst29BudgetApplication.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (9331 jobs).
+=== EXIT 0
+=== 2026-11-08T03:25:46-03:00 lake build RSBounds RSBounds.Targets RSBounds.RS75FiniteHandoff RSBounds.RS75ZeroFreeNumerics RSBounds.RS75ZeroFreeScalars RSBounds.RS75ZeroFree1975 RSBounds.QuarticFirst29BudgetNumerics RSBounds.QuarticFirst29BudgetBridges RSBounds.QuarticLowZeroBounds RSBounds.RosserSchoenfeld1975 RSBounds.Theta RSBounds.RosserCubicTail RSBounds.RS75ZeroPowerDecay RSBounds.RS75DecayingHighZeros RSBounds.RS75AdaptiveHighBudget RSBounds.MertensTailScalars RSBounds.MertensPotentialBound RSBounds.MertensPotentialDecay RSBounds.MertensLargeBudget RSBounds.ModeratePsi RSBounds.WeakPsiTail RSBounds.RS62MertensFromFiniteRH RSBounds.RS62TotientFromFiniteRH RSBounds.SchoenfeldZeroSymmetry RSZeroFreeChallenge RSZeroFreeSolution
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (9385 jobs).
+=== EXIT 0

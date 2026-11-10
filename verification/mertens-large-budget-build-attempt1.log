@@ -1,0 +1,53 @@
+import took 521s
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 187ms
+RSBounds/MertensLargeBudget.lean:84:4: error: linarith failed to find a contradiction
+case hbudget
+x : ℝ
+hx : 1 ≤ x
+hL : 2400 ≤ Real.log x
+hRH : Goals.FiniteRH 1894439
+hpsi : |Chebyshev.psi x - x| ≤ 0.1 * x / Real.log x
+hL0 : 0 < Real.log x
+hx1 : 1 < x
+heq : (0.1 / Real.log x + 1 / Real.log x ^ 2) * (2 * Real.log x) = 0.2 + 2 / Real.log x
+hi : 1 / Real.log x ≤ 1 / 2400
+a✝ : 1 ≤ 0.2 + 2 / Real.log x
+⊢ False
+failed
+'TernaryGoldbach.RSBounds.MertensLargeBudget.cutoffRoot_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLargeBudget.cutoffRoot_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLargeBudget.actual_envelope_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLargeBudget.norm_signedLimit_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLargeBudget.abs_J_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensLargeBudget.mertens_lower_of_weak_psi' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.098ms
+	blocked (unaccounted) 2.18s
+	congr simp thm 1.38ms
+	declTypeLinter 20.3ms
+	elaboration 288ms
+	fix level params 0.773ms
+	import 521s
+	initialization 77.5ms
+	instantiate metavars 2.06ms
+	interpretation 2.85s
+	let-to-have transformation 0.242ms
+	linting 34.1ms
+	module linting 0.534ms
+	norm_num 202ms
+	parsing 18.5ms
+	process pre-definitions 18.5ms
+	ring 80.9ms
+	share common exprs 13.1ms
+	simp 5.52ms
+	tactic execution 426ms
+	tacticAnalysis 6.03ms
+	type checking 93.4ms
+	typeclass inference 598ms

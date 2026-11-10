@@ -1,0 +1,12 @@
+import RSBounds.SchoenfeldQuarticFar
+
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuarticFar.quarticCoefficient_nonneg
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuarticFar.rectangle_reciprocal_fifth_sum_lt
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuarticFar.critical_sum_eq4
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuarticFar.high_weightedSum_eq4
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuarticFar.norm_upper_sum_le4
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuarticFar.norm_lower_sum_le4
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuarticFar.norm_le_farEnvelope4_of_pairing
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuarticFar.eventually_upper_farEnvelope4
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuarticFar.eventually_lower_farEnvelope4
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldQuarticFar.psi_error_le_farEnvelope4

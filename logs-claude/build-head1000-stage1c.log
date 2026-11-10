@@ -1,0 +1,5 @@
+=== 2026-11-08T09:31:48-03:00
+⚠ [3250/3251] Built RSBounds.Zeros0to1000Statement (5.6s)
+warning: RSBounds/Zeros0to1000Statement.lean: imports `Mathlib.NumberTheory.LSeries.RiemannZeta` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+/bin/bash: line 2:  7076 Killed                  timeout 3000 lake build RSBounds.Head1000Data 2>&1
+=== EXIT 137 2026-11-08T09:32:54-03:00

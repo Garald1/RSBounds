@@ -1,0 +1,34 @@
+{
+  "kind": "fresh-mertens-interval-mellin-build-with-in-process-transitive-axiom-audit",
+  "started_utc": "2026-11-06T18:05:53.401412+00:00",
+  "source_sha256": {
+    "RSBounds/MertensIntervalMellin.lean": "7040242e3bd79a7d38956a71fe3c0c2dd4e45334d63afdb38e9bf11670370513",
+    "RSBounds/MertensIntervalSum.lean": "65d702fb141e34d19d7c27c563a08d594e39eb1d894d819b8a1daca54cf61d9b",
+    "RSBounds/MertensIntervalKernel.lean": "e93cd81fd46ee00291c1932e1a914e68caad985995ce14c3801ff9efa503ab29",
+    "RSBounds/QuadraticContourLimit.lean": "b984412c4b6a6100c5b379a6e458bf5f52e78d365f72472eaceb582afd838f7b",
+    "verification/MertensIntervalMellinAudit.lean": "ee541912f603d2586b491362d50bebc7422e25f56db2936696d89d5d5a4250bb",
+    "verification/run_mertens_interval_mellin_check.py": "26dfa85a1772e6b29749f2d2fa42c8a8faf556a3bc024ad1df6935c191a53761"
+  },
+  "stdin_recipe": "Exact source plus three fully qualified #print axioms commands.",
+  "stdin_sha256": "7e9b171ff7db23e380cb8f54a6577375da807e2769640c32623e8b418c44ca10",
+  "runs": [
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j1",
+        "-Dprofiler=true",
+        "--stdin",
+        "-o",
+        ".lake/build/lib/lean/RSBounds/MertensIntervalMellin.olean",
+        "RSBounds/MertensIntervalMellin.lean"
+      ],
+      "log": "verification/mertens-interval-mellin-build.log",
+      "exit_code": 1,
+      "seconds": 7.622115794998535
+    }
+  ],
+  "build_exit_code": 1,
+  "exit_code": 1
+}

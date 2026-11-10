@@ -1,0 +1,20 @@
+import RSBounds.SchoenfeldBalanceTail
+
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.d_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.tail_mono
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.tail_numeric
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.tail_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.s_mul_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.L_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.LM_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.G0_le_G1
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.P4_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.le_one_sub_quarter
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.P_pow_four
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.two_delta_eq
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.q_bounds
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.rosserR_bounds
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.R2_le
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.G2_bounds
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.gap_of_lt_v1
+#print axioms TernaryGoldbach.RSBounds.SchoenfeldBalanceTail.small_terms_le

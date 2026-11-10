@@ -1,0 +1,17 @@
+{
+  "kind": "fresh-mertens-abel-identity-build-with-in-process-transitive-axiom-audit",
+  "started_utc": "2026-11-06T18:26:30.553843+00:00",
+  "source_sha256": {
+    "RSBounds/MertensAbelIdentity.lean": "388fe2e3ff432cea92826bd9a156a72dfb3db172ef31c0cf1894c1d7ed3dce5f",
+    "RSBounds/RS75MomentCalculus.lean": "feabe86c32cae11eacbf26f6f08cbbedb1a89f0a253c747a47dd4ccfb4026069",
+    "../ternary-goldbach/TernaryGoldbach/Prelim/PNTMertens.lean": "d1406c91106cf881bf2a5ec0adae8f4a33e938f1cd571759fe2fe5a483c0d2ea",
+    "verification/MertensAbelIdentityAudit.lean": "4097e78553130ab28db45a3f866649c7b7deee71a8ad024f52c6478033637e55",
+    "verification/run_mertens_abel_identity_check.py": "24412fe7a46e123fdbfc370ee2a5b160f2f63d0e59251ad6be798710501f9d81"
+  },
+  "stdin_recipe": "Exact source plus eight fully qualified #print axioms commands.",
+  "stdin_sha256": "a20ff736c66f4ce9aee6a1726d027bc31e025cff32e3b33b7fb7716cee94b38f",
+  "runs": [],
+  "interrupted_utc": "2026-11-06T18:27:22.530257+00:00",
+  "exit_code": 130,
+  "interruption_reason": "Direct lake env also stalled while loading concurrent Lake configuration; parent authorized interrupt and direct lean retry with exact restored LEAN_PATH."
+}

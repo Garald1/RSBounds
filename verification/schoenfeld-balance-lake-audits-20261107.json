@@ -1,0 +1,245 @@
+{
+ "kind": "lake-build-and-axiom-audit",
+ "recorded_utc": "2026-11-07T15:47:22.466616+00:00",
+ "toolchain": "leanprover/lean4:v4.35.0",
+ "build": "lake build",
+ "audit_command": "lake env lean verification/<Module>Audit.lean",
+ "note": "(5.6b*) for e^23 <= x <= e^38.3 from the RS75 b = 23 bound, under FiniteRH 1894439.",
+ "modules": {
+  "SchoenfeldBalanceAlgebra": {
+   "source_sha256": "03949626c6fd06666aeeaa1223c6b207cb3ad22d57739ab8692c4947d35839c0",
+   "object_sha256": "2508992bc6da6d44c139f490a13aadf2e21e3d6dbf752d34bb4b1235de30db02",
+   "audit_sha256": "41bdc612f5e171ea8bf59009929ca960d67c3ede64175204f087f3d85546e55b",
+   "audited_declarations": 8,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "ae635dcd92d4c11bf2125c89ab042f7a9bf3ba1dba30e884f8f840324bfb619c"
+  },
+  "SchoenfeldBalanceV": {
+   "source_sha256": "5fc84dcde2dce97d605ca48749a4198bde42c9882a5ed125bd91d0f1db4c9ccf",
+   "object_sha256": "fa0b85cba62700fd2b491568b3af5cdf2fa607637967b41903c95e2fdfb8d351",
+   "audit_sha256": "a4b31917a74c83b2da4e666f006f2e68c2a49760a27923cd5be5f117bb02db94",
+   "audited_declarations": 10,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "a53c0122d490776e99dd99ac32b3b60c9421fa1861fcabbbabf4fa8f695bd2f0"
+  },
+  "SchoenfeldBalanceVNumeric": {
+   "source_sha256": "b727ff49b2bd8690e5e58733ce3e0027c1794f2f5fb2a7dbead18e0ee7faac4a",
+   "object_sha256": "7a573f7964ae3f4591bf077addb0df7a1fc0e0a4915227eb3dce1bc97c27de28",
+   "audit_sha256": "311a7abdc105c486fa4b2497208e64e6ca8f8149693d4ae479921a87dfaf4589",
+   "audited_declarations": 12,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "41a7c50de72893ed1c84cea3be61a67bec20706a561234ccaa4dd9b18e69b7f6"
+  },
+  "SchoenfeldBalanceHeight": {
+   "source_sha256": "a35e8355d53fd19750b8dad396d5c71a3236234753fc86a5f1fea823feb1781d",
+   "object_sha256": "74f4eb09b6ad74e424ee60f6534cac980133bda9aed2ff94ad6f3ac38256c1e0",
+   "audit_sha256": "3101c0729c80b06cd35356ddfd4f30fba624355db5828c14553864cec706ba4c",
+   "audited_declarations": 5,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "fdf720adce6a5bd4bf42a8177b70e232cd24f1dec08c552107defa261a192c1b"
+  },
+  "SchoenfeldBalanceMain": {
+   "source_sha256": "af063c98d934ceb3040d6c1364aeba14b06fe96d879c9e7bd44e8049b951687e",
+   "object_sha256": "bb53d5408f0166afc04b0d4668cbffd1783703883c1139374be5c45f7cd5a245",
+   "audit_sha256": "d3e69fd18385e3a0a1b8945da03b215362a3cf7e5733c26298f9739d2fc9f62e",
+   "audited_declarations": 10,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "0902df391de0721cdccb868d2c05da8f01fa6f5c26db9e445bab0467ef68e233"
+  },
+  "SchoenfeldBalanceTail": {
+   "source_sha256": "113a30b9caa8fd534fc77a3a3f39fda8e72853f1f95e5ba3d81f90b72e4219e0",
+   "object_sha256": "c9a928371775ffd825848e5a940e03a74d013f953b6bfb9054bec91958328798",
+   "audit_sha256": "ee109c5711ae28605481c1d4919a054cc8844fbe31fdc3474c7fe3a1624cfeb3",
+   "audited_declarations": 18,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "8175de3d3b73ad0c150553aee7e95b9f3241b50f19440834ec22b2dafae4895a"
+  },
+  "SchoenfeldTheorem11Analytic": {
+   "source_sha256": "d1e0bb56205812cb4a02ba85d990931d149fb1cbde37687473c9960b0195236e",
+   "object_sha256": "d47647c53c01591e9da479403578c35d68256247de9350801543b3cf56215944",
+   "audit_sha256": "b5ea476aaa817adfc8c8313635e3a24f8962c403750ad8e1d07bf2857bd173d4",
+   "audited_declarations": 7,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "29fbcc81cdff46263d6d19e305b2e4d340e5216fe465c15a691aee7f98aa0cf0"
+  },
+  "Schoenfeld1976Large": {
+   "source_sha256": "99c6198e3180a17b000ff35917cd67d91390b35eeb3f1fa5493359191e1b9d7d",
+   "object_sha256": "425026ffbc0818cf3d5b0941bc383ab8e91f7ac25af32da18b3b2f5ef666b074",
+   "audit_sha256": "4e4a65e8240e6287f5a06412e95ae1f1fe971bbd79b0e4e35ad7c84de03e425d",
+   "audited_declarations": 6,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "e9679984064c0979b4a06f2aaaad28a0e78ade27a153751fe0d494ce83921ef8"
+  },
+  "SchoenfeldQuadraticFar": {
+   "source_sha256": "234003fdf04df3804c679881d5324723add74a5c78c304c637a84e572f2d4d68",
+   "object_sha256": "f40246c4deaa4da1ab226f07dd324fe535068a2e85abef7891e21691b2b2ebc1",
+   "audit_sha256": "6acc629586d51668a4eada8b8f16ebdfa824349feb79603e1b71203e85667ce3",
+   "audited_declarations": 9,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "03b96a145e6fffb4f6fec15daf64bcecd8c76cc7f1bb3c13b2d3c4d8c794ac49"
+  },
+  "SchoenfeldTheorem11B23": {
+   "source_sha256": "2a8d3f3e095d3a8c0b980aa9d863a2eece16bef5d32da40676af79422eefe4de",
+   "object_sha256": "f720fcae3b4c22f97daf9fadae762fd2c7b3fb487c99130f7542bed5014db583",
+   "audit_sha256": "b159dbf3933cea649f1ac7bf0963a5e1a12ff264e51f48fd702a29bff4411e41",
+   "audited_declarations": 13,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "ea4383e376cb919f7bf58b239b454fe67cfcb5cddcbb2875d0a677c9f0523a00"
+  },
+  "SchoenfeldTheorem11Far": {
+   "source_sha256": "b93f6dd0387db101c902b39aabf8a9fd9ee2bf1918c6611d09599b4c4eb8399b",
+   "object_sha256": "2381b6be323e00e239895d65c608fd6e463eadfc49f17a1c2c2081681927b8da",
+   "audit_sha256": "5be9f8d0cf52a63be9dd23a5a4bbcc230dfd9d1f39e4c873d51a0aed666360e0",
+   "audited_declarations": 6,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "83ffdb378689d0629c613f25bf55f5e0d440b23aea30a770ad02a466ea5cc997"
+  },
+  "SchoenfeldTheorem11Ge23": {
+   "source_sha256": "11232871d27581d4f202c561d5e4cb49a540d30fa7faaae5387e219682f8a3a4",
+   "object_sha256": "d7ad5ef6d0ec737f1d93be8a6f953a65860a3f9c5228e930edf3a2cb9bc201ee",
+   "audit_sha256": "18cc2f99ffe1335c03b32a43bf7bb0e2cb950e1984820083643cfec293d135fb",
+   "audited_declarations": 6,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "a3320fa8185610e693898649da4978f10746a58276ae6d0d91dba3c782f83a18"
+  },
+  "SchoenfeldWeightedZerosM": {
+   "source_sha256": "0d0a135c6d81e33d1035e9539951f6ef0bb97bb7c00f9cf9fcfd943f559729d4",
+   "object_sha256": "125a09179adaa210e6fb07bf203011386808597bb825bd30ed3d3a1564963618",
+   "audit_sha256": "b4b586f5f439b801682d59a377373608406428c8ac92b2f2bbe67aa8a147eaf5",
+   "audited_declarations": 4,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "2b509860077f86e448b88850ffacf81536d4bd18bf2b155dd4de0a2224ce9cff"
+  },
+  "Schoenfeld1976Rows2": {
+   "source_sha256": "fa3aeef4436fae1c3eec22e0ea036fc239892b600254dc507d33b68035e27841",
+   "object_sha256": "d543f4c073c3260e3aa97a663648b1faeabb6a47b24e796a27cf70ff78ec22de",
+   "audit_sha256": "237ab64827eb7064060efc25e24d5f55e876e33e5a11524e3c353854cdd0b4f8",
+   "audited_declarations": 5,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "67862c89bc93614f4fb6bc8e1f921709fe19cbf1f7babfc0718a30072045fcc3"
+  },
+  "PolynomialRemainderGeneral": {
+   "source_sha256": "c799754150c16031dda3e08916db1c634d7380df3ff1bc6659c3faa894bdde4d",
+   "object_sha256": "d5db3ac57454503195a9013c85300741dba2cfe9751a3c042367c2e9c57b751f",
+   "audit_sha256": "eb09ab0338497a16ecc86971ec57911268c4024423f7b3d0bf770be49e100462",
+   "audited_declarations": 9,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "81823542036bb95f79d4d269b940c904cae1ae8ac30688dffa8ccf286e433a24"
+  },
+  "SchoenfeldQuarticFar": {
+   "source_sha256": "533c30a8a68b5e2d334906abe714cd64c9dddfa4d5dc1539649157aad40becf4",
+   "object_sha256": "5ae6417e7c3dec2cfb44f91a2101f14c1a10f0a7911896300acbe130f816033c",
+   "audit_sha256": "1d9adb4f5faea7cea54a26d27927300e7f53556f307918421bafa1bdec48adf0",
+   "audited_declarations": 10,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "65f5497024b95e5dc080bcffd5a7b61f09850b1f27b0c9188aeffe389818d586"
+  },
+  "Schoenfeld1976Rows4": {
+   "source_sha256": "9c6dfc853f989b12ea2a15efda7067eea68d45d9273b464cf16dae686d7330c1",
+   "object_sha256": "3f7e8bf5b778ce09aa0baf4c26c27ea934cd3da592510622df378e3f5db78f20",
+   "audit_sha256": "cec367686dc817ab87a910eaea49437682c31ca5f996a3ff38ece9d26fd46785",
+   "audited_declarations": 11,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "c6c7bd89d01ce9039cc41f9552f1c9e028900fbbbd3fb112ccb7bd38320dbb54"
+  },
+  "Schoenfeld1976Rows23": {
+   "source_sha256": "6c3483c8b51d30f8268d06f5776af9e2744d4c10609994567a0965a293a14b42",
+   "object_sha256": "436c87bf64ecee60c9d3c3bba22c35cfb19d4010e44afd76664f3319cfb82cf2",
+   "audit_sha256": "be6dceb8dc38862229e43eee4e2a28dcb7e4cb7d57fd96a95ae64ae119a546f7",
+   "audited_declarations": 2,
+   "axioms_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "only_standard_axioms": true,
+   "audit_log_sha256": "d2de5ea5b2c52dd10135a9650d49b90cfc72b29e86bfca3a4e0d7ccda21da012"
+  }
+ },
+ "total_audited_declarations": 151
+}

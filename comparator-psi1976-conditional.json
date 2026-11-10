@@ -1,0 +1,9 @@
+{
+  "challenge_module": "RSPsi1976ConditionalChallenge",
+  "solution_module": "RSPsi1976ConditionalSolution",
+  "theorem_names": [
+    "TernaryGoldbach.RSBounds.PsiTable1976.psi_error_of_zeros0to1000",
+    "TernaryGoldbach.RSBounds.PsiTable1976.of_zeros0to1000"
+  ],
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"]
+}

@@ -1,0 +1,92 @@
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+RSBounds/RS75MomentCalculus.lean:39:55: error: unsolved goals
+case e'_9
+s : ℝ
+j : ℕ
+t : ℝ
+ht : 0 < t
+hl : HasDerivAt Real.log t⁻¹ t
+hp : HasDerivAt (fun x => x ^ (-s)) (-s * t ^ (-s - 1)) t
+⊢ ↑j * Real.log t ^ (j - 1) - Real.log t ^ j * s = ↑j * Real.log t ^ (j - 1) - s * (Real.log ^ j) t
+RSBounds/RS75MomentCalculus.lean:55:2: error: `simp` made no progress
+RSBounds/RS75MomentCalculus.lean:101:25: error: linarith failed to find a contradiction
+s : ℝ
+j : ℕ
+t : ℝ
+ht : t ∈ Ici 64
+a✝ : t ≤ 0
+⊢ False
+failed
+RSBounds/RS75MomentCalculus.lean:110:13: error(lean.unknownIdentifier): Unknown constant `Real.isLittleO_log_rpow_rpow_atTop`
+RSBounds/RS75MomentCalculus.lean:109:42: error: unsolved goals
+s : ℝ
+hs : 0 < s
+j : ℕ
+⊢ Tendsto (momentFn s j) atTop (𝓝 0)
+RSBounds/RS75MomentCalculus.lean:133:4: error: Type mismatch
+  Tendsto.div_const h₀ ?m.128
+has type
+  Tendsto (fun a => momentFn (s - 1) 0 a / ?m.128) atTop (𝓝 (0 / ?m.128))
+but is expected to have type
+  Tendsto (tailPrimitive s 0) atTop (𝓝 0)
+RSBounds/RS75MomentCalculus.lean:134:4: error: Type mismatch: After simplification, term
+  Tendsto.add (Tendsto.div_const h₁ (s - 1)) (Tendsto.div_const h₀ ((s - 1) ^ 2))
+ has type
+  @Tendsto ℝ ℝ (fun x => momentFn (s - 1) 1 x / (s - 1) + momentFn (s - 1) 0 x / (s - 1) ^ 2) atTop (𝓝 0)
+but is expected to have type
+  @Tendsto ℝ ℝ (tailPrimitive s (0 + 1)) atTop (𝓝 0)
+RSBounds/RS75MomentCalculus.lean:136:4: error: Type mismatch: After simplification, term
+  Tendsto.add (Tendsto.add (Tendsto.div_const h₂ (s - 1)) (Tendsto.div_const (Tendsto.const_mul 2 h₁) ((s - 1) ^ 2)))
+    (Tendsto.div_const (Tendsto.const_mul 2 h₀) ((s - 1) ^ 3))
+ has type
+  @Tendsto ℝ ℝ
+    (fun x =>
+      momentFn (s - 1) 2 x / (s - 1) + 2 * momentFn (s - 1) 1 x / (s - 1) ^ 2 + 2 * momentFn (s - 1) 0 x / (s - 1) ^ 3)
+    atTop (𝓝 0)
+but is expected to have type
+  @Tendsto ℝ ℝ (tailPrimitive s (0 + 1 + 1)) atTop (𝓝 0)
+RSBounds/RS75MomentCalculus.lean:152:11: error: Tactic `unfold` failed to unfold `momentDeriv` in
+  (fun t => -tailPrimitive s 0 t) = -fun x => momentFn (s - 1) 0 x / (s - 1)
+RSBounds/RS75MomentCalculus.lean:158:11: error: Tactic `unfold` failed to unfold `momentDeriv` in
+  (fun t => -tailPrimitive s 1 t) =
+    -((fun x => momentFn (s - 1) 1 x / (s - 1)) + fun x => momentFn (s - 1) 0 x / (s - 1) ^ 2)
+RSBounds/RS75MomentCalculus.lean:166:11: error: Tactic `unfold` failed to unfold `momentDeriv` in
+  (fun t => -tailPrimitive s 2 t) =
+    -(((fun x => momentFn (s - 1) 2 x / (s - 1)) + fun x => 2 * momentFn (s - 1) 1 x / (s - 1) ^ 2) + fun x =>
+        2 * momentFn (s - 1) 0 x / (s - 1) ^ 3)
+RSBounds/RS75MomentCalculus.lean:176:62: error: linarith failed to find a contradiction
+s : ℝ
+hs : 1 < s
+j : ℕ
+hj : j ≤ 2
+t : ℝ
+ht : t ∈ Ici 64
+a✝ : t ≤ 0
+⊢ False
+failed
+RSBounds/RS75MomentCalculus.lean:177:39: error: linarith failed to find a contradiction
+s : ℝ
+hs : 1 < s
+j : ℕ
+hj : j ≤ 2
+t : ℝ
+ht : t ∈ Ioi 64
+a✝ : t < 1
+⊢ False
+failed
+RSBounds/RS75MomentCalculus.lean:183:62: error: linarith failed to find a contradiction
+s : ℝ
+hs : 1 < s
+j : ℕ
+hj : j ≤ 2
+t : ℝ
+ht : t ∈ Ici 64
+a✝ : t ≤ 0
+⊢ False
+failed
+RSBounds/RS75MomentCalculus.lean:190:27: error: unexpected token 'Σ'; expected ')'

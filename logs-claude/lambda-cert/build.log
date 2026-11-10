@@ -1,0 +1,36 @@
+✔ [2090/2094] Built RSBounds.LambdaCert.Defs (1.1s)
+⚠ [2091/2215] Built RSBounds.LambdaInputs (3.6s)
+warning: RSBounds/LambdaInputs.lean: imports `Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/LambdaInputs.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2308/2311] Built RSBounds.LambdaCert.Tables (6.7s)
+warning: RSBounds/LambdaCert/Tables.lean: imports `Mathlib.Data.Nat.Prime.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/LambdaCert/Tables.lean: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2309/2334] Built RSBounds.LambdaCert.LogSeries (6.9s)
+warning: RSBounds/LambdaCert/LogSeries.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/LambdaCert/LogSeries.lean: imports `Mathlib.Analysis.SpecificLimits.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2783/2917] Built RSBounds.LambdaCert.Masks (3.3s)
+warning: RSBounds/LambdaCert/Masks.lean: imports `Mathlib.Algebra.IsPrimePow` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/LambdaCert/Masks.lean: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/LambdaCert/Masks.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [3251/3270] Built RSBounds.LambdaCert.States (1.3s)
+⚠ [3252/3270] Built RSBounds.LambdaCert.Sound (10s)
+warning: RSBounds/LambdaCert/Sound.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [3253/3270] Built RSBounds.LambdaCert.Segs.Seg15 (8.3s)
+✔ [3254/3270] Built RSBounds.LambdaCert.Segs.Seg14 (23s)
+✔ [3255/3270] Built RSBounds.LambdaCert.Segs.Seg06 (22s)
+✔ [3256/3270] Built RSBounds.LambdaCert.Segs.Seg00 (2.5s)
+✔ [3257/3270] Built RSBounds.LambdaCert.Segs.Seg03 (19s)
+✔ [3258/3270] Built RSBounds.LambdaCert.Segs.Seg04 (20s)
+✔ [3259/3270] Built RSBounds.LambdaCert.Segs.Seg05 (19s)
+✔ [3260/3270] Built RSBounds.LambdaCert.Segs.Seg02 (17s)
+✔ [3261/3270] Built RSBounds.LambdaCert.Segs.Seg12 (21s)
+✔ [3262/3270] Built RSBounds.LambdaCert.Segs.Seg08 (20s)
+✔ [3263/3270] Built RSBounds.LambdaCert.Segs.Seg13 (21s)
+✔ [3264/3270] Built RSBounds.LambdaCert.Segs.Seg10 (21s)
+✔ [3265/3270] Built RSBounds.LambdaCert.Segs.Seg07 (20s)
+✔ [3266/3270] Built RSBounds.LambdaCert.Segs.Seg01 (13s)
+✔ [3267/3270] Built RSBounds.LambdaCert.Segs.Seg09 (20s)
+✔ [3268/3270] Built RSBounds.LambdaCert.Segs.Seg11 (23s)
+✔ [3269/3270] Built RSBounds.LambdaInputsProof (4.2s)
+Build completed successfully (3270 jobs).
+exit 0 wall 178s

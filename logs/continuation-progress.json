@@ -1,0 +1,83 @@
+{
+  "updated_utc": "2026-11-06T19:28:30.198735+00:00",
+  "published_commit": "eece7af5b5d20d1e3fb48f517e44e3830d8029ca",
+  "published_tree": "933a47d3f050a1f1116fc7c35a72a3a10cfac9cf",
+  "branch": "rs-bounds-progress-2026-11-06",
+  "completed": [
+    "RS75 psi b23: finite RH1894439, x>=exp23, error<.00020211*x. Full native Comparator passed.",
+    "Rosser1941 actual inclusive N(T): unconditional T>=2. Error<1 on[0,100]. Complete first29 zero table. Count Comparator passed.",
+    "RS75 zero-free region: closed R9.645908801 log(|t|/17) boundary, |t|>=21 under finiteRH1894439; highheight>=1894439 unconditional. Full source, aggregate, four standard3 audits passed and published.",
+    "Finite psi endpoint reduction:10 standard3 audits. Monotone whole-block reduction:3 standard3 audits. Both published; no numerical1e10 campaign.",
+    "Actual positive-ordinate reciprocal-cube tail (1894439,T] <3e-13, unconditional;8 standard3audits passed. Published.",
+    "Mertens finite-interval degree-two explicit formula with actual zeros/multiplicities and explicit left remainder;4 standard3audits passed. Not final RS62. Published.",
+    "Actual-zero reciprocal-square allowance <.0463, positive cutoffs <.02315, ten standard-three audits; published.",
+    "Mertens Abel identities, centered Euler normalization conditional on convergence, finite D integral identities: checked and published.",
+    "Finite prime-product through100000 and unrestricted all-n totient handoff to a tail beginning at X<=100001: checked and published.",
+    "Exact SchoenfeldII Laplace near/far bounds, physical substitution and Phi/q calculus: checked and published. Full Thm11 not proved."
+  ],
+  "verification_pending": [
+    "RS75 zero-free full native Comparator replay. Independent Mathlib-only challenge/solution/config compiled and solution audits passed; replay NOT started."
+  ],
+  "mathematical_goals_remaining": [
+    "Exact Schoenfeld1976 Thm11 and Thm7*(5.6*),(5.6b*) under finiteRH1894439; specifications and source-audited proof map exist, no final proof yet.",
+    "Full RS62 weighted Mertens inequality",
+    "Full RS62 totient inequality for all n>=3 (finite prime-product part through100000 and all-n handoff complete)",
+    "Finite psi .8sqrtx for1500<=x<=1e10; segmented enumerator/logarithm computation not implemented or run",
+    "Rosser error<1 through280; user/Claude handling larger zero certificates",
+    "Stronger Schoenfeld1976 b23 coefficient .00020171"
+  ],
+  "current_work": "Checked normalization/square/Laplace checkpoint published at eece7af5. Exact finite D identities and centered Euler normalization passed. Residual actual-zero potential/signed limit and finite weighted certificate active; numerics actual weighted-zero/symmetry checks active. Root second-Mertens signed identity and exact logarithmic kernel sources prepared, awaiting checks. IEANTN fork access resolved, agent preparing draft PR while 4.34 compatibility checks run.",
+  "latest_steering": "Submit the b23 psi result to IEANTN with precise conditional/unconditional distinction; complete full RS62 Mertens and all-n totient; replace the weak0.1theta target by exact SchoenfeldII Thm7*(5.6*)/(5.6b*) via exactThm11, using the completed RS75 ZFR.",
+  "primecert_research": {
+    "commit": "d84a15cacfdc45ae1e96e56dd58158f871787870",
+    "sieve": "Actual kernel-oriented wheel Eratosthenes correctness and upstream10^8 run; global bitset not segmented. Upstream testmodule20s, no local replay. Lean4.36rc2 compatibility needed.",
+    "ci_provenance": "verification/primecert-upstream-ci-provenance.json",
+    "ramare": "ActaArith159.2(2013) eq3.2 p116 exact.8sqrt bound; primaryPDF https://www.impan.pl/shop/en/publication/transaction/download/product/82334",
+    "ieantn": "ButheNumerics.v1 eq6.2 related bound is stub, not completed."
+  },
+  "publication_manifest": "logs/publish-normalization-manifest.json",
+  "active_sessions": [],
+  "theta_candidate_route": {
+    "target": "|theta(x)-x|<=0.1*x/log x for x>=exp23 under finiteRH1894439; candidate only, not formalized",
+    "moderate": "23<=L<=400: existingb23 + psi-theta<=2sqrtx logx gives coefficient<.092",
+    "large": "L>=400, delta=1/(50L). Zero-freeR<10 and u=log(gamma/17), AMGM L/(10u)+2u>=(8/9)sqrt L. Tail x^(beta-1)/gamma^5 <=exp(-8sqrt L/9)/(289 gamma^3). Cube moment target3e-13; R4<=17 yields tail coefficient<= (3/13600000)L^5exp(-8sqrtL/9), at400~.042963<.05 anddecreasing. Smoothing.04; others<.01. Needproofs variable-step remainder/assembly andcube-tail.",
+    "status": "Superseded as a final target by exact SchoenfeldII statements. Completed supporting lemmas may be reused; do not continue presenting0.1asrequestedtarget."
+  },
+  "schoenfeld_ii": {
+    "attachment": "upload/Schoenfeld, Sharper bounds for the Chebyshev functions theta(x) and psi(x), II.pdf",
+    "source_map": "docs/Schoenfeld1976Plan.md",
+    "specifications": "RSBounds/Schoenfeld1976Targets.lean",
+    "theorem11": "X=sqrt(logx/9.645908801), epsilon0=sqrt(8/(17pi))*sqrt(X)*exp(-X); strictpsierror from17,thetafrom101. Analytic proof fromexp1737; smaller ranges remain separate.",
+    "theorem7": "(5.6*)theta<.0239922x/logx forx>=758711; (5.6b*)botherrors<.0077629x/logx forx>=exp22.",
+    "caveat": "Published improvedtableuses12555zerohead; oldb22/23/35 may suffice for5.6b but numerical checksnotLeanproofs. HistoricalA=1894438.51224... hasN(A)=F(A); integerA1894439mustkeepowncountslack."
+  },
+  "ieantn_submission": {
+    "worktree": "/workspace/scratch/99a161e7c02e/ieantn-rs75-psi",
+    "branch": "codex/rs75-psi-b23",
+    "checkpoint": "aac43f7db01d93e5e4c5262a3e848f50219c54fa",
+    "bundle": "/workspace/scratch/99a161e7c02e/ieantn-rs75-psi.bundle",
+    "pr_body": "/workspace/scratch/99a161e7c02e/ieantn-rs75-psi-PR.md",
+    "status": "Branch uploaded; exact4.35 adapter compile passed670.2s, transitive audit then4.34core checks continuing. Officialverification pending.",
+    "access": "Fork push succeeded; upstream create_pull_request returns403 Resource not accessible by integration; cloud browser signed out. No PR created. User can open exact comparison and create draft.",
+    "published_branch": "https://github.com/Garald1/IEANTN/tree/codex/rs75-psi-b23",
+    "published_commit": "21a9e6cfcc81b4c35258b9780398dd2f67de55e2",
+    "compare_url": "https://github.com/teorth/IEANTN/compare/main...Garald1:IEANTN:codex/rs75-psi-b23?expand=1"
+  },
+  "new_root_proofs": {
+    "passed": [
+      "MertensAbelianNormalization",
+      "MellinAbelianLimit",
+      "MertensLimitNormalization",
+      "MertensCenteredNormalization",
+      "MertensDFinite"
+    ],
+    "pending": [
+      "MertensLogKernel",
+      "MertensFiniteParts (compare agent)",
+      "MertensSecondSigned"
+    ],
+    "normalization": "D limit constant -EulerGamma-1, convergence explicit; actual convergence assembly remains pending."
+  },
+  "runtime_note": "Use source lean-env.sh then direct lean, not lake env. Scriptsets exactLEAN_PATH anddirect4.35bin. Longchecks were primarilycoldimportfilesystemI/O (52\u2013765seconds), not mathematicaldifficulty; earlierElan/Lake-lockdiagnosiswasnotestablished. Do not keep restarting quietchecks. Narrowtacticimportsimprove. Existing frozenreceiptsunchanged.",
+  "root_pending_next": "Check MertensLogKernel with generic runner after compare FiniteParts passes, then MertensSecondSigned. Static review fixed Monotone.intervalIntegrable implicit endpoints, squeeze bound named a, and neg_div weight normalization. Sources are uncompiled; do not claim proved or publish as checked."
+}

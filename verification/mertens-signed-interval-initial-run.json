@@ -1,0 +1,37 @@
+{
+  "kind": "fresh-mertens-signed-interval-build-with-in-process-transitive-axiom-audit",
+  "started_utc": "2026-11-06T18:08:06.512365+00:00",
+  "source_sha256": {
+    "RSBounds/MertensSignedInterval.lean": "2f90359448b0f89c2befe081114a3fa322695b11cd1c9dc2b11825dbe98fa5e5",
+    "RSBounds/MertensIntervalSum.lean": "65d702fb141e34d19d7c27c563a08d594e39eb1d894d819b8a1daca54cf61d9b",
+    "RSBounds/MertensIntervalMellin.lean": "3894521c83790a22bcd81a08ff689be9bac6f824bac941c02936c76aa5bee157",
+    "RSBounds/MertensIntervalDecay.lean": "bde513c3e1d3ff44fbbedc81bf403f9bbba2f987370fdfd63a1be6977388dc6d",
+    "RSBounds/QuadraticSubOne.lean": "639761df8f39d39844792a63955ee012360078211113a2ca01451824e7d68608",
+    "RSBounds/MertensIntervalKernel.lean": "e93cd81fd46ee00291c1932e1a914e68caad985995ce14c3801ff9efa503ab29",
+    "RSBounds/QuadraticContourLimit.lean": "b984412c4b6a6100c5b379a6e458bf5f52e78d365f72472eaceb582afd838f7b",
+    "verification/MertensSignedIntervalAudit.lean": "ae9ede6b5c81fe74aa5c2e425aadf649fb850540c57bcd51caee84ecc1ef1839",
+    "verification/run_mertens_signed_interval_check.py": "fc408b3250773f4c65697ccc21cb79c7e8e575174863856c9f1ba87d35df1200"
+  },
+  "stdin_recipe": "Exact source plus four fully qualified #print axioms commands.",
+  "stdin_sha256": "d4a596aab1b637f0924dd5fae639a7576b7abd188b76a2666cece15d326f11e9",
+  "runs": [
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j1",
+        "-Dprofiler=true",
+        "--stdin",
+        "-o",
+        ".lake/build/lib/lean/RSBounds/MertensSignedInterval.olean",
+        "RSBounds/MertensSignedInterval.lean"
+      ],
+      "log": "verification/mertens-signed-interval-build.log",
+      "exit_code": 1,
+      "seconds": 7.419035377999535
+    }
+  ],
+  "build_exit_code": 1,
+  "exit_code": 1
+}

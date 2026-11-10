@@ -1,0 +1,126 @@
+import took 37.8s
+RSBounds/PsiThetaElementary.lean:31:4: error: Tactic `apply` failed: could not unify the type of `le_rpow_inv_iff_of_pos ?m.62 (LT.lt.le hx0) ?m.73`
+  ?m.59 ≤ x ^ 6⁻¹ ↔ ?m.59 ^ 6 ≤ x
+with the goal
+  20 / 3 ≤ x ^ 6⁻¹
+
+x : ℝ
+hx : 100000 ≤ x
+hx0 : 0 < x
+⊢ 20 / 3 ≤ x ^ 6⁻¹
+RSBounds/PsiThetaElementary.lean:31:40: error: unsolved goals
+x : ℝ
+hx : 100000 ≤ x
+hx0 : 0 < x
+⊢ 0 ≤ ?m.59
+RSBounds/PsiThetaElementary.lean:28:44: error: unsolved goals
+x : ℝ
+hx : 100000 ≤ x
+hx0 : 0 < x
+h6 : 20 / 3 ≤ x ^ 6⁻¹
+⊢ x ^ 3⁻¹ ≤ 0.15 * √x
+RSBounds/PsiThetaElementary.lean:32:34: error: unexpected token; expected command
+RSBounds/PsiThetaElementary.lean:56:4: error: Type mismatch: After simplification, term
+  hbase
+ has type
+  25 ^ (10 : ℕ) ≤ x ^ 3
+but is expected to have type
+  25 ^ (10 : ℝ) ≤ x ^ 3
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 258ms
+RSBounds/PsiThetaElementary.lean:122:25: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+RSBounds/PsiThetaElementary.lean:129:26: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+RSBounds/PsiThetaElementary.lean:170:12: error: Type mismatch: After simplification, term
+  exp_six_ge
+ has type
+  400 ≤ rexp 6
+but is expected to have type
+  400 ≤ rexp (12 / 2)
+RSBounds/PsiThetaElementary.lean:191:8: error: Type mismatch: After simplification, term
+  exp_ten_ge
+ has type
+  20000 ≤ rexp 10
+but is expected to have type
+  20000 ≤ rexp (20 / 2)
+RSBounds/PsiThetaElementary.lean:207:40: error: Type mismatch: After simplification, term
+  exp_ten_ge
+ has type
+  20000 ≤ rexp 10
+but is expected to have type
+  20000 ≤ rexp (20 / 2)
+'TernaryGoldbach.RSBounds.PsiThetaElementary.log_four_add_four_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.cube_root_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.fifth_root_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.psi_sub_theta_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.log_hundred_thousand_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.sqrt_exp_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.exp_six_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.exp_ten_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.log_div_sqrt_le_at_exp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.log_div_sqrt_le_at_hundred_thousand' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.moderate_theta_budget' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.b23_theta_budget' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.large_theta_budget_of_log' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.large_theta_budget' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.163ms
+	blocked (unaccounted) 3.92s
+	congr simp thm 2.24ms
+	declTypeLinter 10.7ms
+	elaboration 138ms
+	fix level params 2.85ms
+	import 37.8s
+	initialization 137ms
+	instantiate metavars 3.12ms
+	interpretation 1.79s
+	let-to-have transformation 0.233ms
+	linting 44.2ms
+	module linting 0.0183ms
+	norm_num 666ms
+	parsing 20.8ms
+	process pre-definitions 76ms
+	ring 171ms
+	share common exprs 43.4ms
+	simp 27.3ms
+	tactic execution 372ms
+	tacticAnalysis 4.84ms
+	type checking 291ms
+	typeclass inference 1.01s

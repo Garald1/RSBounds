@@ -1,0 +1,28 @@
+{
+  "updated_utc": "2026-11-06T17:19:26.122779+00:00",
+  "completed": [
+    "RS75Parameters.lean: first-pass build and21standard3audits; rs75-parameters-run.json",
+    "Exact rational residual diagnostic: residual<-.0009 with relaxed real-axis constants",
+    "Complete actual-radical/logarithm/Euler/kappa scalar assembly:16standard3audits, rs75-zero-free-scalars-final-run.json",
+    "RS75ZeroFreeOptimization:8standard3audits; exactradicalidentityandgenericbeta boundaryconversion"
+  ],
+  "running": null,
+  "new_scalar_files": [
+    "RSBounds/RS75ScalarNumericsBase.lean",
+    "RSBounds/RS75ZeroFreeNumerics.lean",
+    "RSBounds/RS75ZeroFreeScalars.lean"
+  ],
+  "generator": "scripts/generate_rs75_zero_free_scalars.py writes only RS75ZeroFreeNumerics.lean (not manualmainwrapper)",
+  "audit": "verification/RS75ZeroFreeScalarsAudit.lean:16publicaxiomchecks",
+  "next": [
+    "Parent finalanalytic assembly can use allscalar/optimization APIs. No active child compiler."
+  ],
+  "frozen_sources": "No existing psi/count source modified; allworkinnewRS75files andownednotes",
+  "important_math": "Actual\u03ba/Euler rawResidual_le usesnegative\u03bacoefficient and existinggamma_lower; chosen_residual_lt has onlyt>=1894439 premise. Thisisnotazetatheorem. HighZFRplannedunconditional;FiniteRHonly21..Ahandoff.",
+  "draft_optimization": {
+    "source": "RSBounds/RS75ZeroFreeOptimization.lean",
+    "runner": "verification/run_rs75_zero_free_optimization_check.py",
+    "audit": "verification/RS75ZeroFreeOptimizationAudit.lean",
+    "status": "COMPILED and8standard3audits passed"
+  }
+}

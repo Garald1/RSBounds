@@ -1,0 +1,56 @@
+import took 321s
+elaboration took 153ms
+interpretation of Mathlib.Meta.FunProp.funPropTac._boxed took 110ms
+elaboration took 150ms
+interpretation of Mathlib.Meta.FunProp.funPropTac._boxed took 235ms
+RSBounds/SchoenfeldWeightedZeros.lean:248:23: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/SchoenfeldWeightedZeros.lean:248:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'TernaryGoldbach.RSBounds.SchoenfeldWeightedZeros.weightedSum_le_increasing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.SchoenfeldWeightedZeros.weightedSum_le_increasing_main' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.SchoenfeldWeightedZeros.weightedSum_le_decreasing_q' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.SchoenfeldWeightedZeros.d_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.SchoenfeldWeightedZeros.log_height_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.SchoenfeldWeightedZeros.Phi_mul_log_eq_heightIntegrand' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.SchoenfeldWeightedZeros.near_sum_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.SchoenfeldWeightedZeros.far_sum_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+cumulative profiling times:
+	.olean serialization 51.4ms
+	attribute application 0.188ms
+	blocked (unaccounted) 5.97s
+	congr simp thm 2.63ms
+	declTypeLinter 19.6ms
+	elaboration 788ms
+	fix level params 2.68ms
+	import 321s
+	initialization 130ms
+	instantiate metavars 4.87ms
+	interpretation 3.73s
+	let-to-have transformation 0.816ms
+	linting 74.2ms
+	module linting 0.0191ms
+	norm_num 425ms
+	parsing 44.4ms
+	process pre-definitions 54.4ms
+	ring 174ms
+	share common exprs 44ms
+	simp 14.4ms
+	tactic execution 947ms
+	tacticAnalysis 12ms
+	type checking 268ms
+	typeclass inference 1.36s

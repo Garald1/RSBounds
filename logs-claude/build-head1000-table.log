@@ -1,0 +1,62 @@
+=== 2026-11-08T09:13:09-03:00
+error: RSBounds/Head1000Table.lean:239:20: Function expected at
+  ord
+but this term has type
+  x✝
+  i
+error: RSBounds/Head1000Table.lean:240:22: Function expected at
+  ord
+but this term has type
+  x✝
+  i
+error: RSBounds/Head1000Table.lean:241:17: Function expected at
+  ord
+but this term has type
+  x✝
+  i
+error: RSBounds/Head1000Table.lean:241:44: Function expected at
+  ord
+but this term has type
+  x✝
+  i
+error: RSBounds/Head1000Table.lean:244:23: Function expected at
+  ord
+but this term has type
+  x✝
+  i
+error: RSBounds/Head1000Table.lean:247:34: Function expected at
+  ord
+but this term has type
+  x✝
+  i
+error: RSBounds/Head1000Table.lean:247:50: Function expected at
+  ord
+but this term has type
+  x✝
+  i
+error: RSBounds/Head1000Table.lean:249:4: maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information
+error: RSBounds/Head1000Table.lean:237:83: unsolved goals
+x✝ : Sort u_1
+ord : x✝
+i : Fin 649
+h1 : 10 ^ 25 ≤ sorry
+hm : 10001 < sorry
+hs : 10 ^ 33 < up sorry * (sorry - 10001)
+hcast : ↑(sorry - 10001) = sorry - 10001
+hd : 0 < sorry - 10001
+hsR : 10 ^ 33 < ↑(up sorry) * (sorry - 10001)
+⊢ 10 ^ 24 / (↑sorry - 10001) ≤ ↑(up sorry) / 10 ^ 9
+error: RSBounds/Head1000Table.lean:258:24: Function expected at
+  table
+but this term has type
+  CertifiedTable 649 1000
+  h
+error: RSBounds/Head1000Table.lean:257:71: unsolved goals
+h : Certified
+⊢ ∑ ρ ∈ closedPositiveZeros 1000, ↑(analyticOrderAt riemannZeta ρ).toNat / ‖ρ‖ ≤ 2.028658
+Some required targets logged failures:
+- RSBounds.Head1000Table
+error: build failed
+=== EXIT 1 2026-11-08T09:15:47-03:00

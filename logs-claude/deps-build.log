@@ -1,0 +1,2266 @@
+✔ [2/26] Built Batteries.Lean.Position (368ms)
+✔ [3/26] Built Mathlib.Tactic.Linter.DirectoryDependency (971ms)
+✔ [4/28] Built Batteries.Tactic.Lint.Basic (868ms)
+✔ [5/29] Built Batteries.Tactic.Lint.Misc (904ms)
+✔ [6/38] Built Mathlib.Tactic.Linter.Header (1.4s)
+✔ [7/38] Built Batteries.Util.LibraryNote (503ms)
+✔ [8/43] Built Batteries.Tactic.Lint.TypeClass (564ms)
+✔ [9/43] Built Mathlib.Tactic.DeclarationNames (569ms)
+✔ [10/43] Built Mathlib.Tactic.Linter.InternalConstructor (657ms)
+✔ [11/43] Built Mathlib.Tactic.Linter.HaveILetI (562ms)
+✔ [12/43] Built Mathlib.Tactic.Linter.HashCommandLinter (616ms)
+✔ [13/43] Built Mathlib.Tactic.Linter.EmptyLine (681ms)
+✔ [14/43] Built Mathlib.Tactic.Linter.FlexibleLinter (1.7s)
+✔ [15/43] Built Mathlib.Tactic.Linter.DocString (986ms)
+✔ [16/43] Built Mathlib.Tactic.Linter.DocPrime (974ms)
+✔ [17/43] Built Mathlib.Tactic.Linter.DeprecatedSyntaxLinter (747ms)
+✔ [18/43] Built Mathlib.Lean.Environment (415ms)
+✔ [19/43] Built Mathlib.Lean.Expr.Basic (1.0s)
+✔ [20/43] Built Mathlib.Tactic.Linter.AuxLemma (490ms)
+✔ [21/43] Built Mathlib.Tactic.Lemma (490ms)
+✔ [22/43] Built Mathlib.Tactic.AdaptationNote (644ms)
+✔ [23/43] Built Mathlib.Lean.Linter (426ms)
+✔ [24/43] Built Mathlib.Tactic.Linter.Multigoal (782ms)
+✔ [25/43] Built Mathlib.Tactic.Linter.OldObtain (444ms)
+✔ [26/43] Built Batteries.Tactic.Lint.Frontend (1.6s)
+✔ [27/43] Built Mathlib.Tactic.Linter.PrivateModule (409ms)
+✔ [28/43] Built Mathlib.Tactic.Linter.TacticDocumentation (481ms)
+✔ [29/43] Built Mathlib.Tactic.Linter.UnusedTacticExtension (515ms)
+✔ [31/43] Built Batteries.Tactic.Unreachable (408ms)
+✔ [32/43] Built Batteries.Tactic.Lint.Simp (1.0s)
+✔ [33/43] Built Mathlib.Tactic.Linter.Whitespace (1.0s)
+✔ [34/43] Built Mathlib.Lean.Elab.InfoTree (606ms)
+✔ [36/43] Built Mathlib.Tactic.Linter.Style (1.7s)
+✔ [37/43] Built Mathlib.Tactic.Linter.UnusedTactic (874ms)
+✔ [38/45] Built Batteries.Tactic.Lint (360ms)
+✔ [39/45] Built Mathlib.Tactic.Linter.Lint (682ms)
+✔ [40/51] Built Mathlib.Tactic.Linter.UnusedInstancesInType (1.1s)
+✔ [41/58] Built ImportGraph.Imports.ImportGraph (351ms)
+✔ [42/58] Built ImportGraph.Lean.Environment (304ms)
+✔ [43/58] Built Mathlib.Lean.Elab.Tactic.Meta (593ms)
+✔ [44/58] Built ImportGraph.Imports.Redundant (369ms)
+✔ [45/58] Built Mathlib.Tactic.Linter.OverlappingInstances (1.7s)
+✔ [46/58] Built Batteries.Lean.Meta.Inaccessible (402ms)
+✔ [47/58] Built Mathlib.Util.ParseCommand (416ms)
+✔ [48/60] Built Mathlib.Tactic.TypeStar (411ms)
+✔ [49/60] Built Mathlib.Util.CodeActions.BinderPlicity (592ms)
+✔ [50/61] Built ImportGraph.Imports.RequiredModules (718ms)
+✔ [51/61] Built Mathlib.Tactic.Linter.DeclType (630ms)
+✔ [52/61] Built Mathlib.Lean.ContextInfo (735ms)
+✔ [53/62] Built Mathlib.Util.CodeActions (379ms)
+✔ [54/62] Built Batteries.CodeAction.Deprecated (694ms)
+✔ [55/62] Built Mathlib.Tactic.MinImports (1.0s)
+✔ [56/62] Built Batteries.Tactic.HelpCmd (1.6s)
+✔ [57/62] Built Mathlib.Tactic.TacticAnalysis (1.1s)
+✔ [58/62] Built Batteries.Tactic.Alias (1.8s)
+✔ [59/64] Built Mathlib.Tactic.ExtractGoal (988ms)
+✔ [60/65] Built Batteries.Util.ProofWanted (3.1s)
+✔ [61/65] Built ImportGraph.Lean.Syntax (362ms)
+✔ [62/65] Built ImportGraph.Lean.MessageData (469ms)
+✔ [63/68] Built ImportGraph.Imports.Pretty (1.0s)
+✔ [64/71] Built Mathlib.Tactic.TacticAnalysis.Declarations (3.0s)
+✔ [65/71] Built ImportGraph.Lean.EnvExtension (341ms)
+✔ [66/72] Built ImportGraph.Shake.Core (612ms)
+✔ [67/72] Built ImportGraph.Shake.EnvExtension (478ms)
+✔ [68/75] Built ImportGraph.Lean.Json (737ms)
+✔ [69/76] Built ImportGraph.Shake.Basic (1.1s)
+✔ [70/76] Built ImportGraph.Util.Modules (469ms)
+✔ [71/82] Built ImportGraph.Shake.Algebra (1.1s)
+✔ [72/83] Built ImportGraph.WorkspaceModel.Base (797ms)
+✔ [73/84] Built ImportGraph.Graph.TransitiveClosure (268ms)
+✔ [74/86] Built ImportGraph.Widget.Collapsible (554ms)
+✔ [75/86] Built ImportGraph.Shake.DeclNeeds (3.3s)
+✔ [76/86] Built ImportGraph.WorkspaceModel.Summary.Core (605ms)
+✔ [77/87] Built ImportGraph.Widget.Copy (699ms)
+✔ [78/88] Built ImportGraph.WorkspaceModel.Model (1.2s)
+✔ [79/88] Built ImportGraph.WorkspaceModel.Summary.Cache (463ms)
+✔ [80/88] Built ImportGraph.Widget.GoToModule (881ms)
+✔ [81/89] Built ImportGraph.Tools.ImportDiff (732ms)
+✔ [82/91] Built ImportGraph.Tools.MinImports (579ms)
+✔ [83/96] Built ImportGraph.WorkspaceModel.Summary.Get (441ms)
+✔ [84/104] Built ImportGraph.Imports.FromSource (553ms)
+✔ [85/104] Built ImportGraph.WorkspaceModel.Summary (353ms)
+✔ [86/119] Built ImportGraph.Tools.RedundantImports (478ms)
+✔ [87/131] Built ImportGraph.Shake.Environment (1.5s)
+✔ [88/131] Built Batteries.Lean.NameMapAttribute (429ms)
+✔ [89/145] Built ImportGraph.WorkspaceModel.Build (922ms)
+✔ [90/145] Built ImportGraph.Tools.NormImports (564ms)
+✔ [91/149] Built Batteries.Tactic.Trans (1.7s)
+✔ [92/149] Built Batteries.Logic (515ms)
+✔ [93/163] Built Batteries.Util.ExtendedBinder (844ms)
+✔ [94/164] Built ImportGraph.Shake.Workspace (1.6s)
+✔ [95/182] Built Batteries.Lean.Expr (588ms)
+✔ [96/182] Built Batteries.Tactic.Init (1.1s)
+✔ [97/182] Built Batteries.Lean.Syntax (265ms)
+✔ [98/192] Built Batteries.Linter.UnreachableTactic (810ms)
+✔ [99/192] Built Batteries.Lean.TagAttribute (343ms)
+✔ [100/192] Built ImportGraph.Tools.FindHome (1.6s)
+✔ [102/192] Built Batteries.Lean.AttributeExtra (468ms)
+✔ [103/192] Built Batteries.Tactic.SeqFocus (627ms)
+✔ [105/193] Built ImportGraph.Tools (381ms)
+✔ [106/194] Built Batteries.Linter.UnnecessarySeqFocus (940ms)
+✔ [107/196] Built Mathlib.Init (752ms)
+✔ [108/197] Built Batteries.Linter (380ms)
+✔ [109/197] Built Qq.ForLean.ReduceEval (507ms)
+✔ [110/197] Built Qq.ForLean.ToExpr (399ms)
+✔ [111/197] Built Mathlib.Data.Ordering.Basic (549ms)
+✔ [112/197] Built Mathlib.Tactic.Spread (889ms)
+✔ [113/197] Built Mathlib.Util.WithWeakNamespace (620ms)
+✔ [114/197] Built Mathlib.Tactic.Core (1.4s)
+✔ [115/197] Built Mathlib.Lean.Elab.Term (489ms)
+✔ [116/197] Built Mathlib.Tactic.Use (1.4s)
+✔ [117/197] Built Mathlib.Tactic.SimpRw (1.1s)
+✔ [118/197] Built Mathlib.Tactic.Inhabit (571ms)
+✔ [119/197] Built Mathlib.Basic.Nonempty (659ms)
+✔ [120/197] Built Mathlib.Tactic.Attr.Register (1.1s)
+✔ [121/197] Built Mathlib.Basic.ExistsUnique (1.0s)
+✔ [122/197] Built Mathlib.Basic.IsEmpty.Defs (695ms)
+✔ [123/197] Built Mathlib.Tactic.ExtendDoc (640ms)
+✔ [124/197] Built Mathlib.Tactic.Eqns (621ms)
+✔ [125/197] Built Mathlib.Tactic.Simps.NotationClass (932ms)
+✔ [126/197] Built Mathlib.Tactic.OfNat (498ms)
+✔ [127/197] Built Mathlib.Lean.PrettyPrinter.Delaborator (899ms)
+✔ [128/197] Built Mathlib.Data.Int.Notation (502ms)
+✔ [129/197] Built Mathlib.Tactic.Push.Attr (1.3s)
+✔ [130/197] Built Mathlib.Data.Nat.Notation (665ms)
+✔ [131/197] Built Mathlib.Tactic.CrossRefAttribute (2.5s)
+✔ [132/197] Built Mathlib.Data.Nat.BinaryRec (1.1s)
+✔ [133/197] Built Mathlib.Util.AddRelatedDecl (1.4s)
+✔ [134/197] Built Mathlib.Lean.Meta (762ms)
+✔ [135/197] Built Mathlib.Tactic.Translate.UnfoldBoundary (1.0s)
+✔ [136/197] Built Mathlib.Data.String.Defs (603ms)
+✔ [137/197] Built Mathlib.Tactic.Translate.Attributes (571ms)
+✔ [138/197] Built Mathlib.Tactic.Translate.Reorder (3.0s)
+✔ [139/197] Built Mathlib.Lean.Name (860ms)
+✔ [140/199] Built Mathlib.Lean.Meta.Simp (1.1s)
+✔ [141/199] Built Qq.Typ (467ms)
+✔ [142/199] Built Batteries.Tactic.Basic (403ms)
+✔ [143/199] Built Mathlib.Tactic.SplitIfs (1.3s)
+✔ [144/199] Built Mathlib.Tactic.ScopedNS (2.0s)
+✔ [145/199] Built Mathlib.Basic.Nontrivial.Defs (704ms)
+✔ [146/199] Built Mathlib.Logic.Function.Defs (1.3s)
+✔ [147/199] Built Mathlib.Tactic.Translate.GuessName (1.5s)
+✔ [148/199] Built Mathlib.Tactic.MkIffOfInductiveProp (1.8s)
+✔ [149/199] Built Mathlib.Tactic.Simps.Basic (5.3s)
+✔ [150/200] Built Qq.Macro (5.0s)
+✔ [151/200] Built Batteries.Classes.Order (799ms)
+✔ [152/200] Built Mathlib.Basic.Logic.Basic (3.9s)
+✔ [153/200] Built Mathlib.Logic.Relator (893ms)
+✔ [154/200] Built Mathlib.Tactic.SetNotationForOrder (2.0s)
+✔ [155/200] Built Mathlib.Util.Notation3 (7.6s)
+✔ [156/201] Built Mathlib.Tactic.Simps (767ms)
+✔ [157/203] Built Mathlib.Tactic.Translate.Expr (2.6s)
+✔ [158/203] Built Qq.ForLean.Do (512ms)
+✔ [159/204] Built Qq.SortLocalDecls (463ms)
+✔ [160/213] Built Qq.Delab (1.3s)
+✔ [161/213] Built Qq.MetaM (662ms)
+✔ [162/213] Built Qq.Commands (1.1s)
+✔ [163/213] Built Mathlib.Lean.Meta.CongrTheorems (2.1s)
+✔ [164/213] Built Mathlib.Tactic.Relation.Rfl (693ms)
+✔ [165/213] Built Mathlib.Tactic.FastInstance (1.5s)
+✔ [166/219] Built Mathlib.Tactic.GCongr.ForwardAttr (630ms)
+✔ [167/219] Built Mathlib.Tactic.Translate.Core (7.4s)
+✔ [168/219] Built Qq.MatchImpl (560ms)
+✔ [169/219] Built Qq.AssertInstancesCommute (1.1s)
+✔ [170/219] Built Qq.Simp (377ms)
+✔ [171/219] Built Batteries.Data.Except (364ms)
+✔ [172/219] Built Batteries.Tactic.Exact (395ms)
+✔ [173/219] Built Mathlib.Tactic.PPWithUniv (841ms)
+✔ [174/219] Built Mathlib.Tactic.Translate.TagUnfoldBoundary (935ms)
+✔ [175/219] Built Mathlib.Tactic.CongrExclamation (2.0s)
+✔ [176/219] Built Mathlib.Tactic.Translate.ToAdditive (1.0s)
+✔ [177/219] Built Batteries.Lean.Except (326ms)
+✔ [178/233] Built Mathlib.Tactic.Basic (1.6s)
+✔ [179/233] Built Mathlib.Tactic.Translate.ToDual (1.4s)
+✔ [180/233] Built Qq.Match (4.3s)
+✔ [181/237] Built Mathlib.Tactic.ToAdditive (581ms)
+✔ [182/237] Built Batteries.Control.Lemmas (357ms)
+✔ [183/237] Built Mathlib.Logic.Function.ULift (469ms)
+✔ [184/237] Built Mathlib.Tactic.Convert (2.0s)
+✔ [185/237] Built Mathlib.Util.AtLocation (848ms)
+✔ [186/237] Built Mathlib.Tactic.Conv (1.3s)
+✔ [188/237] Built Mathlib.Tactic.ToDual (702ms)
+✔ [189/237] Built Qq (428ms)
+✔ [190/237] Built Mathlib.Algebra.Regular.Defs (739ms)
+✔ [191/237] Built Mathlib.Algebra.Notation.Defs (1.4s)
+✔ [192/237] Built Batteries.Tactic.PermuteGoals (669ms)
+✔ [193/237] Built Batteries.Control.AlternativeMonad (939ms)
+✔ [195/237] Built Mathlib.Data.Set.Defs (1.9s)
+✔ [196/237] Built Mathlib.Tactic.Push (2.7s)
+✔ [197/237] Built Mathlib.Order.Defs.Prop (526ms)
+✔ [198/237] Built Mathlib.Order.Defs.PartialOrder (1.5s)
+✔ [199/237] Built Mathlib.Order.Notation (1.4s)
+✔ [200/237] Built Mathlib.Algebra.Group.Semigroup (1.9s)
+✔ [201/237] Built Mathlib.Algebra.Notation.Pi.Defs (1.4s)
+✔ [202/237] Built Batteries.Data.MLList.Basic (1.1s)
+✔ [203/237] Built Mathlib.Order.Defs.Unbundled (1.9s)
+✔ [204/237] Built Mathlib.Tactic.ByCases (783ms)
+✔ [205/237] Built Mathlib.Order.Defs.LinearOrder (2.0s)
+✔ [206/237] Built Batteries.Control.Nondet.Basic (683ms)
+✔ [207/237] Built Mathlib.Algebra.Group.Monoid (3.7s)
+✔ [208/237] Built Mathlib.Logic.Relation (4.3s)
+✔ [209/237] Built Mathlib.Tactic.GCongr.Core (5.3s)
+✔ [210/237] Built Mathlib.Tactic.Hint (1.3s)
+✔ [211/237] Built Mathlib.Logic.Function.Basic (4.4s)
+✔ [212/237] Built Mathlib.Algebra.Group.DivInvMonoid (1.7s)
+✔ [213/237] Built Mathlib.Tactic.GCongr (647ms)
+✔ [214/237] Built Mathlib.Basic.Unique (1.0s)
+✔ [215/237] Built Mathlib.Algebra.Notation.Pi.Basic (1.1s)
+✔ [216/237] Built Mathlib.Logic.Function.Conjugate (942ms)
+✔ [217/238] Built Mathlib.Data.Sum.Basic (1.7s)
+✔ [218/238] Built Mathlib.Data.Subtype (1.3s)
+✔ [219/238] Built Mathlib.Algebra.Group.Defs (1.3s)
+✔ [220/238] Built Mathlib.Basic.FunLike.Basic (854ms)
+✔ [221/239] Built Mathlib.Data.Quot (3.0s)
+✔ [222/239] Built Mathlib.Logic.Function.Iterate (1.4s)
+✔ [223/239] Built Aesop.Forward.LevelIndex (282ms)
+✔ [224/239] Built Mathlib.Algebra.Group.Pi.Basic (2.2s)
+✔ [225/239] Built Mathlib.Algebra.Group.Semiconj.Defs (1.0s)
+✔ [226/239] Built Mathlib.Basic.FunLike.Embedding (664ms)
+✔ [227/240] Built Aesop.Forward.PremiseIndex (337ms)
+✔ [228/240] Built Mathlib.Order.Basic (4.7s)
+✔ [229/240] Built Mathlib.Data.Prod.Basic (1.5s)
+✔ [230/240] Built Mathlib.Algebra.Group.Commute.Defs (1.5s)
+✔ [231/240] Built Aesop.Nanos (472ms)
+✔ [232/246] Built Mathlib.Basic.FunLike.Equiv (936ms)
+✔ [233/246] Built Mathlib.Order.ULift (964ms)
+✔ [234/246] Built Batteries.Data.Array.Merge (1.4s)
+✔ [235/247] Built Aesop.Index.DiscrTreeConfig (387ms)
+✔ [236/247] Built Aesop.Util.UnorderedArraySet (616ms)
+✔ [237/248] Built Aesop.Util.OrderedHashSet (371ms)
+✔ [238/250] Built Mathlib.Logic.Equiv.Defs (4.8s)
+✔ [239/250] Built Batteries.Lean.Meta.Expr (472ms)
+✔ [240/250] Built Aesop.Util.Basic (2.1s)
+✔ [241/250] Built Mathlib.Algebra.Opposites (2.0s)
+✔ [242/250] Built Mathlib.Order.OrderDual (1.6s)
+✔ [243/250] Built Batteries.Lean.PersistentHashMap (340ms)
+✔ [244/251] Built Aesop.Forward.Substitution (1.0s)
+✔ [245/251] Built Mathlib.Order.Max (1.5s)
+✔ [246/251] Built Batteries.Lean.Meta.DiscrTree (365ms)
+✔ [247/252] Built Aesop.Index.Basic (590ms)
+✔ [248/254] Built Aesop.Rule.Name (670ms)
+✔ [249/258] Built Mathlib.Algebra.Group.Action.Defs (3.4s)
+✔ [250/258] Built Aesop.Tracing (990ms)
+✔ [251/259] Built Aesop.Options.Public (659ms)
+✔ [252/259] Built Aesop.RulePattern.Cache (555ms)
+✔ [253/260] Built Mathlib.Algebra.Group.Action.Faithful (957ms)
+✔ [254/262] Built Aesop.Stats.Basic (1.2s)
+✔ [255/262] Built Aesop.Percent (358ms)
+✔ [256/264] Built Aesop.Script.Tactic (308ms)
+✔ [257/264] Built Aesop.BaseM (409ms)
+✔ [258/266] Built Aesop.Script.GoalWithMVars (310ms)
+✔ [259/266] Built Batteries.Lean.Meta.Basic (526ms)
+✔ [260/266] Built Aesop.RuleTac.GoalDiff (1.0s)
+✔ [261/269] Built Batteries.Lean.MonadBacktrack (249ms)
+✔ [262/269] Built Aesop.RulePattern (1.4s)
+✔ [263/269] Built Aesop.Script.TacticState (549ms)
+✔ [264/272] Built Batteries.Lean.Meta.SavedState (476ms)
+✔ [265/272] Built Aesop.Index.RulePattern (852ms)
+✔ [266/272] Built Aesop.Check (421ms)
+✔ [267/274] Built Aesop.Options.Internal (278ms)
+✔ [268/274] Built Aesop.Forward.SlotIndex (304ms)
+✔ [269/280] Built Aesop.Util.EqualUpToIds (2.3s)
+✔ [270/280] Built Aesop.Util.UnionFind (475ms)
+✔ [271/283] Built Aesop.Script.Util (529ms)
+✔ [272/284] Built Aesop.RuleTac.RuleTerm (501ms)
+✔ [273/284] Built Batteries.Data.UInt (1.1s)
+✔ [274/286] Built Aesop.Script.Step (951ms)
+✔ [275/287] Built Aesop.Script.CtorNames (779ms)
+✔ [276/287] Built Batteries.Lean.Meta.InstantiateMVars (366ms)
+✔ [277/287] Built Aesop.RuleTac.Basic (725ms)
+✔ [278/289] Built Batteries.Lean.PersistentHashSet (365ms)
+✔ [279/291] Built Aesop.RuleSet.Name (252ms)
+✔ [280/293] Built Aesop.RuleSet.Filter (339ms)
+✔ [281/295] Built Aesop.ElabM (456ms)
+✔ [282/295] Built Aesop.RuleTac.ElabRuleTerm (635ms)
+✔ [283/296] Built Batteries.Data.Array.Basic (3.5s)
+✔ [284/296] Built Aesop.Util.Tactic.Ext (694ms)
+✔ [285/296] Built Aesop.Script.ScriptM (570ms)
+✔ [286/300] Built Aesop.Util.Tactic (314ms)
+✔ [287/306] Built Aesop.Forward.RuleInfo (1.0s)
+✔ [288/306] Built Aesop.Util.Unfold (592ms)
+✔ [289/306] Built Aesop.RuleTac.Forward.Basic (554ms)
+✔ [290/306] Built Aesop.Rule.Forward (429ms)
+✔ [291/307] Built Batteries.Lean.Meta.UnusedNames (412ms)
+✔ [292/309] Built Aesop.Util.Tactic.Unfold (641ms)
+✔ [293/310] Built Aesop.Forward.Match.Types (467ms)
+✔ [294/310] Built Aesop.RuleTac.Descr (455ms)
+✔ [295/311] Built Aesop.Index.Forward (814ms)
+✔ [296/314] Built Aesop.Rule.Basic (448ms)
+✔ [297/314] Built Aesop.Script.SpecificTactics (2.4s)
+✔ [298/315] Built Aesop.Rule (674ms)
+✔ [299/315] Built Aesop.RuleTac.Cases (713ms)
+✔ [300/315] Built Aesop.Index (1.2s)
+✔ [301/318] Built Aesop.RuleSet.Member (492ms)
+✔ [302/319] Built Aesop.Forward.Match (1.5s)
+✔ [303/319] Built Aesop.Builder.Basic (585ms)
+✔ [304/319] Built Aesop.Builder.Unfold (618ms)
+✔ [305/319] Built Aesop.Builder.Apply (537ms)
+✔ [306/319] Built Aesop.Builder.Forward (1.3s)
+✔ [307/319] Built Aesop.Builder.Tactic (462ms)
+✔ [308/319] Built Aesop.Builder.NormSimp (511ms)
+✔ [309/319] Built Aesop.Builder.Constructors (409ms)
+✔ [310/322] Built Aesop.Builder.Cases (434ms)
+✔ [311/322] Built Aesop.Frontend.Basic (335ms)
+✔ [312/322] Built Aesop.Tree.Data.ForwardRuleMatches (614ms)
+✔ [313/322] Built Aesop.Builder.Default (489ms)
+✔ [314/322] Built Aesop.Stats.Extension (404ms)
+✔ [315/322] Built Aesop.Frontend.RuleExpr (2.2s)
+✔ [316/325] Built Aesop.RuleSet (3.2s)
+✔ [317/325] Built Aesop.Stats.Report (656ms)
+✔ [318/327] Built Aesop.Frontend.Extension.Init (355ms)
+✔ [319/327] Built Aesop.EMap (779ms)
+✔ [320/328] Built Aesop.Frontend.Extension (641ms)
+✔ [321/330] Built Aesop.RuleTac.Apply (609ms)
+✔ [322/330] Built Aesop.RuleTac.Forward (1.4s)
+✔ [323/330] Built Aesop.Frontend.Command (1.2s)
+✔ [324/330] Built Aesop.Frontend.Attribute (912ms)
+✔ [325/331] Built Aesop.RuleTac.Preprocess (390ms)
+✔ [326/331] Built Aesop.RuleTac.Tactic (666ms)
+✔ [327/333] Built Aesop.Search.Expansion.Basic (412ms)
+✔ [328/333] Built Aesop.RuleTac (334ms)
+✔ [329/338] Built Aesop.Forward.State (5.3s)
+✔ [330/338] Built Aesop.Script.UScript (373ms)
+✔ [331/350] Built Batteries.Control.ForInStep.Basic (349ms)
+✔ [332/350] Built Aesop.Script.Check (415ms)
+✔ [333/350] Built Aesop.Stats.File (439ms)
+✔ [334/350] Built Aesop.Forward.State.Initial (594ms)
+✔ [335/350] Built Aesop.Frontend.Tactic (1.2s)
+✔ [336/350] Built Mathlib.Tactic.Basify.Attr (1.4s)
+✔ [337/350] Built Mathlib.Data.Bool.Basic (1.1s)
+✔ [338/350] Built Mathlib.Logic.Pairwise (907ms)
+✔ [339/350] Built Batteries.Data.BinomialHeap.Basic (5.0s)
+✔ [340/359] Built Mathlib.Data.Int.Order.Basic (1.3s)
+✔ [341/359] Built Mathlib.Tactic.GRewrite.Core (4.0s)
+✔ [342/359] Built Batteries.Data.Nat.Basic (406ms)
+✔ [343/359] Built Aesop.Saturate (3.4s)
+✔ [344/359] Built Mathlib.Order.Compare (1.3s)
+✔ [345/361] Built Mathlib.Tactic.ToExpr (1.0s)
+✔ [346/361] Built Mathlib.Data.Set.CoeSort (625ms)
+✔ [347/361] Built Batteries.Data.Nat.Lemmas (712ms)
+✔ [348/361] Built Mathlib.Tactic.GRewrite.Elab (1.8s)
+✔ [349/361] Built Aesop.Frontend.Saturate (1.1s)
+✔ [350/362] Built Aesop.BuiltinRules.Assumption (814ms)
+✔ [351/362] Built Mathlib.Tactic.FBinop (1.7s)
+✔ [352/363] Built Aesop.BuiltinRules.ApplyHyps (760ms)
+✔ [353/363] Built Mathlib.Tactic.GRewrite (583ms)
+✔ [354/363] Built Aesop.Frontend (518ms)
+✔ [355/364] Built Mathlib.Data.Nat.Init (1.9s)
+✔ [356/364] Built Aesop.BuiltinRules.DestructProducts (881ms)
+✔ [357/365] Built Mathlib.Basic.SProd (784ms)
+✔ [358/365] Built Aesop.BuiltinRules.Ext (696ms)
+✔ [359/365] Built Mathlib.Tactic.Finiteness.Attr (564ms)
+✔ [360/366] Built Mathlib.Order.Defs.Lattice (2.0s)
+✔ [361/366] Built Mathlib.Data.Nat.Basic (1.1s)
+✔ [362/366] Built Aesop.BuiltinRules.Rfl (370ms)
+✔ [363/368] Built Aesop.BuiltinRules.Intros (562ms)
+✔ [364/368] Built Aesop.BuiltinRules.Split (703ms)
+✔ [365/368] Built Aesop.BuiltinRules.Subst (791ms)
+✔ [366/369] Built Aesop.BuiltinRules (483ms)
+✔ [367/372] Built Mathlib.Order.BoundedOrder.Basic (2.3s)
+✔ [368/381] Built Aesop.Script.OptimizeSyntax (601ms)
+✔ [369/381] Built Aesop.Script.SScript (438ms)
+✔ [370/381] Built Aesop.Constants (225ms)
+✔ [371/384] Built Aesop.Tree.UnsafeQueue (499ms)
+✔ [372/385] Built Aesop.Script.UScriptToSScript (1.1s)
+✔ [373/386] Built Batteries.Lean.HashSet (327ms)
+✔ [374/386] Built Aesop.Tree.Data (1.9s)
+✔ [375/386] Built Aesop.Script.StructureDynamic (1.6s)
+✔ [376/386] Built Aesop.Script.StructureStatic (766ms)
+✔ [377/389] Built Aesop.Forward.State.ApplyGoalDiff (478ms)
+✔ [378/389] Built Aesop.Search.Expansion.Simp (492ms)
+✔ [379/389] Built Aesop.Tree.Traversal (572ms)
+✔ [380/389] Built Aesop.Tree.RunMetaM (572ms)
+✔ [381/389] Built Aesop.Search.Queue.Class (545ms)
+✔ [382/391] Built Aesop.Tree.TreeM (965ms)
+✔ [383/393] Built Aesop.Script.Main (614ms)
+✔ [384/393] Built Aesop.Tree.State (801ms)
+✔ [385/393] Built Aesop.Search.SearchM (745ms)
+✔ [386/394] Built Aesop.Forward.State.UpdateGoal (662ms)
+✔ [387/395] Built Aesop.Tree.AddRapp (1.5s)
+✔ [388/395] Built Aesop.Exception (394ms)
+✔ [389/396] Built Aesop.Search.RuleSelection (625ms)
+✔ [390/397] Built Aesop.Tree.Check (1.2s)
+✔ [391/397] Built Aesop.Tree.ExtractProof (1.2s)
+✔ [392/398] Built Aesop.Tree.ExtractScript (1.5s)
+✔ [393/399] Built Aesop.Search.Expansion.Norm (3.2s)
+✔ [394/419] Built Aesop.Tree.Tracing (1.6s)
+✔ [395/419] Built Aesop.Search.Queue (579ms)
+✔ [396/442] Built Aesop.Tree.Free (437ms)
+✔ [397/442] Built Aesop.Tree.Stats (646ms)
+✔ [398/442] Built Aesop.Search.Expansion (2.1s)
+✔ [399/442] Built Mathlib.Tactic.Coe (911ms)
+✔ [400/442] Built Mathlib.Basic.IsEmpty.Basic (891ms)
+✔ [401/442] Built Mathlib.Tactic.Choose (1.6s)
+✔ [402/442] Built Mathlib.Tactic.Contrapose (998ms)
+✔ [403/499] Built Mathlib.Tactic.Lift (958ms)
+✔ [404/499] Built Mathlib.Tactic.ByContra (949ms)
+✔ [405/499] Built Mathlib.Tactic.Simproc.ExistsAndEq (1.8s)
+✔ [406/499] Built Mathlib.Control.EquivFunctor (774ms)
+✔ [407/499] Built Mathlib.Tactic.CasesM (1.2s)
+✔ [408/499] Built Mathlib.Control.Combinators (631ms)
+✔ [409/499] Built Mathlib.Data.Option.Defs (508ms)
+✔ [410/499] Built Mathlib.Data.Sigma.Basic (1.4s)
+✔ [411/499] Built Mathlib.Util.CompileInductive (1.8s)
+✔ [412/499] Built Aesop.Search.ExpandSafePrefix (805ms)
+✔ [417/499] Built Batteries.Tactic.Congr (843ms)
+✔ [418/499] Built Mathlib.Order.RelClasses (2.5s)
+✔ [419/499] Built Mathlib.Tactic.DepRewrite (3.7s)
+✔ [420/499] Built Mathlib.Algebra.Group.Hom.Defs (5.7s)
+✔ [421/499] Built Mathlib.Algebra.Notation.Prod (1.3s)
+✔ [422/499] Built Mathlib.Algebra.Group.InjSurj (3.3s)
+✔ [423/499] Built Mathlib.Tactic.Attr.Core (672ms)
+✔ [424/499] Built Mathlib.Algebra.Group.Units.Defs (4.1s)
+✔ [425/499] Built Mathlib.Tactic.Subsingleton (1.4s)
+✔ [426/499] Built Mathlib.Tactic.ApplyCongr (646ms)
+✔ [427/499] Built Mathlib.Lean.Meta.Basic (944ms)
+✔ [428/499] Built Mathlib.Tactic.TermCongr (2.6s)
+✔ [429/499] Built Mathlib.Tactic.ApplyWith (663ms)
+✔ [430/499] Built Mathlib.Tactic.ClearExclamation (478ms)
+✔ [431/499] Built Mathlib.Tactic.Check (849ms)
+✔ [432/499] Built Mathlib.Tactic.ClearExcept (533ms)
+✔ [433/499] Built Mathlib.Tactic.Clear_ (565ms)
+✔ [434/499] Built Mathlib.Lean.GoalsLocation (517ms)
+✔ [435/499] Built Mathlib.Lean.Meta.KAbstractPositions (701ms)
+✔ [436/499] Built Mathlib.Lean.FoldEnvironment (860ms)
+✔ [437/499] Built Mathlib.Tactic.NthRewrite (735ms)
+✔ [439/499] Built Mathlib.Lean.Meta.RefinedDiscrTree.Basic (1.2s)
+✔ [440/499] Built Mathlib.Tactic.Tauto (2.2s)
+✔ [442/499] Built Mathlib.Logic.Equiv.Prod (2.7s)
+✔ [443/499] Built Aesop.Search.Main (3.1s)
+✔ [444/499] Built Mathlib.Data.Int.Init (2.7s)
+✔ [445/499] Built Mathlib.Tactic.ApplyAt (777ms)
+✔ [447/499] Built Mathlib.Lean.Meta.RefinedDiscrTree.Encode (1.6s)
+✔ [448/499] Built Mathlib.Algebra.Group.Equiv.Defs (3.5s)
+✔ [450/499] Built Mathlib.Lean.Meta.RefinedDiscrTree.Initialize (2.0s)
+✔ [451/499] Built Mathlib.Logic.Equiv.Sum (1.9s)
+✔ [452/499] Built Aesop.Main (990ms)
+✔ [453/499] Built Aesop (454ms)
+✔ [454/502] Built Mathlib.Lean.Meta.RefinedDiscrTree.Lookup (1.7s)
+✔ [455/502] Built Mathlib.Data.Set.Operations (2.4s)
+✔ [456/502] Built Mathlib.Data.Option.Basic (1.4s)
+✔ [457/502] Built Mathlib.Lean.Meta.RefinedDiscrTree (772ms)
+✔ [458/503] Built ProofWidgets.Compat (366ms)
+✔ [459/503] Built Mathlib.Order.Monotone.Defs (2.7s)
+✔ [460/503] Built Mathlib.Algebra.Group.Basic (7.8s)
+✔ [461/507] Built Mathlib.Logic.Equiv.Option (1.7s)
+✔ [462/507] Built ProofWidgets.Component.Basic (1.1s)
+✔ [463/517] Built Mathlib.Order.GaloisConnection.Defs (2.2s)
+✔ [464/517] Built Mathlib.Order.Monotone.Basic (3.6s)
+✔ [465/517] Built Mathlib.Algebra.Group.Units.Basic (2.8s)
+✔ [466/517] Built Mathlib.Algebra.Group.SelfInv (979ms)
+✔ [467/517] Built Mathlib.Algebra.Group.Semiconj.Basic (852ms)
+✔ [468/517] Built Mathlib.Algebra.Group.Hom.Basic (2.3s)
+✔ [469/517] Built ProofWidgets.Util (668ms)
+✔ [470/517] Built ProofWidgets.Component.Panel.Basic (909ms)
+✔ [471/517] Built ProofWidgets.Component.MakeEditLink (770ms)
+✔ [472/517] Built Mathlib.Logic.Equiv.Basic (4.8s)
+✔ [473/530] Built Mathlib.Control.Basic (976ms)
+✔ [474/530] Built Mathlib.Algebra.Group.Commute.Basic (1.1s)
+✔ [475/530] Built Mathlib.Algebra.Group.Units.Hom (2.1s)
+✔ [476/576] Built Mathlib.Order.Lattice (4.0s)
+✔ [477/576] Built ProofWidgets.Data.Html (2.4s)
+✔ [478/576] Built Mathlib.Algebra.Group.Equiv.Basic (2.1s)
+✔ [479/576] Built ProofWidgets.Cancellable (777ms)
+✔ [480/576] Built Mathlib.Tactic.CongrM (817ms)
+✔ [481/576] Built Mathlib.Tactic.Constructor (598ms)
+✔ [482/576] Built Mathlib.Lean.MessageData.Trace (492ms)
+✔ [483/576] Built Mathlib.Tactic.DeprecateTo (1.3s)
+✔ [484/576] Built Mathlib.Tactic.DefEqTransformations (1.0s)
+✔ [485/576] Built Mathlib.Tactic.DSimpPercent (755ms)
+✔ [486/576] Built Mathlib.Tactic.ExistsI (686ms)
+✔ [487/576] Built Mathlib.Tactic.ErwQuestion (1.1s)
+✔ [488/580] Built Mathlib.Tactic.FailIfNoProgress (1.2s)
+✔ [489/588] Built Mathlib.Algebra.Group.Torsion (1.3s)
+✔ [490/588] Built Batteries.Util.Cache (609ms)
+✔ [491/588] Built Mathlib.Order.BoundedOrder.Lattice (996ms)
+✔ [492/588] Built Mathlib.Tactic.FunProp.Decl (1.2s)
+✔ [493/588] Built Mathlib.Tactic.FunProp.Mor (907ms)
+✔ [494/588] Built Mathlib.Tactic.InferParam (570ms)
+✔ [495/588] Built Mathlib.Tactic.FunProp.ToBatteries (1.3s)
+✔ [496/588] Built Mathlib.Tactic.GrindAttrs (841ms)
+✔ [497/588] Built Mathlib.Tactic.GuardGoalNums (528ms)
+✔ [498/588] Built Mathlib.Tactic.GuardHypNums (524ms)
+✔ [499/588] Built Mathlib.Tactic.HigherOrder (1.1s)
+✔ [500/588] Built Mathlib.Util.TermReduce (912ms)
+✔ [501/588] Built Mathlib.Tactic.Linter.HaveLetLinter (1.1s)
+✔ [502/588] Built Mathlib.Tactic.Linter.MinImports (1.1s)
+✔ [503/588] Built Mathlib.Tactic.Linter.UpstreamableDecl (637ms)
+✔ [504/588] Built Mathlib.Tactic.Linter.PPRoundtrip (851ms)
+✔ [505/588] Built Mathlib.Tactic.RSuffices (1.0s)
+✔ [506/588] Built Mathlib.Tactic.Observe (1.4s)
+✔ [507/588] Built Mathlib.Tactic.Recover (810ms)
+✔ [508/588] Built Mathlib.Tactic.Rename (682ms)
+✔ [509/588] Built Mathlib.Util.Tactic (529ms)
+✔ [510/588] Built Mathlib.Tactic.Says (910ms)
+✔ [511/588] Built Mathlib.Tactic.Set (883ms)
+✔ [512/588] Built Mathlib.Lean.Elab.Tactic.Basic (577ms)
+✔ [513/588] Built Mathlib.Tactic.Substs (653ms)
+✔ [514/588] Built Mathlib.Tactic.SimpIntro (975ms)
+✔ [515/588] Built Mathlib.Tactic.SuccessIfFailWithMsg (634ms)
+✔ [516/588] Built Mathlib.Tactic.SudoSetOption (607ms)
+✔ [517/588] Built Mathlib.Tactic.SwapVar (610ms)
+✔ [518/588] Built Mathlib.Tactic.ToFun (851ms)
+✔ [519/588] Built Mathlib.Tactic.ToLevel (550ms)
+✔ [520/588] Built Mathlib.Tactic.Trace (561ms)
+✔ [521/588] Built Mathlib.Tactic.UnsetOption (571ms)
+✔ [522/588] Built Mathlib.Tactic.Widget.SelectInsertParamsClass (704ms)
+✔ [524/588] Built Mathlib.Tactic.Variable (1.8s)
+✔ [525/588] Built ProofWidgets.Component.RefreshComponent (1.1s)
+✔ [526/588] Built ProofWidgets.Component.FilterDetails (571ms)
+✔ [527/588] Built ProofWidgets.Component.OfRpcMethod (1.1s)
+✔ [528/588] Built Mathlib.Algebra.Group.Units.Equiv (1.8s)
+✔ [529/588] Built Batteries.CodeAction.Attr (866ms)
+✔ [530/588] Built Mathlib.Tactic.DefEqAbuse (2.1s)
+✔ [531/588] Built Mathlib.Tactic.WLOG (1.1s)
+✔ [532/588] Built Mathlib.Util.CountHeartbeats (1.4s)
+✔ [533/588] Built Mathlib.Util.PrintSorries (1.0s)
+✔ [534/588] Built Mathlib.Util.TransImports (867ms)
+✔ [535/588] Built Mathlib.Util.WhatsNew (992ms)
+✔ [536/588] Built Mathlib.Algebra.Group.Opposite (2.3s)
+✔ [537/588] Built Mathlib.Algebra.Group.TypeTags.Basic (2.8s)
+✔ [538/588] Built Mathlib.Tactic.Find (942ms)
+✔ [539/588] Built Mathlib.Tactic.FunProp.FunctionData (1.5s)
+✔ [540/588] Built Mathlib.Tactic.IrreducibleDef (1.7s)
+✔ [541/588] Built Mathlib.Order.Disjoint (3.5s)
+✔ [542/588] Built Mathlib.Tactic.Linter (411ms)
+✔ [543/588] Built Mathlib.Tactic.RenameBVar (658ms)
+✔ [544/588] Built Mathlib.Tactic.Setm (1.1s)
+✔ [546/588] Built Mathlib.Tactic.Widget.SelectPanelUtils (992ms)
+✔ [547/588] Built Mathlib.Tactic.ClickSuggestions.Util (3.6s)
+✔ [548/588] Built Mathlib.Algebra.Group.TypeTags.Hom (1.5s)
+✔ [549/588] Built Mathlib.Algebra.Group.Prod (5.2s)
+✔ [550/589] Built Mathlib.Tactic.FunProp.Types (1.2s)
+✔ [551/589] Built Mathlib.Order.PropInstances (1.2s)
+✔ [552/589] Built Mathlib.Tactic.Widget.Calc (2.2s)
+✔ [553/589] Built Mathlib.Tactic.Widget.LibraryRewrite (3.3s)
+✔ [554/589] Built Mathlib.Tactic.Widget.CongrM (764ms)
+✔ [555/589] Built Mathlib.Tactic.Widget.Conv (2.4s)
+✔ [556/590] Built Mathlib.Tactic.ClickSuggestions.SectionState (1.0s)
+✔ [557/590] Built Mathlib.Tactic.ClickSuggestions.Unfold (1.1s)
+✔ [558/590] Built Mathlib.Algebra.Group.Equiv.TypeTags (2.1s)
+✔ [559/590] Built Mathlib.Tactic.FunProp.Theorems (2.0s)
+✔ [560/590] Built Plausible.Random (807ms)
+✔ [561/590] Built Mathlib.Data.Set.Basic (4.9s)
+✔ [562/590] Built Mathlib.Order.Heyting.Basic (6.7s)
+✔ [563/590] Built Mathlib.Tactic.ClickSuggestions.Apply (1.4s)
+✔ [564/590] Built Mathlib.Tactic.ClickSuggestions.ApplyAt (1.2s)
+✔ [565/591] Built Mathlib.Tactic.ClickSuggestions.GRewrite (1.9s)
+✔ [566/591] Built Mathlib.Tactic.ClickSuggestions.Rewrite (1.3s)
+✔ [567/591] Built Mathlib.Tactic.FunProp.Attr (736ms)
+✔ [568/591] Built Plausible.Gen (1.2s)
+✔ [569/591] Built Mathlib.Data.Set.Disjoint (1.4s)
+✔ [570/593] Built Mathlib.Data.Set.Inclusion (1.1s)
+✔ [571/594] Built Mathlib.Tactic.FunProp.Core (4.8s)
+✔ [572/594] Built Mathlib.Order.BooleanAlgebra.Defs (984ms)
+✔ [573/594] Built Plausible.Arbitrary (765ms)
+✔ [574/594] Built Mathlib.Tactic.ClickSuggestions.FindPremises (1.7s)
+✔ [575/595] Built Plausible.Shrinkable (538ms)
+✔ [576/596] Built Mathlib.Tactic.FunProp.Elab (1.8s)
+✔ [577/596] Built Mathlib.Data.Set.Insert (4.1s)
+✔ [578/596] Built Mathlib.Tactic.ClickSuggestions.TryPremises (2.5s)
+✔ [579/596] Built Plausible.Sampleable (679ms)
+✔ [580/597] Built Mathlib.Order.BooleanAlgebra.Basic (4.6s)
+✔ [581/597] Built Mathlib.Tactic.FunProp (550ms)
+✔ [582/597] Built Plausible.Attr (415ms)
+✔ [583/597] Built Mathlib.Tactic.ClickSuggestions (1.5s)
+✔ [584/597] Built Mathlib.Data.Set.Subsingleton (1.0s)
+✔ [585/597] Built Plausible.Functions (623ms)
+✔ [586/597] Built Plausible.Testable (1.9s)
+✔ [587/601] Built Mathlib.Order.BooleanAlgebra.Set (3.7s)
+✔ [588/601] Built Plausible.Tactic (856ms)
+✔ [589/602] Built Plausible.ArbitraryFueled (290ms)
+✔ [590/603] Built Mathlib.Order.SymmDiff (3.9s)
+✔ [591/603] Built Plausible.DeriveShrinkable (1.9s)
+✔ [592/603] Built Plausible.DeriveArbitrary (1.0s)
+✔ [593/603] Built Batteries.Tactic.Case (1.1s)
+✔ [594/604] Built Mathlib.Data.Set.SymmDiff (837ms)
+✔ [595/605] Built Plausible (352ms)
+✔ [596/605] Built Batteries.Tactic.GeneralizeProofs (2.7s)
+✔ [597/605] Built Batteries.CodeAction.Basic (836ms)
+✔ [598/610] Built Batteries.CodeAction.Misc (2.6s)
+✔ [600/610] Built Mathlib.Data.Set.Image (8.5s)
+✔ [602/610] Built Batteries.Data.List.Basic (4.7s)
+✔ [603/610] Built Mathlib.Data.Set.Restrict (2.1s)
+✔ [604/611] Built Batteries.CodeAction.Match (1.2s)
+✔ [605/612] Built Batteries.CodeAction (531ms)
+✔ [606/648] Built LeanSearchClient.Basic (409ms)
+✔ [607/648] Built LeanSearchClient.Syntax (2.6s)
+✔ [608/648] Built Mathlib.Algebra.Group.Action.Opposite (2.2s)
+✔ [609/648] Built Mathlib.Data.Set.Prod (8.3s)
+✔ [610/648] Built Mathlib.Algebra.GroupWithZero.Defs (1.8s)
+✔ [611/648] Built Mathlib.Algebra.NeZero (727ms)
+✔ [612/648] Built Mathlib.Algebra.Group.IsCommutative (1.0s)
+✔ [613/648] Built Mathlib.Data.Nat.Cast.Defs (1.5s)
+✔ [614/648] Built Mathlib.Algebra.Group.Int.Defs (1.1s)
+✔ [615/648] Built Mathlib.Data.Int.Basic (1.0s)
+✔ [616/648] Built Mathlib.Algebra.Group.Nat.Defs (609ms)
+✔ [617/648] Built Mathlib.Algebra.Group.Equiv.Opposite (2.2s)
+✔ [618/648] Built Mathlib.Data.Nat.Sqrt (1.1s)
+✔ [619/648] Built Mathlib.Util.AtomM (997ms)
+✔ [620/650] Built Mathlib.Data.List.TFAE (897ms)
+✔ [621/707] Built Mathlib.Algebra.Group.Hom.Instances (3.1s)
+✔ [622/707] Built LeanSearchClient.LoogleSyntax (1.6s)
+✔ [623/707] Built Mathlib.Algebra.GroupWithZero.NeZero (736ms)
+✔ [624/707] Built Mathlib.Data.Int.Cast.Defs (794ms)
+✔ [625/707] Built Mathlib.Algebra.Group.Nat.Hom (1.1s)
+✔ [626/707] Built Mathlib.Algebra.Group.Even (1.7s)
+✔ [627/866] Built Batteries.Control.ForInStep.Lemmas (392ms)
+✔ [628/866] Built Batteries.Data.List.Pairwise (496ms)
+✔ [629/866] Built Mathlib.Data.Set.Function (6.2s)
+✔ [630/866] Built Mathlib.Algebra.GroupWithZero.Nat (698ms)
+✔ [631/866] Built Mathlib.Data.Nat.Cast.Pi (558ms)
+✔ [632/866] Built Mathlib.Algebra.Group.Semiconj.Units (1.2s)
+✔ [633/866] Built Mathlib.Basic.Nontrivial.Basic (995ms)
+✔ [634/866] Built Mathlib.Algebra.Notation.Bracket (586ms)
+✔ [635/866] Built Mathlib.Algebra.Order.ZeroLEOne (659ms)
+✔ [636/866] Built Mathlib.Logic.OpClass (625ms)
+✔ [637/866] Built Mathlib.Tactic.Bound.Init (570ms)
+✔ [638/866] Built Mathlib.Algebra.Order.Monoid.Unbundled.Defs (1.6s)
+✔ [639/866] Built Mathlib.Tactic.Monotonicity.Attr (464ms)
+✔ [640/866] Built Mathlib.Data.Prod.PProd (545ms)
+✔ [641/962] Built LeanSearchClient (419ms)
+✔ [642/986] Built Mathlib.Order.Lex (1.1s)
+✔ [643/986] Built Mathlib.Algebra.GroupWithZero.InjSurj (1.3s)
+✔ [644/986] Built Mathlib.Algebra.GroupWithZero.Basic (2.7s)
+✔ [645/986] Built Mathlib.Data.Int.Cast.Basic (1.0s)
+✔ [646/986] Built Mathlib.Algebra.Ring.Defs (3.3s)
+✔ [647/986] Built Mathlib.Algebra.CharZero.Defs (874ms)
+✔ [648/986] Built Mathlib.Algebra.Group.Nat.Even (1.8s)
+✔ [649/986] Built Batteries.Classes.RatCast (338ms)
+✔ [650/986] Built Mathlib.Algebra.Group.Invertible.Defs (1.8s)
+✔ [651/986] Built Mathlib.Data.Option.NAry (1.9s)
+✔ [652/986] Built Mathlib.Algebra.GroupWithZero.Regular (1.1s)
+✔ [653/986] Built Mathlib.Order.TypeTags (1.1s)
+✔ [654/986] Built Mathlib.Algebra.Regular.Basic (2.2s)
+✔ [655/986] Built Mathlib.Data.Nat.Cast.NeZero (646ms)
+✔ [656/986] Built Mathlib.Data.Bool.Set (1.0s)
+✔ [657/986] Built Mathlib.Data.Nat.Set (1.0s)
+✔ [658/986] Built Batteries.Data.List.Lemmas (13s)
+✔ [659/986] Built Mathlib.Control.ULift (1.0s)
+✔ [660/986] Built Mathlib.Order.BoundedOrder.Monotone (950ms)
+✔ [661/986] Built Mathlib.Util.PPOptions (853ms)
+✔ [662/986] Built Mathlib.Data.Set.NAry (3.2s)
+✔ [663/986] Built Mathlib.Order.Interval.Set.Defs (1.3s)
+✔ [664/986] Built Mathlib.Tactic.SetLike (565ms)
+✔ [665/986] Built Mathlib.Order.Bounds.Defs (655ms)
+✔ [666/986] Built Mathlib.Lean.Expr.ExtraRecognizers (559ms)
+✔ [667/986] Built Mathlib.Data.PNat.Notation (1.0s)
+✔ [668/986] Built Mathlib.Data.Set.Order (1.9s)
+✔ [669/986] Built Mathlib.Algebra.Notation (975ms)
+✔ [670/986] Built Mathlib.Data.Nat.Find (1.4s)
+✔ [671/986] Built Mathlib.Algebra.Order.Hom.Basic (892ms)
+✔ [672/986] Built Mathlib.Data.Int.Cast.Pi (655ms)
+✔ [673/986] Built Mathlib.Algebra.Notation.Support (2.3s)
+✔ [674/986] Built Mathlib.Tactic.HaveI (913ms)
+✔ [675/986] Built Mathlib.Lean.Expr.Rat (650ms)
+✔ [676/986] Built Mathlib.Util.Qq (832ms)
+✔ [677/986] Built Mathlib.Algebra.Group.Nat.Units (596ms)
+✔ [678/986] Built Mathlib.Util.AtomM.Recurse (849ms)
+✔ [679/986] Built Mathlib.Tactic.TryThis (620ms)
+✔ [680/986] Built Mathlib.Data.Ineq (552ms)
+✔ [681/986] Built Mathlib.Tactic.FieldSimp.Attr (474ms)
+✔ [682/986] Built Mathlib.Util.DischargerAsTactic (746ms)
+✔ [683/992] Built Mathlib.Control.Functor (1.2s)
+✔ [684/992] Built Mathlib.Data.List.Monad (779ms)
+✔ [641/980] Built Mathlib.Tactic.Common (1.1s)
+✔ [645/980] Built Mathlib.Data.Set.Piecewise (1.6s)
+✔ [646/980] Built Mathlib.Algebra.GroupWithZero.Opposite (1.4s)
+✔ [662/980] Built Mathlib.Algebra.GroupWithZero.Hom (2.3s)
+✔ [663/980] Built Mathlib.Algebra.Ring.Semiconj (1.3s)
+✔ [666/980] Built Mathlib.Logic.Equiv.Set (4.3s)
+✔ [678/986] Built Mathlib.Data.Set.Pairwise.Basic (3.6s)
+✔ [679/986] Built Mathlib.Data.Set.Monotone (1.9s)
+✔ [687/986] Built Mathlib.Algebra.Ring.GrindInstances (1.1s)
+✔ [688/986] Built Mathlib.Algebra.Ring.Int.Defs (1.1s)
+✔ [689/986] Built Mathlib.Algebra.BigOperators.Group.List.Defs (1.2s)
+✔ [690/986] Built Mathlib.Algebra.Ring.InjSurj (4.8s)
+✔ [691/986] Built Mathlib.Algebra.Ring.Nat (931ms)
+✔ [692/986] Built Mathlib.Data.List.Pairwise (2.9s)
+✔ [693/986] Built Mathlib.Algebra.Group.Commute.Units (1.6s)
+✔ [694/986] Built Mathlib.Tactic.Nontriviality.Core (1.5s)
+✔ [695/986] Built Mathlib.Algebra.Order.IsBotOne (1.7s)
+✔ [696/986] Built Mathlib.Algebra.Order.GroupWithZero.Defs (2.7s)
+✔ [697/986] Built Mathlib.Order.MinMax (2.0s)
+✔ [698/986] Built Mathlib.Tactic.Bound.Attribute (1.9s)
+✔ [699/986] Built Mathlib.Data.List.InsertIdx (1.5s)
+✔ [700/986] Built Mathlib.Algebra.Group.WithOne.Defs (2.2s)
+✔ [701/986] Built Mathlib.Data.List.Forall2 (3.1s)
+✔ [702/986] Built Mathlib.Data.Int.Sqrt (1.2s)
+✔ [703/986] Built Mathlib.Algebra.Divisibility.Basic (2.2s)
+✔ [704/986] Built Mathlib.Algebra.Group.End (5.2s)
+✔ [705/986] Built Mathlib.Data.Nat.Factorial.Basic (4.6s)
+✔ [706/986] Built Mathlib.Logic.Embedding.Basic (2.6s)
+✔ [707/986] Built Batteries.Data.List.Perm (2.5s)
+✔ [708/986] Built Mathlib.Util.SynthesizeUsing (902ms)
+✔ [709/986] Built Mathlib.Algebra.Order.Group.Synonym (5.1s)
+✔ [710/986] Built Mathlib.Lean.Meta.Tactic.Rewrite (577ms)
+✔ [711/986] Built Mathlib.Tactic.Linarith.Oracle.SimplexAlgorithm.Datatypes (1.0s)
+✔ [712/986] Built Mathlib.Data.Tree.Basic (1.3s)
+✔ [713/986] Built Mathlib.Tactic.Zify (1.3s)
+✔ [714/986] Built Mathlib.Util.ElabWithoutMVars (680ms)
+✔ [715/986] Built Mathlib.Algebra.Torsor.Defs (1.9s)
+✔ [716/986] Built Mathlib.Algebra.Group.Action.Units (1.6s)
+✔ [717/986] Built Mathlib.Data.Finset.Attr (525ms)
+✔ [718/986] Built Mathlib.Basic.Finite.Defs (1.0s)
+✔ [719/986] Built Mathlib.Data.List.Induction (1.9s)
+✔ [720/1255] Built Mathlib.Data.Int.DivMod (668ms)
+✔ [721/1803] Built Mathlib.Data.List.Flatten (1.7s)
+✔ [722/1803] Built Mathlib.Data.Rat.Init (941ms)
+✔ [723/1803] Built Mathlib.Algebra.Group.Action.Pi (1.8s)
+✔ [724/1803] Built Mathlib.Data.ULift (1.2s)
+✔ [725/1803] Built Mathlib.Algebra.Group.Pointwise.Set.Scalar (2.7s)
+✔ [726/1803] Built Mathlib.Util.Delaborators (3.2s)
+✔ [727/1803] Built Mathlib.Order.WellFounded (2.2s)
+✔ [728/1803] Built Mathlib.Order.WithBot (11s)
+✔ [729/1803] Built Mathlib.Algebra.GroupWithZero.Equiv (1.1s)
+✔ [730/1803] Built Mathlib.Order.SetNotation (3.7s)
+✔ [731/1803] Built Mathlib.Basic.SetLike.Basic (1.9s)
+✔ [732/1803] Built Mathlib.Algebra.GroupWithZero.Action.Defs (2.7s)
+✔ [733/1803] Built Mathlib.Data.Set.Notation (1.0s)
+✔ [734/1803] Built Mathlib.Data.PNat.Defs (1.3s)
+✔ [735/1803] Built Mathlib.Order.Nat (946ms)
+✔ [736/1803] Built Mathlib.Algebra.Group.Int.Units (1.2s)
+✔ [737/1803] Built Batteries.Data.Fin.Basic (745ms)
+✔ [738/1803] Built Mathlib.Data.List.Defs (2.4s)
+✔ [739/1803] Built Mathlib.Algebra.Group.Invertible.Basic (1.5s)
+✔ [740/1803] Built Mathlib.Tactic.Nontriviality (678ms)
+✔ [741/1803] Built Mathlib.Tactic.TFAE (3.2s)
+✔ [742/1803] Built Mathlib.Order.Interval.Set.Basic (5.6s)
+✔ [743/1803] Built Mathlib.Algebra.Group.WithOne.Map (1.1s)
+✔ [744/1803] Built Mathlib.Algebra.Order.Monoid.Unbundled.Basic (6.5s)
+✔ [745/1803] Built Mathlib.Algebra.Group.Int.Even (2.0s)
+✔ [746/1803] Built Mathlib.Algebra.Divisibility.Units (1.9s)
+✔ [747/1950] Built Mathlib.Algebra.Divisibility.Hom (956ms)
+✔ [748/6177] Built Mathlib.Data.List.Count (1.2s)
+✔ [749/6177] Built Mathlib.Data.List.Perm.Basic (2.3s)
+✔ [750/6177] Built Mathlib.Order.RelIso.Basic (5.1s)
+✔ [751/6177] Built Mathlib.Algebra.Order.Monoid.Unbundled.OrderDual (960ms)
+✔ [752/6177] Built Mathlib.Algebra.Order.Ring.Synonym (1.7s)
+✔ [753/6177] Built Mathlib.Tactic.Linarith.Oracle.SimplexAlgorithm.SimplexAlgorithm (1.1s)
+✔ [754/6177] Built Mathlib.Tactic.Linarith.Oracle.SimplexAlgorithm.Gauss (844ms)
+✔ [755/6177] Built Mathlib.Algebra.AddTorsor.Defs (609ms)
+✔ [756/6177] Built Mathlib.Algebra.Group.Conj (2.6s)
+✔ [757/6177] Built Mathlib.Data.Nat.Choose.Basic (3.1s)
+✔ [758/6177] Built Mathlib.Basic.Countable.Defs (995ms)
+✔ [759/6177] Built Mathlib.Algebra.Regular.SMul (1.5s)
+✔ [760/6177] Built Mathlib.Algebra.Group.Idempotent (995ms)
+✔ [761/6177] Built Mathlib.Order.Sigma.Lex (991ms)
+✔ [762/6177] Built Mathlib.Data.Nat.Order.Lemmas (901ms)
+✔ [763/6177] Built Mathlib.Order.Prod.Lex.Basic (2.7s)
+✔ [764/6177] Built Mathlib.Algebra.Group.Embedding (720ms)
+✔ [765/6177] Built Mathlib.Algebra.Group.Commutator (626ms)
+✔ [766/6177] Built Mathlib.Algebra.Group.Action.TypeTags (907ms)
+✔ [767/6177] Built Mathlib.Algebra.Group.Support (947ms)
+✔ [768/6177] Built Mathlib.Algebra.Group.Commute.Hom (970ms)
+✔ [769/6177] Built Mathlib.Algebra.Quotient (782ms)
+✔ [770/6177] Built Mathlib.Logic.Function.CompTypeclasses (658ms)
+✔ [771/6177] Built Mathlib.Algebra.GroupWithZero.Pi (864ms)
+✔ [772/6177] Built Mathlib.Algebra.Group.Hom.End (934ms)
+✔ [773/6177] Built Mathlib.Algebra.Regular.Opposite (801ms)
+✔ [774/6177] Built Mathlib.Algebra.Group.PUnit (804ms)
+✔ [775/6177] Built Mathlib.Data.Nat.Cast.Prod (820ms)
+✔ [776/6177] Built Mathlib.Algebra.Ring.Hom.InjSurj (790ms)
+✔ [777/6177] Built Mathlib.Algebra.Group.ULift (1.8s)
+✔ [778/6177] Built Mathlib.Algebra.Group.IsApply (1.6s)
+✔ [779/6177] Built Mathlib.Algebra.Notation.Indicator (2.5s)
+✔ [780/6177] Built Mathlib.Algebra.Group.Pi.Torsion (927ms)
+✔ [781/6177] Built Mathlib.Data.List.Find (1.2s)
+✔ [782/6177] Built Mathlib.Control.Applicative (1.2s)
+✔ [783/6177] Built Mathlib.Control.Traversable.Basic (1.1s)
+✔ [784/6177] Built Mathlib.Algebra.Group.Irreducible.Defs (1.0s)
+✔ [785/6177] Built Mathlib.Control.Monad.Basic (634ms)
+✔ [786/6177] Built Mathlib.Dynamics.FixedPoints.Defs (594ms)
+✔ [787/6177] Built Mathlib.Order.Iterate (1.4s)
+✔ [788/6177] Built Mathlib.Data.ENat.Defs (816ms)
+✔ [789/6177] Built Mathlib.Data.Part (3.9s)
+✔ [790/6177] Built Mathlib.Algebra.Group.ModEq (2.3s)
+✔ [791/6177] Built Mathlib.Logic.Small.Defs (900ms)
+✔ [792/6177] Built Mathlib.Algebra.Order.Group.Action.Synonym (1.3s)
+✔ [793/6177] Built Mathlib.Data.Nat.Log (2.9s)
+✔ [794/6177] Built Mathlib.Algebra.Order.GroupWithZero.Synonym (1.2s)
+✔ [795/6177] Built Mathlib.Algebra.EuclideanDomain.Defs (1.7s)
+✔ [796/6177] Built Mathlib.Tactic.ContinuousFunctionalCalculus (934ms)
+✔ [797/6177] Built Mathlib.Tactic.Order.CollectFacts (2.8s)
+✔ [798/6177] Built Mathlib.Algebra.Notation.Lemmas (896ms)
+✔ [799/6177] Built Mathlib.Tactic.Polynomial.Core (894ms)
+✔ [800/6177] Built Mathlib.Data.Nat.MaxPowDiv (904ms)
+✔ [801/6177] Built Mathlib.Data.Rat.Defs (1.6s)
+✔ [802/6177] Built Mathlib.Algebra.Field.Defs (1.4s)
+✔ [803/6177] Built Mathlib.Algebra.Group.Pi.Units (1.0s)
+✔ [804/6177] Built Mathlib.SetTheory.Cardinal.Defs (2.2s)
+✔ [805/6177] Built Mathlib.Logic.Function.DependsOn (943ms)
+✔ [806/6177] Built Mathlib.Order.Directed (2.3s)
+✔ [807/6177] Built Mathlib.Algebra.Group.Pi.Lemmas (4.1s)
+✔ [808/6177] Built Mathlib.Algebra.Group.Subsemigroup.Defs (2.5s)
+✔ [809/6177] Built Mathlib.Order.Filter.Defs (3.4s)
+✔ [810/6177] Built Mathlib.GroupTheory.GroupAction.Ring (882ms)
+✔ [811/6177] Built Mathlib.Algebra.GroupWithZero.Action.Opposite (891ms)
+✔ [812/6177] Built Mathlib.Algebra.GroupWithZero.Action.Hom (1.1s)
+✔ [813/6177] Built Mathlib.Algebra.Module.Defs (1.6s)
+✔ [814/6177] Built Mathlib.Logic.Embedding.Set (1.9s)
+✔ [815/6177] Built Mathlib.Data.PNat.Equiv (848ms)
+✔ [816/6177] Built Batteries.Data.Fin.Lemmas (2.5s)
+✔ [817/6177] Built Mathlib.Data.Fin.Basic (3.5s)
+✔ [818/6177] Built Mathlib.Data.Vector.Defs (1.7s)
+✔ [819/6177] Built Mathlib.Data.Nat.Bits (1.4s)
+✔ [820/6177] Built Mathlib.Data.List.ProdSigma (1.1s)
+✔ [821/6177] Built Mathlib.Data.Set.List (829ms)
+✔ [822/6177] Built Mathlib.Data.List.TakeDrop (3.9s)
+✔ [823/6177] Built Mathlib.Data.List.Basic (7.5s)
+✔ [824/6177] Built Mathlib.Algebra.Group.Center (5.8s)
+✔ [825/6177] Built Mathlib.Algebra.Group.Action.Basic (1.8s)
+✔ [826/6177] Built Mathlib.Algebra.Ring.Basic (1.0s)
+✔ [827/6177] Built Mathlib.Algebra.GroupWithZero.Units.Basic (3.3s)
+✔ [828/6177] Built Mathlib.Order.Interval.Set.WithBotTop (2.2s)
+✔ [829/6177] Built Mathlib.Algebra.Order.Monoid.Unbundled.MinMax (1.9s)
+✔ [830/6177] Built Mathlib.Algebra.Order.Monoid.Unbundled.ExistsOfLE (1.3s)
+✔ [831/6177] Built Mathlib.Algebra.Order.Monoid.NatCast (1.1s)
+✔ [832/6177] Built Mathlib.Order.Interval.Set.LinearOrder (5.7s)
+✔ [833/6177] Built Mathlib.Algebra.Order.Monoid.Defs (1.3s)
+✔ [834/6177] Built Mathlib.Algebra.Order.Sub.Defs (1.9s)
+✔ [835/6177] Built Mathlib.Algebra.Ring.Divisibility.Basic (1.7s)
+✔ [836/6177] Built Batteries.Data.List.Count (1.1s)
+✔ [837/6177] Built Mathlib.Order.Heyting.Boundary (1.4s)
+✔ [838/6177] Built Mathlib.Tactic.SuppressCompilation (1.4s)
+✔ [839/6177] Built Mathlib.Data.Sym.Sym2.Init (621ms)
+✔ [840/6177] Built Mathlib.CategoryTheory.Category.Init (656ms)
+✔ [841/6177] Built Mathlib.Tactic.CategoryTheory.CategoryStar (576ms)
+✔ [842/6177] Built Mathlib.Basic.Logic.Lemmas (1.1s)
+✔ [843/6177] Built Mathlib.CategoryTheory.ConcreteCategory.Notation (1.1s)
+✔ [844/6177] Built Mathlib.CategoryTheory.ConcreteCategory.Bundled (553ms)
+✔ [845/6177] Built Mathlib.GroupTheory.SpecificGroups.Cyclic.Basic (894ms)
+✔ [846/6177] Built Mathlib.Algebra.Group.Ext (1.3s)
+✔ [847/6177] Built Mathlib.GroupTheory.Perm.Basic (990ms)
+✔ [848/6177] Built Mathlib.Order.PiLex (2.0s)
+✔ [849/6177] Built Mathlib.RingTheory.LocalRing.Defs (730ms)
+✔ [850/6177] Built Mathlib.Tactic.CategoryTheory.Coherence.Datatypes (1.8s)
+✔ [851/6177] Built Mathlib.Tactic.BDSimp (513ms)
+✔ [852/6177] Built Mathlib.Algebra.Group.Units.Opposite (912ms)
+✔ [853/6177] Built Mathlib.Tactic.Continuity.Init (496ms)
+✔ [854/6177] Built Mathlib.Util.DelabNonCanonical (579ms)
+✔ [855/6177] Built Mathlib.Data.Set.BoolIndicator (825ms)
+✔ [856/6177] Built Mathlib.Tactic.TautoSet (942ms)
+✔ [857/6177] Built Mathlib.Algebra.Ring.Regular (950ms)
+✔ [858/6177] Built Mathlib.Control.Bifunctor (1.6s)
+✔ [859/6177] Built Mathlib.Logic.Equiv.PartialEquiv (4.6s)
+✔ [860/6177] Built Mathlib.Algebra.Homology.ComplexShape (1.7s)
+✔ [861/6177] Built Mathlib.Topology.Sheaves.Init (503ms)
+✔ [862/6177] Built Mathlib.Algebra.PEmptyInstances (509ms)
+✔ [863/6177] Built Mathlib.Tactic.ProxyType (2.1s)
+✔ [864/6177] Built Mathlib.Algebra.Group.WithOne.Basic (1.6s)
+✔ [865/6177] Built Mathlib.Data.Stream.Defs (1.1s)
+✔ [866/6177] Built Mathlib.Data.Nat.DvdSequence (1.2s)
+✔ [867/6177] Built Mathlib.Tactic.Monotonicity.Basic (1.0s)
+✔ [868/6177] Built Mathlib.Algebra.Divisibility.Prod (1.0s)
+✔ [869/6177] Built Mathlib.Algebra.Expr (562ms)
+✔ [870/6177] Built Mathlib.Algebra.Group.MinimalAxioms (683ms)
+✔ [871/6177] Built Mathlib.Algebra.GradedFunLike (967ms)
+✔ [872/6177] Built Mathlib.Algebra.Group.Action.Option (901ms)
+✔ [873/6177] Built Mathlib.Algebra.Group.Action.Sigma (838ms)
+✔ [874/6177] Built Mathlib.Algebra.Group.Action.Sum (917ms)
+✔ [875/6177] Built Mathlib.Algebra.Group.Int.TypeTags (746ms)
+✔ [876/6177] Built Mathlib.Algebra.HierarchyDesign (513ms)
+✔ [877/6177] Built Mathlib.Algebra.Group.Nat.TypeTags (700ms)
+✔ [878/6177] Built Mathlib.Order.WithBotTop (837ms)
+✔ [879/6177] Built Mathlib.Combinatorics.Matroid.Init (706ms)
+✔ [880/6177] Built Mathlib.Util.Superscript (2.0s)
+✔ [881/6177] Built Mathlib.Tactic.Measurability.Init (519ms)
+✔ [882/6177] Built Mathlib.GroupTheory.Perm.ViaEmbedding (990ms)
+✔ [883/6177] Built Mathlib.Data.Nat.NthRoot.Defs (555ms)
+✔ [884/6177] Built Mathlib.LinearAlgebra.AffineSpace.Defs (580ms)
+✔ [885/6177] Built Mathlib.Data.Int.NatAbs (884ms)
+✔ [886/6177] Built Mathlib.Order.Monotone.Monovary (1.6s)
+✔ [887/6177] Built Mathlib.Data.List.GetD (1.1s)
+✔ [888/6177] Built Mathlib.Tactic.ArithMult.Init (603ms)
+✔ [889/6177] Built Mathlib.Algebra.Order.GroupWithZero.Unbundled.Defs (582ms)
+✔ [890/6177] Built Mathlib.Algebra.Order.Group.Equiv (669ms)
+✔ [891/6177] Built Mathlib.Algebra.Order.Sum (597ms)
+✔ [892/6177] Built Mathlib.Algebra.Order.Monoid.Unbundled.Units (1.2s)
+✔ [893/6177] Built Mathlib.Logic.Function.Coequalizer (711ms)
+✔ [894/6177] Built Mathlib.Order.SetIsMax (643ms)
+✔ [895/6177] Built Mathlib.Tactic.MoveAdd (1.6s)
+✔ [896/6177] Built Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Note (473ms)
+✔ [897/6177] Built Mathlib.Order.UpperLower.Relative (1.4s)
+✔ [898/6177] Built Mathlib.Data.Bundle (1.1s)
+✔ [899/6177] Built Mathlib.Data.List.Triplewise (1.5s)
+✔ [900/6436] Built Mathlib.Combinatorics.SimpleGraph.Init (511ms)
+✔ [901/6913] Built Mathlib.Basic.PEquiv (1.9s)
+✔ [902/6913] Built Mathlib.Basic.Rel (5.7s)
+✔ [903/6913] Built Mathlib.Order.Hom.Basic (6.8s)
+✔ [904/6913] Built Mathlib.Algebra.Order.Monoid.Unbundled.Pow (2.4s)
+✔ [905/6913] Built Mathlib.Tactic.Linarith.Oracle.SimplexAlgorithm.PositiveVector (848ms)
+✔ [906/6913] Built Mathlib.GroupTheory.GroupAction.IterateAct (856ms)
+✔ [907/6913] Built Mathlib.Algebra.Regular.Prod (955ms)
+✔ [908/6913] Built Mathlib.Algebra.Regular.Pi (820ms)
+✔ [909/6913] Built Mathlib.Algebra.GroupWithZero.Action.Regular (842ms)
+✔ [910/6913] Built Mathlib.Algebra.GroupWithZero.Idempotent (717ms)
+✔ [911/6913] Built Mathlib.Algebra.Group.Action.Pretransitive (1.0s)
+✔ [912/6913] Built Mathlib.Algebra.Group.Hom.CompTypeclasses (1.0s)
+✔ [913/6913] Built Mathlib.Algebra.Ring.PUnit (670ms)
+✔ [914/6913] Built Mathlib.Algebra.GroupWithZero.Action.Pi (1.4s)
+✔ [915/6913] Built Mathlib.Data.Int.Cast.Prod (906ms)
+✔ [916/6913] Built Mathlib.Algebra.Regular.ULift (805ms)
+✔ [917/6913] Built Mathlib.Algebra.GroupWithZero.ULift (771ms)
+✔ [918/6913] Built Mathlib.Algebra.GroupWithZero.Indicator (1.2s)
+✔ [919/6913] Built Mathlib.Algebra.Group.Indicator (1.9s)
+✔ [920/6913] Built Mathlib.Algebra.Group.FunLike (2.4s)
+✔ [921/6913] Built Mathlib.Algebra.Group.Irreducible.Lemmas (1.1s)
+✔ [922/6913] Built Mathlib.Dynamics.FixedPoints.Basic (1.2s)
+✔ [923/6913] Built Mathlib.Basic.Opposite (942ms)
+✔ [924/6913] Built Mathlib.Algebra.Free (4.6s)
+✔ [925/6913] Built Mathlib.Basic.UnivLE (681ms)
+✔ [926/6913] Built Mathlib.Logic.Small.Basic (851ms)
+✔ [927/6913] Built Mathlib.Algebra.Order.GroupWithZero.Action.Synonym (1.2s)
+✔ [928/6913] Built Mathlib.Tactic.Order.ToInt (1.7s)
+✔ [929/6913] Built Mathlib.Tactic.Order.Preprocessing (1.4s)
+✔ [930/6913] Built Mathlib.Tactic.Order.Graph.Basic (878ms)
+✔ [931/6913] Built Mathlib.Algebra.Ring.Action.Rat (720ms)
+✔ [932/6913] Built Mathlib.Algebra.Field.IsField (1.1s)
+✔ [933/6913] Built Mathlib.Data.Int.Cast.Field (800ms)
+✔ [934/6913] Built Mathlib.Order.ConditionallyCompletePartialOrder.Defs (827ms)
+✔ [935/6913] Built Mathlib.Order.Interval.Set.Image (2.4s)
+✔ [936/6913] Built Mathlib.Algebra.Module.MinimalAxioms (688ms)
+✔ [937/6913] Built Mathlib.Algebra.Group.Submonoid.Defs (2.7s)
+✔ [938/6913] Built Mathlib.Logic.Equiv.Embedding (906ms)
+✔ [939/6913] Built Mathlib.Order.RelIso.Set (1.1s)
+✔ [940/6913] Built Mathlib.Data.List.Zip (1.4s)
+✔ [941/6913] Built Mathlib.Data.Fin.SuccPred (5.4s)
+✔ [942/6913] Built Mathlib.Data.List.MinMax (3.9s)
+✔ [943/6913] Built Mathlib.Data.List.Enum (1.0s)
+✔ [944/6913] Built Mathlib.Algebra.FreeMonoid.Basic (3.1s)
+✔ [945/6913] Built Mathlib.Data.List.Lex (1.6s)
+✔ [946/6913] Built Mathlib.Algebra.BigOperators.Group.List.Basic (3.9s)
+✔ [947/6913] Built Mathlib.Data.List.Infix (1.0s)
+✔ [948/6913] Built Mathlib.Data.List.Lattice (2.4s)
+✔ [949/6913] Built Mathlib.Data.List.Perm.Subperm (1.2s)
+✔ [950/6913] Built Mathlib.Algebra.Ring.Centralizer (789ms)
+✔ [951/6913] Built Mathlib.GroupTheory.Subsemigroup.Center (1.0s)
+✔ [952/6913] Built Mathlib.Data.List.Nodup (4.1s)
+✔ [953/6913] Built Mathlib.GroupTheory.GroupAction.DomAct.Basic (2.5s)
+✔ [954/6913] Built Mathlib.Algebra.Torsor.Basic (3.8s)
+✔ [955/6913] Built Mathlib.Algebra.Module.PointwisePi (943ms)
+✔ [956/6913] Built Mathlib.Algebra.GroupWithZero.Center (1.2s)
+✔ [957/6913] Built Mathlib.Algebra.Ring.Hom.Defs (3.4s)
+✔ [958/6913] Built Mathlib.Algebra.EuclideanDomain.Field (1.2s)
+✔ [959/6913] Built Mathlib.Algebra.GroupWithZero.Conj (1.1s)
+✔ [960/6913] Built Mathlib.Algebra.GroupWithZero.Invertible (894ms)
+✔ [961/6913] Built Mathlib.Algebra.GroupWithZero.Divisibility (1.3s)
+✔ [962/6913] Built Mathlib.Algebra.GroupWithZero.Action.Units (877ms)
+✔ [963/6913] Built Mathlib.Algebra.GroupWithZero.Units.Equiv (1.1s)
+✔ [964/6913] Built Mathlib.Algebra.GroupWithZero.WithZero (3.2s)
+✔ [965/6913] Built Mathlib.Algebra.Ring.Rat (1.5s)
+✔ [966/6913] Built Mathlib.Algebra.GroupWithZero.Semiconj (885ms)
+✔ [967/6913] Built Mathlib.Algebra.Order.Monoid.Unbundled.WithTop (6.9s)
+✔ [968/6913] Built Mathlib.Algebra.Order.GroupWithZero.Basic (8.5s)
+✔ [969/6913] Built Mathlib.Algebra.Order.Monoid.Unbundled.TypeTags (1.3s)
+✔ [970/6913] Built Mathlib.Algebra.Order.AddTorsor (1.2s)
+✔ [971/6913] Built Mathlib.Algebra.Order.Group.Opposite (1.2s)
+✔ [972/6913] Built Mathlib.Algebra.Order.Monoid.OrderDual (749ms)
+✔ [973/6913] Built Mathlib.Algebra.Order.Interval.Set.Monoid (1.3s)
+✔ [974/6913] Built Mathlib.Algebra.Order.Group.Int (602ms)
+✔ [975/6913] Built Mathlib.Algebra.Order.Monoid.Canonical.Defs (1.2s)
+✔ [976/6913] Built Mathlib.Algebra.Order.Sub.Prod (731ms)
+✔ [977/6913] Built Mathlib.Algebra.Order.Sub.Unbundled.Basic (1.5s)
+✔ [978/6913] Built Mathlib.Algebra.Ring.Ext (2.0s)
+✔ [979/6913] Built Mathlib.Algebra.Order.Group.PiLex (1.2s)
+✔ [980/6913] Built Mathlib.Algebra.Order.Group.Unbundled.Basic (4.2s)
+✔ [981/6913] Built Mathlib.Tactic.CategoryTheory.Coherence.PureCoherence (2.9s)
+✔ [982/6913] Built Mathlib.Tactic.CategoryTheory.Coherence.Normalize (3.9s)
+✔ [983/6913] Built Mathlib.Tactic.Continuity (758ms)
+✔ [984/6913] Built Mathlib.Logic.Equiv.Functor (924ms)
+✔ [985/6913] Built Mathlib.Algebra.Homology.HasNoLoop (710ms)
+✔ [986/6913] Built Mathlib.Algebra.Homology.SpectralSequence.ComplexShape (1.0s)
+✔ [987/6913] Built Mathlib.Algebra.Homology.Embedding.Basic (1.5s)
+✔ [988/6913] Built Mathlib.Algebra.Ring.MinimalAxioms (834ms)
+✔ [989/6913] Built Mathlib.Data.Stream.Init (2.9s)
+✔ [990/6913] Built Mathlib.Tactic.Measurability (886ms)
+✔ [991/6913] Built Mathlib.Tactic.ArithMult (628ms)
+✔ [992/6913] Built Batteries.Data.Float.Basic (429ms)
+✔ [993/6913] Built Mathlib.Basic.TwoPointing (640ms)
+✔ [994/6913] Built Mathlib.Data.Matrix.DMatrix (1.1s)
+✔ [995/6913] Built Mathlib.GroupTheory.EckmannHilton (699ms)
+✔ [996/6913] Built Mathlib.Data.Nat.Size (742ms)
+✔ [997/7043] Built Mathlib.Data.Nat.PSub (875ms)
+✔ [998/7043] Built Mathlib.Data.Num.Basic (1.6s)
+✔ [999/7043] Built Mathlib.Basic.Rel.Separated (1.0s)
+✔ [1000/7043] Built Mathlib.Algebra.Order.Monoid.Basic (998ms)
+✔ [1001/7043] Built Mathlib.Data.PFun (3.8s)
+✔ [1002/7043] Built Mathlib.Order.Part (888ms)
+✔ [1003/7043] Built Mathlib.Algebra.Order.Group.End (1.1s)
+✔ [1004/7043] Built Mathlib.Order.Prod.Lex.Hom (690ms)
+✔ [1005/7043] Built Mathlib.Order.Minimal (4.4s)
+✔ [1006/7043] Built Mathlib.Order.Sum.Order (4.9s)
+✔ [1007/7043] Built Mathlib.Tactic.ApplyFun (1.5s)
+✔ [1008/7043] Built Mathlib.Order.Hom.Lattice (3.6s)
+✔ [1009/7043] Built Mathlib.Order.Hom.Bounded (3.3s)
+✔ [1010/7043] Built Mathlib.Order.Antisymmetrization (2.3s)
+✔ [1011/7043] Built Mathlib.Order.Hom.Set (3.3s)
+✔ [1012/7043] Built Mathlib.Algebra.Order.Monoid.Units (1.3s)
+✔ [1013/7043] Built Mathlib.Algebra.Ring.Idempotent (1.7s)
+✔ [1014/7043] Built Mathlib.Algebra.Group.Action.Hom (1.2s)
+✔ [1015/7043] Built Mathlib.Algebra.GroupWithZero.FunLike (923ms)
+✔ [1016/7043] Built Mathlib.Combinatorics.Quiver.Basic (1.0s)
+✔ [1017/7043] Built Mathlib.Basic.Countable.Small (850ms)
+✔ [1018/7043] Built Mathlib.Algebra.Order.Module.Synonym (923ms)
+✔ [1019/7043] Built Mathlib.Tactic.Order.Graph.Tarjan (916ms)
+✔ [1020/7043] Built Mathlib.Algebra.Ring.Int.Field (1.0s)
+✔ [1021/7043] Built Mathlib.Algebra.Group.Pointwise.Set.Basic (10s)
+✔ [1022/7043] Built Mathlib.Algebra.Field.Equiv (1.1s)
+✔ [1023/7043] Built Mathlib.Algebra.GroupWithZero.Submonoid.CancelMulZero (845ms)
+✔ [1024/7043] Built Mathlib.GroupTheory.OreLocalization.OreSet (1.1s)
+✔ [1025/7043] Built Mathlib.Algebra.Group.Submonoid.MulAction (1.4s)
+✔ [1026/7043] Built Mathlib.Data.Fin.Rev (966ms)
+✔ [1027/7043] Built Mathlib.Data.Fin.Embedding (1.2s)
+✔ [1028/7043] Built Mathlib.Algebra.FreeMonoid.FreeSemigroup (1.7s)
+✔ [1029/7043] Built Mathlib.Algebra.Group.Subgroup.Defs (4.5s)
+✔ [1030/7043] Built Mathlib.Algebra.FreeMonoid.Count (1.0s)
+✔ [1031/7043] Built Mathlib.Data.Multiset.Defs (1.9s)
+✔ [1032/7043] Built Mathlib.Data.List.Chain (4.2s)
+✔ [1033/7043] Built Mathlib.Data.List.Dedup (1.7s)
+✔ [1034/7043] Built Mathlib.Data.List.Perm.Lattice (1.4s)
+✔ [1035/7043] Built Mathlib.Data.List.Rotate (2.6s)
+✔ [1036/7043] Built Mathlib.Data.List.OffDiag (2.2s)
+✔ [1037/7043] Built Mathlib.Data.Vector.Basic (3.7s)
+✔ [1038/7043] Built Mathlib.Data.Set.Pairwise.List (1.1s)
+✔ [1039/7043] Built Mathlib.Data.Prod.TProd (1.8s)
+✔ [1040/7043] Built Mathlib.Data.List.NatAntidiagonal (1.2s)
+✔ [1041/7043] Built Mathlib.Data.List.Duplicate (1.3s)
+✔ [1042/7043] Built Mathlib.Data.List.Sublists (2.1s)
+✔ [1043/7043] Built Mathlib.Algebra.AddTorsor.Basic (884ms)
+✔ [1044/7043] Built Mathlib.Data.Nat.Cast.Basic (1.3s)
+✔ [1045/7043] Built Mathlib.RingTheory.NonUnitalSubsemiring.Defs (2.3s)
+✔ [1046/7043] Built Mathlib.Algebra.Ring.Opposite (2.7s)
+✔ [1047/7043] Built Mathlib.Algebra.Ring.Units (1.3s)
+✔ [1048/7043] Built Mathlib.Algebra.Ring.Equiv (4.0s)
+✔ [1049/7043] Built Mathlib.Algebra.Ring.Invertible (1.4s)
+✔ [1050/7043] Built Mathlib.Tactic.NormNum.Result (2.9s)
+✔ [1051/7043] Built Mathlib.Algebra.GroupWithZero.Submonoid.Primal (727ms)
+✔ [1052/7043] Built Mathlib.Algebra.Prime.Defs (1.2s)
+✔ [1053/7043] Built Mathlib.Data.Nat.GCD.Basic (1.0s)
+✔ [1054/7043] Built Mathlib.Algebra.Ring.WithZero (1.1s)
+✔ [1055/7043] Built Mathlib.Algebra.GroupWithZero.Prod (1.3s)
+✔ [1056/7043] Built Mathlib.Data.Int.GCD (2.0s)
+✔ [1057/7043] Built Mathlib.Algebra.GroupWithZero.Commute (1.0s)
+✔ [1058/7043] Built Mathlib.Data.Nat.Cast.WithTop (657ms)
+✔ [1059/7043] Built Mathlib.Algebra.Order.Sub.WithTop (886ms)
+✔ [1060/7043] Built Mathlib.Algebra.Order.GroupWithZero.OrderIso (965ms)
+✔ [1061/7043] Built Mathlib.Algebra.Order.GroupWithZero.Submonoid (635ms)
+✔ [1062/7043] Built Mathlib.Algebra.Order.GroupWithZero.Unbundled.Basic (610ms)
+✔ [1063/7043] Built Mathlib.Algebra.Order.BigOperators.GroupWithZero.List (911ms)
+✔ [1064/7043] Built Mathlib.Algebra.Order.Monoid.Prod (900ms)
+✔ [1065/7043] Built Mathlib.Algebra.Order.Group.Nat (835ms)
+✔ [1066/7043] Built Mathlib.Algebra.Order.BigOperators.Group.List (2.2s)
+✔ [1067/7043] Built Mathlib.Algebra.Order.Monoid.TypeTags (714ms)
+✔ [1068/7043] Built Mathlib.Algebra.Order.Monoid.WithTop (844ms)
+✔ [1069/7043] Built Mathlib.Algebra.Order.Sub.Basic (1.7s)
+✔ [1070/7043] Built Mathlib.Algebra.Order.Sub.Unbundled.Hom (1.4s)
+✔ [1071/7043] Built Mathlib.Algebra.Order.Monoid.Canonical.Basic (3.9s)
+✔ [1072/7043] Built Mathlib.Algebra.Order.Group.Basic (1.7s)
+✔ [1073/7043] Built Mathlib.Data.Int.Range (1.0s)
+✔ [1074/7043] Built Mathlib.Algebra.Order.Ring.Unbundled.Basic (4.9s)
+✔ [1075/7043] Built Mathlib.Algebra.Order.Group.OrderIso (1.6s)
+✔ [1076/7043] Built Mathlib.Algebra.Order.Group.Defs (1.5s)
+✔ [1077/7043] Built Mathlib.Algebra.Order.Hom.Monoid (5.7s)
+✔ [1078/7043] Built Mathlib.Topology.Defs.Basic (1.7s)
+✔ [1079/7043] Built Mathlib.Algebra.Field.MinimalAxioms (1.1s)
+✔ [1080/7043] Built Batteries.Data.Float.Rat (437ms)
+✔ [1081/7043] Built Batteries.Data.Nat.Bitwise.Lemmas (539ms)
+✔ [1082/7043] Built Mathlib.Data.List.ReduceOption (1.8s)
+✔ [1083/7043] Built Mathlib.Logic.Function.FiberPartition (977ms)
+✔ [1084/7043] Built Mathlib.Data.Seq.Computation (5.4s)
+✔ [1085/7043] Built Mathlib.Control.Bitraversable.Basic (855ms)
+✔ [1086/7043] Built Mathlib.Control.Lawful (538ms)
+✔ [1087/7043] Built Mathlib.Control.Traversable.Lemmas (883ms)
+✔ [1088/7043] Built Mathlib.Data.Bool.AllAny (630ms)
+✔ [1089/7043] Built Mathlib.Data.Bracket (335ms)
+✔ [1090/7043] Built Mathlib.Control.Monad.Writer (1.2s)
+✔ [1091/7111] Built Mathlib.Data.Char (544ms)
+✔ [1092/7111] Built Mathlib.Data.Countable.Defs (526ms)
+✔ [1093/7111] Built Mathlib.Algebra.Order.Monoid.Submonoid (884ms)
+✔ [1094/7111] Built Mathlib.Basic.Rel.Cover (1.2s)
+✔ [1095/7111] Built Mathlib.Algebra.Order.Group.Action.End (914ms)
+✔ [1096/7111] Built Mathlib.Computability.TuringMachine.Tape (3.3s)
+✔ [1097/7111] Built Mathlib.Order.Booleanisation (3.1s)
+✔ [1098/7111] Built Mathlib.Order.Hom.BoundedLattice (4.2s)
+✔ [1099/7111] Built Mathlib.Order.Bounds.Basic (6.1s)
+✔ [1100/7111] Built Mathlib.Order.Preorder.Chain (2.4s)
+✔ [1101/7111] Built Mathlib.Order.Interval.Set.OrderIso (1.1s)
+✔ [1102/7111] Built Mathlib.Algebra.Order.Group.Units (873ms)
+✔ [1103/7111] Built Mathlib.Order.Hom.Lex (2.4s)
+✔ [1104/7111] Built Mathlib.Algebra.Group.Action.End (1.7s)
+✔ [1105/7111] Built Mathlib.Algebra.Order.Ring.Idempotent (2.1s)
+✔ [1106/7111] Built Mathlib.Algebra.GroupWithZero.Action.End (872ms)
+✔ [1107/7111] Built Mathlib.Algebra.Group.Action.Prod (1.3s)
+✔ [1108/7111] Built Mathlib.Combinatorics.Quiver.Subquiver (630ms)
+✔ [1109/7111] Built Mathlib.Combinatorics.Quiver.Prefunctor (1.1s)
+✔ [1110/7111] Built Mathlib.Data.Countable.Small (906ms)
+✔ [1111/7111] Built Mathlib.CategoryTheory.Category.Basic (2.7s)
+✔ [1112/7129] Built Mathlib.Algebra.Ring.Pointwise.Set (873ms)
+✔ [1113/7129] Built Mathlib.Algebra.Group.TypeTags.Pointwise (808ms)
+✔ [1114/7129] Built Mathlib.Tactic.Order (2.2s)
+✔ [1115/7129] Built Mathlib.Algebra.GroupWithZero.Pointwise.Set.Basic (1.1s)
+✔ [1116/7129] Built Mathlib.RingTheory.OreLocalization.OreSet (981ms)
+✔ [1117/7129] Built Mathlib.Algebra.Group.Submonoid.DistribMulAction (933ms)
+✔ [1118/7129] Built Mathlib.Algebra.Group.Fin.Basic (1.4s)
+✔ [1119/7129] Built Mathlib.Order.Fin.Basic (2.5s)
+✔ [1120/7129] Built Mathlib.Algebra.Group.Subgroup.Even (1.1s)
+✔ [1121/7129] Built Mathlib.GroupTheory.OreLocalization.Basic (6.0s)
+✔ [1122/7129] Built Mathlib.Data.Finset.Defs (2.0s)
+✔ [1123/7129] Built Mathlib.Data.Multiset.ZeroCons (3.1s)
+✔ [1124/7129] Built Mathlib.Data.List.Range (1.2s)
+✔ [1125/7129] Built Mathlib.Data.List.Destutter (1.0s)
+✔ [1126/7129] Built Mathlib.Data.Num.Bitwise (2.4s)
+✔ [1127/7129] Built Mathlib.Logic.Small.List (801ms)
+✔ [1128/7129] Built Mathlib.Data.Nat.Cast.Field (1.1s)
+✔ [1129/7129] Built Mathlib.Data.List.Permutation (2.7s)
+✔ [1130/7129] Built Mathlib.Algebra.Group.NatPowAssoc (1.3s)
+✔ [1131/7129] Built Mathlib.Data.Nat.Factorial.Cast (759ms)
+✔ [1132/7129] Built Mathlib.Algebra.CharZero.AddMonoidHom (836ms)
+✔ [1133/7129] Built Mathlib.Data.Nat.Cast.Order.Basic (1.8s)
+✔ [1134/7129] Built Mathlib.RingTheory.NonUnitalSubring.Defs (2.3s)
+✔ [1135/7129] Built Mathlib.Algebra.Module.Opposite (963ms)
+✔ [1136/7129] Built Mathlib.Algebra.Ring.Int.Units (756ms)
+✔ [1137/7129] Built Mathlib.Algebra.Ring.Subsemiring.Defs (2.8s)
+✔ [1138/7129] Built Mathlib.Algebra.Ring.CharZero (1.3s)
+✔ [1139/7129] Built Mathlib.Algebra.Ring.Commute (1.8s)
+✔ [1140/7129] Built Mathlib.Algebra.EuclideanDomain.Basic (2.9s)
+✔ [1141/7129] Built Mathlib.Algebra.Ring.ULift (2.4s)
+✔ [1142/7129] Built Mathlib.Algebra.Ring.Aut (1.2s)
+✔ [1143/7129] Built Mathlib.Algebra.Ring.CompTypeclasses (1.3s)
+✔ [1144/7129] Built Mathlib.Algebra.Prime.Lemmas (1.8s)
+✔ [1145/7129] Built Mathlib.Tactic.NormNum.Core (2.8s)
+✔ [1146/7129] Built Mathlib.Algebra.GroupWithZero.Units.Lemmas (1.2s)
+✔ [1147/7129] Built Mathlib.Data.Nat.Prime.Defs (1.9s)
+✔ [1148/7129] Built Mathlib.Data.Nat.WithBot (917ms)
+✔ [1149/7129] Built Mathlib.Algebra.Order.GroupWithZero.Unbundled.OrderIso (769ms)
+✔ [1150/7129] Built Mathlib.Data.ENat.Basic (2.2s)
+✔ [1151/7129] Built Mathlib.Data.Bool.Count (2.2s)
+✔ [1152/7129] Built Mathlib.Data.List.Iterate (991ms)
+✔ [1153/7129] Built Mathlib.Computability.StateTransition (1.7s)
+✔ [1154/7129] Built Mathlib.Data.Nat.Upto (914ms)
+✔ [1155/7129] Built Mathlib.Algebra.Order.AddGroupWithTop (1.9s)
+✔ [1156/7129] Built Mathlib.Order.Int.LeastGreatest (887ms)
+✔ [1157/7129] Built Mathlib.Algebra.Order.Group.Lattice (1.2s)
+✔ [1158/7129] Built Mathlib.Algebra.Order.Group.DenselyOrdered (1.4s)
+✔ [1159/7129] Built Mathlib.Algebra.Order.Ring.Defs (1.2s)
+✔ [1160/7129] Built Mathlib.Algebra.Order.Hom.Units (875ms)
+✔ [1161/7129] Built Mathlib.Algebra.Order.Hom.TypeTags (1.3s)
+✔ [1162/7129] Built Mathlib.Algebra.Order.Monoid.Lex (1.8s)
+✔ [1163/7129] Built Batteries.Data.Nat.Bitwise (312ms)
+✔ [1164/7129] Built Mathlib.Topology.ContinuousMap.Defs (1.1s)
+✔ [1165/7129] Built Mathlib.Control.Bitraversable.Lemmas (1.2s)
+✔ [1166/7129] Built Mathlib.Data.Seq.Defs (2.8s)
+✔ [1167/7129] Built Mathlib.Control.Traversable.Equiv (1.0s)
+✔ [1168/7129] Built Batteries.Data.DList.Basic (470ms)
+✔ [1169/7129] Built Mathlib.Control.Monad.Cont (1.7s)
+✔ [1170/7129] Built Mathlib.Data.Erased (1.2s)
+✔ [1171/7129] Built Mathlib.Data.Fin.EquivOfInjective (823ms)
+✔ [1172/7129] Built Mathlib.Data.Fin.Init (903ms)
+✔ [1173/7129] Built Mathlib.Data.Finite.Defs (681ms)
+✔ [1174/7129] Built Mathlib.Data.List.Lookmap (834ms)
+✔ [1175/7129] Built Mathlib.Data.FunLike.Basic (565ms)
+✔ [1176/7129] Built Mathlib.Data.FunLike.Embedding (617ms)
+✔ [1177/7129] Built Mathlib.Data.FunLike.Equiv (516ms)
+✔ [1178/7129] Built Mathlib.Data.FunLike.Graded (537ms)
+✔ [1179/7258] Built Mathlib.Data.FunLike.Group (549ms)
+✔ [1180/7258] Built Mathlib.Data.FunLike.IsApply (566ms)
+✔ [1181/7258] Built Mathlib.Algebra.Order.Group.Cone (1.4s)
+✔ [1182/7258] Built Mathlib.Order.Heyting.Hom (3.1s)
+✔ [1183/7258] Built Mathlib.Algebra.Order.Group.Bounds (1.1s)
+✔ [1184/7258] Built Mathlib.Order.Hom.WithTopBot (3.1s)
+✔ [1185/7258] Built Mathlib.Order.Monotone.Union (868ms)
+✔ [1186/7258] Built Mathlib.Order.Bounds.Image (2.8s)
+✔ [1187/7258] Built Mathlib.Order.Interval.Set.UnorderedInterval (3.8s)
+✔ [1188/7258] Built Mathlib.Order.ConditionallyCompleteLattice.Defs (1.3s)
+✔ [1189/7258] Built Mathlib.Order.LatticeIntervals (2.5s)
+✔ [1190/7258] Built Mathlib.Order.CompleteLattice.Defs (2.3s)
+✔ [1191/7258] Built Mathlib.Algebra.Ring.Action.Basic (1.1s)
+✔ [1192/7258] Built Mathlib.Order.Antichain (2.5s)
+✔ [1193/7258] Built Mathlib.Algebra.Module.RingHom (1.2s)
+✔ [1194/7258] Built Mathlib.Algebra.GroupWithZero.Action.Basic (1.3s)
+✔ [1195/7258] Built Mathlib.Algebra.GroupWithZero.Action.Prod (1.2s)
+✔ [1196/7258] Built Mathlib.Combinatorics.Quiver.Push (951ms)
+✔ [1197/7258] Built Mathlib.Combinatorics.Quiver.Path (1.0s)
+✔ [1198/7258] Built Mathlib.CategoryTheory.Category.KleisliCat (1.1s)
+✔ [1199/7258] Built Mathlib.Tactic.CategoryTheory.Coherence.Basic (1.4s)
+✔ [1200/7258] Built Mathlib.Tactic.CategoryTheory.Slice (1.3s)
+✔ [1201/7258] Built Batteries.Data.Int (436ms)
+✔ [1202/7258] Built Mathlib.CategoryTheory.Functor.Basic (1.5s)
+✔ [1203/7258] Built Mathlib.Data.List.ChainOfFn (727ms)
+✔ [1204/7258] Built Mathlib.Data.List.TakeWhile (947ms)
+✔ [1205/7258] Built Mathlib.Data.List.Fold (635ms)
+✔ [1206/7258] Built Mathlib.Data.List.Indexes (722ms)
+✔ [1207/7258] Built Mathlib.Data.Fin.FlagRange (1.1s)
+✔ [1208/7258] Built Mathlib.Order.Circular (1.9s)
+✔ [1209/7258] Built Mathlib.Order.Fin.Prod (1.4s)
+✔ [1210/7258] Built Mathlib.Order.Fin.Clamp (1.2s)
+✔ [1211/7258] Built Mathlib.RingTheory.OreLocalization.Basic (2.7s)
+✔ [1212/7258] Built Mathlib.Data.Fin.Tuple.Basic (6.0s)
+✔ [1213/7258] Built Mathlib.Data.Finset.Empty (1.2s)
+✔ [1214/7258] Built Mathlib.Data.Finset.Order (955ms)
+✔ [1215/7258] Built Mathlib.Data.Multiset.Basic (1.4s)
+✔ [1216/7258] Built Mathlib.Data.Multiset.Count (1.7s)
+✔ [1217/7258] Built Mathlib.Data.Nat.Choose.Cast (962ms)
+✔ [1218/7258] Built Mathlib.Algebra.BigOperators.Group.List.Lemmas (1.6s)
+✔ [1219/7258] Built Mathlib.Algebra.Order.Nonneg.Basic (2.5s)
+✔ [1220/7258] Built Mathlib.Algebra.Ring.Subring.Defs (2.9s)
+✔ [1221/7258] Built Mathlib.Data.Nat.Cast.Commute (962ms)
+✔ [1222/7258] Built Mathlib.Algebra.BigOperators.Ring.List (1.3s)
+✔ [1223/7258] Built Mathlib.Algebra.Ring.Torsion (1.3s)
+✔ [1224/7258] Built Mathlib.Algebra.Field.Basic (3.3s)
+✔ [1225/7258] Built Mathlib.Algebra.Field.ULift (1.5s)
+✔ [1226/7258] Built Mathlib.Algebra.Ring.Prod (3.0s)
+✔ [1227/7258] Built Mathlib.Algebra.Ring.Pi (2.6s)
+✔ [1228/7258] Built Mathlib.Algebra.GroupWithZero.ProdHom (1.6s)
+✔ [1229/7258] Built Mathlib.Algebra.GroupWithZero.Associated (3.0s)
+✔ [1230/7258] Built Mathlib.Algebra.CharP.Defs (2.1s)
+✔ [1231/7258] Built Mathlib.Data.Nat.Prime.Infinite (1.0s)
+✔ [1232/7258] Built Mathlib.Control.Fix (1.2s)
+✔ [1233/7258] Built Mathlib.Algebra.Order.PUnit (613ms)
+✔ [1234/7258] Built Mathlib.Algebra.Tropical.Basic (3.9s)
+✔ [1235/7258] Built Mathlib.Data.Int.LeastGreatest (1.1s)
+✔ [1236/7258] Built Mathlib.Algebra.Order.GroupWithZero.Canonical (6.4s)
+✔ [1237/7258] Built Mathlib.Algebra.Order.Ring.InjSurj (986ms)
+✔ [1238/7258] Built Mathlib.Algebra.Order.Ring.Opposite (802ms)
+✔ [1239/7258] Built Mathlib.Algebra.Order.Group.Unbundled.Abs (2.9s)
+✔ [1240/7258] Built Mathlib.Data.Nat.Choose.Bounds (1.6s)
+✔ [1241/7258] Built Mathlib.Algebra.Order.Field.Pointwise (1.1s)
+✔ [1242/7258] Built Mathlib.Algebra.Order.Positive.Ring (1.3s)
+✔ [1243/7258] Built Mathlib.Algebra.Order.Archimedean.Defs (1.4s)
+✔ [1244/7258] Built Mathlib.Algebra.Order.Interval.Set.Instances (2.9s)
+✔ [1245/7258] Built Mathlib.Control.Bitraversable.Instances (1.2s)
+✔ [1246/7258] Built Mathlib.Algebra.ContinuedFractions.Basic (1.2s)
+✔ [1247/7258] Built Batteries.Data.DList.Lemmas (452ms)
+✔ [1248/7258] Built Mathlib.Data.LawfulXor.Basic (1.2s)
+✔ [1249/7258] Built Mathlib.Control.ULiftable (1.6s)
+✔ [1250/7258] Built Batteries.Data.List.Interleave (1.8s)
+✔ [1251/7258] Built Mathlib.Data.List.Intervals (1.6s)
+✔ [1252/7258] Built Mathlib.Data.List.Lemmas (1.3s)
+✔ [1253/7258] Built Mathlib.Data.List.Sigma (4.9s)
+✔ [1254/7258] Built Mathlib.Data.List.ModifyLast (768ms)
+✔ [1255/7258] Built Mathlib.Data.List.Map2 (1.3s)
+✔ [1256/7258] Built Mathlib.Data.List.Palindrome (694ms)
+✔ [1257/7258] Built Mathlib.Data.List.Sections (911ms)
+✔ [1258/7258] Built Mathlib.Data.List.SplitLengths (1.3s)
+✔ [1259/7258] Built Mathlib.Data.List.SplitBy (2.1s)
+✔ [1260/7258] Built Mathlib.Data.Matrix.Auto (665ms)
+✔ [1261/7258] Built Mathlib.Data.Multiset.Pairwise (694ms)
+✔ [1262/7258] Built Mathlib.Data.Nat.Cast.Synonym (574ms)
+✔ [1263/7258] Built Mathlib.Data.Nat.GCD.Prime (813ms)
+✔ [1264/7258] Built Mathlib.Data.Opposite (684ms)
+✔ [1265/7258] Built Mathlib.Data.Nat.Hyperoperation (1.3s)
+✔ [1266/7258] Built Mathlib.Data.Ordering.Lemmas (625ms)
+✔ [1267/7258] Built Mathlib.Data.PEquiv (711ms)
+✔ [1268/7258] Built Mathlib.Order.PSigma (1.6s)
+✔ [1269/7258] Built Mathlib.Data.Prod.Lex (609ms)
+✔ [1270/7258] Built Mathlib.Data.Ordmap.Ordnode (3.4s)
+✔ [1271/7258] Built Mathlib.Data.Rel.Cover (575ms)
+✔ [1272/7258] Built Mathlib.Data.Rel (658ms)
+✔ [1273/7258] Built Mathlib.Data.SProd (565ms)
+✔ [1274/7258] Built Mathlib.Data.Rel.Separated (731ms)
+✔ [1275/7258] Built Mathlib.Data.Set.Opposite (754ms)
+✔ [1276/7258] Built Mathlib.Data.Set.Enumerate (1.1s)
+✔ [1277/7258] Built Mathlib.Data.SetLike.Basic (750ms)
+✔ [1278/7259] Built Mathlib.Data.Sigma.Lex (519ms)
+✔ [1279/7259] Built Mathlib.Order.Monotone.Odd (906ms)
+✔ [1280/7259] Built Mathlib.Order.Sigma (1.9s)
+✔ [1281/7259] Built Mathlib.Algebra.Order.GroupWithZero.Bounds (849ms)
+✔ [1282/7259] Built Mathlib.Order.ScottContinuity (1.5s)
+✔ [1283/7259] Built Mathlib.Order.Bounds.OrderIso (850ms)
+✔ [1284/7259] Built Mathlib.Order.Interval.Set.OrderEmbedding (1.2s)
+✔ [1285/7259] Built Mathlib.Order.Int.ConditionallyCompleteOrder (1.3s)
+✔ [1286/7259] Built Mathlib.Order.Interval.Set.Fin (5.8s)
+✔ [1287/7259] Built Mathlib.Order.ConditionallyCompletePartialOrder.Basic (1.2s)
+✔ [1288/7259] Built Mathlib.Algebra.Ring.Action.Subobjects (1.2s)
+✔ [1289/7259] Built Mathlib.Order.CompleteLattice.Basic (6.8s)
+✔ [1290/7259] Built Mathlib.Algebra.Module.PUnit (1.1s)
+✔ [1291/7259] Built Mathlib.Algebra.Ring.Action.Field (813ms)
+✔ [1292/7259] Built Mathlib.Algebra.Ring.AddAut (987ms)
+✔ [1293/7259] Built Mathlib.Algebra.Ring.Action.Group (1.1s)
+✔ [1294/7259] Built Mathlib.Algebra.Module.Prod (702ms)
+✔ [1295/7259] Built Mathlib.Combinatorics.Quiver.Path.Weight (1.3s)
+✔ [1296/7259] Built Mathlib.Combinatorics.Quiver.Path.Decomposition (871ms)
+✔ [1297/7259] Built Mathlib.Combinatorics.Quiver.Path.Vertices (1.9s)
+✔ [1298/7259] Built Mathlib.Combinatorics.Quiver.Arborescence (966ms)
+✔ [1299/7259] Built Mathlib.GroupTheory.GroupAction.Hom (11s)
+✔ [1300/7259] Built Mathlib.Combinatorics.Quiver.Cast (784ms)
+✔ [1301/7259] Built Mathlib.Combinatorics.Quiver.Symmetric (1.2s)
+✔ [1302/7259] Built Mathlib.CategoryTheory.Functor.Functorial (1.1s)
+✔ [1303/7259] Built Mathlib.Tactic.CategoryTheory.Reassoc (1.3s)
+✔ [1304/7810] Built Mathlib.Tactic.CategoryTheory.Map (1.5s)
+✔ [1305/8711] Built Mathlib.Data.List.DropRight (1.2s)
+✔ [1306/8711] Built Mathlib.Data.Fin.Tuple.Take (1.2s)
+✔ [1307/8711] Built Mathlib.Data.Fin.Tuple.Embedding (1.2s)
+✔ [1308/8711] Built Mathlib.Algebra.Ring.Fin (859ms)
+✔ [1309/8711] Built Mathlib.Order.Fin.InsertNth (2.4s)
+✔ [1310/8711] Built Mathlib.Data.Fin.VecNotation (3.6s)
+✔ [1311/8711] Built Mathlib.Data.List.OfFn (1.8s)
+✔ [1312/8711] Built Mathlib.Data.List.FinRange (1.3s)
+✔ [1313/8711] Built Mathlib.Data.Multiset.AddSub (2.2s)
+✔ [1314/8711] Built Mathlib.Algebra.Ring.Parity (4.8s)
+✔ [1315/8711] Built Mathlib.Tactic.NormNum.Basic (6.2s)
+✔ [1316/8711] Built Mathlib.Algebra.Field.ModEq (791ms)
+✔ [1317/8711] Built Mathlib.Algebra.Order.Ring.Prod (1.2s)
+✔ [1318/8711] Built Mathlib.Tactic.CancelDenoms.Core (2.8s)
+✔ [1319/8711] Built Mathlib.Algebra.Order.Pi (1.6s)
+✔ [1320/8711] Built Mathlib.Algebra.Ring.FunLike (2.5s)
+✔ [1321/8711] Built Mathlib.Algebra.Order.Kleene (2.8s)
+✔ [1322/8711] Built Mathlib.Algebra.Module.Pi (1.1s)
+✔ [1323/8711] Built Mathlib.Data.List.Prime (977ms)
+✔ [1324/8711] Built Mathlib.Algebra.Order.Monoid.Associated (737ms)
+✔ [1325/8711] Built Mathlib.Data.Int.Associated (751ms)
+✔ [1326/8711] Built Mathlib.Algebra.Ring.Associated (797ms)
+✔ [1327/8711] Built Mathlib.Algebra.CharP.Pi (919ms)
+✔ [1328/8711] Built Mathlib.Algebra.Order.Monoid.ToMulBot (1.1s)
+✔ [1329/8711] Built Mathlib.Algebra.Order.GroupWithZero.WithZero (1.4s)
+✔ [1330/8711] Built Mathlib.Algebra.Ring.Subsemiring.Order (976ms)
+✔ [1331/8711] Built Mathlib.Algebra.Order.Hom.MonoidWithZero (2.4s)
+✔ [1332/8711] Built Mathlib.Algebra.Order.Group.Abs (2.8s)
+✔ [1333/8711] Built Mathlib.Algebra.Order.Group.PosPart (3.1s)
+✔ [1334/8711] Built Mathlib.Algebra.Order.Group.Unbundled.Int (1.4s)
+✔ [1335/8711] Built Mathlib.Algebra.Order.Positive.Field (1.0s)
+✔ [1336/8711] Built Mathlib.Data.LawfulXor.Equiv (1.1s)
+✔ [1337/8711] Built Mathlib.Control.Random (1.2s)
+✔ [1338/8711] Built Mathlib.Data.PSigma.Order (580ms)
+✔ [1339/8711] Built Batteries.Data.String.Basic (470ms)
+✔ [1340/8749] Built Mathlib.Data.Sigma.Order (693ms)
+✔ [1341/8749] Built Mathlib.Data.List.AList (2.2s)
+✔ [1342/8749] Built Mathlib.Order.Interval.Set.OrdConnected (2.4s)
+✔ [1343/8749] Built Mathlib.Order.OmegaCompletePartialOrder (4.3s)
+✔ [1344/8749] Built Mathlib.Data.Int.ConditionallyCompleteOrder (792ms)
+✔ [1345/8749] Built Mathlib.Order.CompleteLattice.Group (801ms)
+✔ [1346/8749] Built Mathlib.Order.UpperLower.Basic (3.5s)
+✔ [1347/8749] Built Mathlib.Algebra.Order.Quantale (1.5s)
+✔ [1348/8749] Built Mathlib.Order.CompleteLattice.Lemmas (1.6s)
+✔ [1349/8749] Built Mathlib.Algebra.Ring.Action.End (931ms)
+✔ [1350/8749] Built Mathlib.Algebra.Ring.Action.Invariant (1.0s)
+✔ [1351/8749] Built Mathlib.Order.GaloisConnection.Basic (2.6s)
+✔ [1352/8749] Built Mathlib.Combinatorics.Quiver.SingleObj (839ms)
+✔ [1353/8749] Built Mathlib.GroupTheory.GroupAction.Pointwise (1.5s)
+✔ [1354/8749] Built Mathlib.Combinatorics.Quiver.ConnectedComponent (1.1s)
+✔ [1355/8749] Built Mathlib.CategoryTheory.NatTrans (1.3s)
+✔ [1356/8749] Built Mathlib.Combinatorics.Quiver.Covering (1.9s)
+✔ [1357/8749] Built Batteries.Data.String.Legacy (1.0s)
+✔ [1358/8749] Built Mathlib.Data.String.Lemmas (634ms)
+✔ [1359/8749] Built Mathlib.Data.SubtypeNeLift (830ms)
+✔ [1360/8749] Built Mathlib.CategoryTheory.Iso (3.8s)
+✔ [1361/8749] Built Mathlib.Order.Sum.Lattice (1.8s)
+✔ [1362/8749] Built Mathlib.Data.Sum.Order (729ms)
+✔ [1363/8749] Built Mathlib.Data.Tree.Get (626ms)
+✔ [1364/8749] Built Mathlib.Data.Tree.Traversable (890ms)
+✔ [1365/8749] Built Mathlib.Data.TwoPointing (551ms)
+✔ [1366/8749] Built Mathlib.Data.Vector.Mem (1.0s)
+✔ [1367/8749] Built Mathlib.Data.Vector.Snoc (1.1s)
+✔ [1368/8749] Built Mathlib.Deprecated.Aliases (444ms)
+✔ [1369/8749] Built Mathlib.Data.Vector.Zip (909ms)
+✔ [1370/8749] Built Mathlib.GroupTheory.GroupAction.DomAct.ActionHom (1.1s)
+✔ [1371/8749] Built Mathlib.GroupTheory.GroupAction.Embedding (963ms)
+✔ [1372/8749] Built Mathlib.GroupTheory.GroupAction.Support (763ms)
+✔ [1373/8749] Built Mathlib.InformationTheory.Coding.UniquelyDecodable (639ms)
+✔ [1374/8749] Built Mathlib.Lean.CoreM (582ms)
+✔ [1375/8749] Built Mathlib.Lean.EnvExtension (488ms)
+✔ [1376/8749] Built Mathlib.Lean.Exception (534ms)
+✔ [1377/8749] Built Mathlib.Lean.Json (559ms)
+✔ [1378/8749] Built Mathlib.Lean.LocalContext (495ms)
+✔ [1379/8749] Built Mathlib.Lean.MessageData.ForExprs (837ms)
+✔ [1380/8749] Built Mathlib.Lean.Meta.DiscrTree (682ms)
+✔ [1381/8749] Built Mathlib.Lean.Thunk (739ms)
+✔ [1382/8749] Built Mathlib.Logic.Equiv.Bool (917ms)
+✔ [1383/8749] Built Mathlib.Logic.Equiv.Pairwise (730ms)
+✔ [1384/8749] Built Mathlib.MeasureTheory.Measure.Typeclasses.NoAtoms (344ms)
+✔ [1385/8749] Built Mathlib.Order.Comparable (1.5s)
+✔ [1386/8749] Built Mathlib.Order.Bounded (2.2s)
+✔ [1387/8749] Built Mathlib.Order.Interval.Set.SurjOn (1.0s)
+✔ [1388/8749] Built Mathlib.Order.Rel.GaloisConnection (833ms)
+✔ [1389/8749] Built Mathlib.Order.Set (679ms)
+✔ [1390/8749] Built Mathlib.Order.Std (1.0s)
+✔ [1391/8749] Built Mathlib.Order.Types.Defs (1.5s)
+✔ [1392/8749] Built Mathlib.RingTheory.RingInvo (888ms)
+✔ [1393/8749] Built Mathlib.SetTheory.ZFC.PSet (2.5s)
+✔ [1394/8749] Built Mathlib.SetTheory.Lists (3.2s)
+✔ [1395/8749] Built Mathlib.Tactic.Assume (823ms)
+✔ [1396/8749] Built Mathlib.Tactic.Cases (1.5s)
+✔ [1397/8749] Built Mathlib.Tactic.CategoryTheory.CheckCompositions (1.3s)
+✔ [1398/8749] Built Mathlib.Tactic.Change (836ms)
+✔ [1399/8749] Built Mathlib.Tactic.Clean (782ms)
+✔ [1400/8749] Built Mathlib.Tactic.DuplicateDecls (1.9s)
+✔ [1401/8749] Built Mathlib.Tactic.Echelon.Core (1.4s)
+✔ [1402/8749] Built Mathlib.Tactic.DeriveTraversable (3.4s)
+✔ [1403/8749] Built Mathlib.Tactic.Eval (487ms)
+✔ [1404/8749] Built Mathlib.Tactic.Matrix.ListMatrix (1.1s)
+✔ [1405/8749] Built Mathlib.Tactic.Explode.Datatypes (701ms)
+✔ [1406/8749] Built Mathlib.Tactic.Ext (557ms)
+✔ [1407/8749] Built Mathlib.Tactic.FindSyntax (872ms)
+✔ [1408/8749] Built Mathlib.Tactic.GCongr.CoreAttrs (445ms)
+✔ [1409/8749] Built Mathlib.Tactic.Generalize (518ms)
+✔ [1410/8749] Built Mathlib.Tactic.Have (841ms)
+✔ [1411/8749] Built Mathlib.Tactic.Inclusion.Core.Types (935ms)
+✔ [1412/8749] Built Mathlib.Tactic.Inclusion.Core.ToSet (1.5s)
+✔ [1413/8750] Built Mathlib.Tactic.ITauto (3.2s)
+=== 2026-11-07T16:15:57-03:00 after lake exe cache get
+⚠ [8887/9062] Built TernaryGoldbach.Explicit.Landau (9.7s)
+warning: TernaryGoldbach/Explicit/Landau.lean: imports `Mathlib.Analysis.Complex.JensenFormula` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/Landau.lean: imports `Mathlib.Analysis.Complex.BorelCaratheodory` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/Landau.lean: imports `Mathlib.Analysis.Complex.HasPrimitives` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/Landau.lean: imports `Mathlib.Analysis.Complex.Liouville` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/Landau.lean: imports `Mathlib.Analysis.Complex.AbsMax` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/Landau.lean: imports `Mathlib.Analysis.Calculus.LogDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [8925/9062] Built TernaryGoldbach.Explicit.RectResidue (17s)
+warning: TernaryGoldbach/Explicit/RectResidue.lean: imports `Mathlib.Analysis.Complex.CauchyIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/RectResidue.lean: imports `Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/RectResidue.lean: imports `Mathlib.Analysis.Calculus.DSlope` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [8982/9063] Built TernaryGoldbach.Explicit.Digamma (17s)
+warning: TernaryGoldbach/Explicit/Digamma.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.Digamma` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/Digamma.lean: imports `Mathlib.Analysis.SpecialFunctions.ImproperIntegrals` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/Digamma.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/Digamma.lean: imports `Mathlib.MeasureTheory.Integral.Prod` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9043/9082] Built TernaryGoldbach.Prelim.PlancherelReal (4.0s)
+warning: TernaryGoldbach/Prelim/PlancherelReal.lean: imports `Mathlib.Analysis.Fourier.LpSpace` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PlancherelReal.lean: imports `Mathlib.Analysis.Distribution.TemperedDistribution` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PlancherelReal.lean: imports `Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [9046/9082] Built TernaryGoldbach.Explicit.RectResidue2 (4.3s)
+⚠ [9052/9085] Built TernaryGoldbach.Explicit.LogNumerics (40s)
+warning: TernaryGoldbach/Explicit/LogNumerics.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9053/9086] Built TernaryGoldbach.Explicit.MellinRotate (116s)
+warning: TernaryGoldbach/Explicit/MellinRotate.lean: imports `Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/MellinRotate.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/MellinRotate.lean: imports `Mathlib.Analysis.Calculus.ParametricIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/MellinRotate.lean: imports `Mathlib.MeasureTheory.Integral.IntegralEqImproper` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/MellinRotate.lean: imports `Mathlib.MeasureTheory.Integral.Gamma` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/MellinRotate.lean: imports `Mathlib.Analysis.Complex.RealDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/MellinRotate.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/MellinRotate.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/MellinRotate.lean:109:43: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TernaryGoldbach/Explicit/MellinRotate.lean:109:47: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TernaryGoldbach/Explicit/MellinRotate.lean:109:47: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: TernaryGoldbach/Explicit/MellinRotate.lean:506:21: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TernaryGoldbach/Explicit/MellinRotate.lean:506:25: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TernaryGoldbach/Explicit/MellinRotate.lean:506:25: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [9054/9086] Built TernaryGoldbach.Statement (29s)
+warning: TernaryGoldbach/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9055/9086] Built TernaryGoldbach.Explicit.GMellin (10s)
+warning: TernaryGoldbach/Explicit/GMellin.lean: imports `Mathlib.Analysis.MellinInversion` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9056/9088] Built TernaryGoldbach.MajorArcs.EtaCirc (6.0s)
+warning: TernaryGoldbach/MajorArcs/EtaCirc.lean:42:49: This simp argument is unused:
+  Pi.pow_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.mul_apply, Pi.sub_apply, Pi.neg_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TernaryGoldbach/MajorArcs/EtaCirc.lean:42:63: This simp argument is unused:
+  Pi.neg_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.mul_apply, Pi.sub_apply, Pi.pow_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9057/9108] Built TernaryGoldbach.Explicit.GammaBounds (9.4s)
+warning: TernaryGoldbach/Explicit/GammaBounds.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9058/9109] Built TernaryGoldbach.CircleMethod (32s)
+warning: TernaryGoldbach/CircleMethod.lean:355:13: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [F, abs_e]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9059/9109] Built TernaryGoldbach.Prelim.PNTMertens (33s)
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.Algebra.Order.Field.GeomSum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.Analysis.SumIntegralComparisons` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.NumberTheory.Harmonic.EulerMascheroni` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.NumberTheory.LSeries.PrimesInAP` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.NumberTheory.LSeries.RiemannZeta` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.NumberTheory.Harmonic.GammaDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.Analysis.Asymptotics.Lemmas` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.Analysis.SpecialFunctions.Complex.Analytic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrability.Log` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.NumberTheory.EulerProduct.DirichletLSeries` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.NumberTheory.EulerProduct.ExpLog` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.Analysis.SpecialFunctions.Complex.LogBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Summable` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.Algebra.Group.Submonoid.BigOperators` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.NumberTheory.AbelSummation` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PNTMertens.lean: imports `Mathlib.MeasureTheory.Function.Floor` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9060/9109] Built TernaryGoldbach.Prelim.RamareHarm (51s)
+warning: TernaryGoldbach/Prelim/RamareHarm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/RamareHarm.lean:135:41: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9061/9111] Built TernaryGoldbach.Helfgott.Defs (30s)
+⚠ [9063/9111] Built TernaryGoldbach.MinorArcs.Montgomery (30s)
+warning: TernaryGoldbach/MinorArcs/Montgomery.lean:66:38: Variable name `hg` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hg
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/MinorArcs/Montgomery.lean:125:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/MinorArcs/Montgomery.lean:125:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/MinorArcs/Montgomery.lean:126:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/MinorArcs/Montgomery.lean:126:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9064/9111] Built TernaryGoldbach.Prelim.LogWalk (39s)
+✔ [9065/9111] Built TernaryGoldbach.Helfgott.Numerics (43s)
+✔ [9066/9111] Built TernaryGoldbach.Prelim.GaussInduced (25s)
+✔ [9067/9111] Built TernaryGoldbach.Helfgott.Decay (32s)
+⚠ [9068/9112] Built TernaryGoldbach.Helfgott.NonPrime (34s)
+warning: TernaryGoldbach/Helfgott/NonPrime.lean:108:41: This simp argument is unused:
+  ite_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hp, false_and, ite_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TernaryGoldbach/Helfgott/NonPrime.lean:109:24: This simp argument is unused:
+  vonMangoldt_nonneg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h2]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9069/9112] Built TernaryGoldbach.Explicit.LGrowth (40s)
+warning: TernaryGoldbach/Explicit/LGrowth.lean: imports `Mathlib.NumberTheory.LSeries.SumCoeff` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/LGrowth.lean: imports `Mathlib.NumberTheory.LSeries.DirichletContinuation` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/LGrowth.lean: imports `Mathlib.Analysis.SpecialFunctions.ImproperIntegrals` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/LGrowth.lean: imports `Mathlib.MeasureTheory.Function.Floor` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/LGrowth.lean:152:73: Variable name `s` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _s
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9070/9112] Built TernaryGoldbach.Helfgott.SupNorms (37s)
+⚠ [9071/9112] Built TernaryGoldbach.Helfgott.Chebyshev (47s)
+warning: TernaryGoldbach/Helfgott/Chebyshev.lean:93:10: This simp argument is unused:
+  Nat.lt_succ_iff
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TernaryGoldbach/Helfgott/Chebyshev.lean:109:47: This simp argument is unused:
+  true_and
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hp, hk, and_false, ite_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9072/9112] Built RHHeight.Statement (2.4s)
+⚠ [9073/9112] Built TernaryGoldbach.Explicit.ZeroCount (47s)
+warning: TernaryGoldbach/Explicit/ZeroCount.lean: imports `Mathlib.Analysis.Complex.JensenFormula` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/ZeroCount.lean: imports `Mathlib.NumberTheory.ZetaValues` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/ZeroCount.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9074/9112] Built TernaryGoldbach.Explicit.LGrowthLeft (46s)
+warning: TernaryGoldbach/Explicit/LGrowthLeft.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/LGrowthLeft.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.Deligne` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/LGrowthLeft.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Explicit/LGrowthLeft.lean:56:26: This simp argument is unused:
+  add_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Complex.mul_re]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: TernaryGoldbach/Explicit/LGrowthLeft.lean:169:73: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: TernaryGoldbach/Explicit/LGrowthLeft.lean:274:57: Unused tactic linter: `push_cast` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9075/9112] Built TernaryGoldbach.Prelim.RamareWalk (288s)
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:178:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:178:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:179:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:179:44: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:183:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:183:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:184:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Prelim/RamareWalk.lean:184:44: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9076/9112] Built TernaryGoldbach.Helfgott.HHBound (45s)
+warning: TernaryGoldbach/Helfgott/HHBound.lean:202:43: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: TernaryGoldbach/Helfgott/HHBound.lean:202:63: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: TernaryGoldbach/Helfgott/HHBound.lean:202:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: TernaryGoldbach/Helfgott/HHBound.lean:202:25: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TernaryGoldbach/Helfgott/HHBound.lean:202:43: Unused tactic linter: `(push_cast; ring)` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TernaryGoldbach/Helfgott/HHBound.lean:202:63: Unused tactic linter: `simp` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TernaryGoldbach/Helfgott/HHBound.lean:216:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+✔ [9077/9112] Built TernaryGoldbach.Explicit.LogDerivL (51s)
+⚠ [9078/9114] Built TernaryGoldbach.Explicit.LGrowthPoly (66s)
+info: TernaryGoldbach/Explicit/LGrowthPoly.lean:69:73: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: TernaryGoldbach/Explicit/LGrowthPoly.lean:56:40: Variable name `h1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/LGrowthPoly.lean:223:57: Unused tactic linter: `push_cast` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9079/9117] Built TernaryGoldbach.MajorArcs.HHFourier (38s)
+warning: TernaryGoldbach/MajorArcs/HHFourier.lean:40:13: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/MajorArcs/HHFourier.lean:43:13: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/MajorArcs/HHFourier.lean:59:13: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/MajorArcs/HHFourier.lean:92:71: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/MajorArcs/HHFourier.lean:93:54: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/MajorArcs/HHFourier.lean:493:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/MajorArcs/HHFourier.lean:513:40: Variable name `hs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: TernaryGoldbach/MajorArcs/HHFourier.lean:538:4: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+✔ [9080/9117] Built TernaryGoldbach.Explicit.ExplicitFormula (68s)
+✔ [9081/9120] Built Zeta23.Defs (3.3s)
+✔ [9082/9120] Built TernaryGoldbach.Explicit.ZeroSums (45s)
+✔ [9083/9120] Built TernaryGoldbach.Explicit.MellinPlancherel (46s)
+✔ [9084/9120] Built TernaryGoldbach.Explicit.GaussSmooth (47s)
+✔ [9085/9120] Built TernaryGoldbach.Explicit.Datum (63s)
+✔ [9086/9120] Built Zeta23.Defs.Counting (2.7s)
+✔ [9087/9121] Built Zeta23.Hypotheses (1.0s)
+⚠ [9088/9121] Built TernaryGoldbach.Explicit.LineZeros (45s)
+warning: TernaryGoldbach/Explicit/LineZeros.lean:84:59: Variable name `hZ0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hZ0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9089/9121] Built TernaryGoldbach.Explicit.ZetaGrowth (47s)
+⚠ [9090/9123] Built Zeta23.Statement (2.8s)
+warning: vendor/rh100/Zeta23/Statement.lean:152:30: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+✔ [9091/9123] Built TernaryGoldbach.Explicit.MellinPlancherelGen (43s)
+⚠ [9092/9123] Built TernaryGoldbach.Explicit.ZeroSumBound (69s)
+warning: TernaryGoldbach/Explicit/ZeroSumBound.lean:98:47: Variable name `hab` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hab
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/ZeroSumBound.lean:153:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Explicit/ZeroSumBound.lean:170:53: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/ZeroSumBound.lean:291:24: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9093/9123] Built TernaryGoldbach.Explicit.ZetaDatum (48s)
+⚠ [9094/9123] Built Zeta23.ZetaReflect (4.2s)
+warning: vendor/rh100/Zeta23/ZetaReflect.lean:95:17: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [9095/9123] Built Zeta23.Statement.Seam (2.6s)
+warning: vendor/rh100/Zeta23/Statement/Seam.lean:63:13: `ENat.toNat_coe` has been deprecated: Use `ENat.toNat_natCast` instead
+
+Hint: Replace the deprecated name:
+  ENat.toNat_c̵o̵e̵n̲a̲t̲C̲a̲s̲t̲
+✔ [9096/9123] Built Zeta23.Prelude.InstancePriorities (1.1s)
+⚠ [9097/9123] Built TernaryGoldbach.Explicit.ExplicitBound (49s)
+warning: TernaryGoldbach/Explicit/ExplicitBound.lean:142:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Explicit/ExplicitBound.lean:142:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9098/9123] Built TernaryGoldbach.Explicit.GrExtend (63s)
+warning: TernaryGoldbach/Explicit/GrExtend.lean:25:10: This simp argument is unused:
+  Real.rpow_two
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TernaryGoldbach/Explicit/GrExtend.lean:29:10: This simp argument is unused:
+  Real.rpow_two
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9099/9123] Built TernaryGoldbach.Explicit.ZeroSumGen (55s)
+⚠ [9100/9123] Built TernaryGoldbach.Prelim.SmallMertensProd (792s)
+warning: TernaryGoldbach/Prelim/SmallMertensProd.lean:420:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Prelim/SmallMertensProd.lean:420:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Prelim/SmallMertensProd.lean:447:31: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Prelim/SmallMertensProd.lean:468:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Prelim/SmallMertensProd.lean:468:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Prelim/SmallMertensProd.lean:469:62: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Prelim/SmallMertensProd.lean:490:8: Unused tactic linter: `simp only at hw` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [9101/9123] Built Zeta23.Statement.SeamClosed (2.8s)
+✔ [9102/9124] Built TernaryGoldbach.Explicit.ZetaExplicit (43s)
+✔ [9103/9124] Built Zeta23.RvM.Defs (3.3s)
+⚠ [9104/9124] Built Zeta23.FromPNTPlus.StrongPNTPrefix (7.2s)
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:66:71: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:126:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:126:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:212:9: `Set.setOf_subset_setOf` has been deprecated: Use `Set.ofPred_subset_ofPred` instead
+
+Hint: Replace the deprecated name:
+  s̵e̵t̵O̵f̵_̵s̵u̵b̵s̵e̵t̵_̵s̵e̵t̵O̵f̵o̲f̲P̲r̲e̲d̲_̲s̲u̲b̲s̲e̲t̲_̲o̲f̲P̲r̲e̲d̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:286:14: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:294:14: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:353:10: `Set.notMem_setOf_iff` has been deprecated: Use `Set.notMem_ofPred_iff` instead
+
+Hint: Replace the deprecated name:
+  n̵o̵t̵M̵e̵m̵_̵s̵e̵t̵O̵f̵_̵i̵f̵f̵n̲o̲t̲M̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲i̲f̲f̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:378:48: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:400:10: `Set.notMem_setOf_iff` has been deprecated: Use `Set.notMem_ofPred_iff` instead
+
+Hint: Replace the deprecated name:
+  n̵o̵t̵M̵e̵m̵_̵s̵e̵t̵O̵f̵_̵i̵f̵f̵n̲o̲t̲M̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲i̲f̲f̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/StrongPNTPrefix.lean:442:48: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+✔ [9105/9124] Built RHHeight.Skeleton (4.0s)
+✔ [9106/9127] Built Zeta23.FromPNTPlus.Auxiliary (2.8s)
+✔ [9107/9127] Built Zeta23.FromPNTPlus.Sobolev (7.8s)
+✔ [9108/9128] Built Zeta23.FromPNTPlus.Mathlib.Analysis.SpecialFunctions.Log.Basic (3.1s)
+⚠ [9109/9130] Built Zeta23.FromPNTPlus.Fourier (4.9s)
+warning: vendor/rh100/Zeta23/FromPNTPlus/Fourier.lean:33:94: This simp argument is unused:
+  Circle.norm_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9110/9133] Built Zeta23.FromPNTPlus.Rectangle (4.0s)
+✔ [9111/9135] Built Zeta23.FromPNTPlus.Tactic.AdditiveCombination (1.5s)
+✔ [9112/9136] Built Zeta23.FromPNTPlus.EulerMaclaurin (4.3s)
+✔ [9113/9136] Built Zeta23.FromPNTPlus.ResidueCalcOnRectangles (14s)
+⚠ [9114/9137] Built Zeta23.RvM.Halving (3.3s)
+warning: vendor/rh100/Zeta23/RvM/Halving.lean:56:55: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/RvM/Halving.lean:66:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/RvM/Halving.lean:74:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+✔ [9115/9137] Built Zeta23.WeilEF.XiLogDeriv (3.3s)
+✔ [9116/9138] Built TernaryGoldbach.Explicit.ZetaPoly (66s)
+✔ [9117/9138] Built Zeta23.Analytic.RectangleLogDeriv (4.3s)
+⚠ [9118/9138] Built Zeta23.FromPNTPlus.ZetaBounds (38s)
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:864:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:957:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1097:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1104:32: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1110:56: `Set.preimage_setOf_eq` has been deprecated: Use `Set.preimage_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  p̵r̵e̵i̵m̵a̵g̵e̵_̵s̵e̵t̵O̵f̵_̵e̵q̵p̲r̲e̲i̲m̲a̲g̲e̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1120:56: `Set.preimage_setOf_eq` has been deprecated: Use `Set.preimage_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  p̵r̵e̵i̵m̵a̵g̵e̵_̵s̵e̵t̵O̵f̵_̵e̵q̵p̲r̲e̲i̲m̲a̲g̲e̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1124:17: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1140:54: `Set.preimage_setOf_eq` has been deprecated: Use `Set.preimage_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  p̵r̵e̵i̵m̵a̵g̵e̵_̵s̵e̵t̵O̵f̵_̵e̵q̵p̲r̲e̲i̲m̲a̲g̲e̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1162:22: `Set.setOf_subset_setOf` has been deprecated: Use `Set.ofPred_subset_ofPred` instead
+
+Hint: Replace the deprecated name:
+  s̵e̵t̵O̵f̵_̵s̵u̵b̵s̵e̵t̵_̵s̵e̵t̵O̵f̵o̲f̲P̲r̲e̲d̲_̲s̲u̲b̲s̲e̲t̲_̲o̲f̲P̲r̲e̲d̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1174:15: `Set.setOf_subset_setOf` has been deprecated: Use `Set.ofPred_subset_ofPred` instead
+
+Hint: Replace the deprecated name:
+  s̵e̵t̵O̵f̵_̵s̵u̵b̵s̵e̵t̵_̵s̵e̵t̵O̵f̵o̲f̲P̲r̲e̲d̲_̲s̲u̲b̲s̲e̲t̲_̲o̲f̲P̲r̲e̲d̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1174:59: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1190:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1840:19: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1842:45: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1845:28: `Set.setOf_subset_setOf` has been deprecated: Use `Set.ofPred_subset_ofPred` instead
+
+Hint: Replace the deprecated name:
+  s̵e̵t̵O̵f̵_̵s̵u̵b̵s̵e̵t̵_̵s̵e̵t̵O̵f̵o̲f̲P̲r̲e̲d̲_̲s̲u̲b̲s̲e̲t̲_̲o̲f̲P̲r̲e̲d̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1849:28: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1905:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:1911:20: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:2096:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:2889:17: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:2901:41: `ENNReal.addLECancellable_iff_ne` has been deprecated: Use `ENNReal.addLECancellable_iff_ne_top` instead
+
+Hint: Replace the deprecated name:
+  ENNReal.addLECancellable_iff_ne_̲t̲o̲p̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:2945:17: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: vendor/rh100/Zeta23/FromPNTPlus/ZetaBounds.lean:2956:41: `ENNReal.addLECancellable_iff_ne` has been deprecated: Use `ENNReal.addLECancellable_iff_ne_top` instead
+
+Hint: Replace the deprecated name:
+  ENNReal.addLECancellable_iff_ne_̲t̲o̲p̲
+⚠ [9119/9138] Built TernaryGoldbach.Explicit.ZetaBound (46s)
+warning: TernaryGoldbach/Explicit/ZetaBound.lean:122:56: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Explicit/ZetaBound.lean:122:46: This simp argument is unused:
+  one_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hg, sub_self, Complex.cpow_zero, if_pos ht, fδ, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TernaryGoldbach/Explicit/ZetaBound.lean:193:60: Variable name `hρ10` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hρ10
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9120/9141] Built Zeta23.RvM.GammaSide (9.5s)
+✔ [9121/9141] Built TernaryGoldbach.Explicit.Xi (38s)
+✔ [9122/9141] Built Zeta23.RvM.ZetaGrowth (5.6s)
+⚠ [9123/9141] Built TernaryGoldbach.Explicit.ExplicitBoundGen (34s)
+warning: TernaryGoldbach/Explicit/ExplicitBoundGen.lean:33:58: Variable name `hKv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hKv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/ExplicitBoundGen.lean:71:75: Variable name `hKv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hKv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/ExplicitBoundGen.lean:123:44: Variable name `hx` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9124/9142] Built TernaryGoldbach.Explicit.EtaPlusMellin (36s)
+warning: TernaryGoldbach/Explicit/EtaPlusMellin.lean:84:69: Variable name `y` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _y
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9125/9142] Built Zeta23.RvM.BacklundDefs (2.3s)
+✔ [9126/9142] Built Zeta23.RvM.LocalCount (15s)
+⚠ [9127/9144] Built TernaryGoldbach.Explicit.XiPartial (53s)
+warning: TernaryGoldbach/Explicit/XiPartial.lean:103:17: Variable name `w` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _w
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/XiPartial.lean:108:18: Variable name `s` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _s
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/XiPartial.lean:109:18: Variable name `s` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _s
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/XiPartial.lean:681:35: This simp argument is unused:
+  map_div₀
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [map_add, map_mul, map_sub, map_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9128/9144] Built Zeta23.RvM.CountByIntegral (4.7s)
+✔ [9129/9147] Built TernaryGoldbach.Explicit.EtaPlusBound (48s)
+⚠ [9130/9147] Built Zeta23.RvM.ReZeroCount (28s)
+warning: vendor/rh100/Zeta23/RvM/ReZeroCount.lean:276:15: `ENat.toNat_coe` has been deprecated: Use `ENat.toNat_natCast` instead
+
+Hint: Replace the deprecated name:
+  ENat.toNat_c̵o̵e̵n̲a̲t̲C̲a̲s̲t̲
+✔ [9131/9147] Built Zeta23.FromPNTPlus.ZetaConj (2.8s)
+✔ [9132/9147] Built TernaryGoldbach.Explicit.ZeroFree (41s)
+⚠ [9133/9147] Built Zeta23.RvM.NcountWindow (4.1s)
+warning: vendor/rh100/Zeta23/RvM/NcountWindow.lean:27:22: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [9134/9147] Built Zeta23.RvM.Backlund (5.7s)
+warning: vendor/rh100/Zeta23/RvM/Backlund.lean:127:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9135/9147] Built Zeta23.RvM.Fold (4.2s)
+⚠ [9136/9147] Built TernaryGoldbach.Explicit.EtaPlusSq (37s)
+warning: TernaryGoldbach/Explicit/EtaPlusSq.lean:75:8: This simp argument is unused:
+  Real.norm_eq_abs
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Function.uncurry, hF, norm_mul, Complex.norm_exp_ofReal_mul_I, one_mul, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TernaryGoldbach/Explicit/EtaPlusSq.lean:206:79: Variable name `t` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _t
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/EtaPlusSq.lean:319:61: Variable name `y` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _y
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9137/9147] Built Zeta23.RvM.MainTerm (20s)
+⚠ [9138/9152] Built TernaryGoldbach.Explicit.PsiSandwich (50s)
+warning: TernaryGoldbach/Explicit/PsiSandwich.lean:304:8: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  integral_finset_̵s̵S̲um
+warning: TernaryGoldbach/Explicit/PsiSandwich.lean:305:24: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  integrable_finset_̵s̵S̲um
+✔ [9139/9153] Built RHHeight.ExactArgument (3.0s)
+⚠ [9140/9153] Built ZetaLean.HardyZ (3.0s)
+warning: vendor/rh100/ZetaLean/HardyZ.lean:122:46: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/rh100/ZetaLean/HardyZ.lean:122:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9141/9153] Built RHHeight100.Skeleton100 (2.9s)
+✔ [9142/9154] Built HardyFirstZero.Spine (2.1s)
+✔ [9143/9154] Built HardyFirstZero.Phase (7.0s)
+✔ [9144/9154] Built Zeta23.GammaFacts (2.1s)
+✔ [9145/9160] Built HardyFirstZero.EulerMaclaurin (7.9s)
+⚠ [9146/9160] Built TernaryGoldbach.Explicit.ZeroFreeRegion (105s)
+warning: TernaryGoldbach/Explicit/ZeroFreeRegion.lean:130:34: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9147/9160] Built Zeta23.GammaFacts.Series (6.0s)
+✔ [9148/9160] Built RHHeight.LowHeight (11s)
+✔ [9149/9160] Built Zeta23.Analytic.Stirling (6.8s)
+ℹ [9150/9160] Built Zeta23.GammaFacts.Mu (11s)
+info: vendor/rh100/Zeta23/GammaFacts/Mu.lean:141:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+ℹ [9151/9160] Built Zeta23.GammaFacts.StirlingVert (13s)
+info: vendor/rh100/Zeta23/GammaFacts/StirlingVert.lean:457:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+✔ [9152/9161] Built RHHeight.GammaIncrement (11s)
+⚠ [9153/9164] Built TernaryGoldbach.Explicit.ZetaZeroSums (50s)
+warning: TernaryGoldbach/Explicit/ZetaZeroSums.lean:62:51: Variable name `hb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/ZetaZeroSums.lean:232:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Explicit/ZetaZeroSums.lean:237:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Explicit/ZetaZeroSums.lean:158:75: Variable name `hg0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hg0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/ZetaZeroSums.lean:289:40: Variable name `hT` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hT
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TernaryGoldbach/Explicit/ZetaZeroSums.lean:509:39: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/Explicit/ZetaZeroSums.lean:516:39: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/Explicit/ZetaZeroSums.lean:414:75: Variable name `hg0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hg0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9154/9164] Built RHHeight100.GammaIncrement100 (4.7s)
+✔ [9155/9168] Built ZetaLean.Rigor (4.6s)
+✔ [9156/9169] Built ZetaLean.IntervalExp (9.5s)
+✔ [9157/9169] Built HardyTenZeros.PhaseShort (8.6s)
+⚠ [9158/9170] Built ZetaLean.IntervalCExp (17s)
+warning: vendor/rh100/ZetaLean/IntervalCExp.lean:411:60: Variable name `hnL` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hnL
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9159/9173] Built TernaryGoldbach.Explicit.PsiExplicit (38s)
+✔ [9160/9176] Built HardyFirstZero.BoxSupport (10s)
+✔ [9161/9176] Built HardyTenZeros.TenSupport (12s)
+✔ [9162/9176] Built RHHeight.LegSupport (19s)
+ℹ [9163/9176] Built TernaryGoldbach.Explicit.PsiPlateau (59s)
+info: TernaryGoldbach/Explicit/PsiPlateau.lean:254:18: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+✔ [9164/9176] Built RHHeight100.LegsArg100 (100s)
+✔ [9165/9176] Built RHHeight100.LegsTop100B (97s)
+✔ [9166/9176] Built RHHeight.LegsArg (52s)
+✔ [9167/9176] Built RHHeight100.LegsTop100A (99s)
+✔ [9168/9176] Built RHHeight.LegsTop2 (39s)
+✔ [9169/9178] Built RHHeight.LegsBottom (11s)
+✔ [9170/9179] Built RHHeight.LegsTop1 (49s)
+✔ [9171/9179] Built TernaryGoldbach.Explicit.PsiLarge (41s)
+✔ [9172/9180] Built RHHeight.HorizontalLegs (3.8s)
+✔ [9173/9180] Built HardyTenZeros.Box2102 (55s)
+⚠ [9174/9181] Built TernaryGoldbach.Explicit.PsiRange1 (62s)
+warning: TernaryGoldbach/Explicit/PsiRange1.lean:107:28: Unused tactic linter: `linarith` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TernaryGoldbach/Explicit/PsiRange1.lean:135:28: Unused tactic linter: `linarith` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [9175/9181] Built HardyFirstZero.Boxes (134s)
+✔ [9176/9182] Built RHHeight100.HorizontalLegs100 (5.6s)
+✔ [9177/9182] Built HardyTenZeros.Box2501 (82s)
+✔ [9178/9183] Built HardyTenZeros.Box3042 (83s)
+✔ [9179/9183] Built HardyFirstZero.FirstZero (5.3s)
+⚠ [9180/9184] Built TernaryGoldbach.Explicit.PsiAsymp (201s)
+warning: TernaryGoldbach/Explicit/PsiAsymp.lean:151:30: Unused tactic linter: `linarith` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [9181/9185] Built HardyTenZeros.Box3293 (90s)
+✔ [9182/9186] Built HardyTenZeros.Box3758 (98s)
+✔ [9183/9188] Built HardyTenZeros.Box4091 (129s)
+✔ [9184/9188] Built HardyTenZeros.Box4332 (112s)
+✔ [9185/9191] Built HardyTenZeros.Box4800 (130s)
+✔ [9186/9193] Built RHHeight100.Support (5.9s)
+✔ [9187/9193] Built HardyTenZeros.Box4977 (144s)
+✔ [9188/9193] Built RHHeight100.Box5644 (157s)
+✔ [9189/9194] Built RHHeight100.Box5297 (210s)
+✔ [9190/9195] Built RHHeight100.Box5934 (178s)
+✔ [9191/9195] Built HardyTenZeros.TenZeros (20s)
+✔ [9192/9195] Built RHHeight100.Box6083 (183s)
+✔ [9193/9197] Built RHHeight100.Box6511 (166s)
+✔ [9194/9198] Built RHHeight100.Box67075 (200s)
+✔ [9195/9199] Built RHHeight100.Box6954 (197s)
+✔ [9196/9200] Built RHHeight100.Box7206 (195s)
+✔ [9197/9201] Built RHHeight100.Box7570 (237s)
+✔ [9198/9202] Built RHHeight100.Box7714 (258s)
+✔ [9199/9203] Built RHHeight100.Box7933 (201s)
+✔ [9200/9204] Built RHHeight100.Box8291 (292s)
+✔ [9201/9205] Built RHHeight100.Box8473 (238s)
+✔ [9202/9206] Built RHHeight100.Box8742 (274s)
+✔ [9203/9207] Built RHHeight100.Box8880 (316s)
+✔ [9204/9207] Built RHHeight100.Box9249 (262s)
+✔ [9206/9210] Built RHHeight100.Box9465 (369s)
+✔ [9207/9210] Built RHHeight100.Box95865 (296s)
+✔ [9208/9210] Built RHHeight100.Box9883 (244s)
+✔ [9209/9210] Built RHHeight100.TwentyNineZeros (23s)
+✔ [9210/9210] Built RHHeight100.Main100 (3.2s)
+Build completed successfully (9210 jobs).

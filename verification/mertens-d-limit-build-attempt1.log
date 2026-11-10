@@ -1,0 +1,57 @@
+import took 148s
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 203ms
+typeclass inference of T2Space took 111ms
+RSBounds/MertensDLimit.lean:86:2: error: No goals to be solved
+RSBounds/MertensDLimit.lean:91:17: error(lean.unknownIdentifier): Unknown identifier `Goals.mertensE`
+RSBounds/MertensDLimit.lean:104:17: error(lean.unknownIdentifier): Unknown identifier `Goals.mertensE`
+'TernaryGoldbach.RSBounds.MertensDLimit.E1_eq_mangoldtWeightedSum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDLimit.D_eq_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDLimit.D_sub_eq_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDLimit.tendsto_D' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDLimit.first_error_eq_of_normalization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDLimit.signedLimit_one_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDLimit.first_error_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDLimit.E1p_eq_primeWeightedSum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDLimit.primeWeightedSum_lower_signed' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDLimit.mertens_lower_of_errors' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDLimit.signedLimit_re_eq_centered' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensDLimit.J_eq_signedLimit' depends on axioms: [propext, Classical.choice, Quot.sound]
+cumulative profiling times:
+	attribute application 0.102ms
+	blocked (unaccounted) 1.95s
+	congr simp thm 3.08ms
+	declTypeLinter 29.1ms
+	dsimp 6.27ms
+	elaboration 327ms
+	fix level params 0.931ms
+	import 148s
+	initialization 36ms
+	instantiate metavars 3.12ms
+	interpretation 2.6s
+	let-to-have transformation 0.142ms
+	linting 57.1ms
+	module linting 40.3ms
+	norm_num 91.1ms
+	parsing 26.4ms
+	process pre-definitions 19.6ms
+	ring 133ms
+	share common exprs 28.6ms
+	simp 18.1ms
+	tactic execution 242ms
+	tacticAnalysis 6.83ms
+	type checking 108ms
+	typeclass inference 526ms

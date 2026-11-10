@@ -1,0 +1,9 @@
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.wk_1' depends on axioms: [propext]
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.wk_101' depends on axioms: [propext]
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.inv_100001' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.mertens_lower_le_100000' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensFiniteWalk.mertensLower_of_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

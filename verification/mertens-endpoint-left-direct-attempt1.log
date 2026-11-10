@@ -1,0 +1,83 @@
+interpretation of Mathlib.Tactic.ToDual.guessNameExt took 123ms
+interpretation of Multiset.term_::ₘ_ took 208ms
+interpretation of Aesop.BaseRuleSet.add took 109ms
+import took 631s
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 190ms
+tactic execution of Mathlib.Tactic.FieldSimp.fieldSimp took 109ms
+RSBounds/MertensEndpointLeft.lean:58:27: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/MertensEndpointLeft.lean:58:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/MertensEndpointLeft.lean:107:2: error: Type mismatch: After simplification, term
+  Continuous.mul hld hd
+ has type
+  Continuous ((fun t => logDeriv riemannZeta (↑(-1 / 2) + ↑t * I)) * fun t => endpointKernel c (↑(-1 / 2) + ↑t * I))
+but is expected to have type
+  Continuous (endpointIntegrand c)
+tactic execution of Mathlib.Tactic.linarith took 109ms
+tactic execution of Lean.Parser.Tactic.rewriteSeq took 111ms
+'TernaryGoldbach.RSBounds.MertensEndpointLeft.norm_endpointKernel_left_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensEndpointLeft.norm_endpointIntegrand_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensEndpointLeft.continuous_endpointIntegrand' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensEndpointLeft.integrable_endpointIntegrand' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensEndpointLeft.norm_F_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensEndpointLeft.leftRemainder_eq_sub_F' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensEndpointLeft.norm_leftRemainder_add_F_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensEndpointLeft.leftRemainder_add' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensEndpointLeft.tendsto_F_atTop' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensEndpointLeft.tendsto_leftRemainder_atTop' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.296ms
+	blocked (unaccounted) 8.89s
+	congr simp thm 5.79ms
+	declTypeLinter 32.5ms
+	dsimp 8.61ms
+	elaboration 660ms
+	fix level params 1.65ms
+	import 631s
+	initialization 110ms
+	instantiate metavars 3.63ms
+	interpretation 6.79s
+	let-to-have transformation 0.268ms
+	linting 64.9ms
+	module linting 0.0186ms
+	norm_num 511ms
+	parsing 35.3ms
+	process pre-definitions 41.4ms
+	ring 167ms
+	share common exprs 28.4ms
+	simp 309ms
+	tactic execution 1.57s
+	tacticAnalysis 10.3ms
+	type checking 259ms
+	typeclass inference 2.05s

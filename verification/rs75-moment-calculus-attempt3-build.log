@@ -1,0 +1,111 @@
+import took 97.4s
+RSBounds/RS75MomentCalculus.lean:44:2: warning: Unused tactic linter: `all_goals
+  try { funext u; rfl
+  }` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/RS75MomentCalculus.lean:44:28: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 114ms
+RSBounds/RS75MomentCalculus.lean:107:2: error: don't know how to synthesize placeholder
+context:
+s : ℝ
+j : ℕ
+t : ℝ
+ht : 64 ≤ t
+ht0 : 0 < t
+⊢ ContinuousAt (momentSecond s j) t
+RSBounds/RS75MomentCalculus.lean:106:2: error: don't know how to synthesize placeholder
+context:
+s : ℝ
+j : ℕ
+t : ℝ
+ht : 64 ≤ t
+ht0 : 0 < t
+⊢ ContinuousWithinAt (momentSecond s j) (Ici 64) t
+interpretation of Mathlib.Meta.FunProp.funPropTac._boxed took 370ms
+interpretation of Mathlib.Tactic.FieldSimp._aux_Mathlib_Tactic_FieldSimp___elabRules_Mathlib_Tactic_FieldSimp_fieldSimp_1._boxed took 107ms
+RSBounds/RS75MomentCalculus.lean:170:6: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/RS75MomentCalculus.lean:170:10: warning: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/RS75MomentCalculus.lean:178:6: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/RS75MomentCalculus.lean:187:6: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RSBounds/RS75MomentCalculus.lean:170:10: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+RSBounds/RS75MomentCalculus.lean:178:6: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RSBounds/RS75MomentCalculus.lean:187:6: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'TernaryGoldbach.RSBounds.InfiniteTrapezoid.finite_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.InfiniteTrapezoid.infinite_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.hasDerivAt_momentFn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.hasDerivAt_momentDeriv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.momentSecond_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.continuousOn_momentSecond' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.tendsto_momentFn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.tendsto_momentDeriv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.tendsto_tailPrimitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.hasDerivAt_neg_tailPrimitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.integrableOn_momentFn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.integral_momentFn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.RS75MomentCalculus.moment_bounds' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.166ms
+	blocked (unaccounted) 5.82s
+	congr simp thm 5.82ms
+	declTypeLinter 12.5ms
+	dsimp 9.86ms
+	elaboration 212ms
+	fix level params 3.84ms
+	import 97.4s
+	initialization 127ms
+	instantiate metavars 7.33ms
+	interpretation 2.95s
+	let-to-have transformation 0.247ms
+	linting 62.6ms
+	module linting 0.0185ms
+	norm_num 380ms
+	parsing 15.1ms
+	process pre-definitions 88.3ms
+	ring 140ms
+	share common exprs 77.8ms
+	simp 105ms
+	tactic execution 368ms
+	tacticAnalysis 6.36ms
+	type checking 276ms
+	typeclass inference 876ms

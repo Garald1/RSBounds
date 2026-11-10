@@ -1,0 +1,29 @@
+{
+  "status": "fresh_local_build_and_axiom_audit_passed",
+  "upstream_repository": "https://github.com/teal-sea/zeta-lab",
+  "upstream_commit": "b09fa4dd2f2182cf14b248e7ffc64ff03df2c534",
+  "upstream_file": "Zeta23/GammaFacts/StirlingVert.lean",
+  "upstream_sha256": "a57258c5549aed77bb4d759755649351685a89721b37d49f2f7dbea4cbdfe882",
+  "adaptations": [
+    "Retained Seq section through digamma_stirling only.",
+    "Replaced original digamma-series dependency with the already proved IEANTN Gauss series.",
+    "Restricted shifted-series adapter from integerComplement to positive real part, the only domain consumed.",
+    "Removed upstream module visibility syntax for local project compatibility.",
+    "Moved local DigammaSeries and StirlingVert declarations into TernaryGoldbach.RSBounds.BacklundZeta23, allowing co-import with the original RH100 Zeta23 modules; mathematical proof bodies unchanged."
+  ],
+  "source_sha256": {
+    "BacklundDigammaSeriesAdapter": "b6edacacec890e91cdf9bd3adaa0abc9369b75422124ef710780e8845fa258bf",
+    "BacklundDigammaStirling": "a192fce9a05290bc874c8f2041a03a9b0c65159e1f0c2837438799ac03491950",
+    "BacklundGammaModulusDigamma": "cdae7548165f04f5ce86407c824bcc85e41a1817b2c01b63cef1069f5a06bb70",
+    "BacklundGammaModulusHorizontal": "60229c9ae786efb5efdbaf6729165a659da31e84d55095f2d62ed32ad8ef9985",
+    "BacklundGammaModulusAbsorption": "96c963c3c7080171dbbacea2c95bed5b48b99131bbc541035d1bb3f56e4fcce5"
+  },
+  "verification_receipt": "verification/backlund-namespace-integration-run.json",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "initial_verification_receipt": "verification/backlund-gamma-modulus-run.json",
+  "namespace_adaptation_record": "verification/backlund-namespace-adaptation.json"
+}

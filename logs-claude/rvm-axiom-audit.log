@@ -1,0 +1,20 @@
+'TernaryGoldbach.RSBounds.RvMSmall.rvm_error_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.RvMBound.rvm_error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+TernaryGoldbach.RSBounds.RvMSmall.rvm_error_small : TernaryGoldbach.RSBounds.Head1000.Certified →
+  ∀ (t : ℝ),
+    0 < t →
+      t ≤ 280 →
+        |TernaryGoldbach.RSBounds.Rosser1941.positiveZeroCount t -
+              (t / (2 * Real.pi) * Real.log (t / (2 * Real.pi)) - t / (2 * Real.pi) + 7 / 8)| <
+          1
+TernaryGoldbach.RSBounds.RvMBound.rvm_error_bound : TernaryGoldbach.RSBounds.Head1000.Certified →
+  TernaryGoldbach.RSBounds.RvMBound.Certified1 →
+    TernaryGoldbach.RSBounds.RvMBound.Certified2 →
+      TernaryGoldbach.RSBounds.RvMBound.Certified3 →
+        TernaryGoldbach.RSBounds.RvMBound.Certified4 →
+          TernaryGoldbach.RSBounds.RvMBound.Certified5 →
+            ∀ (t : ℝ),
+              1 ≤ t →
+                |TernaryGoldbach.RSBounds.Rosser1941.positiveZeroCount t -
+                      (t / (2 * Real.pi) * Real.log (t / (2 * Real.pi)) - t / (2 * Real.pi) + 7 / 8)| ≤
+                  1 / 5 * Real.log t + 2

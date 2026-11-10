@@ -1,0 +1,13 @@
+START toolchain-version
+END toolchain-version 0
+START wrapper-build
+END wrapper-build 0
+START solution-axiom-audit
+END solution-axiom-audit 0
+START RSZeroFreeChallenge-export
+END RSZeroFreeChallenge-export 0
+START RSZeroFreeSolution-export
+END RSZeroFreeSolution-export 0
+START comparator
+END comparator 0
+comparator-zero-free.json: comparison and native kernel replay passed: /home/claude/src/RSBounds-project/verification/height-comparator/comparator-zero-free/20261108T043601.545194Z/run.json

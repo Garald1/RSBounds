@@ -1,0 +1,830 @@
+RSBounds/BacklundLowZeros.lean:68:4: error: Tactic `apply` failed: could not unify the conclusion of `value_in_bracket`
+  ↑0 < rosserF ?m.586 ∧ rosserF ?m.586 < ↑0 + 1
+with the goal
+  0 < rosserF t0 ∧ rosserF t0 < 0 + 1
+
+Note: The full type of `value_in_bracket` is
+  2 * π ≤ 1413 / 100 →
+    1413 / 100 < ?m.586 ∧ ?m.586 < 707 / 50 →
+      ↑0 < rosserF (1413 / 100) → rosserF (707 / 50) < ↑0 + 1 → ↑0 < rosserF ?m.586 ∧ rosserF ?m.586 < ↑0 + 1
+
+t0 : ℝ
+h0 : t0 ∈ Ioo (1413 / 100) (707 / 50)
+z0 : riemannZeta (1 / 2 + ↑t0 * I) = 0
+t1 : ℝ
+h1 : t1 ∈ Ioo (2102 / 100) (2103 / 100)
+z1 : riemannZeta (1 / 2 + ↑t1 * I) = 0
+t2 : ℝ
+h2 : t2 ∈ Ioo (2501 / 100) (2502 / 100)
+z2 : riemannZeta (1 / 2 + ↑t2 * I) = 0
+t3 : ℝ
+h3 : t3 ∈ Ioo (3042 / 100) (3043 / 100)
+z3 : riemannZeta (1 / 2 + ↑t3 * I) = 0
+t4 : ℝ
+h4 : t4 ∈ Ioo (3293 / 100) (3294 / 100)
+z4 : riemannZeta (1 / 2 + ↑t4 * I) = 0
+t5 : ℝ
+h5 : t5 ∈ Ioo (3758 / 100) (3759 / 100)
+z5 : riemannZeta (1 / 2 + ↑t5 * I) = 0
+t6 : ℝ
+h6 : t6 ∈ Ioo (4091 / 100) (4092 / 100)
+z6 : riemannZeta (1 / 2 + ↑t6 * I) = 0
+t7 : ℝ
+h7 : t7 ∈ Ioo (4332 / 100) (4333 / 100)
+z7 : riemannZeta (1 / 2 + ↑t7 * I) = 0
+t8 : ℝ
+h8 : t8 ∈ Ioo (4800 / 100) (4801 / 100)
+z8 : riemannZeta (1 / 2 + ↑t8 * I) = 0
+t9 : ℝ
+h9 : t9 ∈ Ioo (4977 / 100) (4978 / 100)
+z9 : riemannZeta (1 / 2 + ↑t9 * I) = 0
+t10 : ℝ
+h10 : t10 ∈ Ioo (5297 / 100) (5298 / 100)
+z10 : riemannZeta (1 / 2 + ↑t10 * I) = 0
+t11 : ℝ
+h11 : t11 ∈ Ioo (5644 / 100) (5645 / 100)
+z11 : riemannZeta (1 / 2 + ↑t11 * I) = 0
+t12 : ℝ
+h12 : t12 ∈ Ioo (5934 / 100) (5935 / 100)
+z12 : riemannZeta (1 / 2 + ↑t12 * I) = 0
+t13 : ℝ
+h13 : t13 ∈ Ioo (6083 / 100) (6084 / 100)
+z13 : riemannZeta (1 / 2 + ↑t13 * I) = 0
+t14 : ℝ
+h14 : t14 ∈ Ioo (6511 / 100) (6512 / 100)
+z14 : riemannZeta (1 / 2 + ↑t14 * I) = 0
+t15 : ℝ
+h15 : t15 ∈ Ioo (67075 / 1000) (67085 / 1000)
+z15 : riemannZeta (1 / 2 + ↑t15 * I) = 0
+t16 : ℝ
+h16 : t16 ∈ Ioo (6954 / 100) (6955 / 100)
+z16 : riemannZeta (1 / 2 + ↑t16 * I) = 0
+t17 : ℝ
+h17 : t17 ∈ Ioo (7206 / 100) (7207 / 100)
+z17 : riemannZeta (1 / 2 + ↑t17 * I) = 0
+t18 : ℝ
+h18 : t18 ∈ Ioo (7570 / 100) (7571 / 100)
+z18 : riemannZeta (1 / 2 + ↑t18 * I) = 0
+t19 : ℝ
+h19 : t19 ∈ Ioo (7714 / 100) (7715 / 100)
+z19 : riemannZeta (1 / 2 + ↑t19 * I) = 0
+t20 : ℝ
+h20 : t20 ∈ Ioo (7933 / 100) (7934 / 100)
+z20 : riemannZeta (1 / 2 + ↑t20 * I) = 0
+t21 : ℝ
+h21 : t21 ∈ Ioo (8291 / 100) (8292 / 100)
+z21 : riemannZeta (1 / 2 + ↑t21 * I) = 0
+t22 : ℝ
+h22 : t22 ∈ Ioo (8473 / 100) (8474 / 100)
+z22 : riemannZeta (1 / 2 + ↑t22 * I) = 0
+t23 : ℝ
+h23 : t23 ∈ Ioo (8742 / 100) (8743 / 100)
+z23 : riemannZeta (1 / 2 + ↑t23 * I) = 0
+t24 : ℝ
+h24 : t24 ∈ Ioo (8880 / 100) (8881 / 100)
+z24 : riemannZeta (1 / 2 + ↑t24 * I) = 0
+t25 : ℝ
+h25 : t25 ∈ Ioo (9249 / 100) (9250 / 100)
+z25 : riemannZeta (1 / 2 + ↑t25 * I) = 0
+t26 : ℝ
+h26 : t26 ∈ Ioo (9465 / 100) (9466 / 100)
+z26 : riemannZeta (1 / 2 + ↑t26 * I) = 0
+t27 : ℝ
+h27 : t27 ∈ Ioo (95865 / 1000) (95875 / 1000)
+z27 : riemannZeta (1 / 2 + ↑t27 * I) = 0
+t28 : ℝ
+h28 : t28 ∈ Ioo (9883 / 100) (9884 / 100)
+z28 : riemannZeta (1 / 2 + ↑t28 * I) = 0
+⊢ 0 < rosserF t0 ∧ rosserF t0 < 0 + 1
+RSBounds/BacklundLowZeros.lean:80:4: error: Tactic `apply` failed: could not unify the conclusion of `value_in_bracket`
+  ↑1 < rosserF ?m.626 ∧ rosserF ?m.626 < ↑1 + 1
+with the goal
+  1 < rosserF t1 ∧ rosserF t1 < 1 + 1
+
+Note: The full type of `value_in_bracket` is
+  2 * π ≤ 2102 / 100 →
+    2102 / 100 < ?m.626 ∧ ?m.626 < 2103 / 100 →
+      ↑1 < rosserF (2102 / 100) → rosserF (2103 / 100) < ↑1 + 1 → ↑1 < rosserF ?m.626 ∧ rosserF ?m.626 < ↑1 + 1
+
+t0 : ℝ
+h0 : t0 ∈ Ioo (1413 / 100) (707 / 50)
+z0 : riemannZeta (1 / 2 + ↑t0 * I) = 0
+t1 : ℝ
+h1 : t1 ∈ Ioo (2102 / 100) (2103 / 100)
+z1 : riemannZeta (1 / 2 + ↑t1 * I) = 0
+t2 : ℝ
+h2 : t2 ∈ Ioo (2501 / 100) (2502 / 100)
+z2 : riemannZeta (1 / 2 + ↑t2 * I) = 0
+t3 : ℝ
+h3 : t3 ∈ Ioo (3042 / 100) (3043 / 100)
+z3 : riemannZeta (1 / 2 + ↑t3 * I) = 0
+t4 : ℝ
+h4 : t4 ∈ Ioo (3293 / 100) (3294 / 100)
+z4 : riemannZeta (1 / 2 + ↑t4 * I) = 0
+t5 : ℝ
+h5 : t5 ∈ Ioo (3758 / 100) (3759 / 100)
+z5 : riemannZeta (1 / 2 + ↑t5 * I) = 0
+t6 : ℝ
+h6 : t6 ∈ Ioo (4091 / 100) (4092 / 100)
+z6 : riemannZeta (1 / 2 + ↑t6 * I) = 0
+t7 : ℝ
+h7 : t7 ∈ Ioo (4332 / 100) (4333 / 100)
+z7 : riemannZeta (1 / 2 + ↑t7 * I) = 0
+t8 : ℝ
+h8 : t8 ∈ Ioo (4800 / 100) (4801 / 100)
+z8 : riemannZeta (1 / 2 + ↑t8 * I) = 0
+t9 : ℝ
+h9 : t9 ∈ Ioo (4977 / 100) (4978 / 100)
+z9 : riemannZeta (1 / 2 + ↑t9 * I) = 0
+t10 : ℝ
+h10 : t10 ∈ Ioo (5297 / 100) (5298 / 100)
+z10 : riemannZeta (1 / 2 + ↑t10 * I) = 0
+t11 : ℝ
+h11 : t11 ∈ Ioo (5644 / 100) (5645 / 100)
+z11 : riemannZeta (1 / 2 + ↑t11 * I) = 0
+t12 : ℝ
+h12 : t12 ∈ Ioo (5934 / 100) (5935 / 100)
+z12 : riemannZeta (1 / 2 + ↑t12 * I) = 0
+t13 : ℝ
+h13 : t13 ∈ Ioo (6083 / 100) (6084 / 100)
+z13 : riemannZeta (1 / 2 + ↑t13 * I) = 0
+t14 : ℝ
+h14 : t14 ∈ Ioo (6511 / 100) (6512 / 100)
+z14 : riemannZeta (1 / 2 + ↑t14 * I) = 0
+t15 : ℝ
+h15 : t15 ∈ Ioo (67075 / 1000) (67085 / 1000)
+z15 : riemannZeta (1 / 2 + ↑t15 * I) = 0
+t16 : ℝ
+h16 : t16 ∈ Ioo (6954 / 100) (6955 / 100)
+z16 : riemannZeta (1 / 2 + ↑t16 * I) = 0
+t17 : ℝ
+h17 : t17 ∈ Ioo (7206 / 100) (7207 / 100)
+z17 : riemannZeta (1 / 2 + ↑t17 * I) = 0
+t18 : ℝ
+h18 : t18 ∈ Ioo (7570 / 100) (7571 / 100)
+z18 : riemannZeta (1 / 2 + ↑t18 * I) = 0
+t19 : ℝ
+h19 : t19 ∈ Ioo (7714 / 100) (7715 / 100)
+z19 : riemannZeta (1 / 2 + ↑t19 * I) = 0
+t20 : ℝ
+h20 : t20 ∈ Ioo (7933 / 100) (7934 / 100)
+z20 : riemannZeta (1 / 2 + ↑t20 * I) = 0
+t21 : ℝ
+h21 : t21 ∈ Ioo (8291 / 100) (8292 / 100)
+z21 : riemannZeta (1 / 2 + ↑t21 * I) = 0
+t22 : ℝ
+h22 : t22 ∈ Ioo (8473 / 100) (8474 / 100)
+z22 : riemannZeta (1 / 2 + ↑t22 * I) = 0
+t23 : ℝ
+h23 : t23 ∈ Ioo (8742 / 100) (8743 / 100)
+z23 : riemannZeta (1 / 2 + ↑t23 * I) = 0
+t24 : ℝ
+h24 : t24 ∈ Ioo (8880 / 100) (8881 / 100)
+z24 : riemannZeta (1 / 2 + ↑t24 * I) = 0
+t25 : ℝ
+h25 : t25 ∈ Ioo (9249 / 100) (9250 / 100)
+z25 : riemannZeta (1 / 2 + ↑t25 * I) = 0
+t26 : ℝ
+h26 : t26 ∈ Ioo (9465 / 100) (9466 / 100)
+z26 : riemannZeta (1 / 2 + ↑t26 * I) = 0
+t27 : ℝ
+h27 : t27 ∈ Ioo (95865 / 1000) (95875 / 1000)
+z27 : riemannZeta (1 / 2 + ↑t27 * I) = 0
+t28 : ℝ
+h28 : t28 ∈ Ioo (9883 / 100) (9884 / 100)
+z28 : riemannZeta (1 / 2 + ↑t28 * I) = 0
+f0 : 0 < rosserF t0 ∧ rosserF t0 < 0 + 1
+⊢ 1 < rosserF t1 ∧ rosserF t1 < 1 + 1
+RSBounds/BacklundLowZeros.lean:100:6: error: 'change' tactic failed, pattern
+  rosserF ↑(2502 / 100) < ↑3
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨5, ⋯⟩).t < ↑(certificate ⟨5, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:108:6: error: 'change' tactic failed, pattern
+  ↑3 < rosserF ↑(3042 / 100)
+is not definitionally equal to target
+  ↑(certificate ⟨6, ⋯⟩).lo < rosserF ↑(certificate ⟨6, ⋯⟩).t
+RSBounds/BacklundLowZeros.lean:124:6: error: 'change' tactic failed, pattern
+  rosserF ↑(3294 / 100) < ↑5
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨9, ⋯⟩).t < ↑(certificate ⟨9, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:132:6: error: 'change' tactic failed, pattern
+  ↑5 < rosserF ↑(3758 / 100)
+is not definitionally equal to target
+  ↑(certificate ⟨10, ⋯⟩).lo < rosserF ↑(certificate ⟨10, ⋯⟩).t
+RSBounds/BacklundLowZeros.lean:148:6: error: 'change' tactic failed, pattern
+  rosserF ↑(4092 / 100) < ↑7
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨13, ⋯⟩).t < ↑(certificate ⟨13, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:156:6: error: 'change' tactic failed, pattern
+  ↑7 < rosserF ↑(4332 / 100)
+is not definitionally equal to target
+  ↑(certificate ⟨14, ⋯⟩).lo < rosserF ↑(certificate ⟨14, ⋯⟩).t
+RSBounds/BacklundLowZeros.lean:168:6: error: 'change' tactic failed, pattern
+  ↑8 < rosserF ↑(4800 / 100)
+is not definitionally equal to target
+  ↑(certificate ⟨16, ⋯⟩).lo < rosserF ↑(certificate ⟨16, ⋯⟩).t
+RSBounds/BacklundLowZeros.lean:184:6: error: 'change' tactic failed, pattern
+  rosserF ↑(4978 / 100) < ↑10
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨19, ⋯⟩).t < ↑(certificate ⟨19, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:196:6: error: 'change' tactic failed, pattern
+  rosserF ↑(5298 / 100) < ↑11
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨21, ⋯⟩).t < ↑(certificate ⟨21, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:204:6: error: 'change' tactic failed, pattern
+  ↑11 < rosserF ↑(5644 / 100)
+is not definitionally equal to target
+  ↑(certificate ⟨22, ⋯⟩).lo < rosserF ↑(certificate ⟨22, ⋯⟩).t
+RSBounds/BacklundLowZeros.lean:208:6: error: 'change' tactic failed, pattern
+  rosserF ↑(5645 / 100) < ↑12
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨23, ⋯⟩).t < ↑(certificate ⟨23, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:216:6: error: 'change' tactic failed, pattern
+  ↑12 < rosserF ↑(5934 / 100)
+is not definitionally equal to target
+  ↑(certificate ⟨24, ⋯⟩).lo < rosserF ↑(certificate ⟨24, ⋯⟩).t
+RSBounds/BacklundLowZeros.lean:220:6: error: 'change' tactic failed, pattern
+  rosserF ↑(5935 / 100) < ↑13
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨25, ⋯⟩).t < ↑(certificate ⟨25, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:232:6: error: 'change' tactic failed, pattern
+  rosserF ↑(6084 / 100) < ↑14
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨27, ⋯⟩).t < ↑(certificate ⟨27, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:244:6: error: 'change' tactic failed, pattern
+  rosserF ↑(6512 / 100) < ↑15
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨29, ⋯⟩).t < ↑(certificate ⟨29, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:252:6: error: 'change' tactic failed, pattern
+  ↑15 < rosserF ↑(67075 / 1000)
+is not definitionally equal to target
+  ↑(certificate ⟨30, ⋯⟩).lo < rosserF ↑(certificate ⟨30, ⋯⟩).t
+RSBounds/BacklundLowZeros.lean:256:6: error: 'change' tactic failed, pattern
+  rosserF ↑(67085 / 1000) < ↑16
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨31, ⋯⟩).t < ↑(certificate ⟨31, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:264:6: error: 'change' tactic failed, pattern
+  ↑16 < rosserF ↑(6954 / 100)
+is not definitionally equal to target
+  ↑(certificate ⟨32, ⋯⟩).lo < rosserF ↑(certificate ⟨32, ⋯⟩).t
+RSBounds/BacklundLowZeros.lean:268:6: error: 'change' tactic failed, pattern
+  rosserF ↑(6955 / 100) < ↑17
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨33, ⋯⟩).t < ↑(certificate ⟨33, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:276:6: error: 'change' tactic failed, pattern
+  ↑17 < rosserF ↑(7206 / 100)
+is not definitionally equal to target
+  ↑(certificate ⟨34, ⋯⟩).lo < rosserF ↑(certificate ⟨34, ⋯⟩).t
+RSBounds/BacklundLowZeros.lean:288:6: error: 'change' tactic failed, pattern
+  ↑18 < rosserF ↑(7570 / 100)
+is not definitionally equal to target
+  ↑(certificate ⟨36, ⋯⟩).lo < rosserF ↑(certificate ⟨36, ⋯⟩).t
+RSBounds/BacklundLowZeros.lean:300:6: error: 'change' tactic failed, pattern
+  ↑19 < rosserF ↑(7714 / 100)
+is not definitionally equal to target
+  ↑(certificate ⟨38, ⋯⟩).lo < rosserF ↑(certificate ⟨38, ⋯⟩).t
+RSBounds/BacklundLowZeros.lean:304:6: error: 'change' tactic failed, pattern
+  rosserF ↑(7715 / 100) < ↑20
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨39, ⋯⟩).t < ↑(certificate ⟨39, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:316:6: error: 'change' tactic failed, pattern
+  rosserF ↑(7934 / 100) < ↑21
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨41, ⋯⟩).t < ↑(certificate ⟨41, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:328:6: error: 'change' tactic failed, pattern
+  rosserF ↑(8292 / 100) < ↑22
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨43, ⋯⟩).t < ↑(certificate ⟨43, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:340:6: error: 'change' tactic failed, pattern
+  rosserF ↑(8474 / 100) < ↑23
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨45, ⋯⟩).t < ↑(certificate ⟨45, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:348:6: error: 'change' tactic failed, pattern
+  ↑23 < rosserF ↑(8742 / 100)
+is not definitionally equal to target
+  ↑(certificate ⟨46, ⋯⟩).lo < rosserF ↑(certificate ⟨46, ⋯⟩).t
+RSBounds/BacklundLowZeros.lean:360:6: error: 'change' tactic failed, pattern
+  ↑24 < rosserF ↑(8880 / 100)
+is not definitionally equal to target
+  ↑(certificate ⟨48, ⋯⟩).lo < rosserF ↑(certificate ⟨48, ⋯⟩).t
+RSBounds/BacklundLowZeros.lean:376:6: error: 'change' tactic failed, pattern
+  rosserF ↑(9250 / 100) < ↑26
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨51, ⋯⟩).t < ↑(certificate ⟨51, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:384:6: error: 'change' tactic failed, pattern
+  ↑26 < rosserF ↑(9465 / 100)
+is not definitionally equal to target
+  ↑(certificate ⟨52, ⋯⟩).lo < rosserF ↑(certificate ⟨52, ⋯⟩).t
+RSBounds/BacklundLowZeros.lean:388:6: error: 'change' tactic failed, pattern
+  rosserF ↑(9466 / 100) < ↑27
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨53, ⋯⟩).t < ↑(certificate ⟨53, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:396:6: error: 'change' tactic failed, pattern
+  ↑27 < rosserF ↑(95865 / 1000)
+is not definitionally equal to target
+  ↑(certificate ⟨54, ⋯⟩).lo < rosserF ↑(certificate ⟨54, ⋯⟩).t
+RSBounds/BacklundLowZeros.lean:400:6: error: 'change' tactic failed, pattern
+  rosserF ↑(95875 / 1000) < ↑28
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨55, ⋯⟩).t < ↑(certificate ⟨55, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:412:6: error: 'change' tactic failed, pattern
+  rosserF ↑(9884 / 100) < ↑29
+is not definitionally equal to target
+  rosserF ↑(certificate ⟨57, ⋯⟩).t < ↑(certificate ⟨57, ⋯⟩).hi
+RSBounds/BacklundLowZeros.lean:477:67: error: Application type mismatch: The argument
+  z28
+has type
+  riemannZeta (1 / 2 + ↑t28 * I) = 0
+but is expected to have type
+  riemannZeta (1 / 2 + ↑t0 * I) = 0
+in the application
+  And.intro z28
+RSBounds/BacklundLowZeros.lean:477:18: error: linarith failed to find a contradiction
+t0 : ℝ
+z0 : riemannZeta (1 / 2 + ↑t0 * I) = 0
+t1 : ℝ
+z1 : riemannZeta (1 / 2 + ↑t1 * I) = 0
+t2 : ℝ
+z2 : riemannZeta (1 / 2 + ↑t2 * I) = 0
+t3 : ℝ
+z3 : riemannZeta (1 / 2 + ↑t3 * I) = 0
+t4 : ℝ
+z4 : riemannZeta (1 / 2 + ↑t4 * I) = 0
+t5 : ℝ
+z5 : riemannZeta (1 / 2 + ↑t5 * I) = 0
+t6 : ℝ
+z6 : riemannZeta (1 / 2 + ↑t6 * I) = 0
+t7 : ℝ
+z7 : riemannZeta (1 / 2 + ↑t7 * I) = 0
+t8 : ℝ
+z8 : riemannZeta (1 / 2 + ↑t8 * I) = 0
+t9 : ℝ
+z9 : riemannZeta (1 / 2 + ↑t9 * I) = 0
+t10 : ℝ
+z10 : riemannZeta (1 / 2 + ↑t10 * I) = 0
+t11 : ℝ
+z11 : riemannZeta (1 / 2 + ↑t11 * I) = 0
+t12 : ℝ
+z12 : riemannZeta (1 / 2 + ↑t12 * I) = 0
+t13 : ℝ
+z13 : riemannZeta (1 / 2 + ↑t13 * I) = 0
+t14 : ℝ
+z14 : riemannZeta (1 / 2 + ↑t14 * I) = 0
+t15 : ℝ
+z15 : riemannZeta (1 / 2 + ↑t15 * I) = 0
+t16 : ℝ
+z16 : riemannZeta (1 / 2 + ↑t16 * I) = 0
+t17 : ℝ
+z17 : riemannZeta (1 / 2 + ↑t17 * I) = 0
+t18 : ℝ
+z18 : riemannZeta (1 / 2 + ↑t18 * I) = 0
+t19 : ℝ
+z19 : riemannZeta (1 / 2 + ↑t19 * I) = 0
+t20 : ℝ
+z20 : riemannZeta (1 / 2 + ↑t20 * I) = 0
+t21 : ℝ
+z21 : riemannZeta (1 / 2 + ↑t21 * I) = 0
+t22 : ℝ
+z22 : riemannZeta (1 / 2 + ↑t22 * I) = 0
+t23 : ℝ
+z23 : riemannZeta (1 / 2 + ↑t23 * I) = 0
+t24 : ℝ
+z24 : riemannZeta (1 / 2 + ↑t24 * I) = 0
+t25 : ℝ
+z25 : riemannZeta (1 / 2 + ↑t25 * I) = 0
+t26 : ℝ
+z26 : riemannZeta (1 / 2 + ↑t26 * I) = 0
+t27 : ℝ
+z27 : riemannZeta (1 / 2 + ↑t27 * I) = 0
+t28 : ℝ
+z28 : riemannZeta (1 / 2 + ↑t28 * I) = 0
+f0 : 0 < rosserF t0 ∧ rosserF t0 < 0 + 1
+f1 : 1 < rosserF t1 ∧ rosserF t1 < 1 + 1
+f2 : 2 < rosserF t2 ∧ rosserF t2 < 2 + 1
+f3 : 3 < rosserF t3 ∧ rosserF t3 < 3 + 1
+f4 : 4 < rosserF t4 ∧ rosserF t4 < 4 + 1
+f5 : 5 < rosserF t5 ∧ rosserF t5 < 5 + 1
+f6 : 6 < rosserF t6 ∧ rosserF t6 < 6 + 1
+f7 : 7 < rosserF t7 ∧ rosserF t7 < 7 + 1
+f8 : 8 < rosserF t8 ∧ rosserF t8 < 8 + 1
+f9 : 9 < rosserF t9 ∧ rosserF t9 < 9 + 1
+f10 : 10 < rosserF t10 ∧ rosserF t10 < 10 + 1
+f11 : 11 < rosserF t11 ∧ rosserF t11 < 11 + 1
+f12 : 12 < rosserF t12 ∧ rosserF t12 < 12 + 1
+f13 : 13 < rosserF t13 ∧ rosserF t13 < 13 + 1
+f14 : 14 < rosserF t14 ∧ rosserF t14 < 14 + 1
+f15 : 15 < rosserF t15 ∧ rosserF t15 < 15 + 1
+f16 : 16 < rosserF t16 ∧ rosserF t16 < 16 + 1
+f17 : 17 < rosserF t17 ∧ rosserF t17 < 17 + 1
+f18 : 18 < rosserF t18 ∧ rosserF t18 < 18 + 1
+f19 : 19 < rosserF t19 ∧ rosserF t19 < 19 + 1
+f20 : 20 < rosserF t20 ∧ rosserF t20 < 20 + 1
+f21 : 21 < rosserF t21 ∧ rosserF t21 < 21 + 1
+f22 : 22 < rosserF t22 ∧ rosserF t22 < 22 + 1
+f23 : 23 < rosserF t23 ∧ rosserF t23 < 23 + 1
+f24 : 24 < rosserF t24 ∧ rosserF t24 < 24 + 1
+f25 : 25 < rosserF t25 ∧ rosserF t25 < 25 + 1
+f26 : 26 < rosserF t26 ∧ rosserF t26 < 26 + 1
+f27 : 27 < rosserF t27 ∧ rosserF t27 < 27 + 1
+f28 : 28 < rosserF t28 ∧ rosserF t28 < 28 + 1
+h0 : 1413 / 100 < t0 ∧ t0 < 707 / 50
+h1 : 1051 / 50 < t1 ∧ t1 < 2103 / 100
+h2 : 2501 / 100 < t2 ∧ t2 < 1251 / 50
+h3 : 1521 / 50 < t3 ∧ t3 < 3043 / 100
+h4 : 3293 / 100 < t4 ∧ t4 < 1647 / 50
+h5 : 1879 / 50 < t5 ∧ t5 < 3759 / 100
+h6 : 4091 / 100 < t6 ∧ t6 < 1023 / 25
+h7 : 1083 / 25 < t7 ∧ t7 < 4333 / 100
+h8 : 48 < t8 ∧ t8 < 4801 / 100
+h9 : 4977 / 100 < t9 ∧ t9 < 2489 / 50
+h10 : 5297 / 100 < t10 ∧ t10 < 2649 / 50
+h11 : 1411 / 25 < t11 ∧ t11 < 1129 / 20
+h12 : 2967 / 50 < t12 ∧ t12 < 1187 / 20
+h13 : 6083 / 100 < t13 ∧ t13 < 1521 / 25
+h14 : 6511 / 100 < t14 ∧ t14 < 1628 / 25
+h15 : 2683 / 40 < t15 ∧ t15 < 13417 / 200
+h16 : 3477 / 50 < t16 ∧ t16 < 1391 / 20
+h17 : 3603 / 50 < t17 ∧ t17 < 7207 / 100
+h18 : 757 / 10 < t18 ∧ t18 < 7571 / 100
+h19 : 3857 / 50 < t19 ∧ t19 < 1543 / 20
+h20 : 7933 / 100 < t20 ∧ t20 < 3967 / 50
+h21 : 8291 / 100 < t21 ∧ t21 < 2073 / 25
+h22 : 8473 / 100 < t22 ∧ t22 < 4237 / 50
+h23 : 4371 / 50 < t23 ∧ t23 < 8743 / 100
+h24 : 444 / 5 < t24 ∧ t24 < 8881 / 100
+h25 : 9249 / 100 < t25 ∧ t25 < 185 / 2
+h26 : 1893 / 20 < t26 ∧ t26 < 4733 / 50
+h27 : 19173 / 200 < t27 ∧ t27 < 767 / 8
+h28 : 9883 / 100 < t28 ∧ t28 < 2471 / 25
+a✝ : t0 ≤ 1413 / 100
+⊢ False
+failed
+RSBounds/BacklundLowZeros.lean:477:44: error: linarith failed to find a contradiction
+t0 : ℝ
+z0 : riemannZeta (1 / 2 + ↑t0 * I) = 0
+t1 : ℝ
+z1 : riemannZeta (1 / 2 + ↑t1 * I) = 0
+t2 : ℝ
+z2 : riemannZeta (1 / 2 + ↑t2 * I) = 0
+t3 : ℝ
+z3 : riemannZeta (1 / 2 + ↑t3 * I) = 0
+t4 : ℝ
+z4 : riemannZeta (1 / 2 + ↑t4 * I) = 0
+t5 : ℝ
+z5 : riemannZeta (1 / 2 + ↑t5 * I) = 0
+t6 : ℝ
+z6 : riemannZeta (1 / 2 + ↑t6 * I) = 0
+t7 : ℝ
+z7 : riemannZeta (1 / 2 + ↑t7 * I) = 0
+t8 : ℝ
+z8 : riemannZeta (1 / 2 + ↑t8 * I) = 0
+t9 : ℝ
+z9 : riemannZeta (1 / 2 + ↑t9 * I) = 0
+t10 : ℝ
+z10 : riemannZeta (1 / 2 + ↑t10 * I) = 0
+t11 : ℝ
+z11 : riemannZeta (1 / 2 + ↑t11 * I) = 0
+t12 : ℝ
+z12 : riemannZeta (1 / 2 + ↑t12 * I) = 0
+t13 : ℝ
+z13 : riemannZeta (1 / 2 + ↑t13 * I) = 0
+t14 : ℝ
+z14 : riemannZeta (1 / 2 + ↑t14 * I) = 0
+t15 : ℝ
+z15 : riemannZeta (1 / 2 + ↑t15 * I) = 0
+t16 : ℝ
+z16 : riemannZeta (1 / 2 + ↑t16 * I) = 0
+t17 : ℝ
+z17 : riemannZeta (1 / 2 + ↑t17 * I) = 0
+t18 : ℝ
+z18 : riemannZeta (1 / 2 + ↑t18 * I) = 0
+t19 : ℝ
+z19 : riemannZeta (1 / 2 + ↑t19 * I) = 0
+t20 : ℝ
+z20 : riemannZeta (1 / 2 + ↑t20 * I) = 0
+t21 : ℝ
+z21 : riemannZeta (1 / 2 + ↑t21 * I) = 0
+t22 : ℝ
+z22 : riemannZeta (1 / 2 + ↑t22 * I) = 0
+t23 : ℝ
+z23 : riemannZeta (1 / 2 + ↑t23 * I) = 0
+t24 : ℝ
+z24 : riemannZeta (1 / 2 + ↑t24 * I) = 0
+t25 : ℝ
+z25 : riemannZeta (1 / 2 + ↑t25 * I) = 0
+t26 : ℝ
+z26 : riemannZeta (1 / 2 + ↑t26 * I) = 0
+t27 : ℝ
+z27 : riemannZeta (1 / 2 + ↑t27 * I) = 0
+t28 : ℝ
+z28 : riemannZeta (1 / 2 + ↑t28 * I) = 0
+f0 : 0 < rosserF t0 ∧ rosserF t0 < 0 + 1
+f1 : 1 < rosserF t1 ∧ rosserF t1 < 1 + 1
+f2 : 2 < rosserF t2 ∧ rosserF t2 < 2 + 1
+f3 : 3 < rosserF t3 ∧ rosserF t3 < 3 + 1
+f4 : 4 < rosserF t4 ∧ rosserF t4 < 4 + 1
+f5 : 5 < rosserF t5 ∧ rosserF t5 < 5 + 1
+f6 : 6 < rosserF t6 ∧ rosserF t6 < 6 + 1
+f7 : 7 < rosserF t7 ∧ rosserF t7 < 7 + 1
+f8 : 8 < rosserF t8 ∧ rosserF t8 < 8 + 1
+f9 : 9 < rosserF t9 ∧ rosserF t9 < 9 + 1
+f10 : 10 < rosserF t10 ∧ rosserF t10 < 10 + 1
+f11 : 11 < rosserF t11 ∧ rosserF t11 < 11 + 1
+f12 : 12 < rosserF t12 ∧ rosserF t12 < 12 + 1
+f13 : 13 < rosserF t13 ∧ rosserF t13 < 13 + 1
+f14 : 14 < rosserF t14 ∧ rosserF t14 < 14 + 1
+f15 : 15 < rosserF t15 ∧ rosserF t15 < 15 + 1
+f16 : 16 < rosserF t16 ∧ rosserF t16 < 16 + 1
+f17 : 17 < rosserF t17 ∧ rosserF t17 < 17 + 1
+f18 : 18 < rosserF t18 ∧ rosserF t18 < 18 + 1
+f19 : 19 < rosserF t19 ∧ rosserF t19 < 19 + 1
+f20 : 20 < rosserF t20 ∧ rosserF t20 < 20 + 1
+f21 : 21 < rosserF t21 ∧ rosserF t21 < 21 + 1
+f22 : 22 < rosserF t22 ∧ rosserF t22 < 22 + 1
+f23 : 23 < rosserF t23 ∧ rosserF t23 < 23 + 1
+f24 : 24 < rosserF t24 ∧ rosserF t24 < 24 + 1
+f25 : 25 < rosserF t25 ∧ rosserF t25 < 25 + 1
+f26 : 26 < rosserF t26 ∧ rosserF t26 < 26 + 1
+f27 : 27 < rosserF t27 ∧ rosserF t27 < 27 + 1
+f28 : 28 < rosserF t28 ∧ rosserF t28 < 28 + 1
+h0 : 1413 / 100 < t0 ∧ t0 < 707 / 50
+h1 : 1051 / 50 < t1 ∧ t1 < 2103 / 100
+h2 : 2501 / 100 < t2 ∧ t2 < 1251 / 50
+h3 : 1521 / 50 < t3 ∧ t3 < 3043 / 100
+h4 : 3293 / 100 < t4 ∧ t4 < 1647 / 50
+h5 : 1879 / 50 < t5 ∧ t5 < 3759 / 100
+h6 : 4091 / 100 < t6 ∧ t6 < 1023 / 25
+h7 : 1083 / 25 < t7 ∧ t7 < 4333 / 100
+h8 : 48 < t8 ∧ t8 < 4801 / 100
+h9 : 4977 / 100 < t9 ∧ t9 < 2489 / 50
+h10 : 5297 / 100 < t10 ∧ t10 < 2649 / 50
+h11 : 1411 / 25 < t11 ∧ t11 < 1129 / 20
+h12 : 2967 / 50 < t12 ∧ t12 < 1187 / 20
+h13 : 6083 / 100 < t13 ∧ t13 < 1521 / 25
+h14 : 6511 / 100 < t14 ∧ t14 < 1628 / 25
+h15 : 2683 / 40 < t15 ∧ t15 < 13417 / 200
+h16 : 3477 / 50 < t16 ∧ t16 < 1391 / 20
+h17 : 3603 / 50 < t17 ∧ t17 < 7207 / 100
+h18 : 757 / 10 < t18 ∧ t18 < 7571 / 100
+h19 : 3857 / 50 < t19 ∧ t19 < 1543 / 20
+h20 : 7933 / 100 < t20 ∧ t20 < 3967 / 50
+h21 : 8291 / 100 < t21 ∧ t21 < 2073 / 25
+h22 : 8473 / 100 < t22 ∧ t22 < 4237 / 50
+h23 : 4371 / 50 < t23 ∧ t23 < 8743 / 100
+h24 : 444 / 5 < t24 ∧ t24 < 8881 / 100
+h25 : 9249 / 100 < t25 ∧ t25 < 185 / 2
+h26 : 1893 / 20 < t26 ∧ t26 < 4733 / 50
+h27 : 19173 / 200 < t27 ∧ t27 < 767 / 8
+h28 : 9883 / 100 < t28 ∧ t28 < 2471 / 25
+a✝ : 100 ≤ t0
+⊢ False
+failed
+RSBounds/BacklundLowZeros.lean:477:67: error: Application type mismatch: The argument
+  z28
+has type
+  riemannZeta (1 / 2 + ↑t28 * I) = 0
+but is expected to have type
+  riemannZeta (1 / 2 + ↑t1 * I) = 0
+in the application
+  And.intro z28
+RSBounds/BacklundLowZeros.lean:477:18: error: linarith failed to find a contradiction
+t0 : ℝ
+z0 : riemannZeta (1 / 2 + ↑t0 * I) = 0
+t1 : ℝ
+z1 : riemannZeta (1 / 2 + ↑t1 * I) = 0
+t2 : ℝ
+z2 : riemannZeta (1 / 2 + ↑t2 * I) = 0
+t3 : ℝ
+z3 : riemannZeta (1 / 2 + ↑t3 * I) = 0
+t4 : ℝ
+z4 : riemannZeta (1 / 2 + ↑t4 * I) = 0
+t5 : ℝ
+z5 : riemannZeta (1 / 2 + ↑t5 * I) = 0
+t6 : ℝ
+z6 : riemannZeta (1 / 2 + ↑t6 * I) = 0
+t7 : ℝ
+z7 : riemannZeta (1 / 2 + ↑t7 * I) = 0
+t8 : ℝ
+z8 : riemannZeta (1 / 2 + ↑t8 * I) = 0
+t9 : ℝ
+z9 : riemannZeta (1 / 2 + ↑t9 * I) = 0
+t10 : ℝ
+z10 : riemannZeta (1 / 2 + ↑t10 * I) = 0
+t11 : ℝ
+z11 : riemannZeta (1 / 2 + ↑t11 * I) = 0
+t12 : ℝ
+z12 : riemannZeta (1 / 2 + ↑t12 * I) = 0
+t13 : ℝ
+z13 : riemannZeta (1 / 2 + ↑t13 * I) = 0
+t14 : ℝ
+z14 : riemannZeta (1 / 2 + ↑t14 * I) = 0
+t15 : ℝ
+z15 : riemannZeta (1 / 2 + ↑t15 * I) = 0
+t16 : ℝ
+z16 : riemannZeta (1 / 2 + ↑t16 * I) = 0
+t17 : ℝ
+z17 : riemannZeta (1 / 2 + ↑t17 * I) = 0
+t18 : ℝ
+z18 : riemannZeta (1 / 2 + ↑t18 * I) = 0
+t19 : ℝ
+z19 : riemannZeta (1 / 2 + ↑t19 * I) = 0
+t20 : ℝ
+z20 : riemannZeta (1 / 2 + ↑t20 * I) = 0
+t21 : ℝ
+z21 : riemannZeta (1 / 2 + ↑t21 * I) = 0
+t22 : ℝ
+z22 : riemannZeta (1 / 2 + ↑t22 * I) = 0
+t23 : ℝ
+z23 : riemannZeta (1 / 2 + ↑t23 * I) = 0
+t24 : ℝ
+z24 : riemannZeta (1 / 2 + ↑t24 * I) = 0
+t25 : ℝ
+z25 : riemannZeta (1 / 2 + ↑t25 * I) = 0
+t26 : ℝ
+z26 : riemannZeta (1 / 2 + ↑t26 * I) = 0
+t27 : ℝ
+z27 : riemannZeta (1 / 2 + ↑t27 * I) = 0
+t28 : ℝ
+z28 : riemannZeta (1 / 2 + ↑t28 * I) = 0
+f0 : 0 < rosserF t0 ∧ rosserF t0 < 0 + 1
+f1 : 1 < rosserF t1 ∧ rosserF t1 < 1 + 1
+f2 : 2 < rosserF t2 ∧ rosserF t2 < 2 + 1
+f3 : 3 < rosserF t3 ∧ rosserF t3 < 3 + 1
+f4 : 4 < rosserF t4 ∧ rosserF t4 < 4 + 1
+f5 : 5 < rosserF t5 ∧ rosserF t5 < 5 + 1
+f6 : 6 < rosserF t6 ∧ rosserF t6 < 6 + 1
+f7 : 7 < rosserF t7 ∧ rosserF t7 < 7 + 1
+f8 : 8 < rosserF t8 ∧ rosserF t8 < 8 + 1
+f9 : 9 < rosserF t9 ∧ rosserF t9 < 9 + 1
+f10 : 10 < rosserF t10 ∧ rosserF t10 < 10 + 1
+f11 : 11 < rosserF t11 ∧ rosserF t11 < 11 + 1
+f12 : 12 < rosserF t12 ∧ rosserF t12 < 12 + 1
+f13 : 13 < rosserF t13 ∧ rosserF t13 < 13 + 1
+f14 : 14 < rosserF t14 ∧ rosserF t14 < 14 + 1
+f15 : 15 < rosserF t15 ∧ rosserF t15 < 15 + 1
+f16 : 16 < rosserF t16 ∧ rosserF t16 < 16 + 1
+f17 : 17 < rosserF t17 ∧ rosserF t17 < 17 + 1
+f18 : 18 < rosserF t18 ∧ rosserF t18 < 18 + 1
+f19 : 19 < rosserF t19 ∧ rosserF t19 < 19 + 1
+f20 : 20 < rosserF t20 ∧ rosserF t20 < 20 + 1
+f21 : 21 < rosserF t21 ∧ rosserF t21 < 21 + 1
+f22 : 22 < rosserF t22 ∧ rosserF t22 < 22 + 1
+f23 : 23 < rosserF t23 ∧ rosserF t23 < 23 + 1
+f24 : 24 < rosserF t24 ∧ rosserF t24 < 24 + 1
+f25 : 25 < rosserF t25 ∧ rosserF t25 < 25 + 1
+f26 : 26 < rosserF t26 ∧ rosserF t26 < 26 + 1
+f27 : 27 < rosserF t27 ∧ rosserF t27 < 27 + 1
+f28 : 28 < rosserF t28 ∧ rosserF t28 < 28 + 1
+h0 : 1413 / 100 < t0 ∧ t0 < 707 / 50
+h1 : 1051 / 50 < t1 ∧ t1 < 2103 / 100
+h2 : 2501 / 100 < t2 ∧ t2 < 1251 / 50
+h3 : 1521 / 50 < t3 ∧ t3 < 3043 / 100
+h4 : 3293 / 100 < t4 ∧ t4 < 1647 / 50
+h5 : 1879 / 50 < t5 ∧ t5 < 3759 / 100
+h6 : 4091 / 100 < t6 ∧ t6 < 1023 / 25
+h7 : 1083 / 25 < t7 ∧ t7 < 4333 / 100
+h8 : 48 < t8 ∧ t8 < 4801 / 100
+h9 : 4977 / 100 < t9 ∧ t9 < 2489 / 50
+h10 : 5297 / 100 < t10 ∧ t10 < 2649 / 50
+h11 : 1411 / 25 < t11 ∧ t11 < 1129 / 20
+h12 : 2967 / 50 < t12 ∧ t12 < 1187 / 20
+h13 : 6083 / 100 < t13 ∧ t13 < 1521 / 25
+h14 : 6511 / 100 < t14 ∧ t14 < 1628 / 25
+h15 : 2683 / 40 < t15 ∧ t15 < 13417 / 200
+h16 : 3477 / 50 < t16 ∧ t16 < 1391 / 20
+h17 : 3603 / 50 < t17 ∧ t17 < 7207 / 100
+h18 : 757 / 10 < t18 ∧ t18 < 7571 / 100
+h19 : 3857 / 50 < t19 ∧ t19 < 1543 / 20
+h20 : 7933 / 100 < t20 ∧ t20 < 3967 / 50
+h21 : 8291 / 100 < t21 ∧ t21 < 2073 / 25
+h22 : 8473 / 100 < t22 ∧ t22 < 4237 / 50
+h23 : 4371 / 50 < t23 ∧ t23 < 8743 / 100
+h24 : 444 / 5 < t24 ∧ t24 < 8881 / 100
+h25 : 9249 / 100 < t25 ∧ t25 < 185 / 2
+h26 : 1893 / 20 < t26 ∧ t26 < 4733 / 50
+h27 : 19173 / 200 < t27 ∧ t27 < 767 / 8
+h28 : 9883 / 100 < t28 ∧ t28 < 2471 / 25
+a✝ : t1 ≤ 1413 / 100
+⊢ False
+failed
+RSBounds/BacklundLowZeros.lean:477:44: error: linarith failed to find a contradiction
+t0 : ℝ
+z0 : riemannZeta (1 / 2 + ↑t0 * I) = 0
+t1 : ℝ
+z1 : riemannZeta (1 / 2 + ↑t1 * I) = 0
+t2 : ℝ
+z2 : riemannZeta (1 / 2 + ↑t2 * I) = 0
+t3 : ℝ
+z3 : riemannZeta (1 / 2 + ↑t3 * I) = 0
+t4 : ℝ
+z4 : riemannZeta (1 / 2 + ↑t4 * I) = 0
+t5 : ℝ
+z5 : riemannZeta (1 / 2 + ↑t5 * I) = 0
+t6 : ℝ
+z6 : riemannZeta (1 / 2 + ↑t6 * I) = 0
+t7 : ℝ
+z7 : riemannZeta (1 / 2 + ↑t7 * I) = 0
+t8 : ℝ
+z8 : riemannZeta (1 / 2 + ↑t8 * I) = 0
+t9 : ℝ
+z9 : riemannZeta (1 / 2 + ↑t9 * I) = 0
+t10 : ℝ
+z10 : riemannZeta (1 / 2 + ↑t10 * I) = 0
+t11 : ℝ
+z11 : riemannZeta (1 / 2 + ↑t11 * I) = 0
+t12 : ℝ
+z12 : riemannZeta (1 / 2 + ↑t12 * I) = 0
+t13 : ℝ
+z13 : riemannZeta (1 / 2 + ↑t13 * I) = 0
+t14 : ℝ
+z14 : riemannZeta (1 / 2 + ↑t14 * I) = 0
+t15 : ℝ
+z15 : riemannZeta (1 / 2 + ↑t15 * I) = 0
+t16 : ℝ
+z16 : riemannZeta (1 / 2 + ↑t16 * I) = 0
+t17 : ℝ
+z17 : riemannZeta (1 / 2 + ↑t17 * I) = 0
+t18 : ℝ
+z18 : riemannZeta (1 / 2 + ↑t18 * I) = 0
+t19 : ℝ
+z19 : riemannZeta (1 / 2 + ↑t19 * I) = 0
+t20 : ℝ
+z20 : riemannZeta (1 / 2 + ↑t20 * I) = 0
+t21 : ℝ
+z21 : riemannZeta (1 / 2 + ↑t21 * I) = 0
+t22 : ℝ
+z22 : riemannZeta (1 / 2 + ↑t22 * I) = 0
+t23 : ℝ
+z23 : riemannZeta (1 / 2 + ↑t23 * I) = 0
+t24 : ℝ
+z24 : riemannZeta (1 / 2 + ↑t24 * I) = 0
+t25 : ℝ
+z25 : riemannZeta (1 / 2 + ↑t25 * I) = 0
+t26 : ℝ
+z26 : riemannZeta (1 / 2 + ↑t26 * I) = 0
+t27 : ℝ
+z27 : riemannZeta (1 / 2 + ↑t27 * I) = 0
+t28 : ℝ
+z28 : riemannZeta (1 / 2 + ↑t28 * I) = 0
+f0 : 0 < rosserF t0 ∧ rosserF t0 < 0 + 1
+f1 : 1 < rosserF t1 ∧ rosserF t1 < 1 + 1
+f2 : 2 < rosserF t2 ∧ rosserF t2 < 2 + 1
+f3 : 3 < rosserF t3 ∧ rosserF t3 < 3 + 1
+f4 : 4 < rosserF t4 ∧ rosserF t4 < 4 + 1
+f5 : 5 < rosserF t5 ∧ rosserF t5 < 5 + 1
+f6 : 6 < rosserF t6 ∧ rosserF t6 < 6 + 1
+f7 : 7 < rosserF t7 ∧ rosserF t7 < 7 + 1
+f8 : 8 < rosserF t8 ∧ rosserF t8 < 8 + 1
+f9 : 9 < rosserF t9 ∧ rosserF t9 < 9 + 1
+f10 : 10 < rosserF t10 ∧ rosserF t10 < 10 + 1
+f11 : 11 < rosserF t11 ∧ rosserF t11 < 11 + 1
+f12 : 12 < rosserF t12 ∧ rosserF t12 < 12 + 1
+f13 : 13 < rosserF t13 ∧ rosserF t13 < 13 + 1
+f14 : 14 < rosserF t14 ∧ rosserF t14 < 14 + 1
+f15 : 15 < rosserF t15 ∧ rosserF t15 < 15 + 1
+f16 : 16 < rosserF t16 ∧ rosserF t16 < 16 + 1
+f17 : 17 < rosserF t17 ∧ rosserF t17 < 17 + 1
+f18 : 18 < rosserF t18 ∧ rosserF t18 < 18 + 1
+f19 : 19 < rosserF t19 ∧ rosserF t19 < 19 + 1
+f20 : 20 < rosserF t20 ∧ rosserF t20 < 20 + 1
+f21 : 21 < rosserF t21 ∧ rosserF t21 < 21 + 1
+f22 : 22 < rosserF t22 ∧ rosserF t22 < 22 + 1
+f23 : 23 < rosserF t23 ∧ rosserF t23 < 23 + 1
+f24 : 24 < rosserF t24 ∧ rosserF t24 < 24 + 1
+f25 : 25 < rosserF t25 ∧ rosserF t25 < 25 + 1
+f26 : 26 < rosserF t26 ∧ rosserF t26 < 26 + 1
+f27 : 27 < rosserF t27 ∧ rosserF t27 < 27 + 1
+f28 : 28 < rosserF t28 ∧ rosserF t28 < 28 + 1
+h0 : 1413 / 100 < t0 ∧ t0 < 707 / 50
+h1 : 1051 / 50 < t1 ∧ t1 < 2103 / 100
+h2 : 2501 / 100 < t2 ∧ t2 < 1251 / 50
+h3 : 1521 / 50 < t3 ∧ t3 < 3043 / 100
+h4 : 3293 / 100 < t4 ∧ t4 < 1647 / 50
+h5 : 1879 / 50 < t5 ∧ t5 < 3759 / 100
+h6 : 4091 / 100 < t6 ∧ t6 < 1023 / 25
+h7 : 1083 / 25 < t7 ∧ t7 < 4333 / 100
+h8 : 48 < t8 ∧ t8 < 4801 / 100
+h9 : 4977 / 100 < t9 ∧ t9 < 2489 / 50
+h10 : 5297 / 100 < t10 ∧ t10 < 2649 / 50
+h11 : 1411 / 25 < t11 ∧ t11 < 1129 / 20
+h12 : 2967 / 50 < t12 ∧ t12 < 1187 / 20
+h13 : 6083 / 100 < t13 ∧ t13 < 1521 / 25
+h14 : 6511 / 100 < t14 ∧ t14 < 1628 / 25
+h15 : 2683 / 40 < t15 ∧ t15 < 13417 / 200
+h16 : 3477 / 50 < t16 ∧ t16 < 1391 / 20
+h17 : 3603 / 50 < t17 ∧ t17 < 7207 / 100
+h18 : 757 / 10 < t18 ∧ t18 < 7571 / 100
+h19 : 3857 / 50 < t19 ∧ t19 < 1543 / 20
+h20 : 7933 / 100 < t20 ∧ t20 < 3967 / 50
+h21 : 8291 / 100 < t21 ∧ t21 < 2073 / 25
+h22 : 8473 / 100 < t22 ∧ t22 < 4237 / 50
+h23 : 4371 / 50 < t23 ∧ t23 < 8743 / 100
+h24 : 444 / 5 < t24 ∧ t24 < 8881 / 100
+h25 : 9249 / 100 < t25 ∧ t25 < 185 / 2
+h26 : 1893 / 20 < t26 ∧ t26 < 4733 / 50
+h27 : 19173 / 200 < t27 ∧ t27 < 767 / 8
+h28 : 9883 / 100 < t28 ∧ t28 < 2471 / 25
+a✝ : 100 ≤ t1
+⊢ False
+failed
+

@@ -1,0 +1,41 @@
+import took 4.92s
+RSBounds/MertensIntervalMellin.lean:40:64: error: unsolved goals
+a b : ℝ
+ha : 1 ≤ a
+hab : a ≤ b
+⊢ ↑(∫ (t : ℝ) in a..b, Chebyshev.psi t / t ^ 2) - (↑(Real.log b) - ↑(Real.log a)) =
+    ↑((∫ (t : ℝ) in a..b, Chebyshev.psi t / t ^ 2) - (Real.log b - Real.log a))
+'TernaryGoldbach.RSBounds.MertensIntervalMellin.SsumG_eq_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensIntervalMellin.SsumG_sub_log_eq_signed_integral' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.MertensIntervalMellin.prime_sum_eq_right_line' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	attribute application 0.0299ms
+	blocked (unaccounted) 412ms
+	congr simp thm 2.92ms
+	declTypeLinter 1.59ms
+	elaboration 25.9ms
+	fix level params 0.301ms
+	import 4.92s
+	initialization 39.6ms
+	instantiate metavars 0.459ms
+	interpretation 371ms
+	let-to-have transformation 0.134ms
+	linting 6.59ms
+	module linting 0.00954ms
+	norm_num 10.1ms
+	parsing 4.11ms
+	process pre-definitions 2.92ms
+	ring 7.28ms
+	share common exprs 2.6ms
+	simp 103ms
+	tactic execution 84.6ms
+	tacticAnalysis 1.18ms
+	type checking 27.9ms
+	typeclass inference 171ms

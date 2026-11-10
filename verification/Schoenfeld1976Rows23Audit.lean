@@ -1,0 +1,4 @@
+import RSBounds.Schoenfeld1976Rows23
+
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Rows23.rs75_piece
+#print axioms TernaryGoldbach.RSBounds.Schoenfeld1976Rows23.psiThetaLog_23_383

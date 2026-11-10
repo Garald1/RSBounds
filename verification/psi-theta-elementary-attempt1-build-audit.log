@@ -1,0 +1,133 @@
+import took 37.1s
+RSBounds/PsiThetaElementary.lean:28:23: error: unexpected token; expected ':=', 'where' or '|'
+RSBounds/PsiThetaElementary.lean:28:22: error: invalid occurrence of `·` notation, it must be surrounded by parentheses (e.g. `(· + 1)`)
+RSBounds/PsiThetaElementary.lean:44:23: error: unexpected token; expected ':=', 'where' or '|'
+RSBounds/PsiThetaElementary.lean:44:22: error: invalid occurrence of `·` notation, it must be surrounded by parentheses (e.g. `(· + 1)`)
+RSBounds/PsiThetaElementary.lean:80:55: error: unexpected token; expected ')', ',' or ':'
+RSBounds/PsiThetaElementary.lean:80:47: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  HMul Float (?m.159 → ?m.159) ℝ
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+RSBounds/PsiThetaElementary.lean:66:63: error: unsolved goals
+case h3'
+x : ℝ
+hx : 100000 ≤ x
+hx0 : 0 ≤ x
+h2 : Chebyshev.psi (x ^ 2⁻¹) ≤ (log 4 + 4) * x ^ 2⁻¹
+h3 : Chebyshev.psi (x ^ 3⁻¹) ≤ (log 4 + 4) * x ^ 3⁻¹
+h5 : Chebyshev.psi (x ^ 5⁻¹) ≤ (log 4 + 4) * x ^ 5⁻¹
+h2' : Chebyshev.psi (x ^ 2⁻¹) ≤ 5.4 * √x
+⊢ Chebyshev.psi (x ^ 3⁻¹) ≤ 5.4 * fun x => x
+
+x : ℝ
+hx : 100000 ≤ x
+hx0 : 0 ≤ x
+h2 : Chebyshev.psi (x ^ 2⁻¹) ≤ (log 4 + 4) * x ^ 2⁻¹
+h3 : Chebyshev.psi (x ^ 3⁻¹) ≤ (log 4 + 4) * x ^ 3⁻¹
+h5 : Chebyshev.psi (x ^ 5⁻¹) ≤ (log 4 + 4) * x ^ 5⁻¹
+h2' : Chebyshev.psi (x ^ 2⁻¹) ≤ 5.4 * √x
+h3' : Chebyshev.psi (x ^ 3⁻¹) ≤ 5.4 * fun x => x
+⊢ Chebyshev.psi x - Chebyshev.theta x ≤ 6.5 * √x
+RSBounds/PsiThetaElementary.lean:100:4: error: Type mismatch: After simplification, term
+  log_mul
+    (Mathlib.Meta.NormNum.isNat_eq_false (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2))
+      (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero) (Eq.refl false))
+    (Mathlib.Meta.NormNum.isNat_eq_false (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 5))
+      (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero) (Eq.refl false))
+ has type
+  log (2 * 5) = log 2 + log 5
+but is expected to have type
+  log 10 = log 2 + log 5
+RSBounds/PsiThetaElementary.lean:120:25: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+RSBounds/PsiThetaElementary.lean:127:26: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+RSBounds/PsiThetaElementary.lean:135:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  log (rexp ?x)
+in the target expression
+  (fun x => log x / √x) x ≤ (fun x => log x / √x) (rexp L)
+
+x L B : ℝ
+hx : 0 < x
+hL : 2 ≤ L
+hB : 0 < B
+hBL : B ≤ rexp (L / 2)
+hLx : L ≤ log x
+hex : rexp L ≤ x
+he2 : rexp 2 ≤ rexp L
+h : (fun x => log x / √x) x ≤ (fun x => log x / √x) (rexp L)
+⊢ log x / √x ≤ L / B
+RSBounds/PsiThetaElementary.lean:154:5: error: unexpected token; expected ':=', 'where' or '|'
+RSBounds/PsiThetaElementary.lean:154:4: error: invalid occurrence of `·` notation, it must be surrounded by parentheses (e.g. `(· + 1)`)
+RSBounds/PsiThetaElementary.lean:180:5: error: unexpected token; expected ':=', 'where' or '|'
+RSBounds/PsiThetaElementary.lean:180:4: error: invalid occurrence of `·` notation, it must be surrounded by parentheses (e.g. `(· + 1)`)
+RSBounds/PsiThetaElementary.lean:201:5: error: unexpected token; expected ':=', 'where' or '|'
+RSBounds/PsiThetaElementary.lean:201:4: error: invalid occurrence of `·` notation, it must be surrounded by parentheses (e.g. `(· + 1)`)
+RSBounds/PsiThetaElementary.lean:217:5: error: unexpected token; expected ':=', 'where' or '|'
+RSBounds/PsiThetaElementary.lean:217:4: error: invalid occurrence of `·` notation, it must be surrounded by parentheses (e.g. `(· + 1)`)
+'TernaryGoldbach.RSBounds.PsiThetaElementary.log_four_add_four_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.cube_root_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.fifth_root_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.psi_sub_theta_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.log_hundred_thousand_bounds' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.sqrt_exp_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.exp_six_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.exp_ten_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.log_div_sqrt_le_at_exp' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.log_div_sqrt_le_at_hundred_thousand' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.PsiThetaElementary.moderate_theta_budget' does not depend on any axioms
+'TernaryGoldbach.RSBounds.PsiThetaElementary.b23_theta_budget' does not depend on any axioms
+'TernaryGoldbach.RSBounds.PsiThetaElementary.large_theta_budget_of_log' does not depend on any axioms
+'TernaryGoldbach.RSBounds.PsiThetaElementary.large_theta_budget' does not depend on any axioms
+cumulative profiling times:
+	attribute application 0.122ms
+	blocked (unaccounted) 1.08s
+	congr simp thm 1.04ms
+	declTypeLinter 4.09ms
+	elaboration 45.9ms
+	fix level params 1.39ms
+	import 37.1s
+	initialization 155ms
+	instantiate metavars 0.376ms
+	interpretation 983ms
+	let-to-have transformation 0.154ms
+	linting 10.2ms
+	module linting 0.0175ms
+	norm_num 168ms
+	parsing 11.6ms
+	process pre-definitions 14.3ms
+	ring 44.9ms
+	share common exprs 18ms
+	simp 10.1ms
+	tactic execution 126ms
+	tacticAnalysis 2.28ms
+	type checking 86.4ms
+	typeclass inference 305ms
