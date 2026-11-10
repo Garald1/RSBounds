@@ -85,3 +85,10 @@ lean_lib UpstreamRamareChallenge where
 
 lean_lib TernaryGoldbachChallenge where
   srcDir := "comparator"
+
+-- [H] (2.14) and (2.17) on the book's ranges (`comparator-helfgott-psi-book.json`).
+lean_lib HelfgottPsiBookChallenge where
+  srcDir := "comparator"
+
+lean_lib HelfgottPsiBookSolution where
+  srcDir := "comparator"
