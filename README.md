@@ -329,6 +329,14 @@ The dependency `calr3/ternary-goldbach` is pinned at
 `192ca57362fa3ee737cd83205cb9ea99526c4553`; all revisions are in
 `lake-manifest.json`. See `THIRD_PARTY_NOTICES.md` for attribution.
 
+## Finite RH from a kernel-checked zero verification
+
+The separate project [`zeta-bridge/`](zeta-bridge/README.md) proves `Goals.FiniteRH 1894438.5122`,
+the only premise of the results above that assume finite RH, from S. Mercuri and B. Mehta's
+kernel-checked verification of RH up to height 1895609 (`smmercuri/zeta`, tag `v1-1.8956e6`). It is
+kept separate so that building RSBounds does not fetch `zeta`, whose prebuilt release unpacks to
+about 34 GB. Its README explains why the two halves are not yet combined in one file.
+
 ## Licence
 
 Apache License 2.0 (`LICENSE`), since 2026-11-14; before that, MIT. A few files remain under
