@@ -326,8 +326,13 @@ and exact source hashes are in `verification/`. Comparator outcomes and any
 sandbox limitation are recorded there.
 
 The dependency `calr3/ternary-goldbach` is pinned at
-`ce82a5b2a4ed5039c4750c0d062f0b0f2b833be0`; all revisions are in
+`192ca57362fa3ee737cd83205cb9ea99526c4553`; all revisions are in
 `lake-manifest.json`. See `THIRD_PARTY_NOTICES.md` for attribution.
+
+## Licence
+
+Apache License 2.0 (`LICENSE`), since 2026-11-14; before that, MIT. A few files remain under
+MIT; they are listed in `THIRD_PARTY_NOTICES.md`.
 
 ## Sources
 

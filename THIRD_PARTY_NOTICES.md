@@ -1,3 +1,23 @@
+# Licence
+
+Since 2026-11-14, RSBounds is licensed under the Apache License 2.0, whose text is in `LICENSE`.
+This matches the headers of most files ("Released under Apache 2.0 license as described in the
+file LICENSE") and the rest of the Lean ecosystem. Until that date `LICENSE` held the MIT license;
+that text is kept in `licenses/MIT.txt`.
+
+Some files remain under the MIT license:
+
+- Eleven files whose headers read "Released under the MIT license as described in the file
+  LICENSE". For them, "the file LICENSE" means the MIT text now in `licenses/MIT.txt`. They are
+  `RSBounds/IEANTNDigamma.lean`, `RSBounds/Mertens.lean`,
+  `RSBounds/PolynomialAveragedFormula.lean`, `RSBounds/PolynomialPsi.lean`,
+  `RSBounds/PolynomialPsiMellin.lean`, `RSBounds/PolynomialResidue.lean`,
+  `RSBounds/QuadraticAveragedFormula.lean`, `RSBounds/QuadraticPsiMellin.lean`,
+  `RSBounds/RS75Polynomial.lean`, `RSBounds/SchoenfeldQuadraticKernel.lean` and
+  `RSBounds/WeightedZeroSums.lean`. Their headers were left unchanged, because editing them
+  would force about 330 modules to be rebuilt.
+- The files adapted from `calr3/ternary-goldbach` and from `teal-sea/zeta-lab`, described below.
+
 # Attribution
 
 `RSBounds/Totient.lean` adapts the exchange and comparison arguments in
@@ -7,7 +27,7 @@
 `RSBounds/SmallTotientProduct.lean` and its generator/template adapt that
 revision's `Prelim/SmallMertensProd.lean` and generation code, reducing the
 finite range to 71. The upstream MIT copyright and license are included in
-`LICENSE`. Existing source notices are retained.
+`licenses/calr3-ternary-goldbach-MIT.txt`. Existing source notices are retained.
 
 The pinned dependency contains code from `PrimeNumberTheoremAnd`; its Apache
 license is retained in `licenses/PrimeNumberTheoremAnd-LICENSE`. Mathlib and
