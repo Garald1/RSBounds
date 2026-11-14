@@ -1,0 +1,9 @@
+'TernaryGoldbach.RSBounds.Moebius003.ramareMoebius_of_plattGRH' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.Moebius003.ternary_goldbach_of_two_hypotheses' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.Moebius003.ternary_goldbach_large_of_plattGRH' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

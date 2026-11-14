@@ -1,0 +1,4 @@
+import RSBounds.Moebius003.UpstreamMain
+#print axioms TernaryGoldbach.RSBounds.Moebius003.ramareMoebius_of_plattGRH
+#print axioms TernaryGoldbach.RSBounds.Moebius003.ternary_goldbach_of_two_hypotheses
+#print axioms TernaryGoldbach.RSBounds.Moebius003.ternary_goldbach_large_of_plattGRH
