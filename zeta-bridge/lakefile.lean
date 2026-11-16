@@ -16,4 +16,4 @@ require RSBounds from "../"
 require Zeta from git "https://github.com/smmercuri/zeta" @ "v1-1.8956e6"
 
 @[default_target] lean_lib ZetaBridge where
-  roots := #[`ZetaBridge]
+  globs := #[.one `ZetaBridge, .one `ZetaBridge.Statement, .one `ZetaBridge.Check]
