@@ -334,7 +334,9 @@ The dependency `calr3/ternary-goldbach` is pinned at
 
 The separate project [`zeta-bridge/`](zeta-bridge/README.md) proves `Goals.FiniteRH 1894438.5122`,
 the only premise of the results above that assume finite RH, from S. Mercuri and B. Mehta's
-kernel-checked verification of RH up to height 1895609 (`smmercuri/zeta`, tag `v1-1.8956e6`). It is
+kernel-checked verification of RH up to height 1895609 (`smmercuri/zeta`, tag `v1-1.8956e6`).
+It was built on 2026-11-16, with only the standard axioms. Lean checks that the proposition it
+proves is `Goals.FiniteRH` itself. It is
 kept separate so that building RSBounds does not fetch `zeta`, whose prebuilt release unpacks to
 about 34 GB. Its README explains why the two halves are not yet combined in one file.
 

@@ -51,15 +51,14 @@ Two obstacles stand in the way.
 
 ## Status
 
-- **Checked here:**
-  - `ZetaBridge.Statement` and `ZetaBridge.Check` built, so the copy equals the original.
-  - `ZetaBridge.lean`, as a `module`, built against a stub `module` holding a verbatim copy of
-    `zeta`'s definition of `RiemannHypothesisUpTo`, with that theorem left as `sorry`.
-  - This project's dependencies are pinned in `lake-manifest.json`. Lean v4.35.0, Mathlib
-    `56a005855` and every shared package are at the same revisions as in RSBounds.
-- **Not checked here:** the build against `zeta`'s own files, which needs more disk than this
-  machine has. A first attempt elsewhere, before the bridge was a `module`, failed with the
-  "invalid header" error described above.
+**Built on 2026-11-16,** on Harald Helfgott's laptop against `zeta`'s prebuilt release (Lean
+v4.35.0). All three files built. The `#guard_msgs` check in `ZetaBridge.lean` confirms that
+`finiteRH_rs75` depends only on `propext`, `Classical.choice` and `Quot.sound`. This project's
+dependencies are pinned in `lake-manifest.json`. Lean v4.35.0, Mathlib `56a005855` and every shared
+package are at the same revisions as in RSBounds.
+
+An earlier attempt, before `ZetaBridge.lean` was a `module`, failed with the "invalid header" error
+described above.
 
 ## Building
 
