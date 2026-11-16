@@ -1,0 +1,17 @@
+{
+  "challenge_module": "HelfgottPsiBookChallenge",
+  "solution_module": "HelfgottPsiBookSolution",
+  "theorem_names": [
+    "TernaryGoldbach.RSBounds.HelfgottPsiBookComparator.psi_le_10004",
+    "TernaryGoldbach.RSBounds.HelfgottPsiBookComparator.sum_vonMangoldt_le_a14",
+    "TernaryGoldbach.RSBounds.HelfgottPsiBookComparator.sum_vonMangoldt_mul_lt_a17",
+    "TernaryGoldbach.RSBounds.HelfgottPsiBookComparator.psi_le_10004_small",
+    "TernaryGoldbach.RSBounds.HelfgottPsiBookComparator.sum_vonMangoldt_le_small",
+    "TernaryGoldbach.RSBounds.HelfgottPsiBookComparator.sum_vonMangoldt_mul_lt_small"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}
