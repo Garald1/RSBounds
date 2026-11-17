@@ -1,0 +1,125 @@
+Resolving dependencies
+Building HelfgottAppAChallenge
+⚠ [9047/9048] Replayed HelfgottAppAChallenge
+warning: comparator/HelfgottAppAChallenge.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: comparator/HelfgottAppAChallenge.lean:64:8: declaration uses `sorry`
+warning: comparator/HelfgottAppAChallenge.lean:67:8: declaration uses `sorry`
+warning: comparator/HelfgottAppAChallenge.lean:70:8: declaration uses `sorry`
+warning: comparator/HelfgottAppAChallenge.lean:79:8: declaration uses `sorry`
+warning: comparator/HelfgottAppAChallenge.lean:87:8: declaration uses `sorry`
+Build completed successfully (9048 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, TernaryGoldbach.RSBounds.HelfgottAppAComparator.abs_etaPlus_le_1079955, TernaryGoldbach.RSBounds.HelfgottAppAComparator.mul_abs_etaPlus_le_119073, TernaryGoldbach.RSBounds.HelfgottAppAComparator.nonprime_input_book, TernaryGoldbach.RSBounds.HelfgottAppAComparator.E_le_book_formula, TernaryGoldbach.RSBounds.HelfgottAppAComparator.E_le_14_28_book, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from HelfgottAppAChallenge
+Building HelfgottAppASolution
+⚠ [3234/3416] Replayed TernaryGoldbach.Prelim.PlancherelReal
+warning: TernaryGoldbach/Prelim/PlancherelReal.lean: imports `Mathlib.Analysis.Fourier.LpSpace` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PlancherelReal.lean: imports `Mathlib.Analysis.Distribution.TemperedDistribution` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TernaryGoldbach/Prelim/PlancherelReal.lean: imports `Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3235/3416] Replayed TernaryGoldbach.MajorArcs.EtaCirc
+warning: TernaryGoldbach/MajorArcs/EtaCirc.lean:42:49: This simp argument is unused:
+  Pi.pow_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.mul_apply, Pi.sub_apply, Pi.neg_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TernaryGoldbach/MajorArcs/EtaCirc.lean:42:63: This simp argument is unused:
+  Pi.neg_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.mul_apply, Pi.sub_apply, Pi.pow_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9050/9063] Replayed TernaryGoldbach.Statement
+warning: TernaryGoldbach/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9051/9063] Replayed TernaryGoldbach.CircleMethod
+warning: TernaryGoldbach/CircleMethod.lean:355:13: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [F, abs_e]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9055/9063] Replayed TernaryGoldbach.Helfgott.HHBound
+warning: TernaryGoldbach/Helfgott/HHBound.lean:202:43: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: TernaryGoldbach/Helfgott/HHBound.lean:202:63: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: TernaryGoldbach/Helfgott/HHBound.lean:202:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: TernaryGoldbach/Helfgott/HHBound.lean:202:25: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TernaryGoldbach/Helfgott/HHBound.lean:202:43: Unused tactic linter: `(push_cast; ring)` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TernaryGoldbach/Helfgott/HHBound.lean:202:63: Unused tactic linter: `simp` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TernaryGoldbach/Helfgott/HHBound.lean:216:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [9056/9063] Replayed TernaryGoldbach.MajorArcs.HHFourier
+warning: TernaryGoldbach/MajorArcs/HHFourier.lean:40:13: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/MajorArcs/HHFourier.lean:43:13: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/MajorArcs/HHFourier.lean:59:13: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/MajorArcs/HHFourier.lean:92:71: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TernaryGoldbach/MajorArcs/HHFourier.lean:93:54: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/MajorArcs/HHFourier.lean:493:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TernaryGoldbach/MajorArcs/HHFourier.lean:513:40: Variable name `hs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: TernaryGoldbach/MajorArcs/HHFourier.lean:538:4: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+⚠ [9059/9063] Replayed TernaryGoldbach.Helfgott.NonPrime
+warning: TernaryGoldbach/Helfgott/NonPrime.lean:108:41: This simp argument is unused:
+  ite_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hp, false_and, ite_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TernaryGoldbach/Helfgott/NonPrime.lean:109:24: This simp argument is unused:
+  vonMangoldt_nonneg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h2]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (9063 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, TernaryGoldbach.RSBounds.HelfgottAppAComparator.abs_etaPlus_le_1079955, TernaryGoldbach.RSBounds.HelfgottAppAComparator.mul_abs_etaPlus_le_119073, TernaryGoldbach.RSBounds.HelfgottAppAComparator.nonprime_input_book, TernaryGoldbach.RSBounds.HelfgottAppAComparator.E_le_book_formula, TernaryGoldbach.RSBounds.HelfgottAppAComparator.E_le_14_28_book, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from HelfgottAppASolution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!
+
+real	2m2.255s
+user	0m18.340s
+sys	0m1.108s

@@ -1,0 +1,42 @@
+Resolving dependencies
+Building HelfgottB6Challenge
+⚠ [9047/9048] Replayed HelfgottB6Challenge
+warning: comparator/HelfgottB6Challenge.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: comparator/HelfgottB6Challenge.lean:44:8: declaration uses `sorry`
+Build completed successfully (9048 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, TernaryGoldbach.RSBounds.HelfgottB6Comparator.eta2_fourier_bound_31521, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from HelfgottB6Challenge
+Building HelfgottB6Solution
+⚠ [9048/9065] Replayed TernaryGoldbach.Statement
+warning: TernaryGoldbach/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9049/9065] Replayed TernaryGoldbach.CircleMethod
+warning: TernaryGoldbach/CircleMethod.lean:355:13: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [F, abs_e]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9055/9065] Replayed TernaryGoldbach.MinorArcs.Eta2DDExpand
+warning: TernaryGoldbach/MinorArcs/Eta2DDExpand.lean:312:10: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [norm_pow, hz]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [9056/9065] Replayed TernaryGoldbach.MinorArcs.Eta2DDTaylor
+info: TernaryGoldbach/MinorArcs/Eta2DDTaylor.lean:41:66: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Build completed successfully (9065 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, TernaryGoldbach.RSBounds.HelfgottB6Comparator.eta2_fourier_bound_31521, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from HelfgottB6Solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!
+
+real	3m12.558s
+user	0m14.467s
+sys	0m0.872s

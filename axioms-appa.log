@@ -1,0 +1,5 @@
+'RSBounds.HelfgottAppA.abs_etaPlus_le_1079955' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottAppA.mul_abs_etaPlus_le_119073' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottAppA.nonprime_input_book' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottAppA.E_le_book_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottAppA.E_le_14_28_book' depends on axioms: [propext, Classical.choice, Quot.sound]
