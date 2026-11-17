@@ -82,4 +82,7 @@ lake build RSBounds.HelfgottLowBook
 ```
 
 `comparator-helfgott-low.json` checks the six theorems of the table; the solution imports only
-`RSBounds.HelfgottLow.Final`.
+`RSBounds.HelfgottLow.Final`. `run-helfgott-low.sh` builds everything, including
+`RSBounds.HelfgottLowBook`, checks that all eight theorems use only `propext`, `Classical.choice`
+and `Quot.sound`, and runs Comparator. On 2026-11-17 it passed on the full tree: Comparator
+reported "Your solution is okay!" after 19 min 28 s.
