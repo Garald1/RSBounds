@@ -1,0 +1,37 @@
+'RSBounds.HelfgottAppA.abs_hBase_sub_hH200_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottAppA.abs_etaPlus_le_1079955' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottAppA.mul_abs_etaPlus_le_119073' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottAppA.nonprime_input_book' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottAppA.E_le_book_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottAppA.E_le_14_28_book' depends on axioms: [propext, Classical.choice, Quot.sound]
+@RSBounds.HelfgottAppA.abs_etaPlus_le_1079955 : ∀ {t : ℝ}, 0 ≤ t → |TernaryGoldbach.Helfgott.etaPlus t| ≤ 1.079955
+@RSBounds.HelfgottAppA.mul_abs_etaPlus_le_119073 : ∀ {t : ℝ}, 0 ≤ t → t * |TernaryGoldbach.Helfgott.etaPlus t| ≤ 1.19073
+RSBounds.HelfgottAppA.nonprime_input_book : (∀ (t : ℝ), 0 ≤ t → |TernaryGoldbach.Helfgott.etaStar t| ≤ 1.414) →
+  (∀ (n : ℕ), ∑ m ∈ Finset.Icc 1 n, ArithmeticFunction.vonMangoldt m ≤ 1.03883 * ↑n) →
+    (∀ (y : ℝ),
+        0 < y → (∑ n ∈ Finset.Icc 1 ⌊y⌋₊, if Nat.Prime n then 0 else ArithmeticFunction.vonMangoldt n) < 1.4262 * √y) →
+      ∀ (N : ℕ),
+        10 ^ 27 ≤ N →
+          TernaryGoldbach.Helfgott.repSum (fun x => True) N -
+              TernaryGoldbach.Helfgott.repSum (fun n => Nat.Prime n ∧ Odd n) N ≤
+            7.3306 * (↑N * √↑N) * Real.log ↑N
+RSBounds.HelfgottAppA.E_le_book_formula : (∀ (n : ℕ),
+    ∑ m ∈ Finset.Icc 1 n, ArithmeticFunction.vonMangoldt m ≤ 1.03883 * ↑n) →
+  (∀ (y : ℝ),
+      0 < y → (∑ n ∈ Finset.Icc 1 ⌊y⌋₊, if Nat.Prime n then 0 else ArithmeticFunction.vonMangoldt n) < 1.4262 * √y) →
+    ∀ {x : ℝ},
+      1 ≤ x →
+        (∑' (n : ℕ),
+            if Nat.Prime n ∧ √x < ↑n then 0
+            else (ArithmeticFunction.vonMangoldt n * TernaryGoldbach.Helfgott.etaPlus (↑n / x)) ^ 2) ≤
+          (2.94325 * Real.log x + 5.12426) * √x
+RSBounds.HelfgottAppA.E_le_14_28_book : (∀ (n : ℕ),
+    ∑ m ∈ Finset.Icc 1 n, ArithmeticFunction.vonMangoldt m ≤ 1.03883 * ↑n) →
+  (∀ (y : ℝ),
+      0 < y → (∑ n ∈ Finset.Icc 1 ⌊y⌋₊, if Nat.Prime n then 0 else ArithmeticFunction.vonMangoldt n) < 1.4262 * √y) →
+    ∀ {x : ℝ},
+      49e25 ≤ x →
+        (∑' (n : ℕ),
+            if Nat.Prime n ∧ √x < ↑n then 0
+            else (ArithmeticFunction.vonMangoldt n * TernaryGoldbach.Helfgott.etaPlus (↑n / x)) ^ 2) ≤
+          84029e-16 * x
