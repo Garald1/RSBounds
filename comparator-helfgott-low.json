@@ -1,0 +1,17 @@
+{
+  "challenge_module": "HelfgottLowChallenge",
+  "solution_module": "HelfgottLowSolution",
+  "theorem_names": [
+    "TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_vonMangoldt_mul_lt_a16_small",
+    "TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_vonMangoldt_mul_lt_a16_of",
+    "TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_vonMangoldt_div_sqrt_lt_small",
+    "TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_vonMangoldt_div_sqrt_lt_of",
+    "TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_log_sq_primes_le_small",
+    "TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_log_sq_primes_le_of"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}
