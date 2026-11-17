@@ -100,3 +100,10 @@ lean_lib HelfgottLowChallenge where
 
 lean_lib HelfgottLowSolution where
   srcDir := "comparator"
+
+-- [H, Lemma B.1.2, (B.6)] with `31.521` (`comparator-helfgott-b6.json`).
+lean_lib HelfgottB6Challenge where
+  srcDir := "comparator"
+
+lean_lib HelfgottB6Solution where
+  srcDir := "comparator"

@@ -1,0 +1,26 @@
+-- `#hashall n`: the non-core constants reachable from the declaration `n` (through types, and
+-- values of non-theorems), with `Expr.hash` of their types and values. Append to a file that imports
+-- the challenge (or the solution) module and run with `lake env lean`.
+open Lean Elab Command in
+elab "#hashall " n:ident : command => do
+  let env ← getEnv
+  -- all constants reachable from the type of `n`, with their types and values hashed
+  let rec go (todo : List Name) (seen : NameSet) (out : Array String) (fuel : Nat) : Array String :=
+    match fuel, todo with
+    | 0, _ => out
+    | _, [] => out
+    | f + 1, c :: rest =>
+      if seen.contains c then go rest seen out f else
+      match env.find? c with
+      | none => go rest (seen.insert c) (out.push s!"{c} MISSING") f
+      | some ci =>
+        let isThm := ci.isTheorem
+        let v := if isThm then "thm" else (match ci.value? with | some v => toString v.hash | none => "-")
+        let deps := (ci.type.getUsedConstants ++ (if isThm then #[] else (ci.value?.map (·.getUsedConstants)).getD #[])).toList
+        let mod := (env.getModuleIdxFor? c).map (fun i => toString (env.header.moduleNames[i.toNat]!)) |>.getD "this"
+        let keep := !(mod.startsWith "Mathlib" || mod.startsWith "Init" || mod.startsWith "Std" || mod.startsWith "Lean" || mod.startsWith "Batteries" || mod.startsWith "Aesop" || mod.startsWith "Qq" || mod.startsWith "Plausible" || mod.startsWith "ProofWidgets" || mod.startsWith "ImportGraph" || mod.startsWith "LeanSearchClient")
+        let out := if keep then out.push s!"{c} type={ci.type.hash} value={v}" else out
+        go (deps ++ rest) (seen.insert c) out f
+  let some ci := env.find? n.getId | throwError "missing"
+  let res := go [n.getId] {} #[] 100000
+  for r in res.qsort (· < ·) do logInfo r

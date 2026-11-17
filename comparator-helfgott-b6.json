@@ -1,0 +1,12 @@
+{
+  "challenge_module": "HelfgottB6Challenge",
+  "solution_module": "HelfgottB6Solution",
+  "theorem_names": [
+    "TernaryGoldbach.RSBounds.HelfgottB6Comparator.eta2_fourier_bound_31521"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

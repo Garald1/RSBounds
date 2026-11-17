@@ -1,0 +1,9 @@
+'RSBounds.HelfgottB6.norm_eta2DD_sub_FK' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottB6.goodA' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottB6.goodB_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottB6.goodB_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottB6.norm_eta2DD_le_31521' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottB6.eta2_fourier_bound_31521' depends on axioms: [propext, Classical.choice, Quot.sound]
+@RSBounds.HelfgottB6.norm_eta2DD_le_31521 : ∀ {t : ℝ}, 0 ≤ t → ‖TernaryGoldbach.MinorArcs.eta2DD t‖ ≤ 31.521
+RSBounds.HelfgottB6.eta2_fourier_bound_31521 : ∀ (t : ℝ),
+  (2 * Real.pi * t) ^ 2 * ‖FourierTransform.fourier (fun u => ↑(TernaryGoldbach.Helfgott.eta2 u)) t‖ ≤ 31.521
