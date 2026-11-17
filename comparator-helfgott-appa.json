@@ -1,0 +1,16 @@
+{
+  "challenge_module": "HelfgottAppAChallenge",
+  "solution_module": "HelfgottAppASolution",
+  "theorem_names": [
+    "TernaryGoldbach.RSBounds.HelfgottAppAComparator.abs_etaPlus_le_1079955",
+    "TernaryGoldbach.RSBounds.HelfgottAppAComparator.mul_abs_etaPlus_le_119073",
+    "TernaryGoldbach.RSBounds.HelfgottAppAComparator.nonprime_input_book",
+    "TernaryGoldbach.RSBounds.HelfgottAppAComparator.E_le_book_formula",
+    "TernaryGoldbach.RSBounds.HelfgottAppAComparator.E_le_14_28_book"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

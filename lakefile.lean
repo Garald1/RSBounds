@@ -100,3 +100,10 @@ lean_lib HelfgottLowChallenge where
 
 lean_lib HelfgottLowSolution where
   srcDir := "comparator"
+
+-- [H] (14.3), (14.24), (14.51) and (14.28) with Helfgott's constants (`comparator-helfgott-appa.json`).
+lean_lib HelfgottAppAChallenge where
+  srcDir := "comparator"
+
+lean_lib HelfgottAppASolution where
+  srcDir := "comparator"
