@@ -13,4 +13,6 @@ with 7 GB.
   challenge's environment and in the solution's. They agree. This is a local sanity check, not a
   Comparator run.
 
-The Comparator run of `comparator-helfgott-b6.json` has not been made yet.
+On Harald's laptop, `run-helfgott-b6.sh` then ran `lake comparator --config
+comparator-helfgott-b6.json`, which reported "Your solution is okay!" (Lean kernel) on 2026-11-17,
+real time 3 min 13 s. The logs are `comparator-helfgott-b6.log` and `axioms-b6.log` at the root.

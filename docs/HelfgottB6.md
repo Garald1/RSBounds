@@ -101,6 +101,11 @@ The non-Mathlib constants reachable from the challenge's statement have the same
 type and value hashes in both environments (`verification/helfgott-b6/precheck-20261117.log`); this
 is a local check, not a Comparator run.
 
+On Harald's laptop `run-helfgott-b6.sh` built everything, found only the three standard axioms for
+both theorems, and ran `lake comparator --config comparator-helfgott-b6.json`: "Your solution is
+okay!" (Lean kernel) on 2026-11-17, real time 3 min 13 s (`comparator-helfgott-b6.log`,
+`axioms-b6.log`).
+
 ## Files
 
 * `RSBounds/HelfgottB6/Grid.lean`: the rational checks (`cellB`, `chkB`, `chunkB`, `cellA`,

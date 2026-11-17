@@ -71,4 +71,7 @@ lake build RSBounds.HelfgottAppA.EBound HelfgottAppAChallenge HelfgottAppASoluti
 
 It needs calr3's `MajorArcs/HHFourier.lean` and `Helfgott/NonPrime.lean` and their imports (no
 kernel tables). `comparator-helfgott-appa.json` checks the five theorems of the table; the challenge
-copies calr3's definitions of `η₊`, `η_*`, `repSum` and what they use.
+copies calr3's definitions of `η₊`, `η_*`, `repSum` and what they use. On Harald's laptop
+`run-helfgott-appa.sh` found only the three standard axioms for the five theorems, and Comparator
+(Lean kernel) passed on 2026-11-17, real time 2 min 2 s (`comparator-helfgott-appa.log`,
+`axioms-appa.log`).
