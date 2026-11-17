@@ -1,0 +1,12 @@
+'TernaryGoldbach.RSBounds.HelfgottLowBook.sum_vonMangoldt_mul_lt_a16' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TernaryGoldbach.RSBounds.HelfgottLowBook.sum_vonMangoldt_div_sqrt_lt_a18' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RSBounds.HelfgottLow.sum_vonMangoldt_mul_lt_a16_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottLow.sum_vonMangoldt_mul_lt_a16_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottLow.sum_vonMangoldt_div_sqrt_lt_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottLow.sum_vonMangoldt_div_sqrt_lt_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottLow.sum_log_sq_primes_le_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottLow.sum_log_sq_primes_le_of' depends on axioms: [propext, Classical.choice, Quot.sound]

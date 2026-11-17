@@ -1,0 +1,25 @@
+Resolving dependencies
+Building HelfgottLowChallenge
+⚠ [9047/9048] Replayed HelfgottLowChallenge
+warning: comparator/HelfgottLowChallenge.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: comparator/HelfgottLowChallenge.lean:13:8: declaration uses `sorry`
+warning: comparator/HelfgottLowChallenge.lean:17:8: declaration uses `sorry`
+warning: comparator/HelfgottLowChallenge.lean:23:8: declaration uses `sorry`
+warning: comparator/HelfgottLowChallenge.lean:28:8: declaration uses `sorry`
+warning: comparator/HelfgottLowChallenge.lean:35:8: declaration uses `sorry`
+warning: comparator/HelfgottLowChallenge.lean:39:8: declaration uses `sorry`
+Build completed successfully (9048 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_vonMangoldt_mul_lt_a16_small, TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_vonMangoldt_mul_lt_a16_of, TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_vonMangoldt_div_sqrt_lt_small, TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_vonMangoldt_div_sqrt_lt_of, TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_log_sq_primes_le_small, TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_log_sq_primes_le_of, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from HelfgottLowChallenge
+Building HelfgottLowSolution
+⚠ [2866/2876] Replayed RSBounds.HelfgottSmall.Analysis
+warning: RSBounds/HelfgottSmall/Analysis.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RSBounds/HelfgottSmall/Analysis.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (3083 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_vonMangoldt_mul_lt_a16_small, TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_vonMangoldt_mul_lt_a16_of, TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_vonMangoldt_div_sqrt_lt_small, TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_vonMangoldt_div_sqrt_lt_of, TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_log_sq_primes_le_small, TernaryGoldbach.RSBounds.HelfgottLowComparator.sum_log_sq_primes_le_of, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from HelfgottLowSolution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!
+
+real	19m28.305s
+user	0m8.426s
+sys	0m0.607s
