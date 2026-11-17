@@ -1,0 +1,21 @@
+'RSBounds.HelfgottLow.sum_vonMangoldt_mul_lt_a16_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottLow.sum_vonMangoldt_mul_lt_a16_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottLow.sum_vonMangoldt_div_sqrt_lt_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottLow.sum_vonMangoldt_div_sqrt_lt_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottLow.sum_log_sq_primes_le_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RSBounds.HelfgottLow.sum_log_sq_primes_le_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+@RSBounds.HelfgottLow.sum_vonMangoldt_mul_lt_a16_small : ∀ {y : ℝ},
+  663 < y → y ≤ 1600000 → ∑ n ∈ Finset.Icc 1 ⌊y⌋₊, ArithmeticFunction.vonMangoldt n * ↑n < 1.03884 * y ^ 2 / 2
+RSBounds.HelfgottLow.sum_vonMangoldt_mul_lt_a16_of : (∀ (y : ℝ),
+    16e5 < y → ∑ n ∈ Finset.Icc 1 ⌊y⌋₊, ArithmeticFunction.vonMangoldt n * ↑n < 1.0008 * y ^ 2 / 2) →
+  ∀ {y : ℝ}, 663 < y → ∑ n ∈ Finset.Icc 1 ⌊y⌋₊, ArithmeticFunction.vonMangoldt n * ↑n < 1.03884 * y ^ 2 / 2
+@RSBounds.HelfgottLow.sum_vonMangoldt_div_sqrt_lt_small : ∀ {y : ℝ},
+  1 ≤ y → y < 2000001 → ∑ n ∈ Finset.Icc 1 ⌊y⌋₊, ArithmeticFunction.vonMangoldt n / √↑n < 2 * 1.0004 * √y
+RSBounds.HelfgottLow.sum_vonMangoldt_div_sqrt_lt_of : (∀ (y : ℝ),
+    2e6 ≤ y → ∑ n ∈ Finset.Icc 1 ⌊y⌋₊, ArithmeticFunction.vonMangoldt n ≤ 1.0004 * y) →
+  ∀ {y : ℝ}, 1 ≤ y → ∑ n ∈ Finset.Icc 1 ⌊y⌋₊, ArithmeticFunction.vonMangoldt n / √↑n < 2 * 1.0004 * √y
+@RSBounds.HelfgottLow.sum_log_sq_primes_le_small : ∀ {y : ℝ},
+  117 ≤ y → y < 2000001 → ∑ p ∈ Finset.Ioc ⌊y / 2⌋₊ ⌊y⌋₊ with Nat.Prime p, Real.log ↑p ^ 2 ≤ 1 / 2 * y * Real.log y
+RSBounds.HelfgottLow.sum_log_sq_primes_le_of : (∀ (y : ℝ),
+    2e6 ≤ y → ∑ p ∈ Finset.Ioc ⌊y / 2⌋₊ ⌊y⌋₊ with Nat.Prime p, Real.log ↑p ^ 2 ≤ 1 / 2 * y * Real.log y) →
+  ∀ {y : ℝ}, 117 ≤ y → ∑ p ∈ Finset.Ioc ⌊y / 2⌋₊ ⌊y⌋₊ with Nat.Prime p, Real.log ↑p ^ 2 ≤ 1 / 2 * y * Real.log y

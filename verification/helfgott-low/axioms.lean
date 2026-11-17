@@ -1,0 +1,14 @@
+import RSBounds.HelfgottLow.Final
+
+#print axioms RSBounds.HelfgottLow.sum_vonMangoldt_mul_lt_a16_small
+#print axioms RSBounds.HelfgottLow.sum_vonMangoldt_mul_lt_a16_of
+#print axioms RSBounds.HelfgottLow.sum_vonMangoldt_div_sqrt_lt_small
+#print axioms RSBounds.HelfgottLow.sum_vonMangoldt_div_sqrt_lt_of
+#print axioms RSBounds.HelfgottLow.sum_log_sq_primes_le_small
+#print axioms RSBounds.HelfgottLow.sum_log_sq_primes_le_of
+#check @RSBounds.HelfgottLow.sum_vonMangoldt_mul_lt_a16_small
+#check @RSBounds.HelfgottLow.sum_vonMangoldt_mul_lt_a16_of
+#check @RSBounds.HelfgottLow.sum_vonMangoldt_div_sqrt_lt_small
+#check @RSBounds.HelfgottLow.sum_vonMangoldt_div_sqrt_lt_of
+#check @RSBounds.HelfgottLow.sum_log_sq_primes_le_small
+#check @RSBounds.HelfgottLow.sum_log_sq_primes_le_of

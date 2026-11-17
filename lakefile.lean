@@ -92,3 +92,11 @@ lean_lib HelfgottPsiBookChallenge where
 
 lean_lib HelfgottPsiBookSolution where
   srcDir := "comparator"
+
+-- [H] (2.16), (2.18) and (2.19) up to 2·10⁶, and their extension to the book's ranges given the
+-- large-`y` inputs as hypotheses (`comparator-helfgott-low.json`).
+lean_lib HelfgottLowChallenge where
+  srcDir := "comparator"
+
+lean_lib HelfgottLowSolution where
+  srcDir := "comparator"

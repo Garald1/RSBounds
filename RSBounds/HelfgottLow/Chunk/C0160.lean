@@ -1,0 +1,6 @@
+import RSBounds.HelfgottLow.States
+
+/-! Walk chunk 160, checked by the kernel (one chunk per module, to bound memory). -/
+
+theorem RSBounds.HelfgottLow.chunk_160 : RSBounds.HelfgottLow.ChunkGood 160 := by
+  decide +kernel
